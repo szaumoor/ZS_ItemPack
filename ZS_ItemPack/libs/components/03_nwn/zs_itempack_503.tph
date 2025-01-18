@@ -1,0 +1,5 @@
+COPY ~%MOD_FOLDER%/items/03_nwn/master_li_way~ ~override~
+COPY_EXISTING ~ZSIPKTAA.itm~ ~override~
+    SAY NAME2 @8004
+    SAY IDENTIFIED_DESC @8005
+BUT_ONLY

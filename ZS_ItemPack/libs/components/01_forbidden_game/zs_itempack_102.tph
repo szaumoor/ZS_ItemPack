@@ -1,0 +1,5 @@
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/bloodthirst~ ~override~
+COPY_EXISTING ~ZSIPDGAA.itm~ ~override~
+    SAY NAME2 @5004
+    SAY IDENTIFIED_DESC @5005
+BUT_ONLY

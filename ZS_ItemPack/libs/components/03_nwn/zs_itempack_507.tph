@@ -1,0 +1,26 @@
+COPY ~items/03_nwn/rashemi_blade~ ~override~
+COPY_EXISTING ~ZSIPGSAB.itm~ ~override~
+    SAY NAME2 @8015
+    SAY IDENTIFIED_DESC @8016
+BUT_ONLY
+
+COPY_EXISTING ~E32.cre~      ~override~
+              ~TTMINSC.cre~  ~override~
+    ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 STR_VAR resource = "ZSIPMNC2" END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~MINSC8.cre~   ~override~
+                  ~MINSC9.cre~   ~override~
+                  ~MINSC10.cre~  ~override~
+                  ~MINSC12.cre~  ~override~
+                  ~MINSC14.cre~  ~override~
+                  ~OHB1MNSC.cre~ ~override~
+        ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 STR_VAR resource = "ZSIPMNC2" END
+END ELSE BEGIN
+    COPY_EXISTING ~MINSC.cre~   ~override~
+                  ~MINSC2.cre~  ~override~
+                  ~MINSC4.cre~  ~override~
+                  ~MINSC6.cre~  ~override~
+                  ~MINSC7.cre~  ~override~
+        ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 STR_VAR resource = "ZSIPMNC2" END
+END

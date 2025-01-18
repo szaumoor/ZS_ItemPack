@@ -1,0 +1,707 @@
+// COMPONENT GROUPS
+
+@1 = ~New items: Game-who-shall-not-be-named-inspired~
+@2 = ~New items: Souls-inspired~
+@3 = ~New items: NWN-inspired~
+@4 = ~New items: NWN2-inspired~
+@5 = ~New items: Mass Effect inspired~
+@6 = ~New items: TV-show inspired~
+
+@50 = ~Only available for the Enhanced Edition of BG games~
+@51 = ~Cannot install this component if any individual component in the group is installed~
+@52 = ~Cannot install this component if already installed by a group installation component~
+
+
+@100 = ~Install all Forbidden-Game-inspired items~
+@101 = ~Add Everburn Blade +1 (two-handed sword)~
+@102 = ~Add Bloodthirst +3 (dagger)~
+@103 = ~Add Crimson Mischief +3 (short sword)~
+@104 = ~Add Assassin's Touch +1 (dagger)~
+@105 = ~Add Ritual Dagger (dagger)~
+@106 = ~Add Cold Snap +1 (dagger)~
+@107 = ~Add Dolor Amarus +2 (dagger)~
+@108 = ~Add Cruel Sting +1 (long sword)~
+@109 = ~Add Archdevil's Judgment +3 (warhammer)~
+@110 = ~Add The Deathstalker Mantle (cloak)~
+@111 = ~Add Arcane Absorption dagger (dagger, originally unused weapon)~
+
+@200 = ~Install all souls-inspired items~
+@202 = ~Add Dragonslayer Spear +3 (Dark Souls; spear)~
+@203 = ~Add Moonlight Greatsword +3 (All games; two-handed sword)~
+@204 = ~Add Dragonslayer Greatbow +3 (Dark Souls; bow; requires 19 strength)~
+@205 = ~Add Sniper Crossbow (Dark Souls; crossbow)~
+@206 = ~Add Ring of Steel Protection (Dark Souls; ring)~
+@207 = ~Add Speckled Stoneplate Ring (Dark Souls; ring)~
+@208 = ~Add Tiny Being's Ring (Dark Souls; ring)~
+@209 = ~Add Hornet's Ring (Dark Soulds; ring)~
+@210 = ~Add Leo's Ring (Dark Souls; ring)~
+@211 = ~Add Greatsword of Judgment (Dark Souls 3; two-handed sword)~
+@212 = ~Add Profaned Greatsword (Dark Souls 3; two-handed sword)~
+@213 = ~Add Dragonslayer Axe (Dark Souls 3; axe)~
+@214 = ~Add Saint Bident (Dark Souls; spear, proficiency of staff, clerics can wield it)~
+@215 = ~Add Onislayer Greatbow (Dark Souls 3; bow)~
+@216 = ~Add Sage Ring (Dark Souls 3; ring)~
+@217 = ~Add <Damage type> Clutch Rings (Dark Souls 3; rings)~
+@218 = ~Add Hawk Ring (Dark Souls 3; ring)~
+@219 = ~Add Blade of Calling (Elden Ring; dagger)~
+@220 = ~Add Sword of Saint Trina (Elden Ring, long sword)~
+@221 = ~Add Frozen Needle (Elden Ring; rapier)~
+@222 = ~Add Rivers of Blood (Elden Ring; katana)~
+@223 = ~Add Serpent-God's Scimitar (Elden Ring; scimitar)~
+@224 = ~Add Bloody Bouquet (Elden Ring; mace)~
+@224 = ~Add Serpent Flail (Elden Ring; flail)~
+@225 = ~Add Harp Bow (Elden Ring; shortbow)~
+@226 = ~Add Serpent Bow (Elden Ring; longbow)~
+@227 = ~Add Crimson Amber Amulet (Elden Ring; necklace)~
+@228 = ~Add Spelldrake Amulet (Elden Ring; necklace)~
+@229 = ~Add Blessed Dew Amulet (Elden Ring; necklace)~
+@230 = ~Add Blade of Mercy (Elden Ring; necklace)~
+
+
+@500 = ~Install all NWN-inspired items~
+@501 = ~Add Lawgiver +1 (bastard sword)~
+@502 = ~Add The Left Hand (dagger)~
+@503 = ~Add Master Li's Way (katana)~
+@504 = ~Add Kukri of the Eclipse (dagger / kukri)~
+@505 = ~Add Sharpshadow Blade (dagger / kukri)~
+@506 = ~Add Black Rider Quill (short sword / rapier)~
+@507 = ~Add Blade of the Rashemi (two-handed sword)~
+@508 = ~Add Shining Light of Lathander (two-handed sword)~
+@509 = ~Add Goblinsplitter (axe)~
+
+@300 = ~Install all Mass Effect-inspired items~
+@301 = ~Add Rod of Illusive Protections (rod)~
+@302 = ~Add Omniblade (universal sword)~
+@303 = ~Add Phantom's Blade (ninja-to)~
+
+@400 = ~Install all Series/Movie inspired items~
+@401 = ~Add Needle +1 (short sword / rapier)~ // game of thrones inspired
+@402 = ~Add Wraith's Dagger +2 (dagger)~ // inspired by nazgul's dagger
+@403 = ~Add Death Knight's Flail +5 (flail)~ // witch king of angmar inspired
+
+// forbidden game inspired items
+@5001 = ~Everburn Blade +1~
+@5002 = ~Silent, somewhat translucent flames surge the length of the blade as soon as it clears the scabbard. This two handed sword is a common weapon for servants of fiends involved in the eternal Blood War. How it ended up here is anyone's guess.
+
+STATISTICS:
+
+Equipped abilities:
+– Demonic enemies have a penalty in the combat rolls against the wielder, as if protected by a Protection from Evil spell that only applies to them
+
+Combat abilities:
+– Affects demonic enemies immune to +2 weapons, and hits as a +2 weapon against them
+– The fire damage dealt to demons cannot be resisted, even if they are immune to normal fire damage
+
+THAC0: +1, +2 for Tieflings
+Damage: 1d10+1 (+2 for Tieflings), +1d2 fire damage (1d3+1 if wielded by Tieflings)
+Damage type: Slashing
+Speed Factor: 8
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 12~
+
+// https://bg3.wiki/wiki/Bloodthirst
+@5004 = ~Bloodthirst +3~
+@5005 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
+
+STATISTICS:
+
+Equipped abilities:
+– AC: +1
+– Critical chances while holding this weapon increase by 5%
+
+Combat abilities:
+– Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce AC against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds
+
+THAC0: +3
+Damage: 1d4+3 (piercing)
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@5007 = ~Crimson Mischief +3~
+@5008 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the weaker the target is, seemingly pushing itself more forcefully into the bodies of its victims, causing horrific damage. Because of this, only those with an unsavory moral compass may use it.
+
+STATISTICS:
+
+Combat abilities:
+– Deals extra piercing damage to targets depending on their current Hit Points:
+  – Between 85 and 100 HP: 1d2
+  – Between 70 and 84 HP: 1d3
+  – Between 54 and 69 HP: 1d4
+  – Between 38 and 53 HP: 1d5
+  – 37 HP or below: 1d6
+– 4% chance per hit of hitting a vital or otherwise weak spot, causing the target to lose 20% of their Hit Points.
+
+THAC0: +2
+Damage: 1d6+3, +1d4 necrotic damage (only affects living creatures; cannot be resisted)
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+@5009 = ~Weak spot hit: -20% of Hit Points lost~
+
+@5010 = ~Assassin's Touch +1~
+@5011 = ~This long, slender blade fits perfectly between the ribs of any unsuspecting victim. Sleeping victims receive more damage.
+
+This magical dagger seems to have enchanted to favor those in the thieving profession, especially assassins.
+
+STATISTICS:
+
+Equipped abilities:
+– +10% bonus to Hide in Shadows and Move Silently
+– Weapon damage is increased by +1 when wielded by thieves, or +2 if they're Assassins
+
+Combat abilities:
+– Enemies that are unconscious or asleep receive 1d6 extra piercing and cold damage
+– Critical chances: +5% (single-classed Thieves-only)
+
+THAC0: +1 (+2 for Thieves, +3 for Assassins)
+Damage: 1d4+1 (piercing)
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+//https://bg3.wiki/wiki/Ritual_dagger
+@5012 = ~Ritual Dagger~
+@5013 = ~This sinister dagger feeds on agony and the spilling of blood. The leather handle is smooth with use, and slick with fresh blood. It wasn't made to be particularly effective in battle, but its design nevertheless lends itself well to causing a lot of pain.
+
+STATISTICS:
+
+Combat abilities:
+– Every successful hit with this weapon grants a stacking +1 bonus to melee attack rolls for 7 seconds
+– Target must save vs. Death at -2 or bleed for 4 rounds, suffering 1 point of piercing damage, and again once per round
+
+Charge ability:
+– Pain is a path to power. Three times per day, slice your hand, causing 1d6 slashing damage to yourself, to receive a non-stacking +1 bonus attack rolls, and a +15% higher chance to inflict a critical hit for 15 seconds
+
+THAC0: No bonus
+Damage: 1d4+2 (piercing)
+Speed Factor: 4
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@5014 = ~Bleeding~
+
+//https://bg3.wiki/wiki/Cold_Snap
+@5015 = ~Cold Snap~
+@5016 = ~In the steel of this dagger, small ice formations resembling bubbles in a bath shimmer with a chill. As you hold it, faint crackles echo in your ears, and the air around the weapon turns crisp and cold, with a faint mist clinging to its surface. The blade lives up to its name, delivering a sharp bite of frost with every strike, freezing the victims as swiftly as a sudden winter storm.
+
+STATISTICS:
+
+Equipped abilities:
+– +25% cold resistance
+
+Combat abilities:
+– 15% chance of dealing extra 1d8 cold damage
+– 15% chance of snap-freezing the target on hit, paralyzing them for half a round if a save vs. Death at -2 is failed. Targets immune to cold damage and undead are immune to this effect
+
+THAC0: +1
+Damage: 1d4+1, +1d2 cold damage
+Damage type: Piercing
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@5017 = ~Spell Siphon +1~
+@5018 = ~Created by a mage who sought to blend steel and arcane energies into a single weapon, this dagger's blade is etched with shifting eldritch runes, which glow faintly whenever life is taken by its edge. The weapon seems to hunger for the energies of the slain, drawing their essence into its wielder's mind to restore their magical reserves.
+
+STATISTICS:
+
+Combat abilities:
+– Kills with this weapon restore 1 wizard or sorcerer spell slot from level 1. There's a 5% chance it will restore a level 2 spell slot too
+– Hits with this weapon have a 15% chance of causing the target to lose 1 spell slot of the highest level they can cast
+
+THAC0: +1
+Damage: 1d4+1
+Damage type;: Piercing
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@5019 = ~Cruel Sting +1~
+@5020 = ~The trauma of becoming a drider is quickly set aside with a cold arachnid dispassion. This sword follows that disturbing trend–a replenishing poison gland is built within, deploying generously against trapped opponents.
+
+STATISTICS:
+
+Combat abilities:
+– Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 damage over 5 seconds if they fail to save vs. Death
+
+Charge abilities:
+– Spin web, two times per day
+  Special: Target must save vs. Breath or become webbed for 2 rounds.
+  Area of effect: 1 target
+
+Damage: 1d8+1, +1 Poison damage
+Damage Type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+@5030 = ~Archdevil's Judgement +3~
+@5031 = ~Every contract a devil makes has some form of insurance - this one is cast in infernal iron and was forged in deep, ruinous hellfire.
+
+STATISTICS:
+
+Equipped abilities:
+– +20% resistance to Fire and Magic damage
+– +2 bonus to saving throws against everything except Death/Paralysis/Poison
+
+Combat abilities:
+– 10% chance of knocking a target prone and pushing them back 5 feet on hit for 1 round and causing 1d10 crushing damage. The incapacitating effects don't work on giant creatures such as golems and dragons, as well as levitating, and non-solid creatures. All fiends may be affected regardless of their form
+– May switch to a non-lethal mode, dealing no damage, but freeing any hit creature from paralysis, stun, hold, and other movement-limiting effects such as Grease or Web
+
+THAC0: +3
+Damage: 2d4+3, plus 1d4+1 fire damage
+Damage type: Crushing
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 16 Strength
+
+Weight: 4~
+
+@5040 = ~The Deathstalker Mantle~
+@5041 = ~The Deathstalker Mantle
+This blood-red cloak was once the sinister badge of honor bestowed upon Bhaal's most ruthless assassins. Forged in the name of the Lord of Murder, it served as a grim token of their unholy deeds. Etched along the hem these words can be read: "Let hill and hollow be a door to screams that last forevermore."
+
+Equipped abilities:
+– +5% critical hit chance while the user is invisible or hidden
+– The Shadow Itself: Upon killing an enemy, the wearer becomes invisible for 2 rounds and gains a +1 bonus to damage and THAC0 during this time. This effect can only trigger once per round
+
+Weight: 3~
+
+@5050 = ~~
+
+
+// https://baldursgate3.wiki.fextralife.com/Arcane+Absorption+Dagger
+
+
+// souls games inspired
+@6000 = ~Sword of Dusk and Dawn +3~
+@6001 = ~Sword of Dusk and Dawn +3
+Rumored to have been forged by an ancient cult that attempted to unite the godly disciplines of the light and the dark, this exquisitely crafted longsword is a symbol of the eternal cycle between light and shadow and the never-ending struggle between light and shadow that governs the realms. Other folk link its creation to priests of Selune and Shar attempting to coax the deities into a truce, perhaps making this sword a symbol of this communion, while others claim that it represents the balance between evil and good, but none can confirm any such claims.
+
+The blade itself shifts its appearance and powers with the rise and fall of the sun. During the night, the sword ignites with an inner fire, glowing faintly as if bathed in the final embers of the setting sun. With each strike, it delivers searing flames to its foes, a burning reminder to nocturnal creatures that they are not truly safe from the light and burn of the stars.
+
+As the sun rises, the sword transforms, its fiery glow dimming as a cold, frosty aura begins to emanate from the blade. In the daylight hours, each swing deals cold damage, representing the inevitable approach of the chill of night. Even under the bright sun, the chill of twilight lurks, reminding all who face the sword that darkness will return, and none can escape its creeping grasp.
+
+STATISTICS:
+
+Equipped abilities:
+– +25% resistance to fire and cold
+
+Charge abilities:
+– Earthly Reminder, two times per day
+  Special: At night, spell acts as a Sunfire that blinds for 3 rounds and deals 8d6 fire damage plus 10 extra against the undead. During the day, it deals 8d6 cold damage and inflicts Slow for 3 rounds
+  Area of effect: Every non-allied creature in a 15 ft. radius around the wielder
+
+THAC0: +3
+Damage: 1d8+3, +1d6 fire/magic damage (during the night), +1d6 cold/magic damage (during the day)
+Damage Type: Slashing
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+// nwn/nwn2 inspired
+@8000 = ~Lawgiver +1~
+@8001 = ~The bane of the chaotic or morally suspect, a Lawgiver blade has but one purpose: to enforce the rule of law wherever that authority is challenged or questioned. Whether or not the concept of "law" coincides with the concept of "justice" is largely irrelevant, as the owners of these weapons often view the world in a very polarized fashion. There is right and there is wrong, and other details only serve to confuse the matter.
+
+STATISTICS:
+
+Equipped abilities:
+– +2 bonus to saving throws and AC against chaotically-aligned enemies
+
+Combat abilities:
+– Acts as +2 weapon against chaotically-aligned enemies for the purposes of overcoming weapon immunities
+
+THAC0: +1, +2 against chaotic enemies
+Damage: 2d4+1, +1d4 vs. chaotically-aligned enemies
+Damage type: Slashing
+Speed Factor: 7
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10~
+
+@8002 = ~The Left Hand~
+@8003 = ~The Night Thief was a vicious assassin who specialized in fighting with two daggers. This knife was the weaker of the two items, but it granted him greater abilities in combat. One merchant in Sembia discovered these abilities when he laid an ambush for the assassin. He found all twelve of his guards dead and the lure, a two pound diamond, gone.
+
+STATISTICS:
+
+Equipped abilities:
+– AC: +2
+– Can dual-wield more effectively depending on the wielder's existing ability:
+  – Zero or one proficiency points: Two points are granted
+  – Two proficiency points: Three points are granted
+  – Three proficiency points: Off-hand attacks are no longer made with a penalty (perfect dual-wielding)
+
+THAC0: +1
+Damage: 1d4+1 (piercing)
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@8004 = ~Master Li's Way~
+@8005 = ~Once thought a unique instance of the swordmaker's craft, several katanas of this type have now been linked to a ship that ran aground on the Sword Coast some years ago. All bear the markings of Master Hu Li, a great artificer from the east, but little else is known of him.
+
+STATISTICS:
+
+Equipped abilities:
+– +5% chance to critically hit (this weapon only)
+
+Damage: 1d10+2, +1d4 acid damage
+Damage type: Slashing
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength~
+
+@8006 = ~Kukri~
+@8007 = ~Kukri are heavy, curved daggers with their sharpened edge on the inside arc of the blade. This type of weapon has its roots as a tool, but has been heavily adapted to ritual and warfare. All kukris are +5% more likely to critically hit than other weapons of their type.
+
+STATISTICS:
+
+Damage: 1d4 (piercing)
+Speed Factor: 3
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@8008 = ~Kukri of the Eclipse~
+@8009 = ~The symbol on the kukri indicates it belonged to the monks of the Dark Moon Order. Despite the weapon's sinister association, it has no evil aura and can be safely wielded by anyone.
+
+STATISTICS:
+
+Equipped abilities:
+– Infravision
+– Immunity to blindness
+
+Combat abilities:
+– Inflicts negative energy damage on hit, which damages the living and heals the undead. This type of damage is not affected by the target's resistances or immunities
+– Like all kukris, this weapon has +5% extra chance to critically hit
+
+THAC0: +4
+Damage: 1d4+4, +1d6 negative energy damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@8010 = ~Sharpshadow Blade~
+@8010 = ~A quick-cutting blade, suited to those who prefer to strike fast and retreat rather than stand toe to toe with their enemies. The name suggests a history with the Shadow Thieves of Amn, though it is not documented as some of their other tools are. The organization has many sub-guilds however, and this may have come from one of them.
+
+STATISTICS:
+
+Equipped abilities:
+– +10% bonus to Hide in Shadows and Move Silently
+
+Combat abilities:
+– Like all kukris, this weapon has +5% extra chance to critically hit
+
+THAC0: +1
+Damage: 1d4+1 (piercing)
+Speed Factor: 2
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@8011 = ~Rapier~
+@8012 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their type.
+
+STATISTICS:
+
+Damage: 1d6 (piercing)
+Speed Factor: 4
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+
+@8013 = ~Black Rider Quill~
+@8014 = ~Black Rider Quills take their name from a celebrated epic repeated in any bardic college worth its salt. The subject of the tale is dark, encouraging one to "dance around in your bones," but it is referenced here solely to stimulate the muse. These blades were likely forged in tribute, and were probably not present for the events of the original story. It is not known if they were commissioned together or individually.
+
+STATISTICS:
+
+Equipped abilities:
+– +1 bonus to all saving throws (bards-only)
+– +15 lore
+
+Combat abilities:
+– Like all rapiers, this weapon has +5% extra chance to critically hit
+
+THAC0: +1, +2 (if wielded by a bard)
+Damage: 1d6+1 (piercing)
+Speed Factor: 3
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+
+@8015 = ~Blade of the Rashemi~
+@8016 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spellcasters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
+
+STATISTICS:
+
+Equipped abilities:
+– +15% resistance to magic
+– +1 bonus to saving throws vs. spells
+
+Combat abilities:
+– Inflicts a cumulative 10% spell failure chance on hit for 5/2 rounds
+
+THAC0: +1, +2 if wielded by a barbarian, berserker, or Rashemi warrior
+Damage: 1d12+1, +2 if wielded by a barbarian, berserker, or Rashemi warrior
+Damage type: Slashing
+Speed Factor: 8
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 16 Strength
+
+Weight: 14~
+
+@8017 = ~Shining Light of Lathander~
+@8018 = ~The Church of Lathander is a wealthy institution, and makes no secret of its affinity for adventurers. In their eyes, these people dare to bring light to the forgotten and secret places, and therefore they will always find safe haven in a house of the Morninglord. On occasion the church will grant a boon to a particularly favorable person, a weapon that will serve to light the dark paths ahead.
+
+STATISTICS:
+
+Equipped abilities:
+– When held, the sword emits a blinding light that causes undead creatures within a 15 ft. radius of the wielder to suffer a -2 penalty to their THAC0 and AC
+
+Combat abilities:
+– Acts as a +4 weapon against undead for the purposes of overcoming weapon immunities
+
+Charge ability:
+– Searing Light, once per day
+  Special: Fires a bolt of light at the target, causing the following effects:
+  – Undead: Blinded for 2 rounds and take 6d6 magic damage (12d6 vs. vampires)
+  – Non-undead: Blinded for 2 rounds and take 3d6 magic damage
+  – A successful save vs. Spell at -2 negates the blindness
+  Range: 60 ft.
+  Area of Effect: 1 creature
+
+THAC0: +2, +4 vs. undead
+Damage: 1d10+2 (+4 vs. undead), +1 fire damage
+Damage type: Slashing
+Speed Factor: 8
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 11~
+
+@8019 = ~Goblinsplitter~
+@8020 = ~This is a rough-hewn axe forged not with artistry, but with raw hatred. The name Goblinsplitter is crudely carved into the axe's head and its pitted blade and handle bear the marks of countless battles against goblinoid foes. Created by a blacksmith whose village was razed by marauding goblins, the weapon was designed with a single purpose: vengeance.
+
+STATISTICS:
+
+Combat abilities:
+– Goblinoids hit by this weapon take extra 1d4 slashing damage; 2d4 on a critical hit
+– +2 THAC0 bonus vs. goblinoids
+
+Damage: 1d8 (slashing)
+Speed Factor: 7
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 7~
+
+@8020 = ~Shadowsilk~
+@8021 = ~During on of her frequent sojourns into the realm of shadows, Cendra–a shadowdancer who could slip in and out of the shadows even during the brightest of days–became ensnared on the webs of a wraith spider. Luckily for her, if being captures in the first place could be considered lucky, she found this short sword atuck beside her. With a dexterous tug, she pulled the blade free and punctured the wraith spider's belly with it. She used the keen blade to shave herself free of the webs. She and the blade were lost when she joined an expendition into the Underdark. Only shadowdancers may use this weapon.
+
+STATISTICS:
+
+Equipped abilities:
+– 10% bonus to Hiding in the Shadows and Move Silently
+
+Combat abilities:
+– +5% chances to critically hit
+
+THAC0: +4
+Damage: 1d6+4, +1d4 slashing damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+@8022 = ~Unmaking~
+@8023 = ~Originally wielded by an unknown gnomish hero who single-handedly obliterated the evil wizard Tnert's legions of golems, this stony blade's whereabouts have become the subject of tavern gossip. Forged from the same resilient materials as the constructs it was designed to destroy, this heavy blade hums faintly with an inner resonance, as though it carries the echoes of its countless victories. Its legacy as a bane of magical creations has made it a coveted prize among many, especially those with a particular disdain for wizards and their schemes.
+
+STATISTICS:
+
+Equipped abilities:
+– +1 Dexterity
+– +10% Magic resistance (+20% for Wizard Slayers and Inquisitors)
+
+Combat abilities:
+– Acts as a +6 enchanted weapon vs. constructs for the purposes of overcoming weapon immunities
+– On hit, the target must save vs. Death at -2 or have their Strength reduced by 1, or 2 if it's a construct. This effect lasts for 1 turn, and cannot reduce the target's Strength below 1
+– Constructs hit by this weapon are coated with a special acid that deals 1d6+3 irresistible damage to them, and applies Slow on them for 10 seconds unless a save vs. Spell at -2 is made
+
+Charge abilities:
+– Golemskin once per day
+  Special: The wielder gains gets 2 layers of Stoneskin, immunity to spell levels 1 and 2, and 15% resistance to crushing damage
+  Duration: 12 hours for Stoneskin, 2 turns for the resistance to crushing damage
+  Area of Effect: The user
+
+THAC0: +3, +6 against constructs
+Damage: 1d6+3, +1d2 piercing or slashing (random)
+Damage type: Crushing
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 9 Strength
+
+Weight: 5~
+
+@8024 = ~Mercykiller Blade~
+@8025 = ~A series of runes claim these blades are designed for the "quick eradication of evil, that they will suffer no longer as creatures at odds with all that is good." A sweeping proclamation, one that suggests the involvement of a radical group no longer giving second thought to deadly force where villains are concerned. Certainly an unpopular stance in some quarters, thought probably welcomed in others.
+
+STATISTICS:
+
+Combat abilities:
+– Like all rapiers, this weapon has +5% extra chance to critically hit
+
+THAC0: +3
+Damage: 1d6+3, +1d6 fire damage vs. evil
+Damage type: Piercing
+Speed Factor: 1
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+
+// mass effect inspired
+@10110 = ~Rod of Illusive Protections~
+@10111 = ~This rod is a slender and heavily adorned length of polished wood, capped with a fairly big and multi-colored gemstone. It is said to have been created by a rich illusionist, who was only known by the people around them as "The Illusive Man". He was known for using manipulation and trickery to get what he wanted, and the rod is said to be a reflection of that. In the end, The Illusive Man was betrayed by his own illusions, and the rod was lost to time.
+
+STATISTICS:
+
+Charge abilities:
+– Illusive Protection once per day
+  Special: Caster is protected by a combination of Nondetection, Mirror Image, Improved Invisibility, and Blur cast at level 20
+  Range: Caster only
+  Area of Effect: 1 creature
+
+Weight: 3~
+
+@10113 = ~Omniblade~
+@10114 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+
+STATISTICS:
+
+Equipped abilities:
+– Bonus to damage and THAC0 is entirely dependent on the wielder's intellect:
+  – 12-14 intelligence: +1
+  – 15-17 intelligence: +2
+  – 18-20 intelligence: +3
+  – 21-23 intelligence: +4
+  – 24 intelligence:    +5
+  – 25 intelligence:    +6
+
+THAC0: Bonus depends on the wielder's intelligence
+Damage: 1d8, bonus depends on the wielder's intelligence
+Damage Type: Slashing
+Speed Factor: 4
+Proficiency Type: Universal
+Type: Two-handed
+Requires:
+ 3 Strength
+ 12 Intelligence
+Weight: 1~
+
+
+// tv-show inspired
+@12000 = ~Needle +1~ // game of thrones
+@12001 = ~This small and exceptionally slender rapier is designed for a wielder who values finesse over brute strength, with a design particularly suited for nimble fighters, especially shorter races such as dwarves, halflings, and gnomes. Its steel blade tapers to a needle-sharp point, making it perfect for quick thrust attacks. Due to its unassuming size, many opponents dismiss it at first glance—an underestimation they regret moments later when they find themselves suddenly sporting a collection of small, bleeding wounds they hadn't planned for.
+
+STATISTICS:
+
+Equipped abilities:
+– +1 to AC and all saving throws (dwarves, halflings, and gnomes)
+– 2 attacks per round
+
+Combat abilities:
+– 25% chance of inflicting a bleeding wound on hit, dealing 1d4 damage per round for 2 rounds. No effect on creatures without blood
+– 5% more likely to critically hit compared to other rapiers (dwarves, halflings, and gnomes)
+
+THAC0: +1, +2 if wielded by short races
+Damage: 1d5+1 (piercing)
+Speed Factor: 0
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+

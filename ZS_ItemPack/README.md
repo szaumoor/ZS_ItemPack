@@ -28,7 +28,7 @@ This component adds a new evil-only short sword that deals more damage the less 
 **Component 105:** Add Ritual Dagger (dagger)
 **Component 106:** Add Cold Snap +1 (dagger)
 
-**Component 107:** Add Spell Siphon +1 (dagger)
+**Component 107:** Add Dolor Amarus +2 (dagger)
 **Component 108:** Add Cruel Sting +1 (long sword)
 **Component 109:** Add Archfiend's Judgment +3 (warhammer)
 
