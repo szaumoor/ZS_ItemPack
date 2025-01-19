@@ -761,3 +761,23 @@ Requires:
  3 Strength
 
 Weight: 0~
+
+@13005 = ~Iceberg +4~
+@13006 = ~This peculiar weapon is less a dagger than it is a solid mass of enchanted ice, its crystalline form resembling a jagged shard more than a finely crafted blade. The Icerberg is cold to the touch, exuding a supernatural chill that causes frost to form on the ground beneath it. When wielded by a strong hand, the icy blade hums with latent arcane power, its cold edge capable of rending flesh and bone with unnatural ease.
+
+Though cumbersome for the weak, those who possess the strength to bear it will find that the Icerberg can be wielded with deadly precision. Upon striking, it releases a burst of freezing energy, capable of temporarily immobilizing foes and causing frostbite that lingers long after the blow is struck. In the hands of a truly powerful warrior, the Icerberg is as formidable as any sword, though its unusual nature makes it difficult to master.
+
+STATISTICS:
+
+Combat abilities:
+– 25% chance to slow on hit for 10 rounds
+
+THACO: +4
+Damage: 1d12 + 4, +12 cold damage
+Speed Factor: 7
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 18 Strength
+
+Weight: 75~
