@@ -5,4 +5,7 @@ COPY_EXISTING ~zsdag1.itm~ ~override~
 COPY_EXISTING ~zsdag2.itm~ ~override~
     SAY NAME2 @13002
     SAY IDENTIFIED_DESC @13003
+COPY_EXISTING ~zsdag3.itm~ ~override~
+    SAY NAME2 @13004
+    SAY IDENTIFIED_DESC @13005
 BUT_ONLY

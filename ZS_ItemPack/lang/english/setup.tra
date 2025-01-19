@@ -705,7 +705,7 @@ Requires:
 Weight: 1~
 
 @13000 = ~Ichor +2~
-@13001 = ~The typical throwing dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger. Unlike a dagger, this one has a smaller handle and is balanced perfectly. A thick toxic coating of poison has been applied to each poisoned throwing dagger, making it a lethal yet very rare tool in the hands of trained assassins.
+@13001 = ~This throwing dagger is no ordinary weapon. With a finely crafted, double-edged blade, it is designed for precision and lethality. Its compact handle offers perfect balance, making it a deadly tool in the hands of a skilled assassin. Coated with a potent, dark poison known only to the most feared killers, it is capable of bringing even the mightiest paladin to their knees. Rare and difficult to obtain, this dagger is the weapon of choice for those who seek to strike down even the most powerful foes from the shadows.
 
 STATISTICS:
 
@@ -733,6 +733,28 @@ Combat abilities:
 
 Damage: 1d4 (missile)
 Speed Factor: 2
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 0~
+@13004 = ~Thunderclap +3~
+@13005 = ~The Thunderclap is a dagger of strange and unpredictable power, its blade shimmering with the faintest crackle of arcane energy. Forged in forgotten times by a sect of storm-worshiping priests, this weapon is said to channel the fury of a divine tempest. One moment it is in your grasp, the next it seems to vanish, only to reappear with a deadly strike.
+
+When the dagger is drawn, the air seems to hum with energy, and its edge leaves a faint echo of thunder in the wake of each strike. Though it is a simple weapon, its true strength lies in the storm it can summon—shocking enemies with the force of a distant storm's rage.
+
+STATISTICS:
+
+Combat abilities:
+– +1/2 attacks per round
+– 25% electrical resistance
+– Teleport Strike: When thrown and the dagger strikes a target, the wielder is instantly teleported to the target's location.
+
+THACO: +3
+Melee Damage: 1d4 + 3, +6 electrical damage
+Thrown: 1d4 + 3 (missile)
+Speed Factor: 0
 Proficiency Type: Dagger
 Type: One-handed
 Requires:
