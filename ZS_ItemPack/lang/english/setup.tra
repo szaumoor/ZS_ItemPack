@@ -2,10 +2,10 @@
 
 @1 = ~New items: Game-who-shall-not-be-named-inspired~
 @2 = ~New items: Souls-inspired~
-@3 = ~New items: NWN-inspired~
-@4 = ~New items: NWN2-inspired~
-@5 = ~New items: Mass Effect inspired~
-@6 = ~New items: TV-show inspired~
+@3 = ~New items: NWN/NWN2-inspired~
+@4 = ~New items: Mass Effect inspired~
+@5 = ~New items: TV/Movie inspired~
+@6 = ~New items: Custom~
 
 @50 = ~Only available for the Enhanced Edition of BG games~
 @51 = ~Cannot install this component if any individual component in the group is installed~
@@ -58,26 +58,34 @@
 @230 = ~Add Blade of Mercy (Elden Ring; necklace)~
 
 
-@500 = ~Install all NWN-inspired items~
-@501 = ~Add Lawgiver +1 (bastard sword)~
-@502 = ~Add The Left Hand (dagger)~
-@503 = ~Add Master Li's Way (katana)~
-@504 = ~Add Kukri of the Eclipse (dagger / kukri)~
-@505 = ~Add Sharpshadow Blade (dagger / kukri)~
-@506 = ~Add Black Rider Quill (short sword / rapier)~
-@507 = ~Add Blade of the Rashemi (two-handed sword)~
-@508 = ~Add Shining Light of Lathander (two-handed sword)~
-@509 = ~Add Goblinsplitter (axe)~
+@300 = ~Install all NWN-inspired items~
+@301 = ~Add Lawgiver +1 (bastard sword)~
+@302 = ~Add The Left Hand (dagger)~
+@303 = ~Add Master Li's Way (katana)~
+@304 = ~Add Kukri of the Eclipse (dagger / kukri)~
+@305 = ~Add Sharpshadow Blade (dagger / kukri)~
+@306 = ~Add Black Rider Quill (short sword / rapier)~
+@307 = ~Add Blade of the Rashemi (two-handed sword)~
+@308 = ~Add Shining Light of Lathander (two-handed sword)~
+@309 = ~Add Goblinsplitter (axe)~
 
-@300 = ~Install all Mass Effect-inspired items~
-@301 = ~Add Rod of Illusive Protections (rod)~
-@302 = ~Add Omniblade (universal sword)~
-@303 = ~Add Phantom's Blade (ninja-to)~
+@400 = ~Install all Mass Effect-inspired items~
+@401 = ~Add Rod of Illusive Protections (rod)~
+@402 = ~Add Omniblade (universal sword)~
+@403 = ~Add Phantom's Blade (ninja-to)~
 
-@400 = ~Install all Series/Movie inspired items~
-@401 = ~Add Needle +1 (short sword / rapier)~ // game of thrones inspired
-@402 = ~Add Wraith's Dagger +2 (dagger)~ // inspired by nazgul's dagger
-@403 = ~Add Death Knight's Flail +5 (flail)~ // witch king of angmar inspired
+@500 = ~Install all Series/Movie inspired items~
+@501 = ~Add Needle +1 (short sword / rapier)~ // game of thrones inspired
+@502 = ~Add Wraith's Dagger +2 (dagger)~ // inspired by nazgul's dagger
+@503 = ~Add Death Knight's Flail +5 (flail)~ // witch king of angmar inspired
+
+
+
+@600 = ~Install all custom items of no inspiration~
+@601 = ~Add Ichor +2 (returning throwing dagger) [dark0dave]~
+@602 = ~Add Throwing Dagger of Dispelling (throwing dagger) [dark0dave]~
+@603 = ~Add Thunderclap +3 (dagger/throwing dagger) [dark0dave]~
+@604 = ~Add Iceberg +4 (dagger) [dark0dave]~
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
@@ -748,12 +756,12 @@ STATISTICS:
 
 Combat abilities:
 – +1/2 attacks per round
-– 25% electrical resistance
-– Teleport Strike: When thrown and the dagger strikes a target, the wielder is instantly teleported to the target's location.
+– +25% electrical resistance
+– Teleport Strike: When thrown and the dagger strikes a target, the wielder is instantly teleported to the target's location
 
 THACO: +3
-Melee Damage: 1d4 + 3, +6 electrical damage
-Thrown: 1d4 + 3 (missile)
+Damage (melee): 1d4+3 (piercing), +6 electrical damage
+Damage (ranged): 1d4+3 (missile)
 Speed Factor: 0
 Proficiency Type: Dagger
 Type: One-handed
@@ -770,14 +778,14 @@ Though cumbersome for the weak, those who possess the strength to bear it will f
 STATISTICS:
 
 Combat abilities:
-– 25% chance to slow on hit for 10 rounds
+– 25% chance to cause Slow on hit for 10 seconds. Creatures immune to cold are immune to this effect
 
 THACO: +4
-Damage: 1d12 + 4, +12 cold damage
+Damage: 1d4+4, +6 cold damage
 Speed Factor: 7
 Proficiency Type: Dagger
 Type: One-handed
 Requires:
- 18 Strength
+ 3 Strength
 
-Weight: 75~
+Weight: 1~
