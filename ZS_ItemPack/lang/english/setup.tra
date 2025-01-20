@@ -23,7 +23,7 @@
 @108 = ~Add Cruel Sting +1 (long sword)~
 @109 = ~Add Archdevil's Judgment +3 (warhammer)~
 @110 = ~Add The Deathstalker Mantle (cloak)~
-@111 = ~Add Arcane Absorption dagger (dagger, originally unused weapon)~
+@111 = ~Add Spell Siphon +1 (dagger, originally unused weapon)~
 
 @200 = ~Install all souls-inspired items~
 @202 = ~Add Dragonslayer Spear +3 (Dark Souls; spear)~
@@ -235,6 +235,8 @@ Requires:
 
 Weight: 1~
 
+@50160 = ~Snap-frozen~
+
 @5017 = ~Spell Siphon +1~
 @5018 = ~Created by a mage who sought to blend steel and arcane energies into a single weapon, this dagger's blade is etched with shifting eldritch runes, which glow faintly whenever life is taken by its edge. The weapon seems to hunger for the energies of the slain, drawing their essence into its wielder's mind to restore their magical reserves.
 
@@ -245,8 +247,7 @@ Combat abilities:
 – Hits with this weapon have a 15% chance of causing the target to lose 1 spell slot of the highest level they can cast
 
 THAC0: +1
-Damage: 1d4+1
-Damage type;: Piercing
+Damage: 1d4+1 (piercing)
 Speed Factor: 1
 Proficiency Type: Dagger
 Type: One-handed
@@ -265,7 +266,7 @@ Combat abilities:
 
 Charge abilities:
 – Spin web, two times per day
-  Special: Target must save vs. Breath or become webbed for 2 rounds.
+  Special: Target must save vs. Breath at -2 or become webbed for 2 rounds.
   Area of effect: 1 target
 
 Damage: 1d8+1, +1 Poison damage
@@ -277,6 +278,7 @@ Requires:
  6 Strength
 
 Weight: 4~
+@5021 = ~Spin Web~
 
 @5030 = ~Archdevil's Judgement +3~
 @5031 = ~Every contract a devil makes has some form of insurance - this one is cast in infernal iron and was forged in deep, ruinous hellfire.
@@ -778,7 +780,7 @@ Though cumbersome for the weak, those who possess the strength to bear it will f
 STATISTICS:
 
 Combat abilities:
-– 25% chance to cause Slow on hit for 10 seconds. Creatures immune to cold are immune to this effect
+– 25% chance to cause Slow on hit for 10 seconds. Creatures immune to cold are also immune to this effect
 
 THACO: +4
 Damage: 1d4+4, +6 cold damage

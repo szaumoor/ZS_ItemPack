@@ -1,6 +1,5 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/dolorus_amarus~ ~override~
-COPY_EXISTING ~ZSIPDGRI.itm~ ~override~
-    SAY NAME2 @5012
-    SAY IDENTIFIED_DESC @5013
-    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@5014) END
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/spell_siphon~ ~override~
+COPY_EXISTING ~ZSIPSPSI.itm~ ~override~
+    SAY NAME2 @5017
+    SAY IDENTIFIED_DESC @5018
 BUT_ONLY
