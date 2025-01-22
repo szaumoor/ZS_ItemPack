@@ -56,6 +56,7 @@
 @228 = ~Add Spelldrake Amulet (Elden Ring; necklace)~
 @229 = ~Add Blessed Dew Amulet (Elden Ring; necklace)~
 @230 = ~Add Blade of Mercy (Elden Ring; necklace)~
+@231 = ~Add Moonveil (Elden Ring; necklace)~
 
 
 @300 = ~Install all NWN-inspired items~
@@ -79,9 +80,7 @@
 @502 = ~Add Wraith's Dagger +2 (dagger)~ // inspired by nazgul's dagger
 @503 = ~Add Death Knight's Flail +5 (flail)~ // witch king of angmar inspired
 
-
-
-@600 = ~Install all custom items of no inspiration~
+@600 = ~Install all community items / custom items~
 @601 = ~Add Ichor +2 (returning throwing dagger) [dark0dave]~
 @602 = ~Add Throwing Dagger of Dispelling (throwing dagger) [dark0dave]~
 @603 = ~Add Thunderclap +3 (dagger/throwing dagger) [dark0dave]~
@@ -238,13 +237,13 @@ Weight: 1~
 @50160 = ~Snap-frozen~
 
 @5017 = ~Spell Siphon +1~
-@5018 = ~Created by a mage who sought to blend steel and arcane energies into a single weapon, this dagger's blade is etched with shifting eldritch runes, which glow faintly whenever life is taken by its edge. The weapon seems to hunger for the energies of the slain, drawing their essence into its wielder's mind to restore their magical reserves.
+@5018 = ~Created by a mage who sought to blend steel and arcane energies into a single weapon, this dagger's blade is etched with shifting eldritch runes, which glow faintly whenever life is taken by its edge. The weapon seems to hunger for the energies of the slain, drawing their essence into its wielder's mind to restore their magical reserves. Only those who wield the arcane arts may use this weapon.
 
 STATISTICS:
 
 Combat abilities:
-– Kills with this weapon restore 1 wizard or sorcerer spell slot from level 1. There's a 5% chance it will restore a level 2 spell slot too
-– Hits with this weapon have a 15% chance of causing the target to lose 1 spell slot of the highest level they can cast
+– Kills with this weapon restore 1 wizard or sorcerer spell slot from level 1. There's a 5% chance it will restore a level 2 spell slot too (or level 1 if the wielder has no forgotten level 2 spells)
+– Hits with this weapon have a 15% chance of causing the target to lose 1 spell slot of the highest level they can cast. This will also cause a 30% spell failure for 9 seconds
 
 THAC0: +1
 Damage: 1d4+1 (piercing)
@@ -255,6 +254,9 @@ Requires:
  3 Strength
 
 Weight: 1~
+
+@50180 = ~Arcane siphoning~
+@50181 = ~Spell slot restored~
 
 @5019 = ~Cruel Sting +1~
 @5020 = ~The trauma of becoming a drider is quickly set aside with a cold arachnid dispassion. This sword follows that disturbing trend–a replenishing poison gland is built within, deploying generously against trapped opponents.
