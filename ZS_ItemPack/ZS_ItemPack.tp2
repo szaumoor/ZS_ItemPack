@@ -3,6 +3,15 @@ SUPPORT "RoyalProtector at Gibberlings's forum https://www.gibberlings3.net/prof
 VERSION "v1.0"
 README ~%MOD_FOLDER%/README.md~
 AUTO_EVAL_STRINGS
+MODDER
+	setup_tra none
+	area_variables warn
+	missing_extern warn
+	missing_resref warn
+	ict2_actions warn
+	missing_eval warn
+	overwriting_file none
+	fun_args warn
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 LANGUAGE
 "English"
@@ -103,7 +112,7 @@ INCLUDE ~%MOD_FOLDER%/libs/components/01_forbidden_game/zs_itempack_110.tph~
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN @500 DESIGNATED 500 GROUP @3 // INSTALL ALL NWN/NWN2 ITEMS
+BEGIN @300 DESIGNATED 500 GROUP @3 // INSTALL ALL NWN/NWN2 ITEMS
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
 FORBID_COMPONENT ~ZS_ItemPack.tp2~ ~501~ @51 FORBID_COMPONENT ~ZS_ItemPack.tp2~ ~502~ @51
 FORBID_COMPONENT ~ZS_ItemPack.tp2~ ~503~ @51 FORBID_COMPONENT ~ZS_ItemPack.tp2~ ~504~ @51
@@ -115,7 +124,7 @@ FORBID_COMPONENT ~ZS_ItemPack.tp2~ ~509~ @51
 INCLUDE ~%MOD_FOLDER%/libs/components/01_forbidden_game/zs_itempack_500.tph~
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN @503 DESIGNATED 503 GROUP @3 // BLADE OF THE RASHEMI
+BEGIN @303 DESIGNATED 503 GROUP @3 // BLADE OF THE RASHEMI
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
 FORBID_COMPONENT ~ZS_ItemPack.tp2~ ~100~ @52
 /////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -123,7 +132,7 @@ FORBID_COMPONENT ~ZS_ItemPack.tp2~ ~100~ @52
 INCLUDE ~%MOD_FOLDER%/libs/components/01_forbidden_game/zs_itempack_503.tph~
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN @507 DESIGNATED 507 GROUP @3 // BLADE OF THE RASHEMI
+BEGIN @307 DESIGNATED 507 GROUP @3 // BLADE OF THE RASHEMI
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
 FORBID_COMPONENT ~ZS_ItemPack.tp2~ ~100~ @52
 /////////////////////////////////////////////////////////////////////////////////////////////////////

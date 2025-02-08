@@ -1,6 +1,6 @@
 // COMPONENT GROUPS
 
-@1 = ~New items: Game-who-shall-not-be-named-inspired~
+@1 = ~New items: Forbidden-Game-inspired~
 @2 = ~New items: Souls-inspired~
 @3 = ~New items: NWN/NWN2-inspired~
 @4 = ~New items: Mass Effect inspired~
@@ -11,7 +11,6 @@
 @51 = ~Cannot install this component if any individual component in the group is installed~
 @52 = ~Cannot install this component if already installed by a group installation component~
 
-
 @100 = ~Install all Forbidden-Game-inspired items~
 @101 = ~Add Everburn Blade +1 (two-handed sword)~
 @102 = ~Add Bloodthirst +3 (dagger)~
@@ -19,44 +18,41 @@
 @104 = ~Add Assassin's Touch +1 (dagger)~
 @105 = ~Add Ritual Dagger (dagger)~
 @106 = ~Add Cold Snap +1 (dagger)~
-@107 = ~Add Spell Siphon +1 (dagger)~
+@107 = ~Add Spell Siphon +1 (Arcane Absorption Dagger; Cut content dagger)~
 @108 = ~Add Cruel Sting +1 (long sword)~
-@109 = ~Add Archdevil's Judgment +3 (warhammer)~
+@109 = ~Add Archdevil's Judgment +3 (Orphic Hammer; warhammer)~
 @110 = ~Add The Deathstalker Mantle (cloak)~
-@111 = ~Add Spell Siphon +1 (dagger, originally unused weapon)~
 
 @200 = ~Install all souls-inspired items~
-@202 = ~Add Dragonslayer Spear +3 (Dark Souls; spear)~
-@203 = ~Add Moonlight Greatsword +3 (All games; two-handed sword)~
-@204 = ~Add Dragonslayer Greatbow +3 (Dark Souls; bow; requires 19 strength)~
+@202 = ~Add Dragonbane Spear +3 (Dark Souls - Dragonslayer Spear; spear)~
+@203 = ~Add Guiding Moonlight (Bloodborne - Holy Moonlight Greatsword; two-handed sword)~
+@204 = ~Add Dragonbane Bow +3 (Dark Souls - Dragonslayer Greatbow; longbow)~
 @205 = ~Add Sniper Crossbow (Dark Souls; crossbow)~
 @206 = ~Add Ring of Steel Protection (Dark Souls; ring)~
 @207 = ~Add Speckled Stoneplate Ring (Dark Souls; ring)~
-@208 = ~Add Tiny Being's Ring (Dark Souls; ring)~
+@208 = ~Add Ring of Vitality (Dark Souls - Tiny Being's Ring / Life Ring; ring)~
 @209 = ~Add Hornet's Ring (Dark Soulds; ring)~
 @210 = ~Add Leo's Ring (Dark Souls; ring)~
-@211 = ~Add Greatsword of Judgment (Dark Souls 3; two-handed sword)~
-@212 = ~Add Profaned Greatsword (Dark Souls 3; two-handed sword)~
-@213 = ~Add Dragonslayer Axe (Dark Souls 3; axe)~
 @214 = ~Add Saint Bident (Dark Souls; spear, proficiency of staff, clerics can wield it)~
-@215 = ~Add Onislayer Greatbow (Dark Souls 3; bow)~
 @216 = ~Add Sage Ring (Dark Souls 3; ring)~
 @217 = ~Add <Damage type> Clutch Rings (Dark Souls 3; rings)~
 @218 = ~Add Hawk Ring (Dark Souls 3; ring)~
-@219 = ~Add Blade of Calling (Elden Ring; dagger)~
-@220 = ~Add Sword of Saint Trina (Elden Ring, long sword)~
-@221 = ~Add Frozen Needle (Elden Ring; rapier)~
+@219 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
+
+@220 = ~Add Moonlit Slumber +2 (Elden Ring - Sword of St. Trina, long sword)~
+@221 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @222 = ~Add Rivers of Blood (Elden Ring; katana)~
-@223 = ~Add Serpent-God's Scimitar (Elden Ring; scimitar)~
-@224 = ~Add Bloody Bouquet (Elden Ring; mace)~
-@224 = ~Add Serpent Flail (Elden Ring; flail)~
-@225 = ~Add Harp Bow (Elden Ring; shortbow)~
-@226 = ~Add Serpent Bow (Elden Ring; longbow)~
+@223 = ~Add Sseth's Fang (Elden Ring - Serpent-God's Scimitar; scimitar)~
+@224 = ~Add Bloody Bouquet (Elden Ring - Varre's Bouquet; mace)~
+@225 = ~Add Harp Bow (Elden Ring; shortbow)~ // bard-focused shortbow
+@226 = ~Add Serpent Bow (Elden Ring; longbow)~ // or shortbow?
 @227 = ~Add Crimson Amber Amulet (Elden Ring; necklace)~
 @228 = ~Add Spelldrake Amulet (Elden Ring; necklace)~
 @229 = ~Add Blessed Dew Amulet (Elden Ring; necklace)~
 @230 = ~Add Blade of Mercy (Elden Ring; necklace)~
 @231 = ~Add Moonveil (Elden Ring; necklace)~
+@232 = ~Add Blood Lord's Stinger (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
+@233 = ~Add Dragon King's Cragblade (Elden Ring; estoc)~
 
 
 @300 = ~Install all NWN-inspired items~
@@ -65,7 +61,7 @@
 @303 = ~Add Master Li's Way (katana)~
 @304 = ~Add Kukri of the Eclipse (dagger / kukri)~
 @305 = ~Add Sharpshadow Blade (dagger / kukri)~
-@306 = ~Add Black Rider Quill (short sword / rapier)~
+@306 = ~Add Black Rider Quill (rapier)~
 @307 = ~Add Blade of the Rashemi (two-handed sword)~
 @308 = ~Add Shining Light of Lathander (two-handed sword)~
 @309 = ~Add Goblinsplitter (axe)~
@@ -76,9 +72,9 @@
 @403 = ~Add Phantom's Blade (ninja-to)~
 
 @500 = ~Install all Series/Movie inspired items~
-@501 = ~Add Needle +1 (short sword / rapier)~ // game of thrones inspired
-@502 = ~Add Wraith's Dagger +2 (dagger)~ // inspired by nazgul's dagger
-@503 = ~Add Death Knight's Flail +5 (flail)~ // witch king of angmar inspired
+@501 = ~Add Needle +1 (GOT; rapier)~ // game of thrones inspired
+@502 = ~Add Wraith's Dagger +2 (LOTR - Morgul's Blade; dagger)~ // inspired by nazgul's dagger
+@503 = ~Add Death Knight's Flail +5 (LOTR - Witch King of Angmar; flail)~ // witch king of angmar inspired
 
 @600 = ~Install all community items / custom items~
 @601 = ~Add Ichor +2 (returning throwing dagger) [dark0dave]~
@@ -139,15 +135,15 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-– Deals extra piercing damage to targets depending on their current Hit Points:
-  – Between 85 and 100 HP: 1d2
-  – Between 70 and 84 HP: 1d3
-  – Between 54 and 69 HP: 1d4
-  – Between 38 and 53 HP: 1d5
-  – 37 HP or below: 1d6
+Deals extra piercing damage to targets depending on their current Hit Points:
+ – Between 85 and 100 HP: 1d2
+ – Between 70 and 84 HP: 1d3
+ – Between 54 and 69 HP: 1d4
+ – Between 38 and 53 HP: 1d5
+ – 37 HP or below: 1d6
 – 4% chance per hit of hitting a vital or otherwise weak spot, causing the target to lose 20% of their Hit Points.
 
-THAC0: +2
+THAC0: +3
 Damage: 1d6+3, +1d4 necrotic damage (only affects living creatures; cannot be resisted)
 Damage type: Piercing
 Speed Factor: 0
@@ -173,7 +169,7 @@ Equipped abilities:
 
 Combat abilities:
 – Enemies that are unconscious or asleep receive 1d6 extra piercing and cold damage
-– Critical chances: +5% (single-classed Thieves-only)
+– Critical chances: +5% (only for single-classed Thieves)
 
 THAC0: +1 (+2 for Thieves, +3 for Assassins)
 Damage: 1d4+1 (piercing)
@@ -271,8 +267,8 @@ Charge abilities:
   Special: Target must save vs. Breath at -2 or become webbed for 2 rounds.
   Area of effect: 1 target
 
-Damage: 1d8+1, +1 Poison damage
-Damage Type: Slashing
+Damage: 1d8+1, +1 poison damage
+Damage type: Slashing
 Speed Factor: 4
 Proficiency Type: Long Sword
 Type: One-handed
@@ -289,10 +285,10 @@ STATISTICS:
 
 Equipped abilities:
 – +20% resistance to Fire and Magic damage
-– +2 bonus to saving throws against everything except Death/Paralysis/Poison
+– +2 bonus to saving throws vs. all except Death
 
 Combat abilities:
-– 10% chance of knocking a target prone and pushing them back 5 feet on hit for 1 round and causing 1d10 crushing damage. The incapacitating effects don't work on giant creatures such as golems and dragons, as well as levitating, and non-solid creatures. All fiends may be affected regardless of their form
+– 10% chance of knocking a target prone and pushing them back for 1 round and causing 2d4+2 crushing damage. The incapacitating effects don't work on giant creatures such as golems and dragons, as well as levitating, and non-solid creatures. All fiends may be affected regardless of their form
 – May switch to a non-lethal mode, dealing no damage, but freeing any hit creature from paralysis, stun, hold, and other movement-limiting effects such as Grease or Web
 
 THAC0: +3
@@ -343,7 +339,7 @@ Charge abilities:
 
 THAC0: +3
 Damage: 1d8+3, +1d6 fire/magic damage (during the night), +1d6 cold/magic damage (during the day)
-Damage Type: Slashing
+Damage type: Slashing
 Speed Factor: 2
 Proficiency Type: Long Sword
 Type: One-handed
@@ -352,6 +348,124 @@ Requires:
 
 Weight: 4~
 
+
+@6010 = ~This silver sword is carried by some followers of the Lady of Dreams, also known as The Lunar Lady, and Sehanine Moonbow, who is arguably the most powerful member of the Seldarine. Sleep and dreams are an intrinsic part of the goddess' portfolio, to the point where even just looking at her could put anyone to sleep.
+
+STATISTICS:
+
+Equipped abilities:
+– Immunity to sleep and unconsciousness
+– +1 bonus to saving throws against Illusion and Enchantment effects
+
+Combat abilities:
+– Hit target must save vs. Spell or fall asleep for 1 round
+– Effective vs. werewolves and other lycanthropes resistant to normal weapons
+
+Charge abilities:
+– Mists of Slumber once per day
+  Special: All enemies in the area must save vs. Spell at -2 or fall asleep for 3 rounds. This effect cannot be dispelled, but enemies will wake up if attacked
+  Duration: The mist lasts for 5 rounds
+  Area of effect: Every enemy in a 15 ft. radius around the wielder
+
+THAC0: +3
+Damage: 1d8+2, +1d2 magic damage
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+
+@6020 = ~Estoc~
+@6021 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category.
+
+STATISTICS:
+
+Damage: 1d8+1 (piercing or slashing)
+Speed Factor: 6
+Proficiency Type: Bastard sword / Estoc
+Type: Two-handed
+Requires:
+ 10 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@6030 = ~Guiding Moonlight~
+@6031 = ~The blade of this greatsword shines like the brilliant rays of the moon with a celestial grace. Its blade is etched with tiny delicate runes depicting the phases of the moon. It is said that the blade was born during a rare lunar convergence, when Selûne bestowed a sliver of her divine light upon the mortal realm. The weapon's presence offers guidance in times of uncertainty, inspiring its bearer to rise against the encroaching shadows.
+
+STATISTICS:
+
+Equipped abilities:
+– +20% Cold Resistance (+40% during the night)
+– +15% Magic Resistance (+30% during the night)
+– +10% Magic Damage Resistance (+20% during the night)
+– +10 Lore
+– Sets automatically one point in the Two-Handed Swords proficiency (unless higher)
+– May be used by wizards and sorcerers, including multi-classed wizards
+– Wizards and sorcerers use this weapon at a Speed Factor of 0
+
+Combat abilities:
+Extra magic damage based on the wielder's Intelligence score:
+ – 10-11: +1
+ – 12-13: +2
+ – 14-15: 1d2+2
+ – 16-17: 1d3+3
+ – 18-19: 1d4+4
+ – 20-21: 1d5+5
+ – 22-23: 1d6+6
+ – 24: 1d7+7
+ – 25: 1d8+8
+
+Charge abilities:
+– Moonlight Bolt, once per day
+  Special: Fires a bolt of moonlight at the target, causing 6d6 magic damage, disabling their Magic Resistance, and increasing their susceptibility to magic damage by 25% for 2 rounds. No save is allowed
+  Range: 60 ft.
+  Area of Effect: 1 creature
+
+THAC0: +3
+Damage: 1d10, or 1d10+3 for arcane casters
+Damage type: Slashing
+Speed Factor: 7
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+ 10 Intelligence
+
+Weight: 15~
+
+@6040 = ~Storm's Monarch +3~
+@6041 = ~This estoc channels the fury of the storm and the power of lightning. The blade was crafted by a cult who revered the power of the skies—particularly Talos, the Lord of Storms—and sought to harness his destructive might. Some folks have speculated say this blade was crafted during the Time of Troubles, when gods walked among mortals, maybe by Talos himself, but such rumors are impossible to confirm and might not be more than hearsay.
+
+STATISTICS:
+
+Equipped abilities:
+– +50% resistance to electricity
+
+Combat abilities:
+– Each hit decreases the target's resistance to electricity by 5% for 2 rounds
+
+Charge abilities:
+– Blink Bolt, once per day
+  Special: Instantly teleport into melee range of the target, causing an electric shock that deals 8d4 electric damage and stuns the target for 1 round if a save vs. Death at -4 is failed. The shock then pulses outward, chaining to all enemies around, dealing 4d4 electric damage. For one round after this, the caster will cause 100% more electric damage and become Hasted.
+  Range: 60 ft.
+  Area of Effect: 1 creature
+
+THAC0: +3
+Damage: 1d8+4, 1d4+1 electric damage
+Damage type: Piercing or slashing
+Speed Factor: 2
+Proficiency Type: Bastard sword / Estoc
+Type: Two-handed
+Requires:
+ 10 Strength
+ 14 Dexterity
+
+Weight: 2~
+
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~
 @8001 = ~The bane of the chaotic or morally suspect, a Lawgiver blade has but one purpose: to enforce the rule of law wherever that authority is challenged or questioned. Whether or not the concept of "law" coincides with the concept of "justice" is largely irrelevant, as the owners of these weapons often view the world in a very polarized fashion. There is right and there is wrong, and other details only serve to confuse the matter.
@@ -359,12 +473,12 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-– +2 bonus to saving throws and AC against chaotically-aligned enemies
+– +2 bonus to saving throws and AC vs. chaotically-aligned enemies
 
 Combat abilities:
-– Acts as +2 weapon against chaotically-aligned enemies for the purposes of overcoming weapon immunities
+– Acts as +3 weapon vs. chaotically-aligned enemies for the purposes of overcoming weapon immunities
 
-THAC0: +1, +2 against chaotic enemies
+THAC0: +1, +3 vs. chaotically-aligned enemies
 Damage: 2d4+1, +1d4 vs. chaotically-aligned enemies
 Damage type: Slashing
 Speed Factor: 7
@@ -414,7 +528,7 @@ Requires:
  6 Strength~
 
 @8006 = ~Kukri~
-@8007 = ~Kukri are heavy, curved daggers with their sharpened edge on the inside arc of the blade. This type of weapon has its roots as a tool, but has been heavily adapted to ritual and warfare. All kukris are +5% more likely to critically hit than other weapons of their type.
+@8007 = ~Kukri are heavy, curved daggers with their sharpened edge on the inside arc of the blade. This type of weapon has its roots as a tool, but has been heavily adapted to ritual and warfare. All kukris are +5% more likely to critically hit than other weapons of their category.
 
 STATISTICS:
 
@@ -473,7 +587,7 @@ Requires:
 Weight: 1~
 
 @8011 = ~Rapier~
-@8012 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their type.
+@8012 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category.
 
 STATISTICS:
 
@@ -483,6 +597,7 @@ Proficiency Type: Short Sword / Rapier
 Type: One-handed
 Requires:
  5 Strength
+ 14 Dexterity
 
 Weight: 2~
 
@@ -505,6 +620,7 @@ Proficiency Type: Short Sword / Rapier
 Type: One-handed
 Requires:
  5 Strength
+ 14 Dexterity
 
 Weight: 2~
 
@@ -619,11 +735,11 @@ Combat abilities:
 Charge abilities:
 – Golemskin once per day
   Special: The wielder gains gets 2 layers of Stoneskin, immunity to spell levels 1 and 2, and 15% resistance to crushing damage
-  Duration: 12 hours for Stoneskin, 2 turns for the resistance to crushing damage
+  Duration: 12 hours for Stoneskin, 2 turns for the rest
   Area of Effect: The user
 
-THAC0: +3, +6 against constructs
-Damage: 1d6+3, +1d2 piercing or slashing (random)
+THAC0: +3, +5 against constructs
+Damage: 1d6+3, +1d3 piercing or slashing (random)
 Damage type: Crushing
 Speed Factor: 0
 Proficiency Type: Short Sword
@@ -646,6 +762,103 @@ Damage: 1d6+3, +1d6 fire damage vs. evil
 Damage type: Piercing
 Speed Factor: 1
 Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@8030 = ~Two-Handed Axe~
+@8031 = ~This mighty weapon consists of a haft several feet long, topped with a heavy blade. The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade. It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.
+
+STATISTICS:
+
+Damage: 1d12 (slashing)
+Speed Factor: 9
+Proficiency Type: Axe
+Type: Two-handed
+Requires:
+ 10 Strength
+
+Weight: 10~
+
+@8040 = ~Grummsh's Hand~
+@8041 = ~Orcs tell of a great hero who wore no armor, and how the god Gruumsh gifted him with an axe to protect him in battle. He eventually became the avatar of that fearsome deity, and broke his weapon into many pieces to seed it among the orc hordes. Other cultures don't recognize the tale, but orcs don't care. After all, their legends also say that all the other races are born of swine, and what are the opinions of pigs worth?
+
+STATISTICS:
+
+Equipped abilities:
+– +1 bonus to Armor Class
+
+THAC0: +2
+Damage: 1d12+2, +1d6 vs. giant and normal-sized humanoids
+Damage type: Slashing
+Speed Factor: 7
+Proficiency Type: Axe
+Type: Two-handed
+Requires:
+ 10 Strength
+
+ Weight: 10~
+
+@8050 = ~Forge Fire~
+@8051 = ~A legacy that Thalantyr the Conjurer has said he would prefer to forget, these weapons are tied to his early adventuring career and a time when he was held captive by a mysterious powerful creature. He has refused to say how the weapons have retained the heat of he forge they were crafted in, usually ending such inquiries with a frustrated "pray you never find out."
+
+STATISTICS:
+
+Damage: 1d4+3, +1d4 fire damage
+Damage type: Crushing
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+9 Strength
+
+Weight: 6~
+
+@8060 = ~The Sly Sword~
+@8061 = ~Also known as Kingslayer, this sword saw extensive use in the civil war which devastated the kingdom of Tethyr and annihilated much of Tethyr's royal family. It has since changed owners a number of times, most recently having been in the possession of an assassin belonging to the Cult of the Dragon.
+
+STATISTICS:
+
+Combat abilities:
+– Hit target has a 20% chance of being affected by Doom, as per the cleric spell of the same name
+– This weapon causes negative energy damage, which only affects living creatures and cannot be resisted. Undead are unaffected by this
+
+Charge abilities:
+– Shadow Door and Blur once per day, cast at level 20
+  Special: Caster becomes blurred and under the effects of Improved Invisibility
+  Range: Self only
+
+THAC0: +3
+Damage: 1d8+3, +1d6 (negative energy)
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+
+@8070 = ~The Singing Sword~
+@8071 = ~This blade literally hums with power. The closer a person's hand comes to the pommel, the louder the hum. The blade is supposed to have belonged to the famous swordsman known as the "Laughing Knight". He would ride his charger into battle, laughing loudly while holding the Singing Sword, striking fear into the hearts of his opponents and lifting the moral of his allies.
+
+STATISTICS:
+
+Equipped abilities:
+– Bards holding this weapon gain a +2 bonus to their THAC0 rolls, and +1 to their damage rolls
+– Allies within a 15 ft. radius of the wielder gain a +1 bonus to their morale, saving throws and THAC0 rolls. Enemies suffer a penalty of the same magnitude
+
+Combat abilities:
+– This weapon causes sonic damage, which only affects creatures that can hear. This damage cannot be resisted although it can be negated by deafness. There's a 25% chance that the target will be deafened for 5 rounds if they fail a save vs. Spell at -2
+
+THAC0: +3
+Damage: 1d8+5, +1d6 (sonic damage)
+Damage type: Slashing
+Speed Factor: 1
+Proficiency Type: Long Sword
 Type: One-handed
 Requires:
  5 Strength
@@ -682,7 +895,7 @@ Equipped abilities:
 
 THAC0: Bonus depends on the wielder's intelligence
 Damage: 1d8, bonus depends on the wielder's intelligence
-Damage Type: Slashing
+Damage type: Slashing
 Speed Factor: 4
 Proficiency Type: Universal
 Type: Two-handed
@@ -713,9 +926,12 @@ Proficiency Type: Short Sword / Rapier
 Type: One-handed
 Requires:
  3 Strength
+ 12 Dexterity
 
 Weight: 1~
 
+
+// custom ones
 @13000 = ~Ichor +2~
 @13001 = ~This throwing dagger is no ordinary weapon. With a finely crafted, double-edged blade, it is designed for precision and lethality. Its compact handle offers perfect balance, making it a deadly tool in the hands of a skilled assassin. Coated with a potent, dark poison known only to the most feared killers, it is capable of bringing even the mightiest paladin to their knees. Rare and difficult to obtain, this dagger is the weapon of choice for those who seek to strike down even the most powerful foes from the shadows.
 
