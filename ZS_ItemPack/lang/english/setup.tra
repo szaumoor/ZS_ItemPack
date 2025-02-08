@@ -385,7 +385,7 @@ STATISTICS:
 
 Damage: 1d8+1 (piercing or slashing)
 Speed Factor: 6
-Proficiency Type: Bastard sword / Estoc
+Proficiency Type: Long Sword / Estoc
 Type: Two-handed
 Requires:
  10 Strength
@@ -438,12 +438,12 @@ Requires:
 Weight: 15~
 
 @6040 = ~Storm's Monarch +3~
-@6041 = ~This estoc channels the fury of the storm and the power of lightning. The blade was crafted by a cult who revered the power of the skies—particularly Talos, the Lord of Storms—and sought to harness his destructive might. Some folks have speculated say this blade was crafted during the Time of Troubles, when gods walked among mortals, maybe by Talos himself, but such rumors are impossible to confirm and might not be more than hearsay.
+@6041 = ~This estoc channels the fury of the storm and the power of lightning. Some people speculate this blade was crafted during the Time of Troubles, when gods walked among mortals, maybe by Talos himself, but such rumors are impossible to confirm and might not be more than hearsay. Nevertheless, the destructive power of the blade is undeniable.
 
 STATISTICS:
 
 Equipped abilities:
-– +50% resistance to electricity
+– +40% resistance to electricity
 
 Combat abilities:
 – Each hit decreases the target's resistance to electricity by 5% for 2 rounds
@@ -458,7 +458,7 @@ THAC0: +3
 Damage: 1d8+4, 1d4+1 electric damage
 Damage type: Piercing or slashing
 Speed Factor: 2
-Proficiency Type: Bastard sword / Estoc
+Proficiency Type: Long Sword / Estoc
 Type: Two-handed
 Requires:
  10 Strength
