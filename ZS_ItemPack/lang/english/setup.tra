@@ -72,7 +72,7 @@
 @403 = ~Add Phantom's Blade (ninja-to)~
 
 @500 = ~Install all Series/Movie inspired items~
-@501 = ~Add Needle +1 (GOT; rapier)~ // game of thrones inspired
+@501 = ~Add Needle +1 (Game of Thrones; rapier)~ // game of thrones inspired
 @502 = ~Add Wraith's Dagger +2 (LOTR - Morgul's Blade; dagger)~ // inspired by nazgul's dagger
 @503 = ~Add Death Knight's Flail +5 (LOTR - Witch King of Angmar; flail)~ // witch king of angmar inspired
 
@@ -884,40 +884,182 @@ Weight: 3~
 
 STATISTICS:
 
-Equipped abilities:
-– Bonus to damage and THAC0 is entirely dependent on the wielder's intellect:
-  – 12-14 intelligence: +1
-  – 15-17 intelligence: +2
-  – 18-20 intelligence: +3
-  – 21-23 intelligence: +4
-  – 24 intelligence:    +5
-  – 25 intelligence:    +6
+Combat abilities:
+– The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
+– Wizards and sorcerers may use this weapon twice per round
+– All combat bonuses depend on how evolved the weapon is
 
-THAC0: Bonus depends on the wielder's intelligence
-Damage: 1d8, bonus depends on the wielder's intelligence
-Damage type: Slashing
+Charge abilities:
+– Evolve Weapon
+  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+
+Damage: 1d8, +1 magic damage
+Damage type: Piercing/Slashing or Crushing
 Speed Factor: 4
 Proficiency Type: Universal
-Type: Two-handed
-Requires:
- 3 Strength
- 12 Intelligence
+Type: One-handed
+
+Weight: 1~
+
+@10115 = ~Omniblade +1~
+@10116 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+
+The blade was evolved once, and now it is a +1 weapon.
+
+STATISTICS:
+
+Combat abilities:
+– The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
+– Wizards and sorcerers may use this weapon twice per round
+– All combat bonuses depend on how evolved the weapon is
+
+Charge abilities:
+– Evolve Weapon
+  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+
+THAC0: +1
+Damage: 1d8+1, +2 magic damage
+Damage type: Piercing/Slashing or Crushing
+Speed Factor: 3
+Proficiency Type: Universal
+Type: One-handed
+
+Weight: 1~
+
+@10117 = ~Omniblade +2~
+@10118 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+
+The blade was evolved twice, and now it is a +2 weapon.
+
+STATISTICS:
+
+Combat abilities:
+– The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
+– Wizards and sorcerers may use this weapon twice per round
+– All combat bonuses depend on how evolved the weapon is
+
+Charge abilities:
+– Evolve Weapon
+  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+
+THAC0: +2
+Damage: 1d8+2, +2 magic damage
+Damage type: Piercing/Slashing or Crushing
+Speed Factor: 2
+Proficiency Type: Universal
+Type: One-handed
+
+Weight: 1~
+
+@10119 = ~Omniblade +3~
+@10120 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+
+The blade was evolved three times, and now it is a +3 weapon.
+
+STATISTICS:
+
+Combat abilities:
+– The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
+– Wizards and sorcerers may use this weapon twice per round
+– All combat bonuses depend on how evolved the weapon is
+
+Charge abilities:
+– Evolve Weapon
+  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+
+THAC0: +3
+Damage: 1d8+3, +3 magic damage
+Damage type: Piercing/Slashing or Crushing
+Speed Factor: 1
+Proficiency Type: Universal
+Type: One-handed
+
+Weight: 1~
+
+@10121 = ~Omniblade +4~
+@10122 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+
+The blade was evolved four times, and now it is a +4 weapon.
+
+STATISTICS:
+
+Combat abilities:
+– The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
+– Wizards and sorcerers may use this weapon twice per round
+– All combat bonuses depend on how evolved the weapon is
+
+Charge abilities:
+– Evolve Weapon
+  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+
+THAC0: +4
+Damage: 1d8+4, +3 magic damage
+Damage type: Piercing/Slashing or Crushing
+Speed Factor: 0
+Proficiency Type: Universal
+Type: One-handed
+
+Weight: 1~
+
+@10123 = ~Omniblade +5~
+@10124 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+
+The blade was evolved five times, and now it is a +5 weapon.
+
+STATISTICS:
+
+Combat abilities:
+– The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
+– Wizards and sorcerers may use this weapon twice per round
+– All combat bonuses depend on how evolved the weapon is
+
+Charge abilities:
+– Evolve Weapon
+  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+
+THAC0: +5
+Damage: 1d8+5, +4 magic damage
+Damage type: Piercing/Slashing or Crushing
+Speed Factor: 0
+Proficiency Type: Universal
+Type: One-handed
+
+Weight: 1~
+
+@10125 = ~Omniblade +6~
+@10126 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+
+The blade was evolved six times, and now it is a truly legendary weapon with a +6 enchantment level. It may no longer be improved, as further attempts would require godlike power and there's no guarantee the weapon would be able to hold more power.
+
+STATISTICS:
+
+Combat abilities:
+– The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
+– Wizards and sorcerers may use this weapon twice per round
+
+THAC0: +6
+Damage: 1d8+6, +4 magic damage
+Damage type: Piercing/Slashing or Crushing
+Speed Factor: 0
+Proficiency Type: Universal
+Type: One-handed
+
 Weight: 1~
 
 
 // tv-show inspired
 @12000 = ~Needle +1~ // game of thrones
-@12001 = ~This small and exceptionally slender rapier is designed for a wielder who values finesse over brute strength, with a design particularly suited for nimble fighters, especially shorter races such as dwarves, halflings, and gnomes. Its steel blade tapers to a needle-sharp point, making it perfect for quick thrust attacks. Due to its unassuming size, many opponents dismiss it at first glance—an underestimation they regret moments later when they find themselves suddenly sporting a collection of small, bleeding wounds they hadn't planned for.
+@12001 = ~This small and exceptionally slender rapier is designed for a wielder who values finesse over brute strength, with a design particularly suited for shorter races such as gnomes. Its steel blade tapers to a needle-sharp point, making it perfect for quick thrust attacks. Due to its unassuming size, many opponents dismiss it at first glance—an underestimation they regret moments later when they find themselves suddenly sporting a collection of small, bleeding wounds they hadn't planned for.
 
 STATISTICS:
 
 Equipped abilities:
-– +1 to AC and all saving throws (dwarves, halflings, and gnomes)
+– +1 to AC and all saving throws (short races only)
 – 2 attacks per round
 
 Combat abilities:
-– 25% chance of inflicting a bleeding wound on hit, dealing 1d4 damage per round for 2 rounds. No effect on creatures without blood
-– 5% more likely to critically hit compared to other rapiers (dwarves, halflings, and gnomes)
+– 25% chance of inflicting a bleeding wound on hit, dealing 1d4 piercing damage per round for 2 rounds. No effect on creatures without blood
+– 5% more likely to critically hit compared to other rapiers (short races only)
 
 THAC0: +1, +2 if wielded by short races
 Damage: 1d5+1 (piercing)
@@ -926,7 +1068,7 @@ Proficiency Type: Short Sword / Rapier
 Type: One-handed
 Requires:
  3 Strength
- 12 Dexterity
+ 14 Dexterity
 
 Weight: 1~
 
