@@ -3,6 +3,7 @@ SUPPORT "RoyalProtector at Gibberlings's forum https://www.gibberlings3.net/prof
 VERSION "v1.0"
 README ~%MOD_FOLDER%/README.md~
 AUTO_EVAL_STRINGS
+// /*
 MODDER
 	setup_tra none
 	area_variables warn
@@ -12,6 +13,7 @@ MODDER
 	missing_eval warn
 	overwriting_file none
 	fun_args warn
+
 //*/
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 LANGUAGE

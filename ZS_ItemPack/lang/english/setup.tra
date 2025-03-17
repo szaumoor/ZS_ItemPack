@@ -41,7 +41,7 @@
 
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Frozen Needle (Elden Ring - Frozen Needle; rapier)~
-@217 = ~Add Fury of the Styx (Elden Ring - Rivers of Blood; katana)~
+@217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
 @218 = ~Add Sseth's Fang (Elden Ring - Serpent-God's Scimitar; scimitar)~
 @219 = ~Add Bloody Bouquet (Elden Ring - Varre's Bouquet; mace)~
 @220 = ~Add Bardic Grace (Elden Ring - Harp Bow; shortbow)~ // bard-focused shortbow
@@ -138,11 +138,11 @@ STATISTICS:
 Combat abilities:
 Deals extra piercing damage to targets depending on their current Hit Points:
  – Between 85 and 100 HP: 1d2
- – Between 70 and 84 HP: 1d3
- – Between 54 and 69 HP: 1d4
- – Between 38 and 53 HP: 1d5
- – 37 HP or below: 1d6
-– 4% chance per hit of hitting a vital or otherwise weak spot, causing the target to lose 20% of their Hit Points.
+ – Between 70 and 84 HP: 1d2+1
+ – Between 54 and 69 HP: 1d3+1
+ – Between 38 and 53 HP: 1d4+1
+ – 37 HP or below: 1d5+1
+– 4% chance per hit of hitting a vital or otherwise weak spot, causing the target to lose 20% of their Hit Points
 
 THAC0: +3
 Damage: 1d6+3, +1d4 necrotic damage (only affects living creatures; cannot be resisted)
@@ -405,8 +405,8 @@ Equipped abilities:
 – +10% Magic Damage Resistance (+20% during the night)
 – +10 Lore
 – Sets automatically one point in the Two-Handed Swords proficiency (unless higher)
-– May be used by wizards and sorcerers, including multi-classed wizards
-– Wizards and sorcerers use this weapon at a Speed Factor of 0
+– May be used by Single-classed wizards and sorcerers, including multi-classed wizards
+– Single-classed wizards and sorcerers use this weapon at a Speed Factor of 0
 
 Combat abilities:
 Extra magic damage based on the wielder's Intelligence score:
@@ -881,18 +881,17 @@ Charge abilities:
 Weight: 3~
 
 @10113 = ~Omniblade~
-@10114 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+@10114 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
 
 STATISTICS:
 
 Combat abilities:
-– The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Wizards and sorcerers may use this weapon twice per round
-– All combat bonuses depend on how evolved the weapon is
+– The weapon can shapeshift to deal Piercing/Slashing or Crushing damage. The wielder can switch between these at will
+– Single-classed wizards and sorcerers may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
-  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+  Special: The wielder attempts to improve the weapon's enchantment level. The user must be level 6 or higher to upgrade the weapon
 
 Damage: 1d8, +1 magic damage
 Damage type: Piercing/Slashing or Crushing
@@ -903,20 +902,17 @@ Type: One-handed
 Weight: 1~
 
 @10115 = ~Omniblade +1~
-@10116 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
-
-The blade was evolved once, and now it is a +1 weapon.
+@10116 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
 
 STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Wizards and sorcerers may use this weapon twice per round
-– All combat bonuses depend on how evolved the weapon is
+– Single-classed wizards and sorcerers may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
-  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 11 or higher to upgrade the weapon
 
 THAC0: +1
 Damage: 1d8+1, +2 magic damage
@@ -928,20 +924,17 @@ Type: One-handed
 Weight: 1~
 
 @10117 = ~Omniblade +2~
-@10118 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
-
-The blade was evolved twice, and now it is a +2 weapon.
+@10118 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
 
 STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Wizards and sorcerers may use this weapon twice per round
-– All combat bonuses depend on how evolved the weapon is
+– Single-classed wizards and sorcerers may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
-  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 16 or higher to upgrade the weapon
 
 THAC0: +2
 Damage: 1d8+2, +2 magic damage
@@ -953,20 +946,17 @@ Type: One-handed
 Weight: 1~
 
 @10119 = ~Omniblade +3~
-@10120 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
-
-The blade was evolved three times, and now it is a +3 weapon.
+@10120 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
 
 STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Wizards and sorcerers may use this weapon twice per round
-– All combat bonuses depend on how evolved the weapon is
+– Single-classed wizards and sorcerers may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
-  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 21 or higher to upgrade the weapon
 
 THAC0: +3
 Damage: 1d8+3, +3 magic damage
@@ -978,20 +968,17 @@ Type: One-handed
 Weight: 1~
 
 @10121 = ~Omniblade +4~
-@10122 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
-
-The blade was evolved four times, and now it is a +4 weapon.
+@10122 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
 
 STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Wizards and sorcerers may use this weapon twice per round
-– All combat bonuses depend on how evolved the weapon is
+– Single-classed wizards and sorcerers may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
-  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 26 or higher to upgrade the weapon
 
 THAC0: +4
 Damage: 1d8+4, +3 magic damage
@@ -1003,20 +990,17 @@ Type: One-handed
 Weight: 1~
 
 @10123 = ~Omniblade +5~
-@10124 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
-
-The blade was evolved five times, and now it is a +5 weapon.
+@10124 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
 
 STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Wizards and sorcerers may use this weapon twice per round
-– All combat bonuses depend on how evolved the weapon is
+– Single-classed wizards and sorcerers may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
-  Special: Caster attempts to improve the weapon's enchantment level. The weapon will improve by 1 every 5 levels, up to +6 at level 31. The magic damage will improve by +1 every odd enchantment level, up to +4 at +5 enchantment
+  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 31 or higher to upgrade the weapon
 
 THAC0: +5
 Damage: 1d8+5, +4 magic damage
@@ -1028,7 +1012,7 @@ Type: One-handed
 Weight: 1~
 
 @10125 = ~Omniblade +6~
-@10126 = ~This blade was designed by a wizard who was jealous of warriors and other more martially-inclined folks. He wanted to create a weapon that could be used by anyone, regardless of their physical prowess. The Omniblade was the result of his work, a weapon that could be used by anyone, regardless of their physical strength or skill.
+@10126 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
 
 The blade was evolved six times, and now it is a truly legendary weapon with a +6 enchantment level. It may no longer be improved, as further attempts would require godlike power and there's no guarantee the weapon would be able to hold more power.
 
@@ -1036,7 +1020,7 @@ STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Wizards and sorcerers may use this weapon twice per round
+– Single-classed wizards and sorcerers may use this weapon twice per round
 
 THAC0: +6
 Damage: 1d8+6, +4 magic damage
