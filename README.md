@@ -55,15 +55,16 @@ This sword protects the wielder from magic, and causes 10% spell cast failure on
 
 ## Compatibility and Installation order
 
-Install
+This mod should be installed after all other mods that add new creatures to the game, and to be extra safe, after all mods that add new items to the game. Currently, though, it only matters when and if you install Cold Snap, due to a technical detail of how the item is implemented, specifically, it tries to find items that provide immunity to paralysis. If you're confident that's not a problem, you can install it any order with respect to other item packs.
+
+It should be installed before mods that add new kits, as some kits (like my shadowdancer kit) will patch items in this pack, as well as any and all mods tweak packs that modify items.
 
 ## Notes for users & modders
 
-## Credits
 
+
+## Credits
 - To BeamDog and Bioware for the game, obviously.
-- CamDawg for spending significant time to explain details about how WeiDu works, sharing insights, helpful code, and other matters for modding
-- DavidW for his great WeiDu tutorial
-- Thanks to the developers of WeiDu, including the documentation
-- And the IESDP, invaluable resource.
-- People on Discord generally for their help, and the great modders out there that allowed their WeiDu code to be available publicly, like jmerry, Camdawg, 11jo, Argent77, Ardanis, DavidW, SubtleDoctor, among others.
+- zenblack for providing icons for **LITERALLY every item in this mod**. All hail to his mighty icon-making skills.
+- zenblack, dark0dave and others who have helped me with the modding process or by providing resources, as well as their creativity for some of the descriptions
+- People on Discord generally for their help

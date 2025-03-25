@@ -40,11 +40,11 @@
 @214 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
 
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
-@216 = ~Add Frozen Needle (Elden Ring - Frozen Needle; rapier)~
+@216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
 @218 = ~Add Sseth's Fang (Elden Ring - Serpent-God's Scimitar; scimitar)~
 @219 = ~Add Bloody Bouquet (Elden Ring - Varre's Bouquet; mace)~
-@220 = ~Add Bardic Grace (Elden Ring - Harp Bow; shortbow)~ // bard-focused shortbow
+@220 = ~Add Harp Bow (Elden Ring - Harp Bow; shortbow)~ // bard-focused shortbow
 @221 = ~Add Serpent Bow (Elden Ring - Serpent Bow; longbow)~ // or shortbow?
 @222 = ~Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)~
 @223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
@@ -234,7 +234,7 @@ Weight: 1~
 @50160 = ~Snap-frozen~
 
 @5017 = ~Spell Siphon +1~
-@5018 = ~Created by a mage who sought to blend steel and arcane energies into a single weapon, this dagger's blade is etched with shifting eldritch runes, which glow faintly whenever life is taken by its edge. The weapon seems to hunger for the energies of the slain, drawing their essence into its wielder's mind to restore their magical reserves. Only those who wield the arcane arts may use this weapon.
+@5018 = ~This dagger's blade is etched with shifting eldritch runes, which glow faintly whenever life is taken by its edge. The weapon seems to hunger for the energies of the slain, drawing their essence into its wielder's mind to restore their magical reserves. Only those who wield the arcane arts may use this weapon.
 
 STATISTICS:
 
@@ -261,7 +261,7 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-– Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 damage over 5 seconds if they fail to save vs. Death
+– Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 poison damage damage over 5 seconds if they fail to save vs. Death at -1
 
 Charge abilities:
 – Spin web, two times per day
@@ -279,18 +279,18 @@ Requires:
 Weight: 4~
 @5021 = ~Spin Web~
 
-@5030 = ~Archdevil's Judgement +3~
-@5031 = ~Every contract a devil makes has some form of insurance - this one is cast in infernal iron and was forged in deep, ruinous hellfire.
+@5030 = ~Judgment +3~
+@5031 = ~This finely crafted war hammer was designed as both a weapon of war and a tool of mercy. Said to have been wielded by a champion of a benevolent deity, it strikes with righteous force, toppling foes while breaking through ensnaring magic. The hammer's head glows with a steady inner heat that sears foes on touch–a reminder that justice can both punish and liberate.
 
 STATISTICS:
 
 Equipped abilities:
-– +20% resistance to Fire and Magic damage
+– +20% resistance to Fire and Magic
 – +2 bonus to saving throws vs. all except Death
 
 Combat abilities:
-– 10% chance of knocking a target prone and pushing them back for 1 round and causing 2d4+2 crushing damage. The incapacitating effects don't work on giant creatures such as golems and dragons, as well as levitating, and non-solid creatures. All fiends may be affected regardless of their form
-– May switch to a non-lethal mode, dealing no damage, but freeing any hit creature from paralysis, stun, hold, and other movement-limiting effects such as Grease or Web
+– 10% chance to knock the target prone, push them back for 1 round, and deal 2d4+2 crushing damage. The incapacitating effects do not work on giants, levitating creatures, or non-solid entities. Fiends are always affected.
+– Can switch to a non-lethal mode, which deals no damage but frees any hit creature from paralysis, stun, hold, and other movement-limiting effects such as Grease or Web.
 
 THAC0: +3
 Damage: 2d4+3, plus 1d4+1 fire damage
@@ -355,20 +355,20 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-– Immunity to sleep and unconsciousness
-– +1 bonus to saving throws against Illusion and Enchantment effects
+– Non-elven wielders must save vs. Spell to avoid falling asleep when equipping it for 1 round. After that, the user will become immune to sleep and unconsciousness as long the weapon is held
+– +1 bonus to saving throws against Illusion and Enchantment effects (+2 for Elves)
 
 Combat abilities:
 – Hit target must save vs. Spell or fall asleep for 1 round
-– Effective vs. werewolves and other lycanthropes resistant to normal weapons
+– As a silver weapon, it is effective against all lycanthropes resistant to normal weapons
 
 Charge abilities:
 – Mists of Slumber once per day
-  Special: All enemies in the area must save vs. Spell at -2 or fall asleep for 3 rounds. This effect cannot be dispelled, but enemies will wake up if attacked
-  Duration: The mist lasts for 5 rounds
+  Special: All enemies in the area must save vs. Spell at -2 or fall asleep for 3 rounds. This effect cannot be removed with Dispel Magic, but enemies will wake up if damaged in any way
+  Duration: 5 rounds
   Area of effect: Every enemy in a 15 ft. radius around the wielder
 
-THAC0: +3
+THAC0: +2
 Damage: 1d8+2, +1d2 magic damage
 Damage type: Slashing
 Speed Factor: 3
@@ -379,13 +379,61 @@ Requires:
 
 Weight: 2~
 
-@6020 = ~Estoc~
-@6021 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category.
+@60200 = ~Estoc~
+@60201 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category.
 
 STATISTICS:
 
 Damage: 1d8+1 (piercing or slashing)
 Speed Factor: 6
+Proficiency Type: Long Sword / Estoc
+Type: Two-handed
+Requires:
+ 10 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@60202 = ~Estoc +1~
+@60203 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category. This particular estoc has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d8+2 (piercing or slashing)
+Speed Factor: 5
+Proficiency Type: Long Sword / Estoc
+Type: Two-handed
+Requires:
+ 10 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@60204 = ~Estoc +2~
+@60205 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category. This particular estoc has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d8+3 (piercing or slashing)
+Speed Factor: 4
+Proficiency Type: Long Sword / Estoc
+Type: Two-handed
+Requires:
+ 10 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@60204 = ~Estoc +3~
+@60205 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category. This particular estoc has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d8+4 (piercing or slashing)
+Speed Factor: 3
 Proficiency Type: Long Sword / Estoc
 Type: Two-handed
 Requires:
@@ -444,14 +492,16 @@ Weight: 15~
 STATISTICS:
 
 Equipped abilities:
-– +40% resistance to electricity
+– +30% resistance to electricity
+– Movement speed increases by a factor of 2
 
 Combat abilities:
 – Each hit decreases the target's resistance to electricity by 5% for 2 rounds
+– Like all estocs, it is +5% more likely to critically hit than other weapons of its category
 
 Charge abilities:
 – Blink Bolt, once per day
-  Special: Instantly teleport into melee range of the target, causing an electric shock that deals 8d4 electric damage and stuns the target for 1 round if a save vs. Death at -4 is failed. The shock then pulses outward, chaining to all enemies around, dealing 4d4 electric damage. For one round after this, the caster will cause 100% more electric damage and become Hasted.
+  Special: Instantly teleport into melee range of the target, causing an electric shock that deals 8d4 electric damage and stuns the target for 1 round if a save vs. Death at -4 is failed. The shock then pulses outward, chaining to all enemies around, dealing 5d4 electric damage. For one round after this, the caster will cause 100% more electric damage and become hasted as per the Improved Haste spell.
   Range: 60 ft.
   Area of Effect: 1 creature
 
@@ -466,6 +516,94 @@ Requires:
  14 Dexterity
 
 Weight: 2~
+
+@6050 = ~Harp Bow +1~
+@6051 = ~This delicate and elegantly crafted bow is strung not just with a bowstring, but with fine, enchanted threads that sometimes resonate when an arrow is shot. While any archer can wield it effectively, this bow is at its most powerful in the hands of a bard. Their intimate connection to music awakens the bow's hidden magic, guiding arrows with more power and accuracy.
+
+STATISTICS:
+
+Combat abilities:
+– 15% chance per shot to create a melodious harmony, which increases the party's morale as if under the effects of a Bless spell, and grants a +1 bonus to THAC0 and Luck. This effect lasts for 2 rounds and can stack with other THAC0 bonuses, but not with other Luck bonuses.
+
+Damage: +1 (bards only)
+THAC0: +1 (+2 for bards)
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 3 Strength
+
+Weight: 2~
+
+@6060 = ~Sniper Crossbow~
+@6061 = ~This crossbow is a remarkable feat of engineering, designed to be as accurate and deadly as mechanically possible. Apprently created by a Lantanese inventor, its power comes at a cost: it is slow and difficult to wield, requiring significant strength and dexterity to use effectively.
+
+STATISTICS:
+
+Combat abilities:
+– Attacks per round are always 1/2 less than the wielder's normal attacks per round
+– +5% chance to critically hit
+
+THAC0: +5
+Damage: +10 (missile)
+Speed Factor: 10
+Proficiency Type: Crossbow
+Type: Two-handed
+Requires:
+ 14 Strength
+ 17 Dexterity
+
+Weight: 12~
+
+@6070 = ~Icicle~
+@6071 = ~A razor-thin piercing blade of enchanted ice. Forged by Ijii, the carian Royal Blackmith.
+
+Can inflict frost upon enemies, and launch its blade with a strong attack. The blade immediately regenerates
+
+STATISTICS:
+
+Combat abilities:
+– Target must save vs. Death or be slowed for 1 round
+– The weapon's icy blade may also be launched at the target, and regenerates immediately upon launch
+– Like all rapiers, it is +5% more likely to critically hit than other weapons of its category
+
+THAC0: +4
+Damage (melee): 1d6+4, +1d4 cold damage
+Damage (ranged): 1d4, 1d6+4 cold damage
+Damage type (melee): Piercing
+Damage type (thrown): Missile
+Speed Factor: 0
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@6080 = ~Blood Lord's Stinger~
+@6081 = ~It is rumored this gnarly estoc was not forged from a whole piece but rather adapted from the cast-off stinger of Orcus, Lord of Blood, before he became a god. Deep in the bowels of the hells, it was fitted to be wielded, with difficulty, by those who aspire to his evil magnificence.
+
+STATISTICS:
+
+Combat abilities:
+– Each hit causes the target to bleed, dealing 1d4 damage twice per round for 3 rounds. The target can save vs. Death at -2 to take half damage.
+– Blood Lord's Exultation: 5% chance to cause targets with blood to lose 20% of their Hit Points. This empowers the wielder, increasing all their damage by 20% for 20 seconds.
+– Like all estocs, it is +5% more likely to critically hit than other weapons of its category
+
+THAC0: +3
+Damage: 1d8+4 (piercing or slashing)
+Speed Factor: 3
+Proficiency Type: Long Sword / Estoc
+Type: Two-handed
+Requires:
+ 10 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@6082 = ~Blood Lord's Exultation~
+
 
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~
@@ -528,13 +666,58 @@ Type: One-handed
 Requires:
  6 Strength~
 
-@8006 = ~Kukri~
-@8007 = ~Kukri are heavy, curved daggers with their sharpened edge on the inside arc of the blade. This type of weapon has its roots as a tool, but has been heavily adapted to ritual and warfare. All kukris are +5% more likely to critically hit than other weapons of their category.
+@80060 = ~Kukri~
+@80061 = ~Kukri are heavy, curved daggers with their sharpened edge on the inside arc of the blade. This type of weapon has its roots as a tool, but has been heavily adapted to ritual and warfare. All kukris are +5% more likely to critically hit than other weapons of their category.
 
 STATISTICS:
 
 Damage: 1d4 (piercing)
 Speed Factor: 3
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@80062 = ~Kukri +1~
+@80063 = ~Kukri are heavy, curved daggers with their sharpened edge on the inside arc of the blade. This type of weapon has its roots as a tool, but has been heavily adapted to ritual and warfare. All kukris are +5% more likely to critically hit than other weapons of their category. This particular kukri has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d4+1 (piercing)
+Speed Factor: 2
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@80064 = ~Kukri +2~
+@80065 = ~Kukri are heavy, curved daggers with their sharpened edge on the inside arc of the blade. This type of weapon has its roots as a tool, but has been heavily adapted to ritual and warfare. All kukris are +5% more likely to critically hit than other weapons of their category. This particular kukri has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d4+2 (piercing)
+Speed Factor: 1
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@80066 = ~Kukri +3~
+@80067 = ~Kukri are heavy, curved daggers with their sharpened edge on the inside arc of the blade. This type of weapon has its roots as a tool, but has been heavily adapted to ritual and warfare. All kukris are +5% more likely to critically hit than other weapons of their category. This particular kukri has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d4+3 (piercing)
+Speed Factor: 0
 Proficiency Type: Dagger/Kukri
 Type: One-handed
 Requires:
@@ -587,13 +770,61 @@ Requires:
 
 Weight: 1~
 
-@8011 = ~Rapier~
-@8012 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category.
+@80110 = ~Rapier~
+@80111 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category.
 
 STATISTICS:
 
 Damage: 1d6 (piercing)
 Speed Factor: 4
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@80112 = ~Rapier +1~
+@80113 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category. This particular rapier has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d6+1 (piercing)
+Speed Factor: 3
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@80114 = ~Rapier +2~
+@80115 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category. This particular rapier has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d6+2 (piercing)
+Speed Factor: 2
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+ 14 Dexterity
+
+Weight: 2~
+
+@80116 = ~Rapier +3~
+@80117 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category. This particular rapier has been enchanted to be more effective in combat.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d6+3 (piercing)
+Speed Factor: 1
 Proficiency Type: Short Sword / Rapier
 Type: One-handed
 Requires:
@@ -706,7 +937,7 @@ Equipped abilities:
 – 10% bonus to Hiding in the Shadows and Move Silently
 
 Combat abilities:
-– +5% chances to critically hit
+– +10% chances to critically hit
 
 THAC0: +4
 Damage: 1d6+4, +1d4 slashing damage
@@ -775,7 +1006,7 @@ Weight: 2~
 
 STATISTICS:
 
-Damage: 1d12 (slashing)
+Damage: 1d10 (slashing)
 Speed Factor: 9
 Proficiency Type: Axe
 Type: Two-handed
@@ -790,10 +1021,14 @@ Weight: 10~
 STATISTICS:
 
 Equipped abilities:
-– +1 bonus to Armor Class
+– +1 bonus to Armor Class (+2 for half-orcs)
 
-THAC0: +2
-Damage: 1d12+2, +1d6 vs. giant and normal-sized humanoids
+Combat abilities:
+– +1d6 slashing damage vs. all humanoids and animals
+– Hits as a +2 weapon for the purposes of overcoming weapon immunities
+
+THAC0: +1, +2 for half-orcs
+Damage: 1d12+1, +2 for half-orcs
 Damage type: Slashing
 Speed Factor: 7
 Proficiency Type: Axe
@@ -808,7 +1043,7 @@ Requires:
 
 STATISTICS:
 
-Damage: 1d4+3, +1d4 fire damage
+Damage: 1d4+3, +1d3 fire damage
 Damage type: Crushing
 Speed Factor: 2
 Proficiency Type: War Hammer
@@ -1030,6 +1265,26 @@ Proficiency Type: Universal
 Type: One-handed
 
 Weight: 1~
+
+@10130 = ~Phantom's Blade~
+@10131 = ~This wakizashi was forged by a secret sect of assassins only known as the "Phantoms". This faction once operated from the shadows, eliminating their targets with frightening precision, before vanishing without a trace. Some believe they were wiped out, while others whisper that they still exist, watching from the shadows.
+
+Beyond its formidable enchantments, the blade's edge is honed to perfection, slicing through flesh and bone with unnerving ease. Only those who proved their loyalty and skill to the Phantoms were granted the honor of wielding such a weapon Yet, holding it now carries an unsettling weight—a sense that its masters may one day return to reclaim what is theirs.
+
+
+STATISTICS:
+
+Combat abilities:
+– 20% chance per hit that target must save vs. Death at -3 or die by decapitation or fatal impalement
+
+Damage: 1d8+5 (piercing)
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
 
 
 // tv-show inspired
