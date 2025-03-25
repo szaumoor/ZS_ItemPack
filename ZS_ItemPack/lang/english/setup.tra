@@ -24,36 +24,36 @@
 @110 = ~Add The Deathstalker Mantle (cloak)~
 
 @200 = ~Install all souls-inspired items~
-@201 = ~Add Dragonbane Spear (Dark Souls - Dragonslayer Spear; spear)~
-@202 = ~Add Guiding Moonlight (Soulsborne - Moonlight Greatsword; two-handed sword)~
-@203 = ~Add Dragonbane Bow (Dark Souls - Dragonslayer Greatbow; longbow)~
+// @201 = ~Add Dragonbane Spear (Dark Souls - Dragonslayer Spear; spear)~
+// @202 = ~Add Guiding Moonlight (Soulsborne - Moonlight Greatsword; two-handed sword)~
+// @203 = ~Add Dragonbane Bow (Dark Souls - Dragonslayer Greatbow; longbow)~
 @204 = ~Add Sniper Crossbow (Dark Souls; crossbow)~
-@205 = ~Add Ring of Steel Protection (Dark Souls; ring)~
-@206 = ~Add Speckled Stoneplate Ring (Dark Souls; ring)~
-@207 = ~Add Ring of Vitality (Dark Souls - Tiny Being's Ring / Life Ring; ring)~
-@208 = ~Add Hornet's Ring (Dark Soulds; ring)~
-@209 = ~Add Leo's Ring (Dark Souls; ring)~
-@210 = ~Add Saint Bident (Dark Souls; spear, proficiency of staff, clerics can wield it)~
-@211 = ~Add Sage Ring (Dark Souls 3; ring)~
-@212 = ~Add <Damage type> Clutch Rings (Dark Souls 3; rings)~
-@213 = ~Add Hawk Ring (Dark Souls 3; ring)~
-@214 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
+// @205 = ~Add Ring of Steel Protection (Dark Souls; ring)~
+// @206 = ~Add Speckled Stoneplate Ring (Dark Souls; ring)~
+// @207 = ~Add Ring of Vitality (Dark Souls - Tiny Being's Ring / Life Ring; ring)~
+// @208 = ~Add Hornet's Ring (Dark Soulds; ring)~
+// @209 = ~Add Leo's Ring (Dark Souls; ring)~
+// @210 = ~Add Saint Bident (Dark Souls; spear, proficiency of staff, clerics can wield it)~
+// @211 = ~Add Sage Ring (Dark Souls 3; ring)~
+// @212 = ~Add <Damage type> Clutch Rings (Dark Souls 3; rings)~
+// @213 = ~Add Hawk Ring (Dark Souls 3; ring)~
 
+//@214 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
-@218 = ~Add Sseth's Fang (Elden Ring - Serpent-God's Scimitar; scimitar)~
-@219 = ~Add Bloody Bouquet (Elden Ring - Varre's Bouquet; mace)~
+//@218 = ~Add Sseth's Fang (Elden Ring - Serpent-God's Scimitar; scimitar)~
+//@219 = ~Add Bloody Bouquet (Elden Ring - Varre's Bouquet; mace)~
 @220 = ~Add Harp Bow (Elden Ring - Harp Bow; shortbow)~ // bard-focused shortbow
-@221 = ~Add Serpent Bow (Elden Ring - Serpent Bow; longbow)~ // or shortbow?
+//@221 = ~Add Serpent Bow (Elden Ring - Serpent Bow; longbow)~ // or shortbow?
 @222 = ~Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)~
-@223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
-@224 = ~Add Amulet of Trollish Fortitude (Elden Ring - Blessed Dew Amulet; necklace)~
-@225 = ~Add Blade of Mercy (Elden Ring - Blade of Mercy; necklace)~
-@226 = ~Add Moonveil (Elden Ring - Moonveil; necklace)~
+//@223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
+//@224 = ~Add Amulet of Trollish Fortitude (Elden Ring - Blessed Dew Amulet; necklace)~
+//@225 = ~Add Blade of Mercy (Elden Ring - Blade of Mercy; necklace)~
+//@226 = ~Add Moonveil (Elden Ring - Moonveil; necklace)~
 @227 = ~Add Blood Lord's Sting (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
-@229 = ~Add Sseth's Claw (Elden Ring - Serpentbone blade; katana)~
+//@229 = ~Add Sseth's Claw (Elden Ring - Serpentbone blade; katana)~
 
 
 @300 = ~Install all NWN-inspired items~
@@ -74,8 +74,8 @@
 
 @500 = ~Install all Series/Movie inspired items~
 @501 = ~Add Needle +1 (Game of Thrones; rapier)~ // game of thrones inspired
-@502 = ~Add Wraith's Dagger +2 (LOTR - Morgul's Blade; dagger)~ // inspired by nazgul's dagger
-@503 = ~Add Death Knight's Flail +5 (LOTR - Witch King of Angmar; flail)~ // witch king of angmar inspired
+// @502 = ~Add Wraith's Dagger +2 (LOTR - Morgul's Blade; dagger)~ // inspired by nazgul's dagger
+// @503 = ~Add Death Knight's Flail +5 (LOTR - Witch King of Angmar; flail)~ // witch king of angmar inspired
 
 @600 = ~Install all community items / custom items~
 @601 = ~Add Ichor +2 (returning throwing dagger) [dark0dave]~
@@ -634,11 +634,9 @@ Weight: 10~
 STATISTICS:
 
 Equipped abilities:
-– AC: +2
-– Can dual-wield more effectively depending on the wielder's existing ability:
-  – Zero or one proficiency points: Two points are granted
-  – Two proficiency points: Three points are granted
-  – Three proficiency points: Off-hand attacks are no longer made with a penalty (perfect dual-wielding)
+– AC: +1
+– Wielder automatically gains specialization in two-weapon fighting (unless already higher)
+– Off-hand THAC0: +1
 
 THAC0: +1
 Damage: 1d4+1 (piercing)
