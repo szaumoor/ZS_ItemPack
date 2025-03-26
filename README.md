@@ -4,12 +4,15 @@ This mod is a collection of items translated from other games into the IE engine
 
 - The game doesn't support the mechanics of the originals
 - The effects are too generic on various items originally and I don't want to repeat myself on multiple items
-- The item involves a spoiler or is a plot-critical item. In those cases, I may use just the likeness of the item in the game, to create a new shiny item. For example, Orphic Hammer is one such case, which is instead in this item pack a Infernal Warhammer +3, which may be upgraded with demon hearts and maybe something else later on.
+- The item involves a spoiler or is a plot-critical item. In those cases, I may use just the likeness of the item in the game, to create a new shiny item based on it, or inspired by it to various degrees.
 - The item's conversion into the Forgotten Realms setting necessitates a change in item's mechanics. I try to keep the spirit of the item, but sometimes it's not possible to keep the original mechanics.
 
 As usual with my mods, every item is encapsulated in a different component, so you're not forced to include any item that you don't like for any reason.
 
-## Forbidden-game-inspired
+---
+<details>
+
+<summary><b> Forbidden-game-inspired </b></summary>
 
 These items are taken from a forbidden game that shall not be named. Due to plot critical reasons, a few items were changed in some degrees, retaining less from the original design, but it still aligns with the original design in some dimension.
 
@@ -267,29 +270,110 @@ Equipped abilities:
 
 Weight: 3
 
-## Souls inspired
+
+</details>
+
+---
+<details>
+
+<summary><b> Souls inspired </b></summary>
 
 **Component 200:** Add Sword of Dusk and Dawn +3 (long sword)
 
-## Mass Effect inspired
+**Component 215:** Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)
 
-## NWN/NWN2 inspired
+**Component 216:** Add Icicle (Elden Ring - Frozen Needle; rapier)
 
-**Component 507:** Add Blade of the Rashemi (two-handed sword)
+**Component 217:** Add Stygian Fury (Elden Ring - Rivers of Blood; katana)
+
+**Component 220:** Add Harp Bow (Elden Ring - Harp Bow; shortbow)
+
+**Component 222:** Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)
+
+**Component 227:** Add Blood Lord's Stinger (Elden Ring - Bloody Helice; estoc)
+
+**Component 228:** Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)
+
+
+</details>
+
+---
+<details>
+
+<summary><b> Mass Effect inspired </b></summary>
+
+**Component 401:** Add Rod of Illusive Protections (rod)
+
+**Component 402:** Add Omniblade (universal sword)
+
+**Component 403:** = Add Phantom's Blade (ninja-to)
+
+</details>
+
+---
+
+<details>
+
+<summary><b> NWN / NWN2 inspired </b></summary>
+
+**Component 301:** Add Lawgiver +1 (bastard sword)
+
+**Component 302:** Add The Left Hand (dagger)
+
+**Component 303:** Add Master Li's Way (katana)
+
+**Component 304:** Add Kukri of the Eclipse (dagger / kukri)
+
+**Component 305:** Add Sharpshadow Blade (dagger / kukri)
+
+**Component 306:** Add Black Rider Quill (rapier)
+
+**Component 307:** Add Blade of the Rashemi (two-handed sword)
 
 This sword protects the wielder from magic, and causes 10% spell cast failure on hit for 5/2 rounds. Deals 1d12+1 damage, and acts as a +2 weapon if a berserker, barbarian, o Rashemi warrior is wielding it.
 
-## TV/Film inspired
+**Component 308:** Add Shining Light of Lathander (two-handed sword)
+
+**Component 309:** Add Goblinsplitter (axe)
+
+
+</details>
+
+---
+
+<details>
+
+<summary><b> TV / Film inspired </b></summary>
+
+**Component 501:** Add Needle +1 (Game of Thrones; rapier)
+
+</details>
+
+---
+
+<details>
+
+<summary><b> Custom / Community Items </b></summary>
+
+This section contains items that were specifically asked for, not inspired by anything specific.
+
+**Component 601:** Add Ichor +2 (returning throwing dagger) [dark0dave]
+
+**Component 602:** Add Throwing Dagger of Dispelling (throwing dagger) [dark0dave]
+
+**Component 603:** Add Thunderclap +3 (dagger/throwing dagger) [dark0dave]
+
+**Component 604:** Add Iceberg +4 (dagger) [dark0dave]
+
+</details>
+
+---
 
 ## Compatibility and Installation order
 
 This mod should be installed after all other mods that add new creatures to the game, and to be extra safe, after all mods that add new items to the game. Currently, though, it only matters when and if you install Cold Snap, due to a technical detail of how the item is implemented, specifically, it tries to find items that provide immunity to paralysis. If you're confident that's not a problem, you can install it any order with respect to other item packs.
 
 It should be installed before mods that add new kits, as some kits (like my shadowdancer kit) will patch items in this pack, as well as any and all mods tweak packs that modify items.
-
-## Notes for users & modders
-
-
 
 ## Credits
 - To BeamDog and Bioware for the game, obviously.
