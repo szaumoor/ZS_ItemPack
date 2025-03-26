@@ -12,6 +12,7 @@
 @52 = ~Cannot install this component if already installed by a group installation component~
 
 @100 = ~Install all Forbidden-Game-inspired items~
+
 @101 = ~Add Everburn Blade +1 (two-handed sword)~
 @102 = ~Add Bloodthirst +3 (dagger)~
 @103 = ~Add Crimson Mischief +3 (short sword)~
@@ -24,10 +25,10 @@
 @110 = ~Add The Deathstalker Mantle (cloak)~
 
 @200 = ~Install all souls-inspired items~
+
 // @201 = ~Add Dragonbane Spear (Dark Souls - Dragonslayer Spear; spear)~
 // @202 = ~Add Guiding Moonlight (Soulsborne - Moonlight Greatsword; two-handed sword)~
-// @203 = ~Add Dragonbane Bow (Dark Souls - Dragonslayer Greatbow; longbow)~
-@204 = ~Add Sniper Crossbow (Dark Souls; crossbow)~
+// @204 = ~Add Sniper Crossbow (Dark Souls; crossbow)~
 // @205 = ~Add Ring of Steel Protection (Dark Souls; ring)~
 // @206 = ~Add Speckled Stoneplate Ring (Dark Souls; ring)~
 // @207 = ~Add Ring of Vitality (Dark Souls - Tiny Being's Ring / Life Ring; ring)~
@@ -38,6 +39,8 @@
 // @212 = ~Add <Damage type> Clutch Rings (Dark Souls 3; rings)~
 // @213 = ~Add Hawk Ring (Dark Souls 3; ring)~
 
+
+//@203 = ~Add Dragonbane Bow (Elden Ring - Igon's Greatbow; longbow)~
 //@214 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
@@ -51,12 +54,13 @@
 //@224 = ~Add Amulet of Trollish Fortitude (Elden Ring - Blessed Dew Amulet; necklace)~
 //@225 = ~Add Blade of Mercy (Elden Ring - Blade of Mercy; necklace)~
 //@226 = ~Add Moonveil (Elden Ring - Moonveil; necklace)~
-@227 = ~Add Blood Lord's Sting (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
+@227 = ~Add Blood Lord's Stinger (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
 //@229 = ~Add Sseth's Claw (Elden Ring - Serpentbone blade; katana)~
 
 
 @300 = ~Install all NWN-inspired items~
+
 @301 = ~Add Lawgiver +1 (bastard sword)~
 @302 = ~Add The Left Hand (dagger)~
 @303 = ~Add Master Li's Way (katana)~
@@ -68,16 +72,19 @@
 @309 = ~Add Goblinsplitter (axe)~
 
 @400 = ~Install all Mass Effect-inspired items~
+
 @401 = ~Add Rod of Illusive Protections (rod)~
 @402 = ~Add Omniblade (universal sword)~
 @403 = ~Add Phantom's Blade (ninja-to)~
 
 @500 = ~Install all Series/Movie inspired items~
+
 @501 = ~Add Needle +1 (Game of Thrones; rapier)~ // game of thrones inspired
 // @502 = ~Add Wraith's Dagger +2 (LOTR - Morgul's Blade; dagger)~ // inspired by nazgul's dagger
 // @503 = ~Add Death Knight's Flail +5 (LOTR - Witch King of Angmar; flail)~ // witch king of angmar inspired
 
 @600 = ~Install all community items / custom items~
+
 @601 = ~Add Ichor +2 (returning throwing dagger) [dark0dave]~
 @602 = ~Add Throwing Dagger of Dispelling (throwing dagger) [dark0dave]~
 @603 = ~Add Thunderclap +3 (dagger/throwing dagger) [dark0dave]~
