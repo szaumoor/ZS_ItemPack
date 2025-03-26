@@ -5,7 +5,7 @@ This mod is a collection of items translated from other games into the IE engine
 - The game doesn't support the mechanics of the originals
 - The effects are too generic on various items originally and I don't want to repeat myself on multiple items
 - The item involves a spoiler or is a plot-critical item. In those cases, I may use just the likeness of the item in the game, to create a new shiny item based on it, or inspired by it to various degrees.
-- The item's conversion into the Forgotten Realms setting necessitates a change in item's mechanics. I try to keep the spirit of the item, but sometimes it's not possible to keep the original mechanics.
+- The item's conversion into the Forgotten Realms setting necessitates a change in item's mechanics. including their description and names. I try to keep the spirit of the item, but sometimes it's not possible to keep the original mechanics.
 
 As usual with my mods, every item is encapsulated in a different component, so you're not forced to include any item that you don't like for any reason.
 
