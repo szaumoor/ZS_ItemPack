@@ -165,9 +165,7 @@ Weight: 3~
 @5009 = ~Weak spot hit: -20% of Hit Points lost~
 
 @5010 = ~Assassin's Touch +1~
-@5011 = ~This long, slender blade fits perfectly between the ribs of any unsuspecting victim. Sleeping victims receive more damage.
-
-This magical dagger seems to have enchanted to favor those in the thieving profession, especially assassins.
+@5011 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. Its enchantments favor those skilled in the art of thievery, particularly assassins, making it especially deadly against sleeping or incapacitated targets.
 
 STATISTICS:
 
@@ -286,13 +284,15 @@ Requires:
 Weight: 4~
 @5021 = ~Spin Web~
 
-@5030 = ~Judgment +3~
-@5031 = ~This finely crafted war hammer was designed as both a weapon of war and a tool of mercy. Said to have been wielded by a champion of a benevolent deity, it strikes with righteous force, toppling foes while breaking through ensnaring magic. The hammer's head glows with a steady inner heat that sears foes on touch–a reminder that justice can both punish and liberate.
+@5030 = ~Judgment +4~
+@5031 = ~This finely crafted war hammer was designed as both a weapon of war and a tool of mercy. Said to have been wielded by a champion of a benevolent deity, it strikes with incredible force, toppling foes while breaking through ensnaring magic. The hammer's head glows with a steady inner heat that sears foes on touch–a reminder that justice can both punish and liberate.
 
 STATISTICS:
 
 Equipped abilities:
-– +20% resistance to Fire and Magic
+– +40% resistance to Fire
+– +20% Magic Resistance
+– +10% Magic Damage Resistance
 – +2 bonus to saving throws vs. all except Death
 
 Combat abilities:
@@ -300,9 +300,9 @@ Combat abilities:
 – Can switch to a non-lethal mode, which deals no damage but frees any hit creature from paralysis, stun, hold, and other movement-limiting effects such as Grease or Web.
 
 THAC0: +3
-Damage: 2d4+3, plus 1d4+1 fire damage
+Damage: 2d4+4, plus 1d4+1 fire damage
 Damage type: Crushing
-Speed Factor: 1
+Speed Factor: 0
 Proficiency Type: War Hammer
 Type: One-handed
 Requires:

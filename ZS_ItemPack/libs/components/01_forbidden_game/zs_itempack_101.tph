@@ -1,5 +1,0 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/everburn_blade~ ~override~
-COPY_EXISTING ~ZSIPS2AA.itm~ ~override~
-    SAY NAME2 @5001
-    SAY IDENTIFIED_DESC @5002
-BUT_ONLY

@@ -1,0 +1,16 @@
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/ritual_dagger~ ~override~
+COPY_EXISTING ~ZSIPDGRI.itm~ ~override~
+    SAY NAME2 @5012
+    SAY IDENTIFIED_DESC @5013
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@5014) END
+BUT_ONLY
+
+ACTION_IF GAME_IS "bgee eet" BEGIN
+    COPY_EXISTING ~BASSIL.CRE~ ~override~
+        ADD_CRE_ITEM ~ZSIPDGRI.itm~ #1 #0 #0 ~none~ ~inv~
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~DUECLA01.CRE~ ~override~
+        ADD_CRE_ITEM ~ZSIPDGRI.itm~ #1 #0 #0 ~none~ ~inv~
+END

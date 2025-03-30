@@ -1,0 +1,55 @@
+## Forbidden-game items
+
+**Everburn Blade**
+
+In BGEE, it's held by the servants of Azothet at the end of Dorn's questline, though they are not droppable. Simmeon will hold a droppable one, but will not use it.
+
+In BG2EE, it will be in the Otyugh's stomach. Better kill it before it digests it.
+
+**Bloodthirst**
+
+In BGEE, Winski Perorate holds it at the end of the shadow guild's maze. In order to get it, you must kill him, or steal it from him, if you want to avoid a reputation penalty.
+
+In BG2EE, it is held by the Shadow Thief fence right at the entry of the guildhall. It will cost you 7000 gold pieces, before any price modifiers.
+
+**Crimson Mischief**
+
+This item is only found in BG2EE, and is held by Aran Linvail. You cannot steal from him, only by killing him, will you obtain it, which is only possible if you side with Bodhi in chapter 3, or if you decide to kill him anyway in chapter 6. I think both good-aligned and evil-aligned character would find motives to kill him either way. The item is evil, in any event.
+
+In the event that Aran is holding an unexpected weapon (he's supposed to be holding a short sword +2), the sword will be in the inventory of the Unseeing Eye instead.
+
+**Assassin's Touch**
+
+This item is sold in Feldepost's inn in BGEE. In BG2EE, it is inside the trapped container next to where you start the game after the initial cutscene. This will replace the usual dagger +1 that is found there.
+
+**Ritual Dagger**
+
+This weapon is held by Bassilus in BGEE. In BG2EE, you can find it in Illych's inventory.
+
+**Cold Snap**
+
+In BGEE, this is sold at High Hedge. In BG2EE, it's sold by Ribald.
+
+**Spell Siphon**
+
+In BGEE, this is sold at High Hedge. In BG2EE, it's sold by Ribald.
+
+**Cruel Sting**
+
+In BGEE, this drops from Centeol in the spider lair you can find in the first Cloakwood area. In BG2EE, it's in Pai'Na's lair (catacombs of Graveyard District).
+
+**Judgment**
+
+This weapon is only found in BG2EE and may be purchased from the helmites at the beginning of Watcher's Keep for 30000 gold pieces, before price adjustments. For comparison, the Short Sword of Mask +4 is sold for 32000 gold pieces.
+
+**Deathstalker Mantle**
+
+This cloak is dropped in BGEE by Vay-ya, the chaotic evil mage companion of Desreta, a worshipper of entropy that stays in the first lower level of the Low Lantern and attacks you if you agree to feel the touch of entropy in the bedroom (silly naive CHARNAME). She will have this item equipped, and as such it cannot be pickpocketed.
+
+In BG2EE, this cloak will be held by the cambion in Irenicus' dungeon.
+
+Bear in mind they will have the benefit of the cloak, should you fight them.
+
+## Souls inspired items
+
+**Sword of Dusk and Dawn**

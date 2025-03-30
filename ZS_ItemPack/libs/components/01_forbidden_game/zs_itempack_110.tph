@@ -1,5 +1,0 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/deathstalker_mantle~ ~override~
-COPY_EXISTING ~ZSIPCKAA.itm~ ~override~
-    SAY NAME2 @5040
-    SAY IDENTIFIED_DESC @5041
-BUT_ONLY

@@ -1,0 +1,37 @@
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/bloodthirst~ ~override~
+COPY_EXISTING ~ZSIPDGAA.itm~ ~override~
+    SAY NAME2 @5004
+    SAY IDENTIFIED_DESC @5005
+BUT_ONLY
+
+ACTION_IF GAME_IS ~bgee eet~
+    COPY_EXISTING ~WINSKI2.CRE~ ~override~
+        ADD_CRE_ITEM ~ZSIPDGAA.itm~ #1 #0 #0 ~none~ ~inv~
+END
+
+ACTION_IF GAME_IS ~bg2ee eet~
+    COPY_EXISTING ~BMTHIEF.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPDGAA" position = "LAST" END
+END
+
+/*
+<<<<<<<<.../zs_itempack/cromwell_bloodthirst.baf
+IF
+ Global("ZSIPItems","GLOBAL",1)
+ Global("ForgeStuff","GLOBAL",1)
+THEN
+ RESPONSE #100
+     SetGlobal("ZSIPItems","GLOBAL",0)
+     TakePartyItem("ZSIPDGAA")
+     DestroyItem("ZSIPDGAA")
+     GiveItemCreate("dagg02",PLAYER1,0,0,0) // completed item
+     ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+>>>>>>>>
+
+COMPILE ~%MOD_FOLDER%/dialog/crommy/zsipdl01.d~
+EXTEND_BOTTOM "AR0334.bcs" ".../zs_itempack/cromwell_bloodthirst.baf"
+
+*/
+
+END

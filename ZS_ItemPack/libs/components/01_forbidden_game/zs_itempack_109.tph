@@ -1,5 +1,0 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/archdevils_judgment~ ~override~
-COPY_EXISTING ~ZSIPHMAA.itm~ ~override~
-    SAY NAME2 @5030
-    SAY IDENTIFIED_DESC @5031
-BUT_ONLY

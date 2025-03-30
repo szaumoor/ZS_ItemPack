@@ -1,0 +1,21 @@
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/spell_siphon~ ~override~
+COPY_EXISTING ~ZSIPSPSI.itm~ ~override~
+    SAY NAME2 @5017
+    SAY IDENTIFIED_DESC @5018
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50180) END
+BUT_ONLY
+
+COPY_EXISTING ~ZSIPSPS0.SPL~ ~override~
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50181) END
+BUT_ONLY
+
+
+ACTION_IF GAME_IS "bgee eet" BEGIN
+    COPY_EXISTING ~HIGHHEDG.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPSPSI" position = "LAST" END
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~RIBALD.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPSPSI" position = "LAST" END
+END

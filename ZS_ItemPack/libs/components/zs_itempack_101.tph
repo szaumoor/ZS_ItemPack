@@ -1,0 +1,18 @@
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/everburn_blade~ ~override~
+COPY_EXISTING ~ZSIPS2AA.itm~ ~override~
+    SAY NAME2 @5001
+    SAY IDENTIFIED_DESC @5002
+BUT_ONLY
+
+ACTION_IF GAME_IS "bgee eet" BEGIN
+    COPY_EXISTING ~SIMDEMON.CRE~ ~override~
+        ADD_CRE_ITEM ~ZSIPS2AA.itm~ #1 #0 #0 ~unstealable&undroppable~ ~weapon1~ EQUIP
+
+    COPY_EXISTING ~SIMMEON.CRE~ ~override~
+        REPLACE_CRE_ITEM ~ZSIPS2AA.itm~ #1 #0 #0 ~unstealable~ ~inv~
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~IOTYUGH.CRE~ ~override~
+        ADD_CRE_ITEM ~ZSIPS2AA.itm~ #1 #0 #0 ~unstealable~ ~inv~
+END

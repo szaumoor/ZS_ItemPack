@@ -1,6 +1,0 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/crimson_mischief~ ~override~
-COPY_EXISTING ~ZSIPSSAA.itm~ ~override~
-    SAY NAME2 @5007
-    SAY IDENTIFIED_DESC @5008
-    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@5009) END
-BUT_ONLY

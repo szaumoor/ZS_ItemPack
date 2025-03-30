@@ -1,0 +1,54 @@
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/cold_snap~ ~override~
+COPY_EXISTING ~ZSIPCLSN.itm~ ~override~
+    SAY NAME2 @5015
+    SAY IDENTIFIED_DESC @5016
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50160) END
+BUT_ONLY
+
+INCLUDE ~%MOD_FOLDER%/libs/zs_alter_functions.tpa~
+
+WITH_SCOPE BEGIN
+    OUTER_SET matches = 0
+    COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
+        LPF CRE_OP_ANY INT_VAR match_op = 101 match_p2 = 109 RET found = result END
+        PATCH_IF found = 1 BEGIN
+            LPF ADD_CRE_EFFECT INT_VAR opcode = 206 insert_point = "-2" target = 1 STR_VAR resource = ~ZSIPCLS0~ END
+            ++matches
+        END
+    BUT_ONLY
+    PRINT "Patched %matches% creatures that should be completely immune to snap freezing (paralyze)."
+END
+
+WITH_SCOPE BEGIN
+    OUTER_SET matches = 0
+    COPY_EXISTING_REGEXP ~.*\.ITM~ ~override~
+        LPF ITM_OP_ANY INT_VAR match_op = 101 match_p2 = 109 RET found = result END
+        PATCH_IF found = 1 BEGIN
+            LPF ADD_ITEM_EQEFFECT INT_VAR target = 1 timing = 2 opcode = 206 insert_point="-1" STR_VAR resource = ~ZSIPCLS0~ END
+            ++matches
+        END
+    BUT_ONLY
+    PRINT "Patched %matches% items that should grant immunity to snap freezing (paralyze)."
+END
+
+WITH_SCOPE BEGIN
+    OUTER_SET matches = 0
+    COPY_EXISTING_REGEXP ~.*\.SPL~ ~override~
+        LPF PATCH_SPL_WITH_OP INT_VAR match_op = 101 match_p2 = 109 RET match = result END
+        PATCH_IF match = 1 BEGIN
+            ++matches
+        END
+    BUT_ONLY
+    PRINT "Patched %matches% spells that should grant immunity to snap freezing (paralyze)."
+END
+
+
+ACTION_IF GAME_IS "bgee eet" BEGIN
+    COPY_EXISTING ~HIGHHEDG.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPCLSN" position = "LAST" END
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~RIBALD.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPCLSN" position = "LAST" END
+END

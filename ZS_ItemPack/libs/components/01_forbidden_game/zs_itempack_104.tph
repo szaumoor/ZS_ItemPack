@@ -1,5 +1,0 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/assassins_touch~ ~override~
-COPY_EXISTING ~ZSIPGAC.itm~ ~override~
-    SAY NAME2 @5010
-    SAY IDENTIFIED_DESC @5011
-BUT_ONLY

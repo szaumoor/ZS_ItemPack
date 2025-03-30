@@ -1,9 +1,0 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/cruel_sting~ ~override~
-COPY_EXISTING ~ZSIPCRST.itm~ ~override~
-    SAY NAME2 @5019
-    SAY IDENTIFIED_DESC @5020
-BUT_ONLY
-
-COPY_EXISTING ~ZSIPCRS1.SPL~ ~override~
-    SAY NAME1 @5021
-BUT_ONLY
