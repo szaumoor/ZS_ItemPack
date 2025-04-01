@@ -1,0 +1,16 @@
+COPY ~%MOD_FOLDER%/items/02_souls/harp_bow~ ~override~
+COPY_EXISTING ~ZSIPHRW0.ITM~ ~override~
+    SAY NAME2 @6090
+    SAY IDENTIFIED_DESC @6091
+BUT_ONLY
+
+ACTION_IF GAME_IS "bgee eet" BEGIN
+    COPY_EXISTING ~STO4906.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPHRW0" position = "LAST" END
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~SHOP03.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPHRW0" position = "LAST" END
+END
+

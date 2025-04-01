@@ -35,9 +35,9 @@
 // @208 = ~Add Hornet's Ring (Dark Soulds; ring)~
 // @209 = ~Add Leo's Ring (Dark Souls; ring)~
 // @210 = ~Add Saint Bident (Dark Souls; spear, proficiency of staff, clerics can wield it)~
-// @211 = ~Add Sage Ring (Dark Souls 3; ring)~
+@211 = ~Add Sage Ring (Dark Souls 3; ring)~
 // @212 = ~Add <Damage type> Clutch Rings (Dark Souls 3; rings)~
-// @213 = ~Add Hawk Ring (Dark Souls 3; ring)~
+@213 = ~Add Hawk Ring (Dark Souls 3; ring)~
 
 
 //@203 = ~Add Dragonbane Bow (Elden Ring - Igon's Greatbow; longbow)~
@@ -57,6 +57,7 @@
 @227 = ~Add Blood Lord's Stinger (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
 //@229 = ~Add Sseth's Claw (Elden Ring - Serpentbone blade; katana)~
+//@230 = ~Add Sword of Dusk and Dawn (Elden Ring - Sword of Night and Flame; long sword)~
 
 
 @300 = ~Install all NWN-inspired items~
@@ -85,10 +86,10 @@
 
 @600 = ~Install all community items / custom items~
 
-@601 = ~Add Ichor +2 (returning throwing dagger) [dark0dave]~
-@602 = ~Add Throwing Dagger of Dispelling (throwing dagger) [dark0dave]~
-@603 = ~Add Thunderclap +3 (dagger/throwing dagger) [dark0dave]~
-@604 = ~Add Iceberg +4 (dagger) [dark0dave]~
+// @601 = ~Add Ichor +2 (returning throwing dagger) [dark0dave]~
+// @602 = ~Add Throwing Dagger of Dispelling (throwing dagger) [dark0dave]~
+// @603 = ~Add Thunderclap +3 (dagger/throwing dagger) [dark0dave]~
+// @604 = ~Add Iceberg +4 (dagger) [dark0dave]~
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
@@ -357,7 +358,7 @@ Requires:
 Weight: 4~
 
 
-@6010 = ~This silver sword is carried by some followers of the Lady of Dreams, also known as The Lunar Lady, and Sehanine Moonbow, who is arguably the most powerful member of the Seldarine. Sleep and dreams are an intrinsic part of the goddess' portfolio, to the point where even just looking at her could put anyone to sleep.
+@6010 = ~This silver sword is often wielded by followers of Sehanine Moonbow, also known as the Lady of Dreams or the Lunar Lady. One of the most powerful members of the Seldarine, her domain encompasses sleep and dreams. It is said that even gazing upon her face can lull mortals into a deep slumber.
 
 STATISTICS:
 
@@ -385,6 +386,9 @@ Requires:
  5 Strength
 
 Weight: 2~
+
+@6011 = ~Moonlit Slumber +3~
+@6012 = ~Mists of slumber~
 
 @60200 = ~Estoc~
 @60201 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category.
@@ -563,9 +567,7 @@ Requires:
 Weight: 12~
 
 @6070 = ~Icicle~
-@6071 = ~A razor-thin piercing blade of enchanted ice. Forged by Ijii, the carian Royal Blackmith.
-
-Can inflict frost upon enemies, and launch its blade with a strong attack. The blade immediately regenerates
+@6071 = ~Forged from enchanted ice, this razor-thin blade exudes an unnatural chill that freezes the blood of its enemies. Its unique design allows the wielder to hurl the blade at distant foes, whereupon it instantly regenerates in their hand.
 
 STATISTICS:
 
@@ -610,6 +612,38 @@ Requires:
 Weight: 2~
 
 @6082 = ~Blood Lord's Exultation~
+
+@6090 = ~Stygian Fury +3~
+@6091 = ~This weapon was once wielded by a bloodthirsty killer. It is somehow permanently coated with the nauseating stench of the River Styx. It has claimed countless lives, leaving rivers of blood in its wake. When Orcus, the Lord of Blood, first felt its blade, he offered its wielder a dark pact: the life of a demon, ensuring the weapon's insatiable thirst would never be quenched.
+
+STATISTICS:
+
+Combat abilities:
+– Stygian miasma: Each hit has a chance to poison the target with the toxic miasma of the Styx. The target must save vs. Death at -2 or suffer 6 poison damage over 2 rounds.
+– Bloodflame: If the target is poisoned three times within 2 rounds, their blood (or equivalent lifeblood) ignites, dealing 2d8 slashing and fire damage instantly. Additionally, the target must save vs. Death or become berserk for 1 round.
+
+THAC0: +3
+Damage: 1d10+3, +1d4 fire damage
+Damage type: Slashing
+Speed Factor: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
+
+@6092 = ~Bloodflame~
+
+@6100 = ~Crimson of Life~
+@6101 = ~This talisman is said to be a gift for the faithful of Lathander, the Morninglord, crafted to embody the boundless vitality of the rising sun. Those who wear it feel a steady warmth in their chest, as if their life force is strengthened by the dawn's embrace.
+
+STATISTICS:
+
+Equipped abilities:
+– Hit Points: +15%
+
+Weight: 1~
 
 
 // nwn/nwn2 inspired
@@ -1272,9 +1306,9 @@ Type: One-handed
 Weight: 1~
 
 @10130 = ~Phantom's Blade~
-@10131 = ~This wakizashi was forged by a secret sect of assassins only known as the "Phantoms". This faction once operated from the shadows, eliminating their targets with frightening precision, before vanishing without a trace. Some believe they were wiped out, while others whisper that they still exist, watching from the shadows.
+@10131 = ~This wakizashi was forged by a secret sect of assassins only known as the "Phantoms". This faction once operated from the shadows, eliminating their targets with frightening precision, before vanishing without a trace. Some believe they were wiped out, while others say that they still exist, watching from the shadows.
 
-Beyond its formidable enchantments, the blade's edge is honed to perfection, slicing through flesh and bone with unnerving ease. Only those who proved their loyalty and skill to the Phantoms were granted the honor of wielding such a weapon Yet, holding it now carries an unsettling weight—a sense that its masters may one day return to reclaim what is theirs.
+Beyond its amazing enchantment, the blade's edge is so incredibly sharp, it can slice through flesh and bone with unnerving ease. Only those who proved their loyalty and skill to the Phantoms were granted the honor of wielding such a weapon. Yet, holding it now carries an unsettling feeling—a sense that its masters may one day return to reclaim what is theirs.
 
 
 STATISTICS:
@@ -1290,7 +1324,6 @@ Requires:
  5 Strength
 
 Weight: 3~
-
 
 // tv-show inspired
 @12000 = ~Needle +1~ // game of thrones
@@ -1316,7 +1349,6 @@ Requires:
  14 Dexterity
 
 Weight: 1~
-
 
 // custom ones
 @13000 = ~Ichor +2~

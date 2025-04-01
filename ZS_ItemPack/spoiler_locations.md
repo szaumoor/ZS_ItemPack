@@ -52,4 +52,22 @@ Bear in mind they will have the benefit of the cloak, should you fight them.
 
 ## Souls inspired items
 
-**Sword of Dusk and Dawn**
+**Moonlit Slumber**
+
+This sword will be sold by Halzabazzer Drin at Sorcerous Sundries in BGEE. In BG2EE, it will be sold by Ribald.
+
+**Icicle**
+
+This sword will only be found in BG2EE and the Master Brain in the Underdark will drop it.
+
+**Stygian Fury**
+
+This sword will only be found in BG2EE and the more powerful demon in the Abyssal Plane (after travelling with the Planar Sphere) will drop it.
+
+**Harp bow**
+
+The bow will be sold by one of the merchants in Nashkel's carnival in BGEE. In BG2EE, it will be sold by Maheer, a merchant in Waukeen's Promenade.
+
+**Crimson of Life**
+
+This item will be sold by Gellena Mirrorshade in BGEE. In BG2EE, it will be sold by the Dawnmaster at the Temple of Lathander in the Temple District.

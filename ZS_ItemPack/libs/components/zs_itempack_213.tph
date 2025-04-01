@@ -1,0 +1,8 @@
+COPY ~%MOD_FOLDER%/items/02_souls/crimson_life~ ~override~
+COPY_EXISTING ~ZSIPSGR0.ITM~ ~override~
+    SAY NAME2 @6100
+    SAY IDENTIFIED_DESC @6101
+BUT_ONLY
+
+COPY_EXISTING ~OBSDEM01.CRE~ ~override~
+    ADD_CRE_ITEM ~ZSIPSTF0.ITM~ #1 #0 #0 ~unstealable~ ~inv~

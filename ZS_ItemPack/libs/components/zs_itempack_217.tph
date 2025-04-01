@@ -1,0 +1,11 @@
+COPY ~%MOD_FOLDER%/items/02_souls/stygian_fury~ ~override~
+COPY_EXISTING ~ZSIPSTF0.ITM~ ~override~
+    SAY NAME2 @6090
+    SAY IDENTIFIED_DESC @6091
+BUT_ONLY
+
+COPY_EXISTING ~ZSIPSTF4.ITM~ ~override~
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6092)
+
+COPY_EXISTING ~OBSDEM01.CRE~ ~override~
+    ADD_CRE_ITEM ~ZSIPSTF0.ITM~ #1 #0 #0 ~unstealable~ ~inv~

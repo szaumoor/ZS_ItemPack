@@ -225,3 +225,93 @@ Equipped abilities:
 – The Shadow Itself: Upon killing an enemy, the wearer becomes invisible for 2 rounds and gains a +1 bonus to damage and THAC0 during this time. This effect can only trigger once per round
 
 Weight: 3
+
+## Souls inspired items
+
+**Moonlit Slumber**
+
+This silver sword is often wielded by followers of Sehanine Moonbow, also known as the Lady of Dreams or the Lunar Lady. One of the most powerful members of the Seldarine, her domain encompasses sleep and dreams. It is said that even gazing upon her face can lull mortals into a deep slumber.
+
+STATISTICS:
+
+Equipped abilities:
+– Non-elven wielders must save vs. Spell to avoid falling asleep when equipping it for 1 round. After that, the user will become immune to sleep and unconsciousness as long the weapon is held
+– +1 bonus to saving throws against Illusion and Enchantment effects (+2 for Elves)
+
+Combat abilities:
+– Hit target must save vs. Spell or fall asleep for 1 round
+– As a silver weapon, it is effective against all lycanthropes resistant to normal weapons
+
+Charge abilities:
+– Mists of Slumber once per day
+  Special: All enemies in the area must save vs. Spell at -2 or fall asleep for 3 rounds. This effect cannot be removed with Dispel Magic, but enemies will wake up if damaged in any way
+  Duration: 5 rounds
+  Area of effect: Every enemy in a 15 ft. radius around the wielder
+
+THAC0: +2
+Damage: 1d8+2, +1d2 magic damage
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2
+
+**Icicle**
+
+Forged from enchanted ice, this razor-thin blade exudes an unnatural chill that freezes the blood of its enemies. Its unique design allows the wielder to hurl the blade at distant foes, whereupon it instantly regenerates in their hand.
+
+STATISTICS:
+
+Combat abilities:
+– Target must save vs. Death or be slowed for 1 round
+– The weapon's icy blade may also be launched at the target, and regenerates immediately upon launch
+– Like all rapiers, it is +5% more likely to critically hit than other weapons of its category
+
+THAC0: +4
+Damage (melee): 1d6+4, +1d4 cold damage
+Damage (ranged): 1d4, 1d6+4 cold damage
+Damage type (melee): Piercing
+Damage type (thrown): Missile
+Speed Factor: 0
+Proficiency Type: Short Sword / Rapier
+Type: One-handed
+Requires:
+ 5 Strength
+ 14 Dexterity
+
+Weight: 2
+
+**Stygian Fury**
+
+This weapon was once wielded by a bloodthirsty killer. It is somehow permanently coated with the nauseating stench of the River Styx. It has claimed countless lives, leaving rivers of blood in its wake. When Orcus, the Lord of Blood, first felt its blade, he offered its wielder a dark pact: the life of a demon, ensuring the weapon's insatiable thirst would never be quenched.
+
+STATISTICS:
+
+Combat abilities:
+– Stygian miasma: Each hit has a chance to poison the target with the toxic miasma of the Styx. The target must save vs. Death at -2 or suffer 6 poison damage over 2 rounds.
+– Bloodflame: If the target is poisoned three times within 2 rounds, their blood (or equivalent lifeblood) ignites, dealing 2d8 slashing and fire damage instantly. Additionally, the target must save vs. Death or become berserk for 1 round.
+
+THAC0: +3
+Damage: 1d10+3, +1d4 fire damage
+Damage type: Slashing
+Speed Factor: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3
+
+**Crimson of Life**
+
+This talisman is said to be a gift for the faithful of Lathander, the Morninglord, crafted to embody the boundless vitality of the rising sun. Those who wear it feel a steady warmth in their chest, as if their life force is strengthened by the dawn's embrace.
+
+STATISTICS:
+
+Equipped abilities:
+– Hit Points: +15%
+
+Weight: 1

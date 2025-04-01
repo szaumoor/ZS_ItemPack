@@ -11,6 +11,9 @@ As usual with my mods, every item is encapsulated in a different component, so y
 
 If you wish to have a precise description of items, or location, check the files spoiler_descriptions.md and spoiler_locations.md, respectively.
 
+Finally, installing a component which introduces one of the new weapon types (rapier, estoc, kukri) will automatically insert generic items of that type into the game, mostly in stores. This means that in BGEE you'll have access to up to +2 weapons of that type in stores, and in BG2EE, you'll have access to up to +3 weapons of that type in stores.
+
+## Components
 ---
 <details>
 
@@ -65,8 +68,6 @@ This adds a new cool cloak for assassins and other stabby-stabby characters. Upo
 <details>
 
 <summary><b> Souls inspired </b></summary>
-
-**Component 200:** Add Sword of Dusk and Dawn +3 (long sword)
 
 **Component 215:** Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)
 
@@ -139,23 +140,13 @@ This sword protects the wielder from magic, and causes 10% spell cast failure on
 
 ---
 
-<details>
+## The new weapon types
 
-<summary><b> Custom / Community Items </b></summary>
+These are the base characteristics of the new weapon types compared to others in the same group, and beyond unique traits:
 
-This section contains items that were specifically asked for, not inspired by anything specific.
-
-**Component 601:** Add Ichor +2 (returning throwing dagger) [dark0dave]
-
-**Component 602:** Add Throwing Dagger of Dispelling (throwing dagger) [dark0dave]
-
-**Component 603:** Add Thunderclap +3 (dagger/throwing dagger) [dark0dave]
-
-**Component 604:** Add Iceberg +4 (dagger) [dark0dave]
-
-</details>
-
----
+- **Estoc**: Estocs are big thrusting swords that use the two-handed sword animation, inflicts piercing damage, requires 2 hands to use it, but uses the proficiency type of long sword. Damage-wise, they have a base damage of 1d8+1 and a base speed factor of 6, and they are innately allowed to critically hit 5% more often. Animation-wise, they do mostly poke animations.
+- **Kukri**: Kukris are for all intents and purposes considered dagger, but they are one point slower as far as speed factor goes, but critically hit 5% more often.
+- **Rapier**: Rapiers are small thrusting swords that use the short sword animation, inflict piercing damage, use the short sword proficiency, and can critically hit 5% more often and use a base speed factor of 4. They use the piercing animation more often than the short sword.
 
 ## Compatibility and Installation order
 
