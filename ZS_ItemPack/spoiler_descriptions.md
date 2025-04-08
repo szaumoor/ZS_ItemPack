@@ -228,6 +228,30 @@ Weight: 3
 
 ## Souls inspired items
 
+**Sage's Ring**
+
+This ring is imbued with an enchantment that sharpens the mind and focus of the wearer. Whether invoking divine prayers or arcane spells, the ring allows its bearer to channel their magic with more speed and precision, making it a prized possession for spellcasters of all disciplines.
+
+STATISTICS:
+
+Equipped abilities:
+– Arcane and divine casting level: +1
+– Casting speed: +1
+
+Weight: 0
+
+**Hawk Ring**
+
+Crudely engraved with a hawk's silouette, this seemingly unassuming ring makes the wearer's vision, immediately upon wearing it, incredibly sharp, allowing them can see the world with a clarity that is normally impossible. It is rumored that it was once worn by a famed ranger now lost to time.
+
+STATISTICS:
+
+Equipped abilities:
+– Missile damage and THAC0: +1
+– Movement rate: +1
+
+Weight: 0
+
 **Moonlit Slumber**
 
 This silver sword is often wielded by followers of Sehanine Moonbow, also known as the Lady of Dreams or the Lunar Lady. One of the most powerful members of the Seldarine, her domain encompasses sleep and dreams. It is said that even gazing upon her face can lull mortals into a deep slumber.
@@ -315,3 +339,39 @@ Equipped abilities:
 – Hit Points: +15%
 
 Weight: 1
+
+**Spellguard**
+
+Being obliterated by a spell from a deranged wizard is a common fear among adventurers. This necklace was designed to protect its wearer from the worst of the magical onslaught, and it does so with success.
+
+STATISTICS:
+
+Equipped abilities:
+– Magic Resistance: +8%
+– Magic damage resistance: +25%
+
+Weight: 3
+
+**Bloody Sting**
+
+It is rumored this gnarly estoc is a replica of the stinger of Orcus. Forged and fitted deep in the bowels of the hells, the weapon is a fitting tribute to Orcus that pulses with demonic exultation as it drinks the blood of those pierced by it.
+
+It is a mystery how it was enchanted with such precision, as none of the forgemasters lived beyond its creation to tell of its secrets. Regardless, it is a powerful weapon that attracts those who would aspire to his evil magnificence.
+
+STATISTICS:
+
+Combat abilities:
+– Each hit causes the target to bleed, dealing 1d4 damage twice per round for 3 rounds. The target can save vs. Death at -2 to take half damage.
+– Blood Lord's Exultation: 5% chance to cause targets with blood to lose 20% of their Hit Points. This empowers the wielder, increasing all their damage by 20% for 20 seconds.
+– Like all estocs, it is +5% more likely to critically hit than other weapons of its category
+
+THAC0: +3
+Damage: 1d8+4 (piercing or slashing)
+Speed Factor: 3
+Proficiency Type: Long Sword / Estoc
+Type: Two-handed
+Requires:
+ 10 Strength
+ 14 Dexterity
+
+Weight: 2

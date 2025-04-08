@@ -1,0 +1,11 @@
+COPY ~%MOD_FOLDER%/items/02_souls/bloody_sting~ ~override~
+COPY_EXISTING ~ZSIPBLS0.ITM~ ~override~
+    SAY NAME2 @6080
+    SAY IDENTIFIED_DESC @6081
+BUT_ONLY
+
+COPY_EXISTING ~ZSIPBLS1.SPL~ ~override~
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6082)
+
+ COPY_EXISTING ~DRAGBLAC.CRE~ ~override~
+     ADD_CRE_ITEM ~ZSIPBLS0.ITM~ #1 #0 #0 ~unstealable~ ~inv~

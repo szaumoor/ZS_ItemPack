@@ -79,7 +79,7 @@ This adds a new cool cloak for assassins and other stabby-stabby characters. Upo
 
 **Component 222:** Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)
 
-**Component 227:** Add Blood Lord's Stinger (Elden Ring - Bloody Helice; estoc)
+**Component 227:** Add Bloody Sting (Elden Ring - Bloody Helice; estoc)
 
 **Component 228:** Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)
 

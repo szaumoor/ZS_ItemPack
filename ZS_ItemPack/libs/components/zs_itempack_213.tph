@@ -1,8 +1,15 @@
-COPY ~%MOD_FOLDER%/items/02_souls/crimson_life~ ~override~
-COPY_EXISTING ~ZSIPSGR0.ITM~ ~override~
-    SAY NAME2 @6100
-    SAY IDENTIFIED_DESC @6101
+COPY ~%MOD_FOLDER%/items/02_souls/hawk_ring~ ~override~
+COPY_EXISTING ~ZSIPHKR0.ITM~ ~override~
+    SAY NAME2 @6110
+    SAY IDENTIFIED_DESC @6111
 BUT_ONLY
 
-COPY_EXISTING ~OBSDEM01.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPSTF0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~CALDO.CRE~ ~override~
+        ADD_CRE_ITEM ~ZSIPHKR0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~SHOP05.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPHKR0" position = "LAST" END
+END

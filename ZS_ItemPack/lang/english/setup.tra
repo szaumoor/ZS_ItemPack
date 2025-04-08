@@ -34,13 +34,13 @@
 // @207 = ~Add Ring of Vitality (Dark Souls - Tiny Being's Ring / Life Ring; ring)~
 // @208 = ~Add Hornet's Ring (Dark Soulds; ring)~
 // @209 = ~Add Leo's Ring (Dark Souls; ring)~
-// @210 = ~Add Saint Bident (Dark Souls; spear, proficiency of staff, clerics can wield it)~
+// @210 = ~Add Saint Bident (Dark Souls; spear, proficiency of staff)~
 @211 = ~Add Sage Ring (Dark Souls 3; ring)~
 // @212 = ~Add <Damage type> Clutch Rings (Dark Souls 3; rings)~
 @213 = ~Add Hawk Ring (Dark Souls 3; ring)~
 
 
-//@203 = ~Add Dragonbane Bow (Elden Ring - Igon's Greatbow; longbow)~
+//@203 = ~Add Dragonbane Bow (Elden Ring - Igon's Greatbow; composite longbow)~
 //@214 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
@@ -50,7 +50,7 @@
 @220 = ~Add Harp Bow (Elden Ring - Harp Bow; shortbow)~ // bard-focused shortbow
 //@221 = ~Add Serpent Bow (Elden Ring - Serpent Bow; longbow)~ // or shortbow?
 @222 = ~Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)~
-//@223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
+@223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
 //@224 = ~Add Amulet of Trollish Fortitude (Elden Ring - Blessed Dew Amulet; necklace)~
 //@225 = ~Add Blade of Mercy (Elden Ring - Blade of Mercy; necklace)~
 //@226 = ~Add Moonveil (Elden Ring - Moonveil; necklace)~
@@ -71,6 +71,10 @@
 @307 = ~Add Blade of the Rashemi (two-handed sword)~
 @308 = ~Add Shining Light of Lathander (two-handed sword)~
 @309 = ~Add Goblinsplitter (axe)~
+// @310 = ~Add Unmaking (short sword)~
+@311 = ~Add Mercykiller Blade (rapier)~
+@312 = ~Add Forgefire (war hammer)~
+@313 = ~Add Shadowsilk (short sword)~
 
 @400 = ~Install all Mass Effect-inspired items~
 
@@ -347,7 +351,7 @@ Charge abilities:
   Area of effect: Every non-allied creature in a 15 ft. radius around the wielder
 
 THAC0: +3
-Damage: 1d8+3, +1d6 fire/magic damage (during the night), +1d6 cold/magic damage (during the day)
+Damage: 1d8+3, 1d5+1 fire/magic damage (night), 1d5+1 cold/magic damage (day)
 Damage type: Slashing
 Speed Factor: 2
 Proficiency Type: Long Sword
@@ -590,8 +594,10 @@ Requires:
 
 Weight: 2~
 
-@6080 = ~Blood Lord's Stinger~
-@6081 = ~It is rumored this gnarly estoc was not forged from a whole piece but rather adapted from the cast-off stinger of Orcus, Lord of Blood, before he became a god. Deep in the bowels of the hells, it was fitted to be wielded, with difficulty, by those who aspire to his evil magnificence.
+@6080 = ~Bloody Sting~
+@6081 = ~It is rumored this gnarly estoc is a replica of the stinger of Orcus. Forged and fitted deep in the bowels of the hells, the weapon is a fitting tribute to Orcus that pulses with demonic exultation as it drinks the blood of those pierced by it.
+
+It is a mystery how it was enchanted with such precision, as none of the forgemasters lived beyond its creation to tell of its secrets. Regardless, it is a powerful weapon that attracts those who would aspire to his evil magnificence.
 
 STATISTICS:
 
@@ -620,7 +626,7 @@ STATISTICS:
 
 Combat abilities:
 – Stygian miasma: Each hit has a chance to poison the target with the toxic miasma of the Styx. The target must save vs. Death at -2 or suffer 6 poison damage over 2 rounds.
-– Bloodflame: If the target is poisoned three times within 2 rounds, their blood (or equivalent lifeblood) ignites, dealing 2d8 slashing and fire damage instantly. Additionally, the target must save vs. Death or become berserk for 1 round.
+– Bloodflame: If the target is poisoned three times within 2 rounds, their blood (or equivalent lifeblood) ignites, dealing 2d8 slashing and fire damage instantly. Additionally, the target must save vs. Death or become berserk for 1 round. Critical hits always trigger this effect.
 
 THAC0: +3
 Damage: 1d10+3, +1d4 fire damage
@@ -636,7 +642,7 @@ Weight: 3~
 @6092 = ~Bloodflame~
 
 @6100 = ~Crimson of Life~
-@6101 = ~This talisman is said to be a gift for the faithful of Lathander, the Morninglord, crafted to embody the boundless vitality of the rising sun. Those who wear it feel a steady warmth in their chest, as if their life force is strengthened by the dawn's embrace.
+@6101 = ~This talisman is a gift for the faithful of Lathander, the Morninglord, crafted to embody the boundless vitality of the rising sun. Those who wear it feel a steady warmth in their chest, as if their life force is strengthened by the dawn's embrace.
 
 STATISTICS:
 
@@ -645,6 +651,38 @@ Equipped abilities:
 
 Weight: 1~
 
+@6110 = ~Hawk Ring~
+@6111 = ~Crudely engraved with a hawk's silouette, this seemingly unassuming ring makes the wearer's vision, immediately upon wearing it, incredibly sharp, allowing them can see the world with a clarity that is normally impossible. It is rumored that it was once worn by a famed ranger now lost to time.
+
+STATISTICS:
+
+Equipped abilities:
+– Missile damage and THAC0: +1
+– Movement rate: +1
+
+Weight: 0~
+
+@6120 = ~Spellguard~
+@6121 = ~Being obliterated by a spell from a deranged wizard is a common fear among adventurers. This necklace was designed to protect its wearer from the worst of the magical onslaught, and it does so with success.
+
+STATISTICS:
+
+Equipped abilities:
+– Magic Resistance: +8%
+– Magic damage resistance: +25%
+
+Weight: 3~
+
+@6130 = ~Sage's Ring~
+@6131 = ~This ring is imbued with an enchantment that sharpens the mind and focus of the wearer. Whether invoking divine prayers or arcane spells, the ring allows its bearer to channel their magic with more speed and precision, making it a prized possession for spellcasters of all disciplines.
+
+STATISTICS:
+
+Equipped abilities:
+– Arcane and divine casting level: +1
+– Casting speed: +1
+
+Weight: 0~
 
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~
@@ -653,7 +691,7 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-– +2 bonus to saving throws and AC vs. chaotically-aligned enemies
+– +2 bonus to saving throws and Armor Class vs. chaotically-aligned enemies
 
 Combat abilities:
 – Acts as +3 weapon vs. chaotically-aligned enemies for the purposes of overcoming weapon immunities

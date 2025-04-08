@@ -52,6 +52,18 @@ Bear in mind they will have the benefit of the cloak, should you fight them.
 
 ## Souls inspired items
 
+**Sage's Ring**
+
+In BGEE, this ring will be held and equipped (if a slot is available; he'll have it in his inventory for you regardless) by the boss of Cloakwood Mines, Davaeorn. He must be killed to obtain it.
+
+In BG2EE, it will be held and equipped (if a ring slot is available; he'll have it in his inventory for you regardless) by Tolgerias.
+
+**Hawk Ring**
+
+In BGEE, this ring is held by Caldo, Krumm's brother. They probably looted them off some poor ranger. Rid them of their inexplicable existence and get it.
+
+In BG2EE, this ring is sold by Perter, the fletched that lives in the same shop as Arnolius.
+
 **Moonlit Slumber**
 
 This sword will be sold by Halzabazzer Drin at Sorcerous Sundries in BGEE. In BG2EE, it will be sold by Ribald.
@@ -71,3 +83,11 @@ The bow will be sold by one of the merchants in Nashkel's carnival in BGEE. In B
 **Crimson of Life**
 
 This item will be sold by Gellena Mirrorshade in BGEE. In BG2EE, it will be sold by the Dawnmaster at the Temple of Lathander in the Temple District.
+
+**Spellguard**
+
+This amulet will be sold by Thalantyr in BGEE. In BG2EE, it will be sold one of the merchants of Trademeet once the problem preventing them from selling is solved.
+
+**Bloody Sting**
+
+This item will be held by the black dragon in Suldanessellar.
