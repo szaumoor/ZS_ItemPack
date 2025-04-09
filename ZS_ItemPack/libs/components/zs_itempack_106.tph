@@ -1,9 +1,11 @@
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/cold_snap~ ~override~
-COPY_EXISTING ~ZSIPCLSN.itm~ ~override~
+COPY_EXISTING ~ZSIPCLSN.ITM~ ~override~
     SAY NAME2 @5015
     SAY IDENTIFIED_DESC @5016
+    LPF ALTER_EFFECT INT_VAR match_opcode = 326 match_parameter2 = 0 parameter2 = ~%zs_coldresist_>127%~ END
+
+COPY_EXISTING ~ZSIPCLS1.SPL~ ~override~
     LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50160) END
-BUT_ONLY
 
 INCLUDE ~%MOD_FOLDER%/libs/zs_alter_functions.tpa~
 
@@ -34,7 +36,7 @@ END
 WITH_SCOPE BEGIN
     OUTER_SET matches = 0
     COPY_EXISTING_REGEXP ~.*\.SPL~ ~override~
-        LPF PATCH_SPL_WITH_OP INT_VAR match_op = 101 match_p2 = 109 RET match = result END
+        LPF PATCH_SPL_WITH_OP INT_VAR match_op = 101 match_p2 = 109 STR_VAR res = ~ZSIPCLS0~ RET match = result END
         PATCH_IF match = 1 BEGIN
             ++matches
         END

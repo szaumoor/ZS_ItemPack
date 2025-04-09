@@ -1,11 +1,15 @@
 COPY ~%MOD_FOLDER%/items/02_souls/storm_monarch~ ~override~
 COPY_EXISTING ~ZSIPSTM0.ITM~ ~override~
-    SAY NAME2 @6080
-    SAY IDENTIFIED_DESC @6081
+    SAY NAME1 @60200
+    SAY NAME2 @6040
+    SAY UNIDENTIFIED_DESC @60201
+    SAY IDENTIFIED_DESC @6041
+    LPF ALTER_EFFECT INT_VAR match_opcode = 326 match_parameter2 = 0 parameter2 = ~%zs_electricresist_>127%~ END
 BUT_ONLY
+
 
 // COPY_EXISTING ~ZSIPBLS1.SPL~ ~override~
 //     LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6082)
 
- COPY_EXISTING ~ZSIPSTM0.CRE~ ~override~
-     ADD_CRE_ITEM ~ZSIPBLS0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
+//  COPY_EXISTING ~ZSIPSTM0.CRE~ ~override~
+//      ADD_CRE_ITEM ~ZSIPBLS0.ITM~ #1 #0 #0 ~unstealable~ ~inv~

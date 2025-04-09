@@ -63,6 +63,8 @@ DEFINE_PATCH_FUNCTION PATCH_SPL_WITH_OP
 INT_VAR
     match_op = "-1"
     match_p2 = "-1"
+STR_VAR
+    res = ~~
 RET
     result
 BEGIN
@@ -73,6 +75,7 @@ BEGIN
     PATCH_IF match_p2 = "-1" BEGIN
         PATCH_FAIL "No p2 to match was passed"
     END
+
     SET result = 0
     SET header = 1
     GET_OFFSET_ARRAY ab_array 0x64 4 0x68 2 0 0 0x28
@@ -94,7 +97,7 @@ BEGIN
                 SET savebonus = LONG_AT(fx_off + 0x28)
                 SET target = BYTE_AT(fx_off + 0x2)
                 SET power = BYTE_AT(fx_off + 0x3)
-                LPF ADD_SPELL_EFFECT INT_VAR header target power opcode = 206 parameter1 = "-1" timing duration resist_dispel probability1 probability2 savingthrow savebonus STR_VAR resource = ~ZSIPCLS0~ END
+                LPF ADD_SPELL_EFFECT INT_VAR header target power opcode = 206 parameter1 = "-1" timing duration resist_dispel probability1 probability2 savingthrow savebonus STR_VAR resource = ~%res%~ END
             END
         END
         ++header
