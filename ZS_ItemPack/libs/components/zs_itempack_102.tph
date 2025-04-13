@@ -11,7 +11,7 @@ END
 
 ACTION_IF GAME_IS ~bg2ee eet~
     COPY_EXISTING ~BMTHIEF.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPDGAA" position = "LAST" END
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPDGAA" position = "LAST" flags= ~identified~ END
 END
 
 /*

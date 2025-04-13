@@ -6,5 +6,5 @@ BUT_ONLY
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
     COPY_EXISTING ~GARLENA.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPJUG0" position = "LAST" END
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags = ~identified~ item_name = "ZSIPJUG0" position = "LAST" END
 END

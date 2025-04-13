@@ -10,7 +10,7 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
     OUTER_SET ~zs_coldresist_>127~     = "-1"
 
     OUTER_SET ~zs_poisonresist_<100~   = "-1"
-    OUTER_SET ~zs_poisonresist_>127~    = "-1"
+    OUTER_SET ~zs_poisonresist_>127~   = "-1"
 
     OUTER_SET ~zs_fireresist_<128~     = "-1"
 
@@ -39,7 +39,7 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
         FOR ( row = 1; row < rows; ++row ) BEGIN
             READ_2DA_ENTRY_FORMER rows row 0 ~stat~
 
-            PATCH_IF ~%stat%~ STR_EQ ~ZS_ELECTRICRESIST_<100~ BEGIN
+            PATCH_IF ~%stat%~ STR_EQ ~ZS_ELECTRICRESIST_<100~      BEGIN
                 ~zs_electricresist_<100~ = row
             END
 
@@ -47,31 +47,31 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
                 ~zs_electricresist_>127~ = row
             END
 
-            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_COLDRESIST_<100~ BEGIN
+            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_COLDRESIST_<100~     BEGIN
                 ~zs_coldresist_<100~ = row
             END
 
-            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_COLDRESIST_>127~ BEGIN
+            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_COLDRESIST_>127~     BEGIN
                 ~zs_coldresist_>127~ = row
             END
 
-            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_POISONRESIST_<100~ BEGIN
+            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_POISONRESIST_<100~   BEGIN
                 ~zs_poisonresist_<100~ = row
             END
 
-            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_POISONRESIST_>127~ BEGIN
+            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_POISONRESIST_>127~   BEGIN
                 ~zs_poisonresist_>127~ = row
             END
 
-            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_HIDEINSHADOWS_<n~ BEGIN
+            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_HIDEINSHADOWS_<n~    BEGIN
                 ~zs_hideinshadows_<n~ = row
             END
 
-            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_HIDEINSHADOWS_>n~ BEGIN
+            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_HIDEINSHADOWS_>n~    BEGIN
                 ~zs_hideinshadows_>n~ = row
             END
 
-            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_FIRERESIST_<128~ BEGIN
+            ELSE PATCH_IF ~%stat%~ STR_EQ ~ZS_FIRERESIST_<128~     BEGIN
                 ~zs_fireresist_<128~ = row
             END
         END
@@ -81,30 +81,30 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
     ACTION_IF
             ~zs_electricresist_<100~ = "-1" OR
             ~zs_electricresist_>127~ = "-1" OR
-            ~zs_coldresist_<100~ = "-1"     OR
-            ~zs_coldresist_>127~ = "-1"     OR
-            ~zs_poisonresist_>127~ = "-1"   OR
-            ~zs_hideinshadows_<n~ = "-1"    OR
-            ~zs_hideinshadows_>n~ = "-1"    OR
-            ~zs_fireresist_<128~ = "-1"
+            ~zs_coldresist_<100~     = "-1" OR
+            ~zs_coldresist_>127~     = "-1" OR
+            ~zs_poisonresist_>127~   = "-1" OR
+            ~zs_hideinshadows_<n~    = "-1" OR
+            ~zs_hideinshadows_>n~    = "-1" OR
+            ~zs_fireresist_<128~     = "-1"
     BEGIN
         WARN "Error: Not all splprot entries could be inserted!"
         PATCH_IF ~zs_electricresist_>127~ = "-1" BEGIN
             WARN "zs_electricresist_>127 failed!"
         END
-        PATCH_IF ~zs_coldresist_>127~ = "-1" BEGIN
+        PATCH_IF ~zs_coldresist_>127~ = "-1"     BEGIN
             WARN "zs_coldresist_>127 failed!"
         END
-        PATCH_IF ~zs_poisonresist_>127~ = "-1" BEGIN
+        PATCH_IF ~zs_poisonresist_>127~ = "-1"   BEGIN
             WARN "zs_poisonresist_>127 failed!"
         END
-        PATCH_IF ~zs_hideinshadows_<n~ = "-1" BEGIN
+        PATCH_IF ~zs_hideinshadows_<n~ = "-1"    BEGIN
             WARN "zs_hideinshadows_<n failed!"
         END
-        PATCH_IF ~zs_hideinshadows_>n~ = "-1" BEGIN
+        PATCH_IF ~zs_hideinshadows_>n~ = "-1"    BEGIN
             WARN "zs_hideinshadows_>n failed!"
         END
-        PATCH_IF ~zs_fireresist_<128~ = "-1" BEGIN
+        PATCH_IF ~zs_fireresist_<128~ = "-1"     BEGIN
             WARN "zs_fireresist_<128 failed!"
         END
         FAIL "Exiting installation."

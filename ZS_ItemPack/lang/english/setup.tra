@@ -5,11 +5,7 @@
 @4 = ~New items: Mass Effect inspired~
 @5 = ~New items: TV/Movie inspired~
 
-@50 = ~Only available for the Enhanced Edition of BG games~
-@51 = ~Cannot install this component if any individual component in the group is installed~
-@52 = ~Cannot install this component if already installed by a group installation component~
-
-@100 = ~Install all Forbidden-Game-inspired items~
+@50 = ~Only available for the Enhanced Edition of Baldur's Gate I and II~
 
 @101 = ~Add Everburn Blade +1 (two-handed sword)~
 @102 = ~Add Bloodthirst +3 (dagger)~
@@ -17,12 +13,10 @@
 @104 = ~Add Assassin's Touch +1 (dagger)~
 @105 = ~Add Ritual Dagger (dagger)~
 @106 = ~Add Cold Snap +1 (dagger)~
-@107 = ~Add Spell Siphon +1 (Arcane Absorption Dagger; Cut content dagger)~
+@107 = ~Add Spell Siphon +1 (Arcane Absorption Dagger; cut content)~
 @108 = ~Add Cruel Sting +1 (long sword)~
 @109 = ~Add Archdevil's Judgment +3 (Orphic Hammer; warhammer)~
 @110 = ~Add The Deathstalker Mantle (cloak)~
-
-@200 = ~Install all souls-inspired items~
 
 @211 = ~Add Sage Ring (Dark Souls 3; ring)~
 @213 = ~Add Hawk Ring (Dark Souls 3; ring)~
@@ -35,8 +29,6 @@
 @224 = ~Add Periapt of Renewal (Elden Ring - Blessed Dew Amulet; necklace)~
 @227 = ~Add Blood Lord's Stinger (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
-
-@300 = ~Install all NWN-inspired items~
 
 @301 = ~Add Lawgiver +1 (bastard sword)~
 @302 = ~Add The Left Hand (dagger)~
@@ -51,15 +43,11 @@
 @312 = ~Add Forgefire (war hammer)~
 @313 = ~Add Shadowsilk (short sword)~
 
-@400 = ~Install all Mass Effect-inspired items~
-
 @401 = ~Add Rod of Illusive Protections (rod)~
 @402 = ~Add Omniblade (universal sword)~
 @403 = ~Add Phantom's Blade (ninja-to)~
 
-
 @501 = ~Add Needle +1 (Game of Thrones; rapier)~ // game of thrones inspired
-
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
