@@ -91,3 +91,15 @@ This amulet will be sold by Thalantyr in BGEE. In BG2EE, it will be sold one of 
 **Bloody Sting**
 
 This item will be held by the black dragon in Suldanessellar.
+
+**Periapt of Renewal**
+
+This item will be sold by Kelddath Ormlyr in BGEE. In BG2EE, it will be sold by Overgold Renwellyn in Trademeet.
+
+## NWN/NWN2 inspired items
+
+**Lawgiver**
+
+This item will be added to the Flaming Fist that pursues Viconia in BGEE. In BG2EE, it will be sold by the Helmite merchant inside the Temple of Helm in the Temple District.
+
+**The Left Hand**

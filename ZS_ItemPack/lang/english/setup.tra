@@ -1,11 +1,9 @@
 // COMPONENT GROUPS
-
 @1 = ~New items: Forbidden-Game-inspired~
 @2 = ~New items: Souls-inspired~
 @3 = ~New items: NWN/NWN2-inspired~
 @4 = ~New items: Mass Effect inspired~
 @5 = ~New items: TV/Movie inspired~
-@6 = ~New items: Custom~
 
 @50 = ~Only available for the Enhanced Edition of BG games~
 @51 = ~Cannot install this component if any individual component in the group is installed~
@@ -26,39 +24,17 @@
 
 @200 = ~Install all souls-inspired items~
 
-// @201 = ~Add Dragonbane Spear (Dark Souls - Dragonslayer Spear; spear)~
-// @202 = ~Add Guiding Moonlight (Soulsborne - Moonlight Greatsword; two-handed sword)~
-// @204 = ~Add Sniper Crossbow (Dark Souls; crossbow)~
-// @205 = ~Add Ring of Steel Protection (Dark Souls; ring)~
-// @206 = ~Add Speckled Stoneplate Ring (Dark Souls; ring)~
-// @207 = ~Add Ring of Vitality (Dark Souls - Tiny Being's Ring / Life Ring; ring)~
-// @208 = ~Add Hornet's Ring (Dark Soulds; ring)~
-// @209 = ~Add Leo's Ring (Dark Souls; ring)~
-// @210 = ~Add Saint Bident (Dark Souls; spear, proficiency of staff)~
 @211 = ~Add Sage Ring (Dark Souls 3; ring)~
-// @212 = ~Add <Damage type> Clutch Rings (Dark Souls 3; rings)~
 @213 = ~Add Hawk Ring (Dark Souls 3; ring)~
-
-
-//@203 = ~Add Dragonbane Bow (Elden Ring - Igon's Greatbow; composite longbow)~
-//@214 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
-//@218 = ~Add Sseth's Fang (Elden Ring - Serpent-God's Scimitar; scimitar)~
-//@219 = ~Add Bloody Bouquet (Elden Ring - Varre's Bouquet; mace)~
-@220 = ~Add Harp Bow (Elden Ring - Harp Bow; shortbow)~ // bard-focused shortbow
-//@221 = ~Add Serpent Bow (Elden Ring - Serpent Bow; longbow)~ // or shortbow?
+@220 = ~Add Harp Bow (Elden Ring - Harp Bow; shortbow/longbow)~ // bard-focused shortbow
 @222 = ~Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)~
 @223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
-//@224 = ~Add Amulet of Trollish Fortitude (Elden Ring - Blessed Dew Amulet; necklace)~
-//@225 = ~Add Blade of Mercy (Elden Ring - Blade of Mercy; necklace)~
-//@226 = ~Add Moonveil (Elden Ring - Moonveil; necklace)~
+@224 = ~Add Periapt of Renewal (Elden Ring - Blessed Dew Amulet; necklace)~
 @227 = ~Add Blood Lord's Stinger (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
-//@229 = ~Add Sseth's Claw (Elden Ring - Serpentbone blade; katana)~
-//@230 = ~Add Sword of Dusk and Dawn (Elden Ring - Sword of Night and Flame; long sword)~
-
 
 @300 = ~Install all NWN-inspired items~
 
@@ -71,7 +47,6 @@
 @307 = ~Add Blade of the Rashemi (two-handed sword)~
 @308 = ~Add Shining Light of Lathander (two-handed sword)~
 @309 = ~Add Goblinsplitter (axe)~
-// @310 = ~Add Unmaking (short sword)~
 @311 = ~Add Mercykiller Blade (rapier)~
 @312 = ~Add Forgefire (war hammer)~
 @313 = ~Add Shadowsilk (short sword)~
@@ -82,18 +57,9 @@
 @402 = ~Add Omniblade (universal sword)~
 @403 = ~Add Phantom's Blade (ninja-to)~
 
-@500 = ~Install all Series/Movie inspired items~
 
 @501 = ~Add Needle +1 (Game of Thrones; rapier)~ // game of thrones inspired
-// @502 = ~Add Wraith's Dagger +2 (LOTR - Morgul's Blade; dagger)~ // inspired by nazgul's dagger
-// @503 = ~Add Death Knight's Flail +5 (LOTR - Witch King of Angmar; flail)~ // witch king of angmar inspired
 
-@600 = ~Install all community items / custom items~
-
-// @601 = ~Add Ichor +2 (returning throwing dagger) [dark0dave]~
-// @602 = ~Add Throwing Dagger of Dispelling (throwing dagger) [dark0dave]~
-// @603 = ~Add Thunderclap +3 (dagger/throwing dagger) [dark0dave]~
-// @604 = ~Add Iceberg +4 (dagger) [dark0dave]~
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
@@ -542,7 +508,7 @@ Combat abilities:
 
 Damage: +1 (bards only)
 THAC0: +1 (+2 for bards)
-Speed Factor: 4
+Speed Factor: 5
 Proficiency Type: Shortbow
 Type: Two-handed
 Requires:
@@ -550,25 +516,23 @@ Requires:
 
 Weight: 2~
 
-@6060 = ~Sniper Crossbow~
-@6061 = ~This crossbow is a remarkable feat of engineering, designed to be as accurate and deadly as mechanically possible. Apprently created by a Lantanese inventor, its power comes at a cost: it is slow and difficult to wield, requiring significant strength and dexterity to use effectively.
+@6052 = ~This delicate and elegantly crafted bow is strung not just with a bowstring, but with fine, enchanted threads that sometimes resonate when an arrow is shot. While any archer can wield it effectively, this bow is at its most powerful in the hands of a bard. Their intimate connection to music awakens the bow's hidden magic, guiding arrows with more power and accuracy.
 
 STATISTICS:
 
 Combat abilities:
-– Attacks per round are always 1/2 less than the wielder's normal attacks per round
-– +5% chance to critically hit
+– 15% chance per shot to create a melodious harmony, which increases the party's morale as if under the effects of a Bless spell, and grants a +1 bonus to THAC0 and Luck. This effect lasts for 2 rounds and can stack with other THAC0 bonuses, but not with other Luck bonuses.
 
-THAC0: +5
-Damage: +10 (missile)
-Speed Factor: 10
-Proficiency Type: Crossbow
+Damage: +1 (bards only)
+THAC0: +2 (+3 for bards)
+Speed Factor: 6
+Proficiency Type: Longbow
 Type: Two-handed
 Requires:
- 14 Strength
- 17 Dexterity
+ 6 Strength
 
-Weight: 12~
+Weight: 2~
+
 
 @6070 = ~Icicle~
 @6071 = ~Forged from enchanted ice, this razor-thin blade exudes an unnatural chill that freezes the blood of its enemies. Its unique design allows the wielder to hurl the blade at distant foes, whereupon it instantly regenerates in their hand.
@@ -684,6 +648,16 @@ Equipped abilities:
 
 Weight: 0~
 
+@6140 = ~Periapt of Renewal~
+@6141 = ~This simple yet elegant amulet contains a subtle rejuvenating enchantment that works subtly, knitting wounds and restoring vitality at a slow, steady pace. While its effects are too gradual to aid in the heat of battle, or when wounds require urgent aid, those who wear it and trust in its power will find themselves fully restored, given enough time and patience.
+
+STATISTICS:
+
+Equipped abilities:
+– Regenerate 1 Hit Point per turn
+
+Weight: 3~
+
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~
 @8001 = ~The bane of the chaotic or morally suspect, a Lawgiver blade has but one purpose: to enforce the rule of law wherever that authority is challenged or questioned. Whether or not the concept of "law" coincides with the concept of "justice" is largely irrelevant, as the owners of these weapons often view the world in a very polarized fashion. There is right and there is wrong, and other details only serve to confuse the matter.
@@ -713,9 +687,9 @@ Weight: 10~
 STATISTICS:
 
 Equipped abilities:
-– AC: +1
-– Wielder automatically gains specialization in two-weapon fighting (unless already higher)
+– Armor Class: +1
 – Off-hand THAC0: +1
+– Wielder automatically gains specialization in two-weapon fighting (unless already higher)
 
 THAC0: +1
 Damage: 1d4+1 (piercing)
@@ -1027,37 +1001,6 @@ Requires:
 
 Weight: 3~
 
-@8022 = ~Unmaking~
-@8023 = ~Originally wielded by an unknown gnomish hero who single-handedly obliterated the evil wizard Tnert's legions of golems, this stony blade's whereabouts have become the subject of tavern gossip. Forged from the same resilient materials as the constructs it was designed to destroy, this heavy blade hums faintly with an inner resonance, as though it carries the echoes of its countless victories. Its legacy as a bane of magical creations has made it a coveted prize among many, especially those with a particular disdain for wizards and their schemes.
-
-STATISTICS:
-
-Equipped abilities:
-– +1 Dexterity
-– +10% Magic resistance (+20% for Wizard Slayers and Inquisitors)
-
-Combat abilities:
-– Acts as a +6 enchanted weapon vs. constructs for the purposes of overcoming weapon immunities
-– On hit, the target must save vs. Death at -2 or have their Strength reduced by 1, or 2 if it's a construct. This effect lasts for 1 turn, and cannot reduce the target's Strength below 1
-– Constructs hit by this weapon are coated with a special acid that deals 1d6+3 irresistible damage to them, and applies Slow on them for 10 seconds unless a save vs. Spell at -2 is made
-
-Charge abilities:
-– Golemskin once per day
-  Special: The wielder gains gets 2 layers of Stoneskin, immunity to spell levels 1 and 2, and 15% resistance to crushing damage
-  Duration: 12 hours for Stoneskin, 2 turns for the rest
-  Area of Effect: The user
-
-THAC0: +3, +5 against constructs
-Damage: 1d6+3, +1d3 piercing or slashing (random)
-Damage type: Crushing
-Speed Factor: 0
-Proficiency Type: Short Sword
-Type: One-handed
-Requires:
- 9 Strength
-
-Weight: 5~
-
 @8024 = ~Mercykiller Blade~
 @8025 = ~A series of runes claim these blades are designed for the "quick eradication of evil, that they will suffer no longer as creatures at odds with all that is good." A sweeping proclamation, one that suggests the involvement of a radical group no longer giving second thought to deadly force where villains are concerned. Certainly an unpopular stance in some quarters, thought probably welcomed in others.
 
@@ -1078,43 +1021,6 @@ Requires:
 
 Weight: 2~
 
-@8030 = ~Two-Handed Axe~
-@8031 = ~This mighty weapon consists of a haft several feet long, topped with a heavy blade. The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade. It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.
-
-STATISTICS:
-
-Damage: 1d10 (slashing)
-Speed Factor: 9
-Proficiency Type: Axe
-Type: Two-handed
-Requires:
- 10 Strength
-
-Weight: 10~
-
-@8040 = ~Grummsh's Hand~
-@8041 = ~Orcs tell of a great hero who wore no armor, and how the god Gruumsh gifted him with an axe to protect him in battle. He eventually became the avatar of that fearsome deity, and broke his weapon into many pieces to seed it among the orc hordes. Other cultures don't recognize the tale, but orcs don't care. After all, their legends also say that all the other races are born of swine, and what are the opinions of pigs worth?
-
-STATISTICS:
-
-Equipped abilities:
-– +1 bonus to Armor Class (+2 for half-orcs)
-
-Combat abilities:
-– +1d6 slashing damage vs. all humanoids and animals
-– Hits as a +2 weapon for the purposes of overcoming weapon immunities
-
-THAC0: +1, +2 for half-orcs
-Damage: 1d12+1, +2 for half-orcs
-Damage type: Slashing
-Speed Factor: 7
-Proficiency Type: Axe
-Type: Two-handed
-Requires:
- 10 Strength
-
- Weight: 10~
-
 @8050 = ~Forge Fire~
 @8051 = ~A legacy that Thalantyr the Conjurer has said he would prefer to forget, these weapons are tied to his early adventuring career and a time when he was held captive by a mysterious powerful creature. He has refused to say how the weapons have retained the heat of he forge they were crafted in, usually ending such inquiries with a frustrated "pray you never find out."
 
@@ -1130,53 +1036,6 @@ Requires:
 
 Weight: 6~
 
-@8060 = ~The Sly Sword~
-@8061 = ~Also known as Kingslayer, this sword saw extensive use in the civil war which devastated the kingdom of Tethyr and annihilated much of Tethyr's royal family. It has since changed owners a number of times, most recently having been in the possession of an assassin belonging to the Cult of the Dragon.
-
-STATISTICS:
-
-Combat abilities:
-– Hit target has a 20% chance of being affected by Doom, as per the cleric spell of the same name
-– This weapon causes negative energy damage, which only affects living creatures and cannot be resisted. Undead are unaffected by this
-
-Charge abilities:
-– Shadow Door and Blur once per day, cast at level 20
-  Special: Caster becomes blurred and under the effects of Improved Invisibility
-  Range: Self only
-
-THAC0: +3
-Damage: 1d8+3, +1d6 (negative energy)
-Damage type: Slashing
-Speed Factor: 3
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 5 Strength
-
-Weight: 2~
-
-@8070 = ~The Singing Sword~
-@8071 = ~This blade literally hums with power. The closer a person's hand comes to the pommel, the louder the hum. The blade is supposed to have belonged to the famous swordsman known as the "Laughing Knight". He would ride his charger into battle, laughing loudly while holding the Singing Sword, striking fear into the hearts of his opponents and lifting the moral of his allies.
-
-STATISTICS:
-
-Equipped abilities:
-– Bards holding this weapon gain a +2 bonus to their THAC0 rolls, and +1 to their damage rolls
-– Allies within a 15 ft. radius of the wielder gain a +1 bonus to their morale, saving throws and THAC0 rolls. Enemies suffer a penalty of the same magnitude
-
-Combat abilities:
-– This weapon causes sonic damage, which only affects creatures that can hear. This damage cannot be resisted although it can be negated by deafness. There's a 25% chance that the target will be deafened for 5 rounds if they fail a save vs. Spell at -2
-
-THAC0: +3
-Damage: 1d8+5, +1d6 (sonic damage)
-Damage type: Slashing
-Speed Factor: 1
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 5 Strength
-
-Weight: 2~
 
 // mass effect inspired
 @10110 = ~Rod of Illusive Protections~
@@ -1385,84 +1244,5 @@ Type: One-handed
 Requires:
  3 Strength
  14 Dexterity
-
-Weight: 1~
-
-// custom ones
-@13000 = ~Ichor +2~
-@13001 = ~This throwing dagger is no ordinary weapon. With a finely crafted, double-edged blade, it is designed for precision and lethality. Its compact handle offers perfect balance, making it a deadly tool in the hands of a skilled assassin. Coated with a potent, dark poison known only to the most feared killers, it is capable of bringing even the mightiest paladin to their knees. Rare and difficult to obtain, this dagger is the weapon of choice for those who seek to strike down even the most powerful foes from the shadows.
-
-STATISTICS:
-
-Combat abilities:
-– Hit target must save vs. Death or suffer 5 points of poison damage per second for 10 seconds
-– Disease: target must save vs. Spell or suffer 1 poison damage per round indefinitely, unless cured
-
-THACO: +2
-Damage: 1d4+2 (missile)
-Speed Factor: 0
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
-
-Weight: 0~
-
-@13002 = ~Throwing Dagger of Dispelling~
-@13003 = ~This dagger will remove the magical enchantments that its victim is surrounded by.
-
-STATISTICS:
-
-Combat abilities:
-– Dispel Magic on target when hit
-
-Damage: 1d4 (missile)
-Speed Factor: 2
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
-
-Weight: 0~
-@13004 = ~Thunderclap +3~
-@13005 = ~The Thunderclap is a dagger of strange and unpredictable power, its blade shimmering with the faintest crackle of arcane energy. Forged in forgotten times by a sect of storm-worshiping priests, this weapon is said to channel the fury of a divine tempest. One moment it is in your grasp, the next it seems to vanish, only to reappear with a deadly strike.
-
-When the dagger is drawn, the air seems to hum with energy, and its edge leaves a faint echo of thunder in the wake of each strike. Though it is a simple weapon, its true strength lies in the storm it can summon—shocking enemies with the force of a distant storm's rage.
-
-STATISTICS:
-
-Combat abilities:
-– +1/2 attacks per round
-– +25% electrical resistance
-– Teleport Strike: When thrown and the dagger strikes a target, the wielder is instantly teleported to the target's location
-
-THACO: +3
-Damage (melee): 1d4+3 (piercing), +6 electrical damage
-Damage (ranged): 1d4+3 (missile)
-Speed Factor: 0
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
-
-Weight: 0~
-
-@13005 = ~Iceberg +4~
-@13006 = ~This peculiar weapon is less a dagger than it is a solid mass of enchanted ice, its crystalline form resembling a jagged shard more than a finely crafted blade. The Icerberg is cold to the touch, exuding a supernatural chill that causes frost to form on the ground beneath it. When wielded by a strong hand, the icy blade hums with latent arcane power, its cold edge capable of rending flesh and bone with unnatural ease.
-
-Though cumbersome for the weak, those who possess the strength to bear it will find that the Icerberg can be wielded with deadly precision. Upon striking, it releases a burst of freezing energy, capable of temporarily immobilizing foes and causing frostbite that lingers long after the blow is struck. In the hands of a truly powerful warrior, the Icerberg is as formidable as any sword, though its unusual nature makes it difficult to master.
-
-STATISTICS:
-
-Combat abilities:
-– 25% chance to cause Slow on hit for 10 seconds. Creatures immune to cold are also immune to this effect
-
-THACO: +4
-Damage: 1d4+4, +6 cold damage
-Speed Factor: 7
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
 
 Weight: 1~

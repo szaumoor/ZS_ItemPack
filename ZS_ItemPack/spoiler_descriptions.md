@@ -375,3 +375,60 @@ Requires:
  14 Dexterity
 
 Weight: 2
+
+**Periapt of Renewal**
+
+This simple yet elegant amulet contains a subtle rejuvenating enchantment that works subtly, knitting wounds and restoring vitality at a slow, steady pace. While its effects are too gradual to aid in the heat of battle, or when wounds require urgent aid, those who wear it and trust in its power will find themselves fully restored, given enough time and patience.
+
+STATISTICS:
+
+Equipped abilities:
+– Regenerate 1 Hit Point per turn
+
+Weight: 3
+
+## NWN/NWN2 inspired items
+
+**Lawgiver**
+
+The bane of the chaotic or morally suspect, a Lawgiver blade has but one purpose: to enforce the rule of law wherever that authority is challenged or questioned. Whether or not the concept of "law" coincides with the concept of "justice" is largely irrelevant, as the owners of these weapons often view the world in a very polarized fashion. There is right and there is wrong, and other details only serve to confuse the matter.
+
+STATISTICS:
+
+Equipped abilities:
+– +2 bonus to saving throws and Armor Class vs. chaotically-aligned enemies
+
+Combat abilities:
+– Acts as +3 weapon vs. chaotically-aligned enemies for the purposes of overcoming weapon immunities
+
+THAC0: +1, +3 vs. chaotically-aligned enemies
+Damage: 2d4+1, +1d4 vs. chaotically-aligned enemies
+Damage type: Slashing
+Speed Factor: 7
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10
+
+**The Left Hand**
+
+The Night Thief was a vicious assassin who specialized in fighting with two daggers. This knife was the weaker of the two items, but it granted him greater abilities in combat. One merchant in Sembia discovered these abilities when he laid an ambush for the assassin. He found all twelve of his guards dead and the lure, a two pound diamond, gone.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Off-hand THAC0: +1
+– Wielder automatically gains specialization in two-weapon fighting (unless already higher)
+
+THAC0: +1
+Damage: 1d4+1 (piercing)
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1

@@ -1,0 +1,12 @@
+COPY "%MOD_FOLDER%/items/03_nwn/lawgiver" ~override~
+COPY_EXISTING ~ZSIPLG0.ITM~ ~override~
+    SAY NAME2 @8000
+    SAY IDENTIFIED_DESC @8001
+
+COPY_EXISTING ~FLAM2.CRE~ ~override~
+    ADD_CRE_ITEM ~ZSIPLG0.ITM~ #1 #0 #0 ~unstealable~ ~weapon1~ EQUIP
+BUT_ONLY IF_EXISTS
+
+COPY_EXISTING ~HELMPR.CRE~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPLG0" position = "LAST" END
+BUT_ONLY IF_EXISTS
