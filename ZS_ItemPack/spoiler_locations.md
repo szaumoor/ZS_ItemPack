@@ -103,3 +103,13 @@ This item will be sold by Kelddath Ormlyr in BGEE. In BG2EE, it will be sold by 
 This item will be added to the Flaming Fist that pursues Viconia in BGEE. In BG2EE, it will be sold by the Helmite merchant inside the Temple of Helm in the Temple District.
 
 **The Left Hand**
+
+In BGEE, it is in the Nashkel store. In BG2EE, it is in the hands of Roger the Fence.
+
+**Master Li's Way**
+
+This katana is found in Silence's store in BGEE. In BG2EE, it is held by an early Shadow Dragon during a particular quest.
+
+**Kukri of the Eclipse**
+
+This kukri is in the hoard of the black dragon in Suldanessellar in BG2EE. It can be upgraded.

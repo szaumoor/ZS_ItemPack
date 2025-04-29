@@ -776,6 +776,7 @@ Equipped abilities:
 Combat abilities:
 – Inflicts negative energy damage on hit, which damages the living and heals the undead. This type of damage is not affected by the target's resistances or immunities
 – Like all kukris, this weapon has +5% extra chance to critically hit
+– Incapable of critically missing (Dark Moon Monks and Shadowdancers only)
 
 THAC0: +4
 Damage: 1d4+4, +1d6 negative energy damage
@@ -787,6 +788,34 @@ Requires:
  3 Strength
 
 Weight: 1~
+
+// upgraded version of the Kukri of the Eclipse
+@8008 = ~Kukri of the Eclipse +5~
+@8009 = ~The symbol on the kukri indicates it belonged to the monks of the Dark Moon Order. Despite the weapon's sinister association, it has no evil aura and can be safely wielded by anyone.
+
+STATISTICS:
+
+Equipped abilities:
+– Infravision
+– Immunity to blindness
+– Immunity to level drain
+
+Combat abilities:
+– Inflicts negative energy damage on hit, which damages the living and heals the undead. This type of damage is not affected by the target's resistances or immunities
+– Like all kukris, this weapon has +5% extra chance to critically hit
+– Incapable of critically missing (Dark Moon Monks and Shadowdancers only)
+– 25% chance of draining 2 to 5 levels on hit if the target fails a saving throw vs. Death at -5. It's more likely to drain smaller amounts of levels than larger ones.
+
+THAC0: +5
+Damage: 1d4+5, +2d4 negative energy damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1
 
 @8010 = ~Sharpshadow Blade~
 @8010 = ~A quick-cutting blade, suited to those who prefer to strike fast and retreat rather than stand toe to toe with their enemies. The name suggests a history with the Shadow Thieves of Amn, though it is not documented as some of their other tools are. The organization has many sub-guilds however, and this may have come from one of them.

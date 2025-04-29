@@ -432,3 +432,46 @@ Requires:
  3 Strength
 
 Weight: 1
+
+**Master Li's Way**
+
+Once thought a unique instance of the swordmaker's craft, several katanas of this type have now been linked to a ship that ran aground on the Sword Coast some years ago. All bear the markings of Master Hu Li, a great artificer from the east, but little else is known of him.
+
+STATISTICS:
+
+Equipped abilities:
+– +5% chance to critically hit (this weapon only)
+
+Damage: 1d10+2, +1d4 acid damage
+Damage type: Slashing
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+**Kukri of the Eclipse**
+
+The symbol on the kukri indicates it belonged to the monks of the Dark Moon Order. Despite the weapon's sinister association, it has no evil aura and can be safely wielded by anyone.
+
+STATISTICS:
+
+Equipped abilities:
+– Infravision
+– Immunity to blindness
+
+Combat abilities:
+– Inflicts negative energy damage on hit, which damages the living and heals the undead. This type of damage is not affected by the target's resistances or immunities
+– Like all kukris, this weapon has +5% extra chance to critically hit
+– Incapable of critically missing (Dark Moon Monks and Shadowdancers only)
+
+THAC0: +4
+Damage: 1d4+4, +1d6 negative energy damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1

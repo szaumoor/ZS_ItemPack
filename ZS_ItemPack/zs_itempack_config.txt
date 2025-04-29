@@ -1,1 +1,1 @@
-OUTER_SET zst_harpbow_longbow = "-1"
+OUTER_SET zst_harpbow_longbow = "0" // set to 1 if you prefer the Harp Bow to be a long bow, since bards are not restricted to short bows like thieves
