@@ -1,3 +1,9 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_106~) BEGIN
+  FAIL ~Script already included: zs_itempack_106~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_106~ = 1
+END
+
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/cold_snap~ ~override~
 COPY_EXISTING ~ZSIPCLSN.ITM~ ~override~
     SAY NAME2 @5015

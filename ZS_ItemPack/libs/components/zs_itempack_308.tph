@@ -1,0 +1,11 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_308~) BEGIN
+  FAIL ~Script already included: zs_itempack_308~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_308~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/shining_light_lathander~ ~override~
+COPY_EXISTING ~ZSIPAXAA.itm~ ~override~
+    SAY NAME2 @8017
+    SAY IDENTIFIED_DESC @8018
+BUT_ONLY

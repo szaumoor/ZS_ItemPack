@@ -1,4 +1,10 @@
-COPY ~items/03_nwn/rashemi_blade~ ~override~
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_307~) BEGIN
+  FAIL ~Script already included: zs_itempack_307~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_307~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/03_nwn/rashemi_blade~ ~override~
 COPY_EXISTING ~ZSIPGSAB.itm~ ~override~
     SAY NAME2 @8015
     SAY IDENTIFIED_DESC @8016

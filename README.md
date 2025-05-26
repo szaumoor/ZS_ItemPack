@@ -157,5 +157,6 @@ It should be installed before mods that add new kits, as some kits (like my shad
 ## Credits
 - To BeamDog and Bioware for the game, obviously.
 - zenblack for providing icons for **LITERALLY every item in this mod**. All hail to his mighty icon-making skills.
-- zenblack, dark0dave and others who have helped me with the modding process or by providing resources, as well as their creativity for some of the descriptions
+- zenblack again for brainstorming functionalities and descriptions for some of the items
+- dark0dave and others who have helped me with the modding process or by providing resources
 - People on Discord generally for their help

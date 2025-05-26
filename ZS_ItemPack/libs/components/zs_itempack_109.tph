@@ -1,3 +1,9 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_109~) BEGIN
+  FAIL ~Script already included: zs_itempack_109~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_109~ = 1
+END
+
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/judgment~ ~override~
 COPY_EXISTING ~ZSIPJUG0.itm~ ~override~
     SAY NAME2 @5030

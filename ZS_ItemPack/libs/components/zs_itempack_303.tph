@@ -1,3 +1,9 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_303~) BEGIN
+  FAIL ~Script already included: zs_itempack_303~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_303~ = 1
+END
+
 COPY ~%MOD_FOLDER%/items/03_nwn/master_li_way~ ~override~
 COPY_EXISTING ~ZSIPKTAA.itm~ ~override~
     SAY NAME2 @8004

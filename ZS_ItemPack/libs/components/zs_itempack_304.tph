@@ -1,3 +1,9 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_304~) BEGIN
+  FAIL ~Script already included: zs_itempack_304~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_304~ = 1
+END
+
 COPY ~%MOD_FOLDER%/items/03_nwn/kukri_eclipse~ ~override~
 COPY_EXISTING ~ZSIPKRE0.itm~ ~override~
     SAY NAME2 @8008

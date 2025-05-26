@@ -1,15 +1,21 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_104~) BEGIN
+  FAIL ~Script already included: zs_itempack_104~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_104~ = 1
+END
+
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/assassins_touch~ ~override~
-COPY_EXISTING ~ZSIPGAC.itm~ ~override~
+COPY_EXISTING ~ZSIPDGAC.itm~ ~override~
     SAY NAME2 @5010
     SAY IDENTIFIED_DESC @5011
 BUT_ONLY
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
     COPY_EXISTING ~INN3351.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPGAC" position = "LAST" END
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPDGAC" position = "LAST" END
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
-    COPY_EXISTING ~AR0602.STO~ ~override~
-        ADD_AREA_ITEM ~ZSIPGAC.itm~ 33 ~none~ 1 1 0
+    COPY_EXISTING ~AR0602.ARE~ ~override~
+        LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 33 charges1=1 charges2=1 STR_VAR item_to_add = ~ZSIPDGAC~ END
 END

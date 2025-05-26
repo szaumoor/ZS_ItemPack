@@ -1,3 +1,9 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_222~) BEGIN
+  FAIL ~Script already included: zs_itempack_222~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_222~ = 1
+END
+
 COPY ~%MOD_FOLDER%/items/02_souls/crimson_life~ ~override~
 COPY_EXISTING ~ZSIPLFC0.itm~ ~override~
     SAY NAME2 @6100

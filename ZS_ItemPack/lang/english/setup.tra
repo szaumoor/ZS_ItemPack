@@ -48,6 +48,7 @@
 @403 = ~Add Phantom's Blade (ninja-to)~
 
 @501 = ~Add Needle +1 (Game of Thrones; rapier)~ // game of thrones inspired
+@502 = ~Add Craven Edge +4 (Vox Machina; two-handed sword)~
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
@@ -815,14 +816,15 @@ Type: One-handed
 Requires:
  3 Strength
 
-Weight: 1
+Weight: 1~
 
 @8010 = ~Sharpshadow Blade~
-@8010 = ~A quick-cutting blade, suited to those who prefer to strike fast and retreat rather than stand toe to toe with their enemies. The name suggests a history with the Shadow Thieves of Amn, though it is not documented as some of their other tools are. The organization has many sub-guilds however, and this may have come from one of them.
+@8011 = ~A quick-cutting blade, suited to those who prefer to strike fast and retreat rather than stand toe to toe with their enemies. The name suggests a history with the Shadow Thieves of Amn, though it is not documented as some of their other tools are. The organization has many sub-guilds however, and this may have come from one of them.
 
 STATISTICS:
 
 Equipped abilities:
+– Nondetection
 – +10% bonus to Hide in Shadows and Move Silently
 
 Combat abilities:
@@ -930,14 +932,15 @@ Weight: 2~
 STATISTICS:
 
 Equipped abilities:
-– +15% resistance to magic
-– +1 bonus to saving throws vs. spells
+– Magic Resistance: +15%
+– Save vs. Spell: +1
 
 Combat abilities:
-– Inflicts a cumulative 10% spell failure chance on hit for 5/2 rounds
+– Inflicts a cumulative 10% spell failure chance on hit for 3 rounds
+– 12% chance per hit of increasing the casting time of all spells by 2 for 5 rounds. This effect does not stack.
 
-THAC0: +1, +2 if wielded by a barbarian, berserker, or Rashemi warrior
-Damage: 1d12+1, +2 if wielded by a barbarian, berserker, or Rashemi warrior
+THAC0: +1, +2 (barbarian, berserker, or Rashemi warrior)
+Damage: 1d12+1, +2 (barbarian, berserker, or Rashemi warrior)
 Damage type: Slashing
 Speed Factor: 8
 Proficiency Type: Two-handed Sword
@@ -1224,7 +1227,6 @@ Weight: 1~
 
 Beyond its amazing enchantment, the blade's edge is so incredibly sharp, it can slice through flesh and bone with unnerving ease. Only those who proved their loyalty and skill to the Phantoms were granted the honor of wielding such a weapon. Yet, holding it now carries an unsettling feeling—a sense that its masters may one day return to reclaim what is theirs.
 
-
 STATISTICS:
 
 Combat abilities:
@@ -1263,3 +1265,51 @@ Requires:
  14 Dexterity
 
 Weight: 1~
+
+@12010 = ~Craven Edge +4~
+@12011 = ~This cursed blade once belonged to a vampire lord of ancient times. Infused with the essence of the Shadowfell, it possesses the power to drain the life force of its victims. Legends say the sword has a will and hunger of its own, and each wielder must struggle to restrain its appetite—or risk being consumed by its dark power and insatiable thirst for blood.
+
+STATISTICS:
+
+Equipped abilities:
+– Each time the sword causes a bleeding wound or critically hits, the wielder has a 4% chance of going into blood rage for 2 rounds. Vampires do not suffer this effect.
+
+Combat abilities:
+– +5% increased chance to critically hit
+– Critical hits cause additional 2d4+4 slashing damage
+– 15% chance of inflicting a bleeding wound on hit, dealing 2d4 slashing damage per round for 3 rounds and healing the wielder by the same amount. A save vs. Death at -2 may be made to take only half of the damage. No effect on vampires or creatures without blood.
+
+THAC0: +4
+Damage: 1d10+4
+Damage type: Slashing
+Speed Factor: 6
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 12~
+
+@12012 = ~Craven Edge +5~
+@12013 = ~This cursed blade once belonged to a vampire lord of ancient times. Infused with the essence of the Shadowfell, it possesses the power to drain the life force of its victims. Legends say the sword has a will and hunger of its own, and each wielder must struggle to restrain its appetite—or risk being consumed by its dark power and insatiable thirst for blood.
+
+STATISTICS:
+
+Equipped abilities:
+– Each time the sword causes a bleeding wound or critically hits, the wielder has a 2% chance of going into blood rage for 2 rounds. Vampires do not suffer this effect.
+
+Combat abilities:
+– +10% increased chance to critically hit
+– Critical hits cause additional 2d4+5 slashing damage
+– 25% chance of inflicting a bleeding wound on hit, dealing 3d4 slashing damage per round for 3 rounds and healing the wielder by the same amount. A save vs. Death at -4 may be made to take only half of the damage. No effect on vampires or creatures without blood.
+
+THAC0: +5
+Damage: 1d10+5
+Damage type: Slashing
+Speed Factor: 5
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 12~
