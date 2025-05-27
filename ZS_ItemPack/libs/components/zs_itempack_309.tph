@@ -5,7 +5,7 @@ END ELSE BEGIN
 END
 
 COPY ~%MOD_FOLDER%/items/03_nwn/goblinsplitter~ ~override~
-COPY_EXISTING ~ZSIPGSAB.itm~ ~override~
+COPY_EXISTING ~ZSIPAXAA.itm~ ~override~
     SAY NAME2 @8019
     SAY IDENTIFIED_DESC @8020
 BUT_ONLY

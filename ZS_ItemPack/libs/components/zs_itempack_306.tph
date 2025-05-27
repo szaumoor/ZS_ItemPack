@@ -4,12 +4,14 @@ END ELSE BEGIN
   OUTER_SET ~zs_itempack_306~ = 1
 END
 
-COPY ~%MOD_FOLDER%/items/mercykiller_blade~ ~override~
-COPY_EXISTING ~ZSIPRPAA.ITM~ ~override~
-    SAY NAME2 @8010
-    SAY IDENTIFIED_DESC @8011
+COPY ~%MOD_FOLDER%/items/03_nwn/mercykiller_blade~ ~override~
+COPY_EXISTING ~ZSIPRPAB.ITM~ ~override~
+    SAY NAME1 @80110
+    SAY NAME2 @8024
+    SAY UNIDENTIFIED_DESC @80111
+    SAY IDENTIFIED_DESC @8025
 BUT_ONLY
 
 COPY_EXISTING ~WMART2.STO~ ~override~ // DEIDRE
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPRPAA" position = "LAST" flags=~identified~ END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPRPAB" position = "LAST" flags=~identified~ END
 BUT_ONLY IF_EXISTS

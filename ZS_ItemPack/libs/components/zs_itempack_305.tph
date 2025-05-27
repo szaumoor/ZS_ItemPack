@@ -4,9 +4,11 @@ END ELSE BEGIN
   OUTER_SET ~zs_itempack_305~ = 1
 END
 
-COPY ~%MOD_FOLDER%/items/sharpshadow_blade~ ~override~
+COPY ~%MOD_FOLDER%/items/03_nwn/sharpshadow_blade~ ~override~
 COPY_EXISTING ~ZSIPSSD0.ITM~ ~override~
+    SAY NAME1 @80060
     SAY NAME2 @8010
+    SAY UNIDENTIFIED_DESC @80061
     SAY IDENTIFIED_DESC @8011
 BUT_ONLY
 

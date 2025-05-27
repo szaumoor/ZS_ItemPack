@@ -4,8 +4,8 @@ END ELSE BEGIN
   OUTER_SET ~zs_itempack_302~ = 1
 END
 
-COPY "%MOD_FOLDER%/items\03_nwn\the_left_hand" ~override~
-COPY_EXISTING ~ZSIPLG0.ITM~ ~override~
+COPY "%MOD_FOLDER%/items/03_nwn/the_left_hand" ~override~
+COPY_EXISTING ~ZSIPLFH0.ITM~ ~override~
     SAY NAME2 @8002
     SAY IDENTIFIED_DESC @8003
 

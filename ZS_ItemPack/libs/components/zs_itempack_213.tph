@@ -10,7 +10,7 @@ COPY_EXISTING ~ZSIPHKR0.ITM~ ~override~
     SAY IDENTIFIED_DESC @6111
 BUT_ONLY
 
-ACTION_IF GAME_IS "bg2ee eet" BEGIN
+ACTION_IF GAME_IS "bgee eet" BEGIN
     COPY_EXISTING ~CALDO.CRE~ ~override~
         ADD_CRE_ITEM ~ZSIPHKR0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
 END

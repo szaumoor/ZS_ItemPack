@@ -15,7 +15,7 @@
 @106 = ~Add Cold Snap +1 (dagger)~
 @107 = ~Add Spell Siphon +1 (Arcane Absorption Dagger; cut content)~
 @108 = ~Add Cruel Sting +1 (long sword)~
-@109 = ~Add Archdevil's Judgment +3 (Orphic Hammer; warhammer)~
+@109 = ~Add Judgment +4 (Orphic Hammer; warhammer)~
 @110 = ~Add The Deathstalker Mantle (cloak)~
 
 @211 = ~Add Sage Ring (Dark Souls 3; ring)~
@@ -27,7 +27,7 @@
 @222 = ~Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)~
 @223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
 @224 = ~Add Periapt of Renewal (Elden Ring - Blessed Dew Amulet; necklace)~
-@227 = ~Add Blood Lord's Stinger (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
+@227 = ~Add Bloody Sting (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
 
 @301 = ~Add Lawgiver +1 (bastard sword)~
@@ -81,11 +81,11 @@ Weight: 12~
 STATISTICS:
 
 Equipped abilities:
-– AC: +1
+– Armor Class: +1
 – Critical chances while holding this weapon increase by 5%
 
 Combat abilities:
-– Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce AC against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds
+– Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds
 
 THAC0: +3
 Damage: 1d4+3 (piercing)
@@ -256,10 +256,10 @@ Equipped abilities:
 – +2 bonus to saving throws vs. all except Death
 
 Combat abilities:
-– 10% chance to knock the target prone, push them back for 1 round, and deal 2d4+2 crushing damage. The incapacitating effects do not work on giants, levitating creatures, or non-solid entities. Fiends are always affected.
+– 12% chance to knock the target prone, push them back for 1 round, and deal 2d4+2 crushing damage. The incapacitating effects do not work on giant creatures, levitating creatures, or non-solid entities. Fiends are always affected.
 – Can switch to a non-lethal mode, which deals no damage but frees any hit creature from paralysis, stun, hold, and other movement-limiting effects such as Grease or Web.
 
-THAC0: +3
+THAC0: +4
 Damage: 2d4+4, plus 1d4+1 fire damage
 Damage type: Crushing
 Speed Factor: 0
@@ -791,8 +791,8 @@ Requires:
 Weight: 1~
 
 // upgraded version of the Kukri of the Eclipse
-@8008 = ~Kukri of the Eclipse +5~
-@8009 = ~The symbol on the kukri indicates it belonged to the monks of the Dark Moon Order. Despite the weapon's sinister association, it has no evil aura and can be safely wielded by anyone.
+@80080 = ~Kukri of the Eclipse +5~
+@80081 = ~The symbol on the kukri indicates it belonged to the monks of the Dark Moon Order. Despite the weapon's sinister association, it has no evil aura and can be safely wielded by anyone.
 
 STATISTICS:
 
@@ -927,6 +927,7 @@ Requires:
 Weight: 2~
 
 @8015 = ~Blade of the Rashemi~
+@80150 = ~Casting speed reduced~
 @8016 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spellcasters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
 
 STATISTICS:
@@ -956,7 +957,7 @@ Weight: 14~
 STATISTICS:
 
 Equipped abilities:
-– When held, the sword emits a blinding light that causes undead creatures within a 15 ft. radius of the wielder to suffer a -2 penalty to their THAC0 and AC
+– When held, the sword emits a blinding light that causes undead creatures within a 15 ft. radius of the wielder to suffer a -2 penalty to their THAC0 and Armor Class
 
 Combat abilities:
 – Acts as a +4 weapon against undead for the purposes of overcoming weapon immunities
@@ -998,28 +999,6 @@ Requires:
  10 Strength
 
 Weight: 7~
-
-@8020 = ~Shadowsilk~
-@8021 = ~During on of her frequent sojourns into the realm of shadows, Cendra–a shadowdancer who could slip in and out of the shadows even during the brightest of days–became ensnared on the webs of a wraith spider. Luckily for her, if being captures in the first place could be considered lucky, she found this short sword atuck beside her. With a dexterous tug, she pulled the blade free and punctured the wraith spider's belly with it. She used the keen blade to shave herself free of the webs. She and the blade were lost when she joined an expendition into the Underdark. Only shadowdancers may use this weapon.
-
-STATISTICS:
-
-Equipped abilities:
-– 10% bonus to Hiding in the Shadows and Move Silently
-
-Combat abilities:
-– +10% chances to critically hit
-
-THAC0: +4
-Damage: 1d6+4, +1d4 slashing damage
-Damage type: Piercing
-Speed Factor: 0
-Proficiency Type: Short Sword
-Type: One-handed
-Requires:
- 5 Strength
-
-Weight: 3~
 
 @8024 = ~Mercykiller Blade~
 @8025 = ~A series of runes claim these blades are designed for the "quick eradication of evil, that they will suffer no longer as creatures at odds with all that is good." A sweeping proclamation, one that suggests the involvement of a radical group no longer giving second thought to deadly force where villains are concerned. Certainly an unpopular stance in some quarters, thought probably welcomed in others.
@@ -1248,7 +1227,7 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-– +1 to AC and all saving throws (short races only)
+– +1 to Armor Class and saving throws (short races only)
 – 2 attacks per round
 
 Combat abilities:

@@ -8,7 +8,7 @@ COPY ~%MOD_FOLDER%/items/01_forbidden_game/cruel_sting~ ~override~
 COPY_EXISTING ~ZSIPCRST.itm~ ~override~
     SAY NAME2 @5019
     SAY IDENTIFIED_DESC @5020
-    LPF ALTER_EFFECT INT_VAR match_opcode = 326 match_parameter2 = 0 parameter2 = ~%zs_poisonresist_>127%~ END
+  //  LPF ALTER_EFFECT INT_VAR match_opcode = 326 match_parameter2 = 0 parameter2 = ~%zs_poisonresist_>127%~ END
 BUT_ONLY
 
 COPY_EXISTING ~ZSIPCRS2.SPL~ ~override~
@@ -21,6 +21,6 @@ ACTION_IF GAME_IS "bgee eet" BEGIN
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
-    COPY_EXISTING ~AR2101.STO~ ~override~
-        ADD_AREA_ITEM ~ZSIPCRST.itm~ 1 ~none~ 1 1 0
+    COPY_EXISTING ~AR2101.ARE~ ~override~
+        LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 1 charges1=1 charges2=1 STR_VAR item_to_add = ~ZSIPCRST~ END
 END

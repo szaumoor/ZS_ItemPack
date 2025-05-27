@@ -8,7 +8,7 @@ COPY ~%MOD_FOLDER%/items/01_forbidden_game/cold_snap~ ~override~
 COPY_EXISTING ~ZSIPCLSN.ITM~ ~override~
     SAY NAME2 @5015
     SAY IDENTIFIED_DESC @5016
-    LPF ALTER_EFFECT INT_VAR match_opcode = 326 match_parameter2 = 0 parameter2 = ~%zs_coldresist_>127%~ END
+    LPF ALTER_EFFECT INT_VAR match_opcode = 318 match_parameter2 = 0 parameter2 = zs_cold_immunity END
 
 COPY_EXISTING ~ZSIPCLS1.SPL~ ~override~
     LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50160) END
