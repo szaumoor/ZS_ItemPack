@@ -11,7 +11,7 @@ COPY_EXISTING ~ZSIPCRST.itm~ ~override~
   //  LPF ALTER_EFFECT INT_VAR match_opcode = 326 match_parameter2 = 0 parameter2 = ~%zs_poisonresist_>127%~ END
 BUT_ONLY
 
-COPY_EXISTING ~ZSIPCRS2.SPL~ ~override~
+COPY_EXISTING ~ZSIPCRS1.SPL~ ~override~
     SAY NAME1 @5021
 BUT_ONLY
 

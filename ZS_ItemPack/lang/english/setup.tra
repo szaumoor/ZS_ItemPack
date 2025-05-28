@@ -34,14 +34,10 @@
 @302 = ~Add The Left Hand (dagger)~
 @303 = ~Add Master Li's Way (katana)~
 @304 = ~Add Kukri of the Eclipse (dagger / kukri)~
-@305 = ~Add Sharpshadow Blade (dagger / kukri)~
-@306 = ~Add Black Rider Quill (rapier)~
 @307 = ~Add Blade of the Rashemi (two-handed sword)~
 @308 = ~Add Shining Light of Lathander (two-handed sword)~
 @309 = ~Add Goblinsplitter (axe)~
 @311 = ~Add Mercykiller Blade (rapier)~
-@312 = ~Add Forgefire (war hammer)~
-@313 = ~Add Shadowsilk (short sword)~
 
 @401 = ~Add Rod of Illusive Protections (rod)~
 @402 = ~Add Omniblade (universal sword)~
@@ -224,6 +220,9 @@ Weight: 1~
 @5020 = ~The trauma of becoming a drider is quickly set aside with a cold arachnid dispassion. This sword follows that disturbing trend–a replenishing poison gland is built within, deploying generously against trapped opponents.
 
 STATISTICS:
+
+Equipped abilities:
+– Immunity to web spells and effects
 
 Combat abilities:
 – Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 poison damage damage over 5 seconds if they fail to save vs. Death at -1
@@ -818,27 +817,7 @@ Requires:
 
 Weight: 1~
 
-@8010 = ~Sharpshadow Blade~
-@8011 = ~A quick-cutting blade, suited to those who prefer to strike fast and retreat rather than stand toe to toe with their enemies. The name suggests a history with the Shadow Thieves of Amn, though it is not documented as some of their other tools are. The organization has many sub-guilds however, and this may have come from one of them.
 
-STATISTICS:
-
-Equipped abilities:
-– Nondetection
-– +10% bonus to Hide in Shadows and Move Silently
-
-Combat abilities:
-– Like all kukris, this weapon has +5% extra chance to critically hit
-
-THAC0: +1
-Damage: 1d4+1 (piercing)
-Speed Factor: 2
-Proficiency Type: Dagger/Kukri
-Type: One-handed
-Requires:
- 3 Strength
-
-Weight: 1~
 
 @80110 = ~Rapier~
 @80111 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category.
@@ -895,29 +874,6 @@ STATISTICS:
 THAC0: +3
 Damage: 1d6+3 (piercing)
 Speed Factor: 1
-Proficiency Type: Short Sword / Rapier
-Type: One-handed
-Requires:
- 5 Strength
- 14 Dexterity
-
-Weight: 2~
-
-@8013 = ~Black Rider Quill~
-@8014 = ~Black Rider Quills take their name from a celebrated epic repeated in any bardic college worth its salt. The subject of the tale is dark, encouraging one to "dance around in your bones," but it is referenced here solely to stimulate the muse. These blades were likely forged in tribute, and were probably not present for the events of the original story. It is not known if they were commissioned together or individually.
-
-STATISTICS:
-
-Equipped abilities:
-– +1 bonus to all saving throws (bards-only)
-– +15 lore
-
-Combat abilities:
-– Like all rapiers, this weapon has +5% extra chance to critically hit
-
-THAC0: +1, +2 (if wielded by a bard)
-Damage: 1d6+1 (piercing)
-Speed Factor: 3
 Proficiency Type: Short Sword / Rapier
 Type: One-handed
 Requires:
@@ -1251,12 +1207,13 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-– Each time the sword causes a bleeding wound or critically hits, the wielder has a 4% chance of going into blood rage for 2 rounds. Vampires do not suffer this effect.
+– Each time the sword causes a bleeding wound or scores a critical hit, there is a 4% chance the wielder will enter a blood rage for 2 rounds. While in this state, the wielder becomes consumed by bloodlust, gaining +2 to damage and THAC0, and will attack both enemies and allies indiscriminately. Vampires are immune to this effect.
 
 Combat abilities:
 – +5% increased chance to critically hit
-– Critical hits cause additional 2d4+4 slashing damage
-– 15% chance of inflicting a bleeding wound on hit, dealing 2d4 slashing damage per round for 3 rounds and healing the wielder by the same amount. A save vs. Death at -2 may be made to take only half of the damage. No effect on vampires or creatures without blood.
+– Critical hits deal an additional 2d4+4 slashing damage
+– Each hit drinks a small amount of the target's lifeblood, healing the wielder for 1 Hit Point
+– 15% chance on hit to inflict a bleeding wound, causing the target to take 2d4 slashing damage per round for 3 rounds and healing the wielder by the same amount. The target may save vs. Death at -2 to take only half damage and heal the wielder for half as much. This effect does not work on vampires or creatures without blood.
 
 THAC0: +4
 Damage: 1d10+4
@@ -1269,26 +1226,4 @@ Requires:
 
 Weight: 12~
 
-@12012 = ~Craven Edge +5~
-@12013 = ~This cursed blade once belonged to a vampire lord of ancient times. Infused with the essence of the Shadowfell, it possesses the power to drain the life force of its victims. Legends say the sword has a will and hunger of its own, and each wielder must struggle to restrain its appetite—or risk being consumed by its dark power and insatiable thirst for blood.
-
-STATISTICS:
-
-Equipped abilities:
-– Each time the sword causes a bleeding wound or critically hits, the wielder has a 2% chance of going into blood rage for 2 rounds. Vampires do not suffer this effect.
-
-Combat abilities:
-– +10% increased chance to critically hit
-– Critical hits cause additional 2d4+5 slashing damage
-– 25% chance of inflicting a bleeding wound on hit, dealing 3d4 slashing damage per round for 3 rounds and healing the wielder by the same amount. A save vs. Death at -4 may be made to take only half of the damage. No effect on vampires or creatures without blood.
-
-THAC0: +5
-Damage: 1d10+5
-Damage type: Slashing
-Speed Factor: 5
-Proficiency Type: Two-handed Sword
-Type: Two-handed
-Requires:
- 14 Strength
-
-Weight: 12~
+@12012 = ~Driven mad by a blood rage~
