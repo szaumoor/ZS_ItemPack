@@ -14,3 +14,5 @@ BUT_ONLY
 
 COPY_EXISTING ~UDMASTER.CRE~ ~override~
     ADD_CRE_ITEM ~ZSIPICI0.itm~ #1 #0 #0 ~unstealable~ ~inv~
+
+INCLUDE ~%MOD_FOLDER%/lib/zs_add_rapiers.tph~

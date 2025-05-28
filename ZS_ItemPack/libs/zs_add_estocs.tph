@@ -1,0 +1,67 @@
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~ZSIPEST0.ITM~ BEGIN
+
+    COPY ~%MOD_FOLDER%/items/generic/estoc~ ~override~
+    COPY_EXISTING ~ZSIPEST0.ITM~ ~override~
+                  ~ZSIPEST1.ITM~ ~override~
+                  ~ZSIPEST2.ITM~ ~override~
+                  ~ZSIPEST3.ITM~ ~override~
+        SAY NAME1 @60200
+        SAY NAME2 @60200
+        SAY UNIDENTIFIED_DESC @60201
+        SAY IDENTIFIED_DESC @60201
+    END
+
+    COPY_EXISTING ~ZSIPEST1.ITM~ ~override~
+        SAY NAME2 @60202
+        SAY IDENTIFIED_DESC @60203
+    END
+
+    COPY_EXISTING ~ZSIPEST2.ITM~ ~override~
+        SAY NAME2 @60204
+        SAY IDENTIFIED_DESC @60205
+    END
+
+    COPY_EXISTING ~ZSIPEST3.ITM~ ~override~
+        SAY NAME2 @60206
+        SAY IDENTIFIED_DESC @60207
+    END
+
+    ACTION_IF GAME_IS ~bgee eet~ BEGIN
+        // +0
+        COPY_EXISTING ~INN2616.STO~ ~override~ // winthrop
+                      ~INN3304.STO~ ~override~ // jovial jugler
+                      ~STO1112.STO~ ~override~ // general store
+                      ~STO1320.STO~ ~override~ // general store
+                      ~STO4803.STO~ ~override~ // nashkel store
+                      ~STO4908.STO~ ~override~ // carnival shop
+                      ~STOBLACK.STO~ ~override~ // black lily
+                      ~STOSILEN.STO~ ~override~ // shop of silence
+                      ~TAERUM.STO~ ~override~ // thunderhammer's smithy
+                      ~TAV0810.STO~ ~override~ // maltz's weapon shop
+                      ~ULGOTH.STO~ ~override~ // ulgoth's beard store
+                      ~FRIEND.STO~ ~override~ // friendly arm inn
+                      ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
+            SET amount = RANDOM(2,7)
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPEST0" position = "LAST" flags=~identified~ END
+
+        BUT_ONLY IF_EXISTS
+
+        // +1
+        COPY_EXISTING ~INN3351.STO~ ~override~ // feldepost inn
+                      ~STO0703.STO~ ~override~ // sorcerous sundries
+                      ~STO1117.STO~ ~override~ // general store
+                      ~STO4907.STO~ ~override~ // carnival shop
+                      ~TAERUM.STO~ ~override~ // thunderhammer's smithy
+                      ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
+            SET amount = RANDOM(1,2)
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPEST1" position = "LAST" flags=~identified~ END
+        BUT_ONLY IF_EXISTS
+
+    END
+
+    ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
+
+    END
+
+END

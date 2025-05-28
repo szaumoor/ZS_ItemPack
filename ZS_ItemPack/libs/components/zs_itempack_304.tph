@@ -24,3 +24,5 @@ COPY_EXISTING ~DRAGBLAC.CRE~ ~override~ // NIZINIZINIZINIZINIZI
 BUT_ONLY IF_EXISTS
 
 // todo: add the upgrade for the kukri
+
+INCLUDE ~%MOD_FOLDER%/lib/zs_add_kukris.tph~

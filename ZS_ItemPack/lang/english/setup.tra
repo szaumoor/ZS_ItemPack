@@ -44,7 +44,7 @@
 @403 = ~Add Phantom's Blade (ninja-to)~
 
 @501 = ~Add Needle +1 (Game of Thrones; rapier)~ // game of thrones inspired
-@502 = ~Add Craven Edge +4 (Vox Machina; two-handed sword)~
+@502 = ~Add Craven Edge +4 (The Legend of Vox Machina; two-handed sword)~
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
@@ -154,7 +154,7 @@ Combat abilities:
 – Target must save vs. Death at -2 or bleed for 4 rounds, suffering 1 point of piercing damage, and again once per round
 
 Charge ability:
-– Pain is a path to power. Three times per day, slice your hand, causing 1d6 slashing damage to yourself, to receive a non-stacking +1 bonus attack rolls, and a +15% higher chance to inflict a critical hit for 15 seconds
+– Pain is a path to power. Three times per day, you may cut your own hand, taking 1d6 slashing damage. This grants you a +1 bonus to attack rolls and increases your chance to score a critical hit by 15% for 15 seconds. These bonuses do not stack with themselves.
 
 THAC0: No bonus
 Damage: 1d4+2 (piercing)
@@ -200,8 +200,8 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-– Kills with this weapon restore 1 wizard or sorcerer spell slot from level 1. There's a 5% chance it will restore a level 2 spell slot too (or level 1 if the wielder has no forgotten level 2 spells)
-– Hits with this weapon have a 15% chance of causing the target to lose 1 spell slot of the highest level they can cast. This will also cause a 30% spell failure for 9 seconds
+– Each time this weapon kills an enemy, the wielder regains one expended arcane spell slot of level 1. There is also a 5% chance to restore a level 2 spell slot (or another level 1 slot if no level 2 spells are available).
+– Each hit with this weapon has a 15% chance to make the target lose one spell slot of the highest level they can cast. If this occurs, the target also suffers 30% spell failure for 9 seconds.
 
 THAC0: +1
 Damage: 1d4+1 (piercing)
@@ -255,8 +255,8 @@ Equipped abilities:
 – +2 bonus to saving throws vs. all except Death
 
 Combat abilities:
-– 12% chance to knock the target prone, push them back for 1 round, and deal 2d4+2 crushing damage. The incapacitating effects do not work on giant creatures, levitating creatures, or non-solid entities. Fiends are always affected.
-– Can switch to a non-lethal mode, which deals no damage but frees any hit creature from paralysis, stun, hold, and other movement-limiting effects such as Grease or Web.
+– 12% chance per hit to knock the target prone, push them back for 1 round, and deal 2d4+2 crushing damage. The incapacitating effects do not affect giant creatures, levitating creatures, or non-corporeal entities. Fiends are always affected.
+– Can switch to a non-lethal mode, which deals no damage but will free any struck creature from paralysis, stun, hold, or other movement-restricting effects such as Grease or Web.
 
 THAC0: +4
 Damage: 2d4+4, plus 1d4+1 fire damage
@@ -279,43 +279,7 @@ Equipped abilities:
 
 Weight: 3~
 
-@5050 = ~~
-
-
-// https://baldursgate3.wiki.fextralife.com/Arcane+Absorption+Dagger
-
-
 // souls games inspired
-@6000 = ~Sword of Dusk and Dawn +3~
-@6001 = ~Sword of Dusk and Dawn +3
-Rumored to have been forged by an ancient cult that attempted to unite the godly disciplines of the light and the dark, this exquisitely crafted longsword is a symbol of the eternal cycle between light and shadow and the never-ending struggle between light and shadow that governs the realms. Other folk link its creation to priests of Selune and Shar attempting to coax the deities into a truce, perhaps making this sword a symbol of this communion, while others claim that it represents the balance between evil and good, but none can confirm any such claims.
-
-The blade itself shifts its appearance and powers with the rise and fall of the sun. During the night, the sword ignites with an inner fire, glowing faintly as if bathed in the final embers of the setting sun. With each strike, it delivers searing flames to its foes, a burning reminder to nocturnal creatures that they are not truly safe from the light and burn of the stars.
-
-As the sun rises, the sword transforms, its fiery glow dimming as a cold, frosty aura begins to emanate from the blade. In the daylight hours, each swing deals cold damage, representing the inevitable approach of the chill of night. Even under the bright sun, the chill of twilight lurks, reminding all who face the sword that darkness will return, and none can escape its creeping grasp.
-
-STATISTICS:
-
-Equipped abilities:
-– +25% resistance to fire and cold
-
-Charge abilities:
-– Earthly Reminder, two times per day
-  Special: At night, spell acts as a Sunfire that blinds for 3 rounds and deals 8d6 fire damage plus 10 extra against the undead. During the day, it deals 8d6 cold damage and inflicts Slow for 3 rounds
-  Area of effect: Every non-allied creature in a 15 ft. radius around the wielder
-
-THAC0: +3
-Damage: 1d8+3, 1d5+1 fire/magic damage (night), 1d5+1 cold/magic damage (day)
-Damage type: Slashing
-Speed Factor: 2
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 4~
-
-
 @6010 = ~This silver sword is often wielded by followers of Sehanine Moonbow, also known as the Lady of Dreams or the Lunar Lady. One of the most powerful members of the Seldarine, her domain encompasses sleep and dreams. It is said that even gazing upon her face can lull mortals into a deep slumber.
 
 STATISTICS:
@@ -326,7 +290,7 @@ Equipped abilities:
 
 Combat abilities:
 – Hit target must save vs. Spell or fall asleep for 1 round
-– As a silver weapon, it is effective against all lycanthropes resistant to normal weapons
+– As a silver weapon, it is effective against all lycanthropes
 
 Charge abilities:
 – Mists of Slumber once per day
@@ -395,8 +359,8 @@ Requires:
 
 Weight: 2~
 
-@60204 = ~Estoc +3~
-@60205 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category. This particular estoc has been enchanted to be more effective in combat.
+@60206 = ~Estoc +3~
+@60207 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category. This particular estoc has been enchanted to be more effective in combat.
 
 STATISTICS:
 
@@ -410,50 +374,6 @@ Requires:
  14 Dexterity
 
 Weight: 2~
-
-@6030 = ~Guiding Moonlight~
-@6031 = ~The blade of this greatsword shines like the brilliant rays of the moon with a celestial grace. Its blade is etched with tiny delicate runes depicting the phases of the moon. It is said that the blade was born during a rare lunar convergence, when Selûne bestowed a sliver of her divine light upon the mortal realm. The weapon's presence offers guidance in times of uncertainty, inspiring its bearer to rise against the encroaching shadows.
-
-STATISTICS:
-
-Equipped abilities:
-– +20% Cold Resistance (+40% during the night)
-– +15% Magic Resistance (+30% during the night)
-– +10% Magic Damage Resistance (+20% during the night)
-– +10 Lore
-– Sets automatically one point in the Two-Handed Swords proficiency (unless higher)
-– May be used by Single-classed wizards and sorcerers, including multi-classed wizards
-– Single-classed wizards and sorcerers use this weapon at a Speed Factor of 0
-
-Combat abilities:
-Extra magic damage based on the wielder's Intelligence score:
- – 10-11: +1
- – 12-13: +2
- – 14-15: 1d2+2
- – 16-17: 1d3+3
- – 18-19: 1d4+4
- – 20-21: 1d5+5
- – 22-23: 1d6+6
- – 24: 1d7+7
- – 25: 1d8+8
-
-Charge abilities:
-– Moonlight Bolt, once per day
-  Special: Fires a bolt of moonlight at the target, causing 6d6 magic damage, disabling their Magic Resistance, and increasing their susceptibility to magic damage by 25% for 2 rounds. No save is allowed
-  Range: 60 ft.
-  Area of Effect: 1 creature
-
-THAC0: +3
-Damage: 1d10, or 1d10+3 for arcane casters
-Damage type: Slashing
-Speed Factor: 7
-Proficiency Type: Two-handed Sword
-Type: Two-handed
-Requires:
- 14 Strength
- 10 Intelligence
-
-Weight: 15~
 
 @6040 = ~Storm's Monarch +3~
 @6041 = ~This estoc channels the fury of the storm and the power of lightning. Some people speculate this blade was crafted during the Time of Troubles, when gods walked among mortals, maybe by Talos himself, but such rumors are impossible to confirm and might not be more than hearsay. Nevertheless, the destructive power of the blade is undeniable.
@@ -653,7 +573,7 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-– +2 bonus to saving throws and Armor Class vs. chaotically-aligned enemies
+– +2 bonus to Armor Class vs. chaotically-aligned enemies
 
 Combat abilities:
 – Acts as +3 weapon vs. chaotically-aligned enemies for the purposes of overcoming weapon immunities
@@ -817,8 +737,6 @@ Requires:
 
 Weight: 1~
 
-
-
 @80110 = ~Rapier~
 @80111 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category.
 
@@ -975,22 +893,6 @@ Requires:
  14 Dexterity
 
 Weight: 2~
-
-@8050 = ~Forge Fire~
-@8051 = ~A legacy that Thalantyr the Conjurer has said he would prefer to forget, these weapons are tied to his early adventuring career and a time when he was held captive by a mysterious powerful creature. He has refused to say how the weapons have retained the heat of he forge they were crafted in, usually ending such inquiries with a frustrated "pray you never find out."
-
-STATISTICS:
-
-Damage: 1d4+3, +1d3 fire damage
-Damage type: Crushing
-Speed Factor: 2
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
-9 Strength
-
-Weight: 6~
-
 
 // mass effect inspired
 @10110 = ~Rod of Illusive Protections~

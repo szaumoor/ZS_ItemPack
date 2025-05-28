@@ -19,3 +19,5 @@ BUT_ONLY
 
 //  COPY_EXISTING ~ZSIPSTM0.CRE~ ~override~
 //      ADD_CRE_ITEM ~ZSIPBLS0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
+
+INCLUDE ~%MOD_FOLDER%/lib/zs_add_estocs.tph~
