@@ -12,5 +12,9 @@ COPY_EXISTING ~ZSIPNDL0.itm~ ~override~
     SAY IDENTIFIED_DESC @12001
 BUT_ONLY
 
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+  COPY_EXISTING ~TEM4003.STO~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPNDL0" position = "LAST" END
+END
 
-INCLUDE ~%MOD_FOLDER%/lib/zs_add_rapiers.tph~
+INCLUDE ~%MOD_FOLDER%/libs/zs_add_rapiers.tph~

@@ -1,6 +1,6 @@
 ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
 
-    COPY ~%MOD_FOLDER%/items/generic/estoc~ ~override~
+    COPY ~%MOD_FOLDER%/items/generic/kukri~ ~override~
     COPY_EXISTING ~ZSIPKUK0.ITM~ ~override~
                   ~ZSIPKUK1.ITM~ ~override~
                   ~ZSIPKUK2.ITM~ ~override~
@@ -9,22 +9,22 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
         SAY NAME2 @80060
         SAY UNIDENTIFIED_DESC @80061
         SAY IDENTIFIED_DESC @80061
-    END
+
 
     COPY_EXISTING ~ZSIPKUK1.ITM~ ~override~
         SAY NAME2 @80062
         SAY IDENTIFIED_DESC @80063
-    END
+
 
     COPY_EXISTING ~ZSIPKUK2.ITM~ ~override~
         SAY NAME2 @80064
         SAY IDENTIFIED_DESC @80065
-    END
+
 
     COPY_EXISTING ~ZSIPKUK3.ITM~ ~override~
         SAY NAME2 @80066
         SAY IDENTIFIED_DESC @80067
-    END
+
 
     ACTION_IF GAME_IS ~bgee eet~ BEGIN
         // +0
@@ -41,7 +41,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~ULGOTH.STO~ ~override~ // ulgoth's beard store
                       ~FRIEND.STO~ ~override~ // friendly arm inn
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            SET amount = RANDOM(2,7)
+            SET amount = RANDOM(2 7)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPKUK0" position = "LAST" flags=~identified~ END
 
         BUT_ONLY IF_EXISTS
@@ -53,7 +53,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~STO4907.STO~ ~override~ // carnival shop
                       ~TAERUM.STO~ ~override~ // thunderhammer's smithy
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            SET amount = RANDOM(1,2)
+            SET amount = RANDOM(1 2)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPKUK1" position = "LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 

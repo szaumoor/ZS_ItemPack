@@ -13,6 +13,6 @@ COPY_EXISTING ~ZSIPICI0.itm~ ~override~
 BUT_ONLY
 
 COPY_EXISTING ~UDMASTER.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPICI0.itm~ #1 #0 #0 ~unstealable~ ~inv~
+    ADD_CRE_ITEM ~ZSIPICI0~ #1 #0 #0 ~unstealable~ ~inv~
 
-INCLUDE ~%MOD_FOLDER%/lib/zs_add_rapiers.tph~
+INCLUDE ~%MOD_FOLDER%/libs/zs_add_rapiers.tph~

@@ -12,25 +12,23 @@ COPY_EXISTING ~ZSIPSSAA.itm~ ~override~
 BUT_ONLY
 
 COPY_EXISTING ~ARAN.CRE~ ~override~
-    READ_LONG 0x2b8 item_offset
-    READ_SHORT (item_offset + 0x2 * 9) aran1_item_wpn1
-    READ_ASCII (0x5a + aran1_item_wpn1 * 0x14) aran1_actual_wpn1 ELSE "NoWeapon"
+    LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~SW1H29~ RET aran1_found = found END
 
 COPY_EXISTING ~ARAN02.CRE~ ~override~
-    READ_LONG 0x2b8 item_offset
-    READ_SHORT (item_offset + 0x2 * 9) aran2_item_wpn1
-    READ_ASCII (0x5a + aran2_item_wpn1 * 0x14) aran2_actual_wpn1 ELSE "NoWeapon"
+    LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~SW1H29~ RET aran2_found = found END
 
-ACTION_IF "%aran1_actual_wpn1%" STR_EQ "SW1H29" AND "%aran1_actual_wpn1%" STR_EQ "%aran2_actual_wpn1%" BEGIN
+ACTION_IF aran1_found AND aran2_found BEGIN
     COPY_EXISTING ~ARAN.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPSSAA.itm~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPSSAA~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
 
     COPY_EXISTING ~ARAN02.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPSSAA.itm~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPSSAA~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
 
     PRINT "Item Crimson Mischief added to the first option."
+
 END ELSE BEGIN
     COPY_EXISTING ~BHEYE.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPSSAA.itm~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPSSAA~ #0 #0 #0 ~unstealable~ ~inv~
+
     PRINT "Item Crimson Mischief added to the second option."
 END

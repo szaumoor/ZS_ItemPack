@@ -23,6 +23,6 @@ COPY_EXISTING ~DRAGBLAC.CRE~ ~override~ // NIZINIZINIZINIZINIZI
     ADD_CRE_ITEM ~ZSIPKRE0.itm~ #1 #0 #0 ~unstealable~ ~inv~
 BUT_ONLY IF_EXISTS
 
-// todo: add the upgrade for the kukri
 
-INCLUDE ~%MOD_FOLDER%/lib/zs_add_kukris.tph~
+
+INCLUDE ~%MOD_FOLDER%/libs/zs_add_kukris.tph~

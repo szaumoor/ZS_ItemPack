@@ -113,3 +113,7 @@ This katana is found in Silence's store in BGEE. In BG2EE, it is held by an earl
 **Kukri of the Eclipse**
 
 This kukri is in the hoard of the black dragon in Suldanessellar in BG2EE. It can be upgraded.
+
+**Goblinsplitter**
+
+In BGEE, this is sold at the Friendly Arm Inn. In BG2EE, it's found on the first container with weapons in Irenicus' dungeon.

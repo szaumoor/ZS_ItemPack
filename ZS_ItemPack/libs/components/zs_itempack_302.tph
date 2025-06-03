@@ -12,4 +12,3 @@ COPY_EXISTING ~ZSIPLFH0.ITM~ ~override~
 COPY_EXISTING ~sto4803.STO~ ~override~ // nashkel store
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPLG0" position = "LAST" flags=~identified~ END
 BUT_ONLY IF_EXISTS
-

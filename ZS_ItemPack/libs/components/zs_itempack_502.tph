@@ -15,4 +15,4 @@ COPY_EXISTING ~ZSIPCRV4.spl~ ~override~
 BUT_ONLY
 
 COPY_EXISTING ~C6BODHI.CRE~ ~override~
-  ADD_CRE_ITEM ~ZSIPCRV0.itm~ #1 #0 #0 ~unstealable~ ~inv~
+  ADD_CRE_ITEM ~ZSIPCRV0~ #1 #0 #0 ~unstealable~ ~inv~

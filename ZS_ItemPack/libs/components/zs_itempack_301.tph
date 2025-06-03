@@ -10,7 +10,7 @@ COPY_EXISTING ~ZSIPLG0.ITM~ ~override~
     SAY IDENTIFIED_DESC @8001
 
 COPY_EXISTING ~FLAM2.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPLG0.ITM~ #1 #0 #0 ~unstealable~ ~weapon1~ EQUIP
+    ADD_CRE_ITEM ~ZSIPLG0~ #1 #0 #0 ~unstealable~ ~weapon1~ EQUIP
 BUT_ONLY IF_EXISTS
 
 COPY_EXISTING ~HELMPR.STO~ ~override~

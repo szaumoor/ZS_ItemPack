@@ -15,5 +15,5 @@ COPY_EXISTING ~stosilen.STO~ ~override~ // silence
 BUT_ONLY IF_EXISTS
 
 COPY_EXISTING ~SHADRA1.CRE~ ~override~ // shadow dragon
-    ADD_CRE_ITEM ~ZSIPKTAA.itm~ #1 #0 #0 ~unstealable~ ~inv~
+    ADD_CRE_ITEM ~ZSIPKTAA~ #1 #0 #0 ~unstealable~ ~inv~
 BUT_ONLY IF_EXISTS

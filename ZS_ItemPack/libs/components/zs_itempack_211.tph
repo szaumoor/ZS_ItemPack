@@ -15,9 +15,9 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
         READ_LONG 0x2b8 item_offset
         READ_SHORT (item_offset + 0x2 * 6) equipped_necklace
         PATCH_IF equipped_necklace = "-1" BEGIN
-            ADD_CRE_ITEM ~ZSIPSGR0.ITM~ #1 #0 #0 ~unstealable&undroppable~ ~amulet~
+            ADD_CRE_ITEM ~ZSIPSGR0~ #1 #0 #0 ~unstealable&undroppable~ ~amulet~
         END
-        ADD_CRE_ITEM ~ZSIPSGR0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPSGR0~ #1 #0 #0 ~unstealable~ ~inv~
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
@@ -25,7 +25,7 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
         READ_LONG 0x2b8 item_offset
         READ_SHORT (item_offset + 0x2 * 4) equipped_left_ring
         PATCH_IF equipped_left_ring = "-1" BEGIN
-            ADD_CRE_ITEM ~ZSIPSGR0.ITM~ #1 #0 #0 ~unstealable&undroppable~ ~lring~
+            ADD_CRE_ITEM ~ZSIPSGR0~ #1 #0 #0 ~unstealable&undroppable~ ~lring~
         END
-        ADD_CRE_ITEM ~ZSIPSGR0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPSGR0~ #1 #0 #0 ~unstealable~ ~inv~
 END

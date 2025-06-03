@@ -14,10 +14,7 @@ COPY_EXISTING ~ZSIPSTM0.ITM~ ~override~
 BUT_ONLY
 
 
-// COPY_EXISTING ~ZSIPBLS1.SPL~ ~override~
-//     LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6082)
+COPY_EXISTING ~AR2101.ARE~ ~override~
+    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 5 charges1=1 charges2=1 STR_VAR item_to_add = ~ZSIPSTM0~ END
 
-//  COPY_EXISTING ~ZSIPSTM0.CRE~ ~override~
-//      ADD_CRE_ITEM ~ZSIPBLS0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
-
-INCLUDE ~%MOD_FOLDER%/lib/zs_add_estocs.tph~
+INCLUDE ~%MOD_FOLDER%/libs/zs_add_estocs.tph~

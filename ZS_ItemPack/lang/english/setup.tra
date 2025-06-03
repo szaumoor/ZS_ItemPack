@@ -7,44 +7,44 @@
 
 @50 = ~Only available for the Enhanced Edition of Baldur's Gate I and II~
 
-@101 = ~Add Everburn Blade +1 (two-handed sword)~
-@102 = ~Add Bloodthirst +3 (dagger)~
-@103 = ~Add Crimson Mischief +3 (short sword)~
-@104 = ~Add Assassin's Touch +1 (dagger)~
-@105 = ~Add Ritual Dagger (dagger)~
-@106 = ~Add Cold Snap +1 (dagger)~
-@107 = ~Add Spell Siphon +1 (Arcane Absorption Dagger; cut content)~
-@108 = ~Add Cruel Sting +1 (long sword)~
+@101 = ~Add Everburn Blade +1 (Everburn Blade; two-handed sword)~
+@102 = ~Add Bloodthirst +3 (Bloodthirst; dagger)~
+@103 = ~Add Crimson Mischief +3 (Crimson Mischief; short sword)~
+@104 = ~Add Assassin's Touch +1 (Assassin's Touch; dagger)~
+@105 = ~Add Ritual Dagger (Ritual Dagger; dagger)~
+@106 = ~Add Cold Snap +1 (Cold Snap; dagger)~
+@107 = ~Add Spell Siphon +1 (Arcane Absorption Dagger; cut content dagger)~
+@108 = ~Add Cruel Sting +1 (Cruel Sting; long sword)~
 @109 = ~Add Judgment +4 (Orphic Hammer; warhammer)~
-@110 = ~Add The Deathstalker Mantle (cloak)~
+@110 = ~Add The Deathstalker Mantle (The Deathstalker Mantle; cloak)~
 
-@211 = ~Add Sage Ring (Dark Souls 3; ring)~
-@213 = ~Add Hawk Ring (Dark Souls 3; ring)~
+@211 = ~Add Sage Ring (Dark Souls 3 - Sage Ring; ring)~
+@213 = ~Add Hawk Ring (Dark Souls 3 - Hawk Ring; ring)~
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
-@220 = ~Add Harp Bow (Elden Ring - Harp Bow; shortbow/longbow)~ // bard-focused shortbow
+@220 = ~Add Harp Bow (Elden Ring - Harp Bow; shortbow/longbow)~
 @222 = ~Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)~
 @223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
 @224 = ~Add Periapt of Renewal (Elden Ring - Blessed Dew Amulet; necklace)~
-@227 = ~Add Bloody Sting (Elden Ring - Bloody Helice; estoc)~ // orcus-based estoc
+@227 = ~Add Bloody Sting (Elden Ring - Bloody Helice; estoc)~
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
 
-@301 = ~Add Lawgiver +1 (bastard sword)~
-@302 = ~Add The Left Hand (dagger)~
-@303 = ~Add Master Li's Way (katana)~
-@304 = ~Add Kukri of the Eclipse (dagger / kukri)~
-@307 = ~Add Blade of the Rashemi (two-handed sword)~
-@308 = ~Add Shining Light of Lathander (two-handed sword)~
-@309 = ~Add Goblinsplitter (axe)~
-@311 = ~Add Mercykiller Blade (rapier)~
+@301 = ~Add Lawgiver +1 (Lawgiver; bastard sword)~
+@302 = ~Add The Left Hand (The Left Hand; dagger)~
+@303 = ~Add Master Li's Way (Master Li's Way; katana)~
+@304 = ~Add Kukri of the Eclipse (Kukri of the Eclipse; dagger / kukri)~
+@307 = ~Add Blade of the Rashemi (Blade of the Rashemi; two-handed sword)~
+@308 = ~Add Shining Light of Lathander (Shining Light of Lathander; two-handed sword)~
+@309 = ~Add Goblinsplitter (Goblinsplitter; axe)~
+@311 = ~Add Mercykiller Blade (Mercykiller Blade; rapier)~
 
 @401 = ~Add Rod of Illusive Protections (rod)~
 @402 = ~Add Omniblade (universal sword)~
-@403 = ~Add Phantom's Blade (ninja-to)~
+@403 = ~Add Phantom's Blade (Phantom's Monomolecular Sword; ninja-to)~
 
-@501 = ~Add Needle +1 (Game of Thrones; rapier)~ // game of thrones inspired
-@502 = ~Add Craven Edge +4 (The Legend of Vox Machina; two-handed sword)~
+@501 = ~Add Needle +1 (Game of Thrones - Needle; rapier)~ // game of thrones inspired
+@502 = ~Add Craven Edge +4 (The Legend of Vox Machina - Craven Edge; two-handed sword)~
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
@@ -179,7 +179,7 @@ Equipped abilities:
 
 Combat abilities:
 – 15% chance of dealing extra 1d8 cold damage
-– 15% chance of snap-freezing the target on hit, paralyzing them for half a round if a save vs. Death at -2 is failed. Targets immune to cold damage and undead are immune to this effect
+– 15% chance on hit to snap-freeze the target. If the target fails a save vs. Death at -2, they are paralyzed for half a round and take 20% more damage during this time. Undead and creatures immune to cold damage are not affected by this effect.
 
 THAC0: +1
 Damage: 1d4+1, +1d2 cold damage
@@ -390,7 +390,7 @@ Combat abilities:
 
 Charge abilities:
 – Blink Bolt, once per day
-  Special: Instantly teleport into melee range of the target, causing an electric shock that deals 8d4 electric damage and stuns the target for 1 round if a save vs. Death at -4 is failed. The shock then pulses outward, chaining to all enemies around, dealing 5d4 electric damage. For one round after this, the caster will cause 100% more electric damage and become hasted as per the Improved Haste spell.
+  Special: Instantly teleport to melee range of the target, unleashing an electric shock that deals 6d4 electricity damage. The target must save vs. Death at -4 or be stunned for 1 round. Immediately after, a Chain Lightning spell strikes, dealing 6d6 electricity damage to the target and nearby enemies. For 1 round following this attack, the caster is hasted (as per Improved Haste) and deals double electricity damage by any means.
   Range: 60 ft.
   Area of Effect: 1 creature
 
@@ -424,6 +424,7 @@ Requires:
 
 Weight: 2~
 
+// longbow variant
 @6052 = ~This delicate and elegantly crafted bow is strung not just with a bowstring, but with fine, enchanted threads that sometimes resonate when an arrow is shot. While any archer can wield it effectively, this bow is at its most powerful in the hands of a bard. Their intimate connection to music awakens the bow's hidden magic, guiding arrows with more power and accuracy.
 
 STATISTICS:
@@ -597,7 +598,8 @@ STATISTICS:
 Equipped abilities:
 – Armor Class: +1
 – Off-hand THAC0: +1
-– Wielder automatically gains specialization in two-weapon fighting (unless already higher)
+– Wielder automatically gains specialization in two-weapon fighting, unless their skill is equal or greater
+– Second weapon: THAC0 and Damage improves by +1 when wielding this dagger
 
 THAC0: +1
 Damage: 1d4+1 (piercing)
@@ -709,34 +711,6 @@ Requires:
 
 Weight: 1~
 
-// upgraded version of the Kukri of the Eclipse
-@80080 = ~Kukri of the Eclipse +5~
-@80081 = ~The symbol on the kukri indicates it belonged to the monks of the Dark Moon Order. Despite the weapon's sinister association, it has no evil aura and can be safely wielded by anyone.
-
-STATISTICS:
-
-Equipped abilities:
-– Infravision
-– Immunity to blindness
-– Immunity to level drain
-
-Combat abilities:
-– Inflicts negative energy damage on hit, which damages the living and heals the undead. This type of damage is not affected by the target's resistances or immunities
-– Like all kukris, this weapon has +5% extra chance to critically hit
-– Incapable of critically missing (Dark Moon Monks and Shadowdancers only)
-– 25% chance of draining 2 to 5 levels on hit if the target fails a saving throw vs. Death at -5. It's more likely to drain smaller amounts of levels than larger ones.
-
-THAC0: +5
-Damage: 1d4+5, +2d4 negative energy damage
-Damage type: Piercing
-Speed Factor: 0
-Proficiency Type: Dagger/Kukri
-Type: One-handed
-Requires:
- 3 Strength
-
-Weight: 1~
-
 @80110 = ~Rapier~
 @80111 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category.
 
@@ -812,7 +786,8 @@ Equipped abilities:
 
 Combat abilities:
 – Inflicts a cumulative 10% spell failure chance on hit for 3 rounds
-– 12% chance per hit of increasing the casting time of all spells by 2 for 5 rounds. This effect does not stack.
+– 25% chance per hit of increasing the casting time of all spells by 2 for 5 rounds. This effect does not stack.
+– Behaves as a +2 weapon when held by a barbarian, berserker, or Rashemi warrior, and as a +1 weapon otherwise
 
 THAC0: +1, +2 (barbarian, berserker, or Rashemi warrior)
 Damage: 1d12+1, +2 (barbarian, berserker, or Rashemi warrior)
@@ -857,15 +832,17 @@ Requires:
 Weight: 11~
 
 @8019 = ~Goblinsplitter~
-@8020 = ~This is a rough-hewn axe forged not with artistry, but with raw hatred. The name Goblinsplitter is crudely carved into the axe's head and its pitted blade and handle bear the marks of countless battles against goblinoid foes. Created by a blacksmith whose village was razed by marauding goblins, the weapon was designed with a single purpose: vengeance.
+@8020 = ~This is a rough-hewn axe forged not with artistry, but with hatred. The name Goblinsplitter is crudely carved into the axe's head, and its pitted blade and battered handle bear the marks of countless battles against goblinoid foes. Over years of brutal use, the edge has become jagged and serrated, not by design but by repeated blows and makeshift repairs. Created by a blacksmith whose village was razed by marauding goblins, the weapon was designed with a single purpose: vengeance.
 
 STATISTICS:
 
 Combat abilities:
-– Goblinoids hit by this weapon take extra 1d4 slashing damage; 2d4 on a critical hit
-– +2 THAC0 bonus vs. goblinoids
+– Goblinoids hit by this weapon take extra 1d4 slashing damage; double on a critical hit
+– Acts as a +2 weapon against goblinoids for the purposes of overcoming weapon immunities
+– +2 THAC0 bonus vs. goblinoids while wielding this weapon
 
-Damage: 1d8 (slashing)
+Damage: 1d8, +1 piercing
+Damage type: Slashing
 Speed Factor: 7
 Proficiency Type: Axe
 Type: One-handed
@@ -908,6 +885,7 @@ Charge abilities:
 
 Weight: 3~
 
+// this description is specially awful
 @10113 = ~Omniblade~
 @10114 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
 
@@ -1060,7 +1038,7 @@ Type: One-handed
 Weight: 1~
 
 @10130 = ~Phantom's Blade~
-@10131 = ~This wakizashi was forged by a secret sect of assassins only known as the "Phantoms". This faction once operated from the shadows, eliminating their targets with frightening precision, before vanishing without a trace. Some believe they were wiped out, while others say that they still exist, watching from the shadows.
+@10131 = ~This ninjatô was forged by a secret sect of assassins only known as the "Phantoms". This faction once operated from the shadows, eliminating their targets with frightening precision, before vanishing without a trace. Some believe they were wiped out, while others say that they still exist, watching from the shadows.
 
 Beyond its amazing enchantment, the blade's edge is so incredibly sharp, it can slice through flesh and bone with unnerving ease. Only those who proved their loyalty and skill to the Phantoms were granted the honor of wielding such a weapon. Yet, holding it now carries an unsettling feeling—a sense that its masters may one day return to reclaim what is theirs.
 
@@ -1069,7 +1047,7 @@ STATISTICS:
 Combat abilities:
 – 20% chance per hit that target must save vs. Death at -3 or die by decapitation or fatal impalement
 
-Damage: 1d8+5 (piercing)
+Damage: 1d8+5 (piercing or slashing, whichever is better)
 Speed Factor: 0
 Proficiency Type: Scimitar/Wakizashi/Ninjatō
 Type: One-handed

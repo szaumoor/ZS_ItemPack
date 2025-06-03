@@ -1,6 +1,6 @@
 ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
 
-    COPY ~%MOD_FOLDER%/items/generic/estoc~ ~override~
+    COPY ~%MOD_FOLDER%/items/generic/rapier~ ~override~
     COPY_EXISTING ~ZSIPRAP0.ITM~ ~override~
                   ~ZSIPRAP1.ITM~ ~override~
                   ~ZSIPRAP2.ITM~ ~override~
@@ -9,22 +9,21 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
         SAY NAME2 @80110
         SAY UNIDENTIFIED_DESC @80111
         SAY IDENTIFIED_DESC @80111
-    END
 
     COPY_EXISTING ~ZSIPRAP1.ITM~ ~override~
         SAY NAME2 @80112
         SAY IDENTIFIED_DESC @80113
-    END
+
 
     COPY_EXISTING ~ZSIPRAP2.ITM~ ~override~
         SAY NAME2 @80114
         SAY IDENTIFIED_DESC @80115
-    END
+
 
     COPY_EXISTING ~ZSIPRAP3.ITM~ ~override~
         SAY NAME2 @80116
         SAY IDENTIFIED_DESC @80117
-    END
+
 
     ACTION_IF GAME_IS ~bgee eet~ BEGIN
         // +0
@@ -41,7 +40,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~ULGOTH.STO~ ~override~ // ulgoth's beard store
                       ~FRIEND.STO~ ~override~ // friendly arm inn
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            SET amount = RANDOM(2,7)
+            SET amount = RANDOM(2 7)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPRAP0" position = "LAST" flags=~identified~ END
 
         BUT_ONLY IF_EXISTS
@@ -53,14 +52,20 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~STO4907.STO~ ~override~ // carnival shop
                       ~TAERUM.STO~ ~override~ // thunderhammer's smithy
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            SET amount = RANDOM(1,2)
+            SET amount = RANDOM(1 2)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPRAP1" position = "LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
     END
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-
-
+        ACTION_IF GAME_IS ~bg2ee eet~ BEGIN // nalia uses a rapier now, since it's a noble weapon
+            COPY_EXISTING ~NALIA8.CRE~ ~override~
+                LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~SW1H07~ RET found END
+                PATCH_IF found BEGIN
+                    ADD_CRE_ITEM ~ZSIPRAP0~ #1 #0 #0 ~none~ ~weapon1~ ~EQUIP~
+                END
+            BUT_ONLY
+        END
     END
 
 END

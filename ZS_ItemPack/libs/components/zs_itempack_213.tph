@@ -12,7 +12,7 @@ BUT_ONLY
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
     COPY_EXISTING ~CALDO.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPHKR0.ITM~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPHKR0~ #1 #0 #0 ~unstealable~ ~inv~
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN

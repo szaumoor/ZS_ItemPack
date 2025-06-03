@@ -12,13 +12,13 @@ BUT_ONLY
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
     COPY_EXISTING ~SIMDEMON.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPS2AA.itm~ #1 #0 #0 ~unstealable&undroppable~ ~weapon1~ EQUIP
+        ADD_CRE_ITEM ~ZSIPS2AA~ #1 #0 #0 ~unstealable&undroppable~ ~weapon1~ EQUIP
 
     COPY_EXISTING ~SIMMEON.CRE~ ~override~
-        REPLACE_CRE_ITEM ~ZSIPS2AA.itm~ #1 #0 #0 ~unstealable~ ~inv~
+        REPLACE_CRE_ITEM ~ZSIPS2AA~ #1 #0 #0 ~unstealable~ ~inv~
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
     COPY_EXISTING ~IOTYUGH.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPS2AA.itm~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPS2AA~ #1 #0 #0 ~unstealable~ ~inv~
 END

@@ -23,7 +23,7 @@ These items are taken from a forbidden game that shall not be named. Due to plot
 
 **Component 101:** Add Everburn Blade +1 (two-handed sword)
 
-This component adds a new cool flaming two-handed sword that is more powerful when against demons, and also when wielded by tieflings. This item will be wielded by the Cambion in Irenicus' dungeon in BG2, and in BG1, it will be wielded Azothet's servants at the end of Dorn's questline (not lootable), and Simmeon himself, who will drop it but not use it.
+This component adds a new cool flaming +1 two-handed sword that is more powerful against demons, and also when wielded by tieflings. This item will be wielded by the Cambion in Irenicus' dungeon in BG2, and in BG1, it will be wielded Azothet's servants at the end of Dorn's questline (not lootable), and Simmeon himself, who will drop it but not use it.
 
 **Component 102:** Add Bloodthirst +3 (dagger)
 
@@ -159,4 +159,6 @@ It should be installed before mods that add new kits, as some kits (like my shad
 - zenblack for providing icons for **LITERALLY every item in this mod**. All hail to his mighty icon-making skills.
 - zenblack again for brainstorming functionalities and descriptions for some of the items
 - dark0dave and others who have helped me with the modding process or by providing resources
+- Llewren for offering feedback and ideas for the item descriptions
+- Various people on Discord for offering ideas as to where to put the items, like The Artisan, moggadeet, Fickle Swamp Wench, JDSilvergun, among others
 - People on Discord generally for their help
