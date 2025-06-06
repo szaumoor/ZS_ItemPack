@@ -12,10 +12,10 @@ BUT_ONLY
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
   COPY_EXISTING ~VAYYA.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPDGAA~ #1 #0 #0 ~unstealable~ ~cloak~
+    ADD_CRE_ITEM ~ZSIPDGAA~ #0 #0 #0 ~unstealable~ ~cloak~
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
   COPY_EXISTING ~IDEMON01.CRE~ ~override~
-      ADD_CRE_ITEM ~ZSIPDGAA~ #1 #0 #0 ~unstealable~ ~cloak~
+      ADD_CRE_ITEM ~ZSIPDGAA~ #0 #0 #0 ~unstealable~ ~cloak~
 END

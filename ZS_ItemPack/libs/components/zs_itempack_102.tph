@@ -12,7 +12,7 @@ BUT_ONLY
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
     COPY_EXISTING ~WINSKI2.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPDGAA~ #1 #0 #0 ~none~ ~inv~
+        ADD_CRE_ITEM ~ZSIPDGAA~ #0 #0 #0 ~none~ ~inv~
     BUT_ONLY IF_EXISTS
 END
 

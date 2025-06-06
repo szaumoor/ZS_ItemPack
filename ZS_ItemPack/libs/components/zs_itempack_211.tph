@@ -13,19 +13,19 @@ BUT_ONLY
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
     COPY_EXISTING ~DAVAEO.CRE~ ~override~
         READ_LONG 0x2b8 item_offset
-        READ_SHORT (item_offset + 0x2 * 6) equipped_necklace
+        READ_SHORT (item_offset + (6 * 2)) equipped_necklace
         PATCH_IF equipped_necklace = "-1" BEGIN
-            ADD_CRE_ITEM ~ZSIPSGR0~ #1 #0 #0 ~unstealable&undroppable~ ~amulet~
+            ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable&undroppable~ ~amulet~
         END
-        ADD_CRE_ITEM ~ZSIPSGR0~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable~ ~inv~
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
-    COPY_EXISTING ~TOLGER.CRE~ ~override~
+    COPY_EXISTING ~TOLGER2.CRE~ ~override~
         READ_LONG 0x2b8 item_offset
-        READ_SHORT (item_offset + 0x2 * 4) equipped_left_ring
+        READ_SHORT (item_offset + (4 * 2)) equipped_left_ring
         PATCH_IF equipped_left_ring = "-1" BEGIN
-            ADD_CRE_ITEM ~ZSIPSGR0~ #1 #0 #0 ~unstealable&undroppable~ ~lring~
+            ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable&undroppable~ ~lring~
         END
-        ADD_CRE_ITEM ~ZSIPSGR0~ #1 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable~ ~inv~
 END

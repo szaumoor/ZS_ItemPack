@@ -17,5 +17,5 @@ END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
     COPY_EXISTING ~AR0602.ARE~ ~override~
-        LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 33 charges1=1 charges2=1 STR_VAR item_to_add = ~ZSIPDGAC~ END
+        LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 33 STR_VAR item_to_add = ~ZSIPDGAC~ END
 END

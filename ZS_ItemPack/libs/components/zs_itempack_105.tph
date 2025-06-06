@@ -13,10 +13,10 @@ BUT_ONLY
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
     COPY_EXISTING ~BASSIL.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPDGRI~ #1 #0 #0 ~none~ ~inv~
+        ADD_CRE_ITEM ~ZSIPDGRI~ #3 #0 #0 ~none~ ~inv~
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
     COPY_EXISTING ~DUECLA01.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPDGRI~ #1 #0 #0 ~none~ ~inv~
+        ADD_CRE_ITEM ~ZSIPDGRI~ #3 #0 #0 ~none~ ~inv~
 END

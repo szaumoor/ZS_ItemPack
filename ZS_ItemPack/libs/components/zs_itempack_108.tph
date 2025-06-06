@@ -17,10 +17,10 @@ BUT_ONLY
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
   COPY_EXISTING ~CENTEO.CRE~ ~override~
-      ADD_CRE_ITEM ~ZSIPCRST~ #1 #0 #0 ~none~ ~inv~
+      ADD_CRE_ITEM ~ZSIPCRST~ #2 #0 #0 ~none~ ~inv~
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
   COPY_EXISTING ~AR2101.ARE~ ~override~
-      LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 1 charges1=1 charges2=1 STR_VAR item_to_add = ~ZSIPCRST~ END
+      LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 1 charges1=2 STR_VAR item_to_add = ~ZSIPCRST~ END
 END

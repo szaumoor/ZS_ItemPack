@@ -15,6 +15,6 @@ BUT_ONLY
 
 
 COPY_EXISTING ~AR2101.ARE~ ~override~
-    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 5 charges1=1 charges2=1 STR_VAR item_to_add = ~ZSIPSTM0~ END
+    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 5 charges1=1 STR_VAR item_to_add = ~ZSIPSTM0~ END
 
 INCLUDE ~%MOD_FOLDER%/libs/zs_add_estocs.tph~

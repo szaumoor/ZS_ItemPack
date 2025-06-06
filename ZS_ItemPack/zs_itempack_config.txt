@@ -3,3 +3,7 @@ OUTER_SET zst_harpbow_longbow = "0"
 
 // set to 0 if you'd rather not have generic variants of the new weapon types distributed to stores when a weapon of that type is installed (up to +1 in BGEE, +2 in BG2EE)
 OUTER_SET zst_generic_variants = "1"
+
+// these options grant (without replacement) these items to these characters (base character), if the weapons exist
+OUTER_SET zst_give_nalia_soa_rapier0 = "1"
+OUTER_SET zst_give_skie_bgee_rapier1 = "1"

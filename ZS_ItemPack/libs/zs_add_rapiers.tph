@@ -55,17 +55,24 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
             SET amount = RANDOM(1 2)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPRAP1" position = "LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
+
+        ACTION_IF zst_give_skie_bgee_rapier1 BEGIN
+            // skie uses a rapier now, since it's a noble weapon
+            COPY_EXISTING ~SKIE.CRE~ ~override~
+                ADD_CRE_ITEM ~ZSIPRAP0~ #0 #0 #0 ~none~ ~weapon2~ ~EQUIP~ // CHECK COMPATIBILITY WITH LAVA'S MOD
+        END
     END
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-        ACTION_IF GAME_IS ~bg2ee eet~ BEGIN // nalia uses a rapier now, since it's a noble weapon
+        ACTION_IF zst_give_nalia_soa_rapier0 BEGIN
+        // nalia uses a rapier now, since it's a noble weapon
             COPY_EXISTING ~NALIA8.CRE~ ~override~
                 LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~SW1H07~ RET found END
                 PATCH_IF found BEGIN
-                    ADD_CRE_ITEM ~ZSIPRAP0~ #1 #0 #0 ~none~ ~weapon1~ ~EQUIP~
+                    ADD_CRE_ITEM ~ZSIPRAP0~ #0 #0 #0 ~none~ ~weapon1~ ~EQUIP~
                 END
-            BUT_ONLY
         END
+
     END
 
 END

@@ -29,7 +29,7 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
         LPF ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 STR_VAR resource = "ZSIPMNC2" END
 
     COPY_EXISTING ~UHRANG01.CRE~ ~override~
-      ADD_CRE_ITEM ~ZSIPGSAB~ #1 #0 #0 ~none~ ~inv~
+      ADD_CRE_ITEM ~ZSIPGSAB~ #0 #0 #0 ~none~ ~inv~
 
 END ELSE BEGIN
     COPY_EXISTING ~MINSC.cre~   ~override~

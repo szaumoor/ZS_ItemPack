@@ -20,7 +20,7 @@ COPY_EXISTING ~ZSIPKRE2.itm~ ~override~
 BUT_ONLY
 
 COPY_EXISTING ~DRAGBLAC.CRE~ ~override~ // NIZINIZINIZINIZINIZI
-    ADD_CRE_ITEM ~ZSIPKRE0.itm~ #1 #0 #0 ~unstealable~ ~inv~
+    ADD_CRE_ITEM ~ZSIPKRE0.itm~ #0 #0 #0 ~unstealable~ ~inv~
 BUT_ONLY IF_EXISTS
 
 
