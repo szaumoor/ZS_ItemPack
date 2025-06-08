@@ -81,7 +81,8 @@ Equipped abilities:
 – Critical chances while holding this weapon increase by 5%
 
 Combat abilities:
-– Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds
+– Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
+– Additionally, each hit inflicts a -1% weakness to piercing damage (cumulative) for 5 rounds.
 
 THAC0: +3
 Damage: 1d4+3 (piercing)
@@ -99,13 +100,13 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-Deals extra piercing damage to targets depending on their current Hit Points:
- – Between 85 and 100 HP: 1d2
- – Between 70 and 84 HP: 1d2+1
- – Between 54 and 69 HP: 1d3+1
- – Between 38 and 53 HP: 1d4+1
- – 37 HP or below: 1d5+1
-– 4% chance per hit of hitting a vital or otherwise weak spot, causing the target to lose 20% of their Hit Points
+Deals bonus piercing damage based on the target's current Hit Points:
+ – 85–100 HP: 1d2 damage
+ – 70–84 HP: 1d2+1 damage
+ – 54–69 HP: 1d3+1 damage
+ – 38–53 HP: 1d4+1 damage
+ – 37 HP or less: 1d5+1 damage
+Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
 
 THAC0: +3
 Damage: 1d6+3, +1d4 necrotic damage (only affects living creatures; cannot be resisted)
@@ -130,7 +131,7 @@ Equipped abilities:
 – Weapon damage is increased by +1 when wielded by thieves, or +2 if they're Assassins
 
 Combat abilities:
-– Enemies that are unconscious or asleep receive 1d6 extra piercing and cold damage
+– Enemies that are helpless (stunned, paralyzed, asleep) receive 1d6 extra piercing and cold damage every hit
 – Critical chances: +5% (only for single-classed Thieves)
 
 THAC0: +1 (+2 for Thieves, +3 for Assassins)
@@ -152,9 +153,10 @@ STATISTICS:
 Combat abilities:
 – Every successful hit with this weapon grants a stacking +1 bonus to melee attack rolls for 7 seconds
 – Target must save vs. Death at -2 or bleed for 4 rounds, suffering 1 point of piercing damage, and again once per round
+– Acts as a +2 weapon for the purposes of overcoming weapon immunities
 
 Charge ability:
-– Pain is a path to power. Three times per day, you may cut your own hand, taking 1d6 slashing damage. This grants you a +1 bonus to attack rolls and increases your chance to score a critical hit by 15% for 15 seconds. These bonuses do not stack with themselves.
+– Pain is a path to power. Three times per day, you may cut your own hand, taking 1d6 slashing damage. This grants a +2 bonus to attack rolls and increases the chances to score a critical hit by 15% for 15 seconds. These bonuses do not stack with themselves.
 
 THAC0: No bonus
 Damage: 1d4+2 (piercing)
@@ -179,7 +181,7 @@ Equipped abilities:
 
 Combat abilities:
 – 15% chance of dealing extra 1d8 cold damage
-– 15% chance on hit to snap-freeze the target. If the target fails a save vs. Death at -2, they are paralyzed for half a round and take 20% more damage during this time. Undead and creatures immune to cold damage are not affected by this effect.
+– 15% chance on hit to snap-freeze the target. If the target fails a save vs. Death at -2, they are paralyzed for 4 seconds and take 25% more damage during this time. Undead and creatures immune to cold damage are not affected by this effect.
 
 THAC0: +1
 Damage: 1d4+1, +1d2 cold damage
@@ -274,7 +276,8 @@ Weight: 4~
 This blood-red cloak was once the sinister badge of honor bestowed upon Bhaal's most ruthless assassins. Forged in the name of the Lord of Murder, it served as a grim token of their unholy deeds. Etched along the hem these words can be read: "Let hill and hollow be a door to screams that last forevermore."
 
 Equipped abilities:
-– +5% critical hit chance while the user is invisible or hidden
+– THAC0: +1 (single-classed Thieves only)
+– Damage: +1 (Assassins only)
 – The Shadow Itself: Upon killing an enemy, the wearer becomes invisible for 2 rounds and gains a +1 bonus to damage and THAC0 during this time. This effect can only trigger once per round
 
 Weight: 3~
@@ -310,7 +313,7 @@ Requires:
 Weight: 2~
 
 @6011 = ~Moonlit Slumber +3~
-@6012 = ~Mists of slumber~
+@6012 = ~Mists of Slumber~
 
 @60200 = ~Estoc~
 @60201 = ~Estocs are the largest of the thrusting swords, renowned for being capable of piercing an armored knight in one thrust. Despite their large size, they can be wielded rather nimbly, leaving little opportunity for the enemy to counter. Much like their smaller counterparts, estocs are +5% more likely to critically hit than other weapons of their category.
@@ -385,19 +388,19 @@ Equipped abilities:
 – Movement speed increases by a factor of 2
 
 Combat abilities:
-– Each hit decreases the target's resistance to electricity by 5% for 2 rounds
+– Each hit decreases the target's resistance to electricity by 5% for 2 rounds (unless immune to electricity)
 – Like all estocs, it is +5% more likely to critically hit than other weapons of its category
 
 Charge abilities:
 – Blink Bolt, once per day
-  Special: Instantly teleport to melee range of the target, unleashing an electric shock that deals 6d4 electricity damage. The target must save vs. Death at -4 or be stunned for 1 round. Immediately after, a Chain Lightning spell strikes, dealing 6d6 electricity damage to the target and nearby enemies. For 1 round following this attack, the caster is hasted (as per Improved Haste) and deals double electricity damage by any means.
+  Special: Instantly teleport to the target, dealing 6d4 electricity damage and reducing their electricity resistance by 20%. Target must save vs. Death at -4 or be stunned for 1 round. Then, Chain Lightning strikes for 6d6 electricity damage to the target and nearby enemies. For 2 rounds, the caster is hasted and deals double electricity damage.
   Range: 60 ft.
   Area of Effect: 1 creature
 
 THAC0: +3
 Damage: 1d8+4, 1d4+1 electric damage
 Damage type: Piercing or slashing
-Speed Factor: 2
+Speed Factor: 3
 Proficiency Type: Long Sword / Estoc
 Type: Two-handed
 Requires:
@@ -475,8 +478,8 @@ It is a mystery how it was enchanted with such precision, as none of the forgema
 STATISTICS:
 
 Combat abilities:
-– Each hit causes the target to bleed, dealing 1d4 damage twice per round for 3 rounds. The target can save vs. Death at -2 to take half damage.
-– Blood Lord's Exultation: 5% chance to cause targets with blood to lose 20% of their Hit Points. This empowers the wielder, increasing all their damage by 20% for 20 seconds.
+– Each hit has a 50% chance of making the target to bleed, dealing 1d2 damage twice per round for 3 rounds. This amount is doubled if the target fails to save vs. Death at -2. Targets without blood or protected by Stoneskin are immune to this effect.
+– Blood Lord's Exultation: 5% chance to cause targets with blood to take 20 piercing damage. This empowers the wielder, increasing all their damage by 20% for 20 seconds.
 – Like all estocs, it is +5% more likely to critically hit than other weapons of its category
 
 THAC0: +3
@@ -806,13 +809,13 @@ Weight: 14~
 STATISTICS:
 
 Equipped abilities:
-– When held, the sword emits a blinding light that causes undead creatures within a 15 ft. radius of the wielder to suffer a -2 penalty to their THAC0 and Armor Class
+– When in combat, the sword emits a radiant light that causes hostile undead within a 15 ft. radius of the wielder to suffer a -3 penalty to their THAC0 and Armor Class
 
 Combat abilities:
-– Acts as a +4 weapon against undead for the purposes of overcoming weapon immunities
+– Acts in every way as a +4 weapon vs. undead, and as a +2 weapon vs. non-undead
 
 Charge ability:
-– Searing Light, once per day
+– Searing Light, twice per day
   Special: Fires a bolt of light at the target, causing the following effects:
   – Undead: Blinded for 2 rounds and take 6d6 magic damage (12d6 vs. vampires)
   – Non-undead: Blinded for 2 rounds and take 3d6 magic damage
@@ -1064,14 +1067,14 @@ STATISTICS:
 
 Equipped abilities:
 – +1 to Armor Class and saving throws (short races only)
-– 2 attacks per round
+– 3/2 attacks per round (2 attacks per round for short races)
 
 Combat abilities:
-– 25% chance of inflicting a bleeding wound on hit, dealing 1d4 piercing damage per round for 2 rounds. No effect on creatures without blood
+– 25% chance of inflicting a bleeding wound on hit, dealing 1d4 piercing damage instantly and then again after one round. No effect on creatures without blood
 – 5% more likely to critically hit compared to other rapiers (short races only)
 
 THAC0: +1, +2 if wielded by short races
-Damage: 1d5+1 (piercing)
+Damage: 1d6+1 (piercing)
 Speed Factor: 0
 Proficiency Type: Short Sword / Rapier
 Type: One-handed

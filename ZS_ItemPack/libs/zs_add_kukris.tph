@@ -42,7 +42,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~FRIEND.STO~   ~override~ // friendly arm inn
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
             SET amount = RANDOM(2 7)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPKUK0" position = "LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPKUK0" position="LAST" flags=~identified~ END
 
         BUT_ONLY IF_EXISTS
 
@@ -54,7 +54,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~TAERUM.STO~   ~override~ // thunderhammer's smithy
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
             SET amount = RANDOM(1 2)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1 = amount STR_VAR item_name = "ZSIPKUK1" position = "LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPKUK1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
     END

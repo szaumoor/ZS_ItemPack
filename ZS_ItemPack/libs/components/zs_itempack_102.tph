@@ -10,6 +10,11 @@ COPY_EXISTING ~ZSIPDGAA.itm~ ~override~
     SAY IDENTIFIED_DESC @5005
 BUT_ONLY
 
+COPY_EXISTING ~ZSIPDG01.ITM~ ~override~
+              ~ZSIPDG02.ITM~ ~override~
+    LPF ALTER_EFFECT INT_VAR match_opcode = 318 parameter2 = zs_missile_immunity END
+BUT_ONLY
+
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
     COPY_EXISTING ~WINSKI2.CRE~ ~override~
         ADD_CRE_ITEM ~ZSIPDGAA~ #0 #0 #0 ~none~ ~inv~

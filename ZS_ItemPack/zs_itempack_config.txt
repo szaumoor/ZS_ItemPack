@@ -1,7 +1,7 @@
 // set to 1 if you prefer the Harp Bow to be a long bow, since bards are not restricted to short bows like thieves
 OUTER_SET zst_harpbow_longbow = "0"
 
-// set to 0 if you'd rather not have generic variants of the new weapon types distributed to stores when a weapon of that type is installed (up to +1 in BGEE, +2 in BG2EE)
+// set to 0 if you'd rather not have generic variants of the new weapon types distributed to stores when a weapon of that type is installed (up to +1 in BGEE, +2 in BG2EE, +3 in ToB)
 OUTER_SET zst_generic_variants = "1"
 
 // these options grant (without replacement) these items to these characters (base character), if the weapons exist

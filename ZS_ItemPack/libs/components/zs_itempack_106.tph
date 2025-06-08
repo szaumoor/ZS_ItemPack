@@ -10,10 +10,8 @@ COPY_EXISTING ~ZSIPCLSN.ITM~ ~override~
     SAY IDENTIFIED_DESC @5016
     LPF ALTER_EFFECT INT_VAR match_opcode = 318 match_parameter2 = 0 parameter2 = zs_cold_immunity END
 
-COPY_EXISTING ~ZSIPCLS1.SPL~ ~override~
+COPY_EXISTING ~ZSIPCLS0.SPL~ ~override~
     LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50160) END
-
-INCLUDE ~%MOD_FOLDER%/libs/zs_alter_functions.tpa~
 
 WITH_SCOPE BEGIN
     OUTER_SET matches = 0
