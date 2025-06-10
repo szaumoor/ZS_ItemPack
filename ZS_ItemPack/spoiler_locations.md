@@ -42,7 +42,7 @@ In BGEE, this drops from Centeol in the spider lair you can find in the first Cl
 
 This weapon is only found in BG2EE and may be purchased from the helmites at the beginning of Watcher's Keep for 30000 gold pieces, before price adjustments. For comparison, the Short Sword of Mask +4 is sold for 32000 gold pieces.
 
-**Deathstalker Mantle**
+**The Deathstalker Mantle**
 
 This cloak is dropped in BGEE by Vay-ya, the chaotic evil mage companion of Desreta, a worshipper of entropy that stays in the first lower level of the Low Lantern and attacks you if you agree to feel the touch of entropy in the bedroom (silly naive CHARNAME). She will have this item equipped, and as such it cannot be pickpocketed.
 
@@ -90,11 +90,13 @@ This amulet will be sold by Thalantyr in BGEE. In BG2EE, it will be sold one of 
 
 **Bloody Sting**
 
-This item will be held by the black dragon in Suldanessellar.
+This item will be held by the black dragon in Suldanessellar. (conflicts with kukri of the eclipse) (TODO)
 
 **Periapt of Renewal**
 
 This item will be sold by Kelddath Ormlyr in BGEE. In BG2EE, it will be sold by Overgold Renwellyn in Trademeet.
+
+**Storm's Monarch**
 
 ## NWN/NWN2 inspired items
 
@@ -114,6 +116,28 @@ This katana is found in Silence's store in BGEE. In BG2EE, it is held by an earl
 
 This kukri is in the hoard of the black dragon in Suldanessellar in BG2EE. It can be upgraded.
 
+**Rashemi Blade**
+
+**Shining Light of Lathander**
+
 **Goblinsplitter**
 
 In BGEE, this is sold at the Friendly Arm Inn. In BG2EE, it's found on the first container with weapons in Irenicus' dungeon.
+
+**Mercykiller Blade**
+
+Only found in BG2EE, this item is sold by Deidre at the Adventurer's Mart.
+
+## Mass Effect inspired items
+
+**Omniblade**
+
+**Rod of Illusive Protections**
+
+**Phantom's Blade**
+
+## TV show or movie inspired items
+
+**Needle**
+
+**Craven Edge**

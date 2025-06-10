@@ -6,6 +6,7 @@
 @5 = ~New items: TV/Movie inspired~
 
 @50 = ~Only available for the Enhanced Edition of Baldur's Gate I and II~
+@51 = ~Only available for the Enhanced Edition of Baldur's Gate II~
 
 @101 = ~Add Everburn Blade +1 (Everburn Blade; two-handed sword)~
 @102 = ~Add Bloodthirst +3 (Bloodthirst; dagger)~
@@ -53,11 +54,11 @@
 STATISTICS:
 
 Equipped abilities:
-– Demonic enemies have a penalty in the combat rolls against the wielder, as if protected by a Protection from Evil spell that only applies to them
+– Demonic enemies suffer a penalty to attack rolls against the wielder, as if affected by a Protection from Evil spell (this effect applies only to demonic enemies)
 
 Combat abilities:
-– Affects demonic enemies immune to +2 weapons, and hits as a +2 weapon against them
-– The fire damage dealt to demons cannot be resisted, even if they are immune to normal fire damage
+– Can strike demonic enemies that are normally immune to +2 weapons, and is treated as a +2 weapon against them
+– Fire damage dealt to demons by this weapon cannot be resisted, even by those normally immune to fire
 
 THAC0: +1, +2 for Tieflings
 Damage: 1d10+1 (+2 for Tieflings), +1d2 fire damage (1d3+1 if wielded by Tieflings)
@@ -212,6 +213,7 @@ Proficiency Type: Dagger
 Type: One-handed
 Requires:
  3 Strength
+ 16 Intelligence
 
 Weight: 1~
 
@@ -277,7 +279,7 @@ This blood-red cloak was once the sinister badge of honor bestowed upon Bhaal's 
 
 Equipped abilities:
 – THAC0: +1 (single-classed Thieves only)
-– Damage: +1 (Assassins only)
+– Damage: +1 (Assassins and Blackguards only)
 – The Shadow Itself: Upon killing an enemy, the wearer becomes invisible for 2 rounds and gains a +1 bonus to damage and THAC0 during this time. This effect can only trigger once per round
 
 Weight: 3~
@@ -863,7 +865,7 @@ Combat abilities:
 – Like all rapiers, this weapon has +5% extra chance to critically hit
 
 THAC0: +3
-Damage: 1d6+3, +1d6 fire damage vs. evil
+Damage: 1d6+3, +1 fire damage (1d4+2 vs. evil)
 Damage type: Piercing
 Speed Factor: 1
 Proficiency Type: Short Sword / Rapier
@@ -890,7 +892,7 @@ Weight: 3~
 
 // this description is specially awful
 @10113 = ~Omniblade~
-@10114 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
+@10114 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled. Only those with professional focus on the wizardly arts can use this weapon.
 
 STATISTICS:
 
@@ -911,7 +913,7 @@ Type: One-handed
 Weight: 1~
 
 @10115 = ~Omniblade +1~
-@10116 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
+@10116 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled. Only those with professional focus on the wizardly arts can use this weapon.
 
 STATISTICS:
 
@@ -933,7 +935,7 @@ Type: One-handed
 Weight: 1~
 
 @10117 = ~Omniblade +2~
-@10118 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
+@10118 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled. Only those with professional focus on the wizardly arts can use this weapon.
 
 STATISTICS:
 
@@ -955,7 +957,7 @@ Type: One-handed
 Weight: 1~
 
 @10119 = ~Omniblade +3~
-@10120 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
+@10120 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled. Only those with professional focus on the wizardly arts can use this weapon.
 
 STATISTICS:
 
@@ -977,7 +979,7 @@ Type: One-handed
 Weight: 1~
 
 @10121 = ~Omniblade +4~
-@10122 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
+@10122 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled. Only those with professional focus on the wizardly arts can use this weapon.
 
 STATISTICS:
 
@@ -999,7 +1001,7 @@ Type: One-handed
 Weight: 1~
 
 @10123 = ~Omniblade +5~
-@10124 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
+@10124 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled. Only those with professional focus on the wizardly arts can use this weapon.
 
 STATISTICS:
 
@@ -1021,9 +1023,9 @@ Type: One-handed
 Weight: 1~
 
 @10125 = ~Omniblade +6~
-@10126 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled.
+@10126 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled. Only those with professional focus on the wizardly arts can use this weapon.
 
-The blade was evolved six times, and now it is a truly legendary weapon with a +6 enchantment level. It may no longer be improved, as further attempts would require godlike power and there's no guarantee the weapon would be able to hold more power.
+The blade was evolved six times, and now it is a truly legendary weapon. It may no longer be improved, as further attempts would likely require godlike power and there's no guarantee the weapon would be able to hold more power without catastrophic consequences.
 
 STATISTICS:
 
@@ -1039,6 +1041,8 @@ Proficiency Type: Universal
 Type: One-handed
 
 Weight: 1~
+
+@10127 = ~The omniblade may only be used by wizards and sorcerers~
 
 @10130 = ~Phantom's Blade~
 @10131 = ~This ninjatô was forged by a secret sect of assassins only known as the "Phantoms". This faction once operated from the shadows, eliminating their targets with frightening precision, before vanishing without a trace. Some believe they were wiped out, while others say that they still exist, watching from the shadows.
@@ -1090,13 +1094,11 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-– Each time the sword causes a bleeding wound or scores a critical hit, there is a 4% chance the wielder will enter a blood rage for 2 rounds. While in this state, the wielder becomes consumed by bloodlust, gaining +2 to damage and THAC0, and will attack both enemies and allies indiscriminately. Vampires are immune to this effect.
+– Each time the sword inflicts a bleeding wound or scores a critical hit, there is a 4% chance the wielder will enter a blood rage for 2 rounds. While enraged, the wielder is overcome by bloodlust, gaining +2 to damage and THAC0, but will attack both enemies and allies without discrimination. Vampires are immune to this effect.
 
 Combat abilities:
-– +5% increased chance to critically hit
-– Critical hits deal an additional 2d4+4 slashing damage
-– Each hit drinks a small amount of the target's lifeblood, healing the wielder for 1 Hit Point
-– 15% chance on hit to inflict a bleeding wound, causing the target to take 2d4 slashing damage per round for 3 rounds and healing the wielder by the same amount. The target may save vs. Death at -2 to take only half damage and heal the wielder for half as much. This effect does not work on vampires or creatures without blood.
+– Critical hits are 5% more likely and deal an additional 2d4+4 slashing damage
+– Each hit drinks a small amount of the target's lifeblood, healing the wielder for 1 Hit Point. In addition, there is a 15% chance on hit to inflict a bleeding wound: the target takes 2d4 slashing damage per round for 3 rounds, and the wielder is healed for the same amount. The target may save vs. Death at -2 to take only half damage and heal the wielder for half as much. This effect does not work on vampires or creatures without blood.
 
 THAC0: +4
 Damage: 1d10+4

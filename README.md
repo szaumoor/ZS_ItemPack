@@ -1,14 +1,16 @@
 # RoyalProtector's Item Pack
 
-This mod is a collection of items adapted from other games into the Infinity Engine. Not all items are ported with their original mechanics for several reasons:
+This mod is a collection of items adapted or inspired from other games into the Infinity Engine. Not all items are ported with their original mechanics for several reasons:
 
 - The Infinity Engine may not support certain mechanics from the original games.
 - Some original effects are too generic or repetitive, so I avoid duplicating them across multiple items.
 - Items that are spoilers or plot-critical in their original games may be reimagined, using only their likeness or inspiration to create new items.
 - Adapting items to the Forgotten Realms setting sometimes requires changes to their mechanics, descriptions, or names. I aim to preserve the spirit of each item, but exact replication isn't always possible.
-- Translating items into this universe may also require changes for lore consistency. For example, "Stygian Fury" is inspired by Elden Ring's "Rivers of Blood" katana, which references Mohg, the Lord of Blood. In this mod, the story is adapted to fit Orcus, a tangentially similar figure in the Forgotten Realms, resulting in conceptual and mechanical changes while maintaining the item's essence.
+- Translating items into this universe may also require changes for lore consistency. For example, "Stygian Fury" is inspired by Elden Ring's "Rivers of Blood" katana, which references Mohg, the Lord of Blood. In this mod, the story is adapted to fit Orcus, a tangentially similar figure in the Forgotten Realms, resulting in conceptual and mechanical changes while maintaining the item's theme.
 
 When you install a component that introduces a new weapon type (rapier, estoc, or kukri), the mod will also add generic versions of that weapon to various stores in the game. In BGEE, you can find up to +1 versions of these weapons for sale; in BG2EE, up to +3 versions will be available. If you prefer not to add these generic items, you can disable this feature in the configuration file.
+
+If you want spoilers for item descriptions, you can find them in the translation files at ZS_ItemPack/lang. For spoilers about where to find the items, you can check the spoiler locations file at ZS_ItemPack/spoiler_locations.md.
 
 ## Components
 ---
@@ -16,7 +18,7 @@ When you install a component that introduces a new weapon type (rapier, estoc, o
 
 <summary><b> Forbidden-game-inspired </b></summary>
 
-These items are taken from a forbidden game that shall not be named. Due to plot critical reasons, a few items were changed in some degrees, retaining less from the original design, but it still aligns with the original design in some dimension.
+These items are taken from a forbidden game that shall not be named. Due to plot critical reasons, a few items were changed in some degrees, retaining less from the original design, but it still aligns with it in some dimension.
 
 **Component 101:** Add Everburn Blade +1
 
@@ -68,23 +70,43 @@ This adds a new cool cloak for assassins and other stabby-stabby characters. Upo
 
 **Component 211:** Add Sage Ring (Dark Souls 3 - Sage Ring; ring)
 
+This will add a nifty new ring that casters of all kinds can use to improve casting speed and casting level by 1. Applies to arcane and divine magic.
+
 **Component 213:** Add Hawk Ring (Dark Souls 3 - Hawk Ring; ring)
+
+This will add a new ring that increases slightly movement speed, and ranged thac0 and damage.
 
 **Component 215:** Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)
 
+This adds a new +2 long sword which is themed around sleep and dreams. It has a chance to put targets to sleep, as well as releasing an 5-round soporiferous mist that puts targets to sleep for 3 rounds.
+
 **Component 216:** Add Icicle (Elden Ring - Frozen Needle; rapier)
+
+This adds a new +4 rapier that deals piercing and cold damage, and has a mode where you can shoot its blade at the target, dealing less piercing damage, but dealing more cold damage.
 
 **Component 217:** Add Stygian Fury (Elden Ring - Rivers of Blood; katana)
 
+This adds a new +3 katana that deals slashing and fire damage, and has a chance to poison on contact, which can make targets suffer a slight case of blood boil if they're poisoned too quickly.
+
 **Component 220:** Add Harp Bow (Elden Ring - Harp Bow; shortbow)
+
+This adds a new +1 shortbow that is more effective when wielded by bards, and has a 15% chance of releasing a tune when shooting, which provides a minor bard song buff to the whole party for 2 rounds (it stacks with other songs). The configuration file may be used to turn it into a longbow, if desired.
 
 **Component 222:** Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)
 
+This adds a new necklace that increases the maximum HP of the wearer by 15%.
+
 **Component 224:** Add Periapt of Renewal (Elden Ring - Blessed Dew Amulet; necklace)
+
+This adds a new Lathander-inspired necklace that provides a regeneration of 1 HP per turn.
 
 **Component 227:** Add Bloody Sting (Elden Ring - Bloody Helice; estoc)
 
+This adds a new +3 estoc inspired by a certain lord of blood, that has a chance of causing a lot of bleeding, including a chance to buff its wielder ocasionally when blood is spilt.
+
 **Component 228:** Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)
+
+This adds a new +3 estoc that deals lightning damage, which increases the movement speed of the wielder, and allows the user to use the ability 'Blinkbolt' twice per day, teleporting to a target, and dealing significant electric damage to it and enemies around, while buffing the wielder briefly.
 
 </details>
 

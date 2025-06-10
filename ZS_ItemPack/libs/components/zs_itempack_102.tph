@@ -10,8 +10,8 @@ COPY_EXISTING ~ZSIPDGAA.itm~ ~override~
     SAY IDENTIFIED_DESC @5005
 BUT_ONLY
 
-COPY_EXISTING ~ZSIPDG01.ITM~ ~override~
-              ~ZSIPDG02.ITM~ ~override~
+COPY_EXISTING ~ZSIPDG01.spl~ ~override~
+              ~ZSIPDG02.spl~ ~override~
     LPF ALTER_EFFECT INT_VAR match_opcode = 318 parameter2 = zs_missile_immunity END
 BUT_ONLY
 
