@@ -254,8 +254,8 @@ STATISTICS:
 
 Equipped abilities:
 – +40% resistance to Fire
-– +20% Magic Resistance
-– +10% Magic Damage Resistance
+– +20% Magic damage resistance
+– +10% Magic resistance
 – +2 bonus to saving throws vs. all except Death
 
 Combat abilities:
@@ -314,7 +314,7 @@ Requires:
 
 Weight: 2~
 
-@6011 = ~Moonlit Slumber +3~
+@6011 = ~Moonlit Slumber +2~
 @6012 = ~Mists of Slumber~
 
 @60200 = ~Estoc~
