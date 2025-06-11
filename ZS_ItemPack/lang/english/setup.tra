@@ -8,15 +8,15 @@
 @50 = ~Only available for the Enhanced Edition of Baldur's Gate I and II~
 @51 = ~Only available for the Enhanced Edition of Baldur's Gate II~
 
-@101 = ~Add Everburn Blade +1 (Everburn Blade; two-handed sword)~
-@102 = ~Add Bloodthirst +3 (Bloodthirst; dagger)~
-@103 = ~Add Crimson Mischief +3 (Crimson Mischief; short sword)~
-@104 = ~Add Assassin's Touch +1 (Assassin's Touch; dagger)~
+@101 = ~Add Everburn Blade (Everburn Blade; two-handed sword)~
+@102 = ~Add Bloodthirst (Bloodthirst; dagger)~
+@103 = ~Add Crimson Mischief (Crimson Mischief; short sword)~
+@104 = ~Add Assassin's Touch (Assassin's Touch; dagger)~
 @105 = ~Add Ritual Dagger (Ritual Dagger; dagger)~
-@106 = ~Add Cold Snap +1 (Cold Snap; dagger)~
-@107 = ~Add Spell Siphon +1 (Arcane Absorption Dagger; cut content dagger)~
-@108 = ~Add Cruel Sting +1 (Cruel Sting; long sword)~
-@109 = ~Add Judgment +4 (Orphic Hammer; warhammer)~
+@106 = ~Add Cold Snap (Cold Snap; dagger)~
+@107 = ~Add Spell Siphon (Arcane Absorption Dagger; cut content dagger)~
+@108 = ~Add Cruel Sting (Cruel Sting; long sword)~
+@109 = ~Add Judgment (Orphic Hammer; warhammer)~
 @110 = ~Add The Deathstalker Mantle (The Deathstalker Mantle; cloak)~
 
 @211 = ~Add Sage Ring (Dark Souls 3 - Sage Ring; ring)~
@@ -31,7 +31,7 @@
 @227 = ~Add Bloody Sting (Elden Ring - Bloody Helice; estoc)~
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
 
-@301 = ~Add Lawgiver +1 (Lawgiver; bastard sword)~
+@301 = ~Add Lawgiver (Lawgiver; bastard sword)~
 @302 = ~Add The Left Hand (The Left Hand; dagger)~
 @303 = ~Add Master Li's Way (Master Li's Way; katana)~
 @304 = ~Add Kukri of the Eclipse (Kukri of the Eclipse; dagger / kukri)~
@@ -44,8 +44,8 @@
 @402 = ~Add Omniblade (universal sword)~
 @403 = ~Add Phantom's Blade (Phantom's Monomolecular Sword; ninja-to)~
 
-@501 = ~Add Needle +1 (Game of Thrones - Needle; rapier)~ // game of thrones inspired
-@502 = ~Add Craven Edge +4 (The Legend of Vox Machina - Craven Edge; two-handed sword)~
+@501 = ~Add Needle (Game of Thrones - Needle; rapier)~ // game of thrones inspired
+@502 = ~Add Craven Edge (The Legend of Vox Machina - Craven Edge; two-handed sword)~
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
@@ -480,7 +480,7 @@ It is a mystery how it was enchanted with such precision, as none of the forgema
 STATISTICS:
 
 Combat abilities:
-– Each hit has a 50% chance of making the target to bleed, dealing 1d2 damage twice per round for 3 rounds. This amount is doubled if the target fails to save vs. Death at -2. Targets without blood or protected by Stoneskin are immune to this effect.
+– Each hit has a 50% chance of causing the target to bleed, dealing 1d2 damage twice per round for 3 rounds. This amount is doubled if the target fails to save vs. Death at -2. Targets without blood or protected by Stoneskin are immune to this effect.
 – Blood Lord's Exultation: 5% chance to cause targets with blood to take 20 piercing damage. This empowers the wielder, increasing all their damage by 20% for 20 seconds.
 – Like all estocs, it is +5% more likely to critically hit than other weapons of its category
 
@@ -1089,7 +1089,7 @@ Requires:
 Weight: 1~
 
 @12010 = ~Craven Edge +4~
-@12011 = ~This cursed blade once belonged to a vampire lord of ancient times. Infused with the essence of the Shadowfell, it possesses the power to drain the life force of its victims. Legends say the sword has a will and hunger of its own, and each wielder must struggle to restrain its appetite—or risk being consumed by its dark power and insatiable thirst for blood.
+@12011 = ~This accursed blade once belonged to a vampire lord of ancient times. Infused with the essence of the Shadowfell, it possesses the power to drain the life force of its victims. Legends say the sword has a will and hunger of its own, and each wielder must struggle to restrain its appetite—or risk being consumed by its dark power and insatiable thirst for blood.
 
 STATISTICS:
 
