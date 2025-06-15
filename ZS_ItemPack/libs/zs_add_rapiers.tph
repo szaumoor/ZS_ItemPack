@@ -64,6 +64,28 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
     END
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+        // +0
+        COPY_EXISTING ~SHOP01.STO~    ~override~ // mira
+                      ~SHOP03.STO~    ~override~ // maheed
+                      ~SHOP04.STO~    ~override~ // store owner that talks in a way that is difficult to understand
+                      ~SHOP06.STO~    ~override~ // hes
+                      ~SHOP07.STO~    ~override~ // another store in waukeen promenade
+                      ~SHTHSTOR.STO~  ~override~ // ratell
+                      ~ARLED.STO~     ~override~ // ARLED
+                      ~BERNARD.STO~   ~override~ // BERNARD 1
+                      ~BERNARD2.STO~  ~override~ // BERNARD 2
+                      ~BERNARD3.STO~  ~override~ // BERNARD 3
+                      ~BERNARD4.STO~  ~override~ // BERNARD 4
+                      ~BERNARD5.STO~  ~override~ // BERNARD 5
+                      ~BERNARD6.STO~  ~override~ // BERNARD 6
+                      ~bmthief.STO~   ~override~ // SHADOW THIEF FENCE
+
+            SET amount = RANDOM(2 7)
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPRAP0" position="LAST" flags=~identified~ END
+        BUT_ONLY IF_EXISTS
+
+
+
         ACTION_IF zst_give_nalia_soa_rapier0 BEGIN
         // nalia uses a rapier now, since it's a noble weapon
             COPY_EXISTING ~NALIA8.CRE~ ~override~

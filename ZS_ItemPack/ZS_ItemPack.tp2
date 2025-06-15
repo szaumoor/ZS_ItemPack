@@ -10,7 +10,7 @@ MODDER
 	missing_resref warn
 	ict2_actions warn
 	missing_eval warn
-	overwriting_file warn
+	overwriting_file none
 	fun_args warn
 
 ALWAYS

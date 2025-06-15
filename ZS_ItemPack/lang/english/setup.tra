@@ -44,7 +44,7 @@
 @402 = ~Add Omniblade (universal sword)~
 @403 = ~Add Phantom's Blade (Phantom's Monomolecular Sword; ninja-to)~
 
-@501 = ~Add Needle (Game of Thrones - Needle; rapier)~ // game of thrones inspired
+@501 = ~Add Needle (Game of Thrones - Needle; rapier)~
 @502 = ~Add Craven Edge (The Legend of Vox Machina - Craven Edge; two-handed sword)~
 
 // forbidden game inspired items
@@ -71,7 +71,6 @@ Requires:
 
 Weight: 12~
 
-// https://bg3.wiki/wiki/Bloodthirst
 @5004 = ~Bloodthirst +3~
 @5005 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
 
@@ -145,7 +144,6 @@ Requires:
 
 Weight: 1~
 
-//https://bg3.wiki/wiki/Ritual_dagger
 @5012 = ~Ritual Dagger~
 @5013 = ~This sinister dagger feeds on agony and the spilling of blood. The leather handle is smooth with use, and slick with fresh blood. It wasn't made to be particularly effective in battle, but its design nevertheless lends itself well to causing a lot of pain.
 
@@ -171,7 +169,6 @@ Weight: 1~
 
 @5014 = ~Bleeding~
 
-//https://bg3.wiki/wiki/Cold_Snap
 @5015 = ~Cold Snap~
 @5016 = ~In the steel of this dagger, small ice formations resembling bubbles in a bath shimmer with a chill. As you hold it, faint crackles echo in your ears, and the air around the weapon turns crisp and cold, with a faint mist clinging to its surface. The blade lives up to its name, delivering a sharp bite of frost with every strike, freezing the victims as swiftly as a sudden winter storm.
 
@@ -429,7 +426,6 @@ Requires:
 
 Weight: 2~
 
-// longbow variant
 @6052 = ~This delicate and elegantly crafted bow is strung not just with a bowstring, but with fine, enchanted threads that sometimes resonate when an arrow is shot. While any archer can wield it effectively, this bow is at its most powerful in the hands of a bard. Their intimate connection to music awakens the bow's hidden magic, guiding arrows with more power and accuracy.
 
 STATISTICS:
@@ -890,7 +886,6 @@ Charge abilities:
 
 Weight: 3~
 
-// this description is specially awful
 @10113 = ~Omniblade~
 @10114 = ~This blade was designed and enchanted by a prestigious Netherese wizard to be used by anyone, regardless of their physical prowess. The Omniblade was the result of this endeavor, a weapon that adapts to the situation rather than the wielder's strength or skill. It is believed that she gave this weapon to her trusted bodyguard, who could not wield a traditional blade but whose loyalty was unparalleled. Only those with professional focus on the wizardly arts can use this weapon.
 
@@ -1064,7 +1059,7 @@ Requires:
 Weight: 3~
 
 // tv-show inspired
-@12000 = ~Needle +1~ // game of thrones
+@12000 = ~Needle +1~
 @12001 = ~This small and exceptionally slender rapier is designed for a wielder who values finesse over brute strength, with a design particularly suited for shorter races such as gnomes. Its steel blade tapers to a needle-sharp point, making it perfect for quick thrust attacks. Due to its unassuming size, many opponents dismiss it at first glance—an underestimation they regret moments later when they find themselves suddenly sporting a collection of small, bleeding wounds they hadn't planned for.
 
 STATISTICS:
