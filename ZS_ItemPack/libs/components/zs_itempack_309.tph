@@ -6,16 +6,15 @@ END
 
 COPY ~%MOD_FOLDER%/items/03_nwn/goblinsplitter~ ~override~
 COPY_EXISTING ~ZSIPAXAA.itm~ ~override~
-    SAY NAME2 @8019
-    SAY IDENTIFIED_DESC @8020
-BUT_ONLY
+  SAY NAME2 @8019
+  SAY IDENTIFIED_DESC @8020
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
   COPY_EXISTING ~FRIEND.STO~ ~override~
-      LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPAXAA" position = "LAST" END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPAXAA" position = "LAST" END
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
   COPY_EXISTING ~AR2101.ARE~ ~override~
-      LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 38 STR_VAR item_to_add = ~ZSIPAXAA~ END
+    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 38 STR_VAR item_to_add = ~ZSIPAXAA~ END
 END

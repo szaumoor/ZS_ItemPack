@@ -6,11 +6,10 @@ END
 
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/judgment~ ~override~
 COPY_EXISTING ~ZSIPJUG0.itm~ ~override~
-    SAY NAME2 @5030
-    SAY IDENTIFIED_DESC @5031
-BUT_ONLY
+  SAY NAME2 @5030
+  SAY IDENTIFIED_DESC @5031
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
   COPY_EXISTING ~GARLENA.STO~ ~override~
-      LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags = ~identified~ item_name = "ZSIPJUG0" position = "LAST" END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags = ~identified~ item_name = "ZSIPJUG0" position = "LAST" END
 END

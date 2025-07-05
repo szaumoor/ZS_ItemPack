@@ -6,14 +6,15 @@ END
 
 COPY ~%MOD_FOLDER%/items/03_nwn/master_li_way~ ~override~
 COPY_EXISTING ~ZSIPKTAA.itm~ ~override~
-    SAY NAME2 @8004
-    SAY IDENTIFIED_DESC @8005
-BUT_ONLY
+  SAY NAME2 @8004
+  SAY IDENTIFIED_DESC @8005
 
-COPY_EXISTING ~stosilen.STO~ ~override~ // silence
+ACTION_IF GAME_IS "bgee eet" BEGIN
+  COPY_EXISTING ~stosilen.STO~ ~override~ // silence
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPKTAA" position = "LAST" flags=~identified~ END
-BUT_ONLY IF_EXISTS
+END
 
-COPY_EXISTING ~SHADRA1.CRE~ ~override~ // shadow dragon
-    ADD_CRE_ITEM ~ZSIPKTAA~ #0 #0 #0 ~unstealable~ ~inv~
-BUT_ONLY IF_EXISTS
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+  COPY_EXISTING ~trmer02.STO~ ~override~ // trademeet merchant that also sells blackblood
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPKTAA" position = "LAST" flags=~identified~ END
+END

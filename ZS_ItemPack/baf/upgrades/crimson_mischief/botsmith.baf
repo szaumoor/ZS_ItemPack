@@ -1,0 +1,9 @@
+IF
+    Global("ZSIP_CrimsonMischiefForge", "GLOBAL", 1)
+    Global("ImpForgeStuff", "GLOBAL", 1)
+THEN
+    RESPONSE #100
+        SetGlobal("ImpForgeStuff", "GLOBAL", 0)
+        GiveItemCreate("ZSIPCM10", Player1, 0, 0, 0)
+        StartDialogNoSet(Player1)
+END

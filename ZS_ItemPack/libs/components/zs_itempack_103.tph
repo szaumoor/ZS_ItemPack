@@ -5,11 +5,17 @@ END ELSE BEGIN
 END
 
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/crimson_mischief~ ~override~
-COPY_EXISTING ~ZSIPSSAA.itm~ ~override~
+COPY_EXISTING ~ZSIPCM00.itm~ ~override~
+              ~ZSIPCM10.itm~ ~override~
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@5009) END
+
+COPY_EXISTING ~ZSIPCM00.itm~ ~override~
     SAY NAME2 @5007
     SAY IDENTIFIED_DESC @5008
-    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@5009) END
-BUT_ONLY
+
+COPY_EXISTING ~ZSIPCM10.itm~ ~override~
+    SAY NAME2 @50090
+    SAY IDENTIFIED_DESC @50091
 
 COPY_EXISTING ~ARAN.CRE~ ~override~
     LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~SW1H29~ RET aran1_found = found END
@@ -19,16 +25,19 @@ COPY_EXISTING ~ARAN02.CRE~ ~override~
 
 ACTION_IF aran1_found AND aran2_found BEGIN
     COPY_EXISTING ~ARAN.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPSSAA~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
+        ADD_CRE_ITEM ~ZSIPCM00~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
 
     COPY_EXISTING ~ARAN02.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPSSAA~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
+        ADD_CRE_ITEM ~ZSIPCM00~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
 
     PRINT "Item Crimson Mischief added to the first option."
 
 END ELSE BEGIN
     COPY_EXISTING ~BHEYE.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPSSAA~ #0 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~ZSIPCM00~ #0 #0 #0 ~unstealable~ ~inv~
 
     PRINT "Item Crimson Mischief added to the second option."
 END
+
+COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_crimson_mischief_cespy.d~
+EXTEND_BOTTOM ~botsmith.bcs~ ~%MOD_FOLDER%/baf/upgrades/crimson_mischief/botsmith.baf~

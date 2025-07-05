@@ -13,7 +13,9 @@ When you install a component that introduces a new weapon type (rapier, estoc, o
 If you want spoilers for item descriptions, you can find them in the translation files at ZS_ItemPack/lang. For spoilers about where to find the items, you can check the spoiler locations file at ZS_ItemPack/spoiler_locations.md.
 
 ## Components
+
 ---
+
 <details>
 
 <summary><b> Forbidden-game-inspired </b></summary>
@@ -22,31 +24,33 @@ These items are taken from a forbidden game that shall not be named. Due to plot
 
 **Component 101:** Add Everburn Blade
 
-This component adds a new cool flaming +1 two-handed sword that is more powerful against demons, and also when wielded by tieflings.
+This component adds a new cool flaming +1 two-handed sword that acts as +3 vs. demons, and by default +2 when wielded by tieflings. It inflicts fire damage, which is enhanced when tieflings wield it, and demons cannot resist its flame. Available for BG2EE and BGEE
+
+Known issue: To bypass the fire immunity most fiends have, the sword will use a different method to reduce the current health of the demons, and this quantity will not be put in the combat log.
 
 **Component 102:** Add Bloodthirst
 
-This component adds a new evil-only, Bhaal-inspired crimson twisted dagger that is more likely to critically hit and reduces the resistance to piercing damage on targets.
+This component adds a new evil-only, Bhaal-inspired crimson twisted +3 dagger that increases the chances to critically hit, deals a minor extra amount of slashing damage due to its warped shape, and reduces the resistance to piercing damage on targets. In BG2, it's a +4 dagger, and Cespenar can upgrade it to a +6 version with 10,000 gold and a rogue stone. Available for BG2EE and BGEE.
 
 **Component 103:** Add Crimson Mischief
 
-This component adds an evil-only short sword that deals more damage the more wounded the target is, and can occassionally (4% chance) reduce the HP of the target by 20%.
+This component adds an evil-only +3 short sword that deals more damage the more wounded the target is, and can occassionally (4% chance) reduce the HP of the target by 20%. Cespenar can upgrade it to +5 in ToB with 12,500 gold and a rogue stone. Available for BG2EE and BGEE.
 
 **Component 104:** Add Assassin's Touch
 
-This component adds a new dagger that deals more damage to targets that are asleep, and allows thieves to use it more efficiently. Single-classed assassins get the most benefit out of it. Available for BG2EE and BGEE.
+This component adds a new +1 dagger that deals more damage to targets that are asleep, and allows thieves to use it more efficiently. Single-classed assassins get the most benefit out of it. Available for BG2EE and BGEE. In BG2EE, it is a +2 weapon, identical in every other respect.
 
 **Component 105:** Add Ritual Dagger
 
-This component adds a new dagger that is not very accurate but deals a good amount of damage. It can be used to get beneficial effects if you're willing to pay the price. Available for BG2EE and BGEE.
+This component adds a new magical +0 dagger that is not very accurate but deals a good amount of damage as a +2 dagger, may cause bleeding, and increases the damage of the wielder each time it spills blood for 7 seconds. It can be used to get more beneficial effects if you're willing to spill your own blood. Available for BG2EE and BGEE.
 
 **Component 106:** Add Cold Snap
 
-This component adds a new dagger that deals varying amounts of extra cold damage and may very briefly snap freeze some targets if they fail their saves. Available for BG2EE and BGEE.
+This component adds a new +1 dagger that deals varying amounts of extra cold damage and may very briefly snap freeze some targets if they fail their saves. Available for BG2EE and BGEE. In BG2EE, it is a +2 weapon, identical in every other respect.
 
 **Component 107:** Add Spell Siphon
 
-This component adds a new dagger which allows wizards and sorcerers to recall level 1 spells when something is killed with the dagger. On rare occasions, it will also restore level 2 spells. Available for BG2EE and BGEE.
+This component adds a new +1 dagger which allows wizards and sorcerers to recall level 1 spells when something is killed with the dagger. On rare occasions, it will also restore level 2 spells. Available for BG2EE and BGEE.
 
 **Component 108:** Add Cruel Sting
 
@@ -89,7 +93,7 @@ This adds a new +3 katana that deals slashing and fire damage, and has a chance 
 
 **Component 220:** Add Harp Bow (Elden Ring - Harp Bow; shortbow)
 
-This adds a new +1 shortbow that is more effective when wielded by bards, and has a 15% chance of releasing a tune when shooting, which provides a minor bard song buff to the whole party for 2 rounds (it stacks with other songs). The configuration file may be used to turn it into a longbow, if desired. Available for BG2EE and BGEE.
+This adds a new +1 shortbow that is more effective when wielded by bards, and has a 15% chance of releasing a tune when shooting, which provides a minor bard song buff to the whole party for 2 rounds (it stacks with other songs). The configuration file may be used to turn it into a longbow, if desired. In BG2EE, it is a +2 weapon. Available for BG2EE and BGEE.
 
 **Component 222:** Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)
 
@@ -199,14 +203,17 @@ These are the base characteristics of the new weapon types compared to others in
 
 This mod should be installed after all other mods that add new creatures to the game, and to be extra safe, after all mods that add new items to the game. Currently, though, it only matters when and if you install Cold Snap, due to a technical detail of how the item is implemented, specifically, it tries to find items that provide immunity to paralysis. If you're confident that's not a problem, you can install it any order with respect to other item packs.
 
-It should be installed before mods that add new kits, as some kits (like my shadowdancer kit) will patch items in this pack, as well as any and all mods tweak packs that modify items.
+It should be installed before mods that add new kits, as some kits (like my shadowdancer kit) will patch items in this pack, as well as any and all mods that modify items (such as my other mod ZSTweaks).
+
+**WARNING**: If you use EET, I don't recommend you use a mod that transports your equipment from BGEE to BG2EE. I only know of the one that Roxanne made (but you should not use anything they make without a very good reason), but the consequence of this will be that most items will be duplicated. You will find the same items again, or the same weapon but with a higher enchantment level. The mod is not sophisticated enough to handle this possibility, nor do I know how to do it (if it's even possible), and I have very little interest in adding that in.
 
 ## Credits
+
 - To BeamDog and Bioware for the game, obviously.
 - zenblack for providing icons for **LITERALLY every item in this mod**. All hail to his mighty icon-making skills.
 - zenblack again for brainstorming functionalities and descriptions for some of the items
 - dark0dave and others who have helped me with the modding process or by providing resources
-- Llewren for offering feedback and ideas for the item descriptions
 - Various people on Discord for offering ideas as to where to put the items, like The Artisan, moggadeet, Fickle Swamp Wench, JDSilvergun, among others
+- moggadeet, JDSilvergun, and others for helping me with Cespenar dialog
 - SubtleDoctor for giving me a splstate-free way to hack the engine into giving an item a bonus that applies to Minsc if he wields it. This is always a good thing.
 - People on Discord generally for their help

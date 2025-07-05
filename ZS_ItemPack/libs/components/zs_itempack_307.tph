@@ -6,18 +6,15 @@ END
 
 COPY ~%MOD_FOLDER%/items/03_nwn/rashemi_blade~ ~override~
 COPY_EXISTING ~ZSIPGSAB.itm~ ~override~
-    SAY NAME2 @8015
-    SAY IDENTIFIED_DESC @8016
-BUT_ONLY
-
+  SAY NAME2 @8015
+  SAY IDENTIFIED_DESC @8016
 
 COPY_EXISTING ~ZSIPGSAC.spl~ ~override~
-    LPF ALTER_EFFECT INT_VAR opcode = 139 parameter1 = RESOLVE_STR_REF(@80150) END
-BUT_ONLY
+  LPF ALTER_EFFECT INT_VAR opcode = 139 parameter1 = RESOLVE_STR_REF(@80150) END
 
 COPY_EXISTING ~E32.cre~      ~override~
               ~TTMINSC.cre~  ~override~
-    LPF ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 STR_VAR resource = "ZSIPMNC2" END
+  LPF ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 STR_VAR resource = "ZSIPMNC2" END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
     COPY_EXISTING ~MINSC8.cre~   ~override~
@@ -37,5 +34,5 @@ END ELSE BEGIN
                   ~MINSC4.cre~  ~override~
                   ~MINSC6.cre~  ~override~
                   ~MINSC7.cre~  ~override~
-        LPF ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 STR_VAR resource = "ZSIPMNC2" END
+      LPF ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 STR_VAR resource = "ZSIPMNC2" END
 END

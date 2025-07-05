@@ -13,11 +13,22 @@ COPY_EXISTING ~ZSIPHRW0.ITM~ ~override~
         WRITE_LONG 0x1e (THIS + 541065216)
         WRITE_ASCII 0x22 "BW" #2
         WRITE_BYTE 0x31 104
-
     END ELSE BEGIN
         SAY IDENTIFIED_DESC @6051
     END
-BUT_ONLY
+
+COPY_EXISTING ~ZSIPHRW4.ITM~ ~override~
+    SAY NAME2 @6050
+    PATCH_IF zst_harpbow_longbow BEGIN
+        WRITE_LONG 0x08 6860
+        SAY IDENTIFIED_DESC @6054
+        WRITE_LONG 0x1e (THIS + 541065216)
+        WRITE_ASCII 0x22 "BW" #2
+        WRITE_BYTE 0x31 104
+
+    END ELSE BEGIN
+        SAY IDENTIFIED_DESC @6053
+    END
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
     COPY_EXISTING ~STO4906.STO~ ~override~
@@ -26,6 +37,6 @@ END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
     COPY_EXISTING ~SHOP03.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPHRW0" position = "LAST" END
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPHRW4" position = "LAST" END
 END
 

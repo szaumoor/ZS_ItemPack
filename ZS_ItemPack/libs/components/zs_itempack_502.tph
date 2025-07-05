@@ -6,13 +6,11 @@ END
 
 COPY ~%MOD_FOLDER%/items/05_tv/craven_edge~ ~override~
 COPY_EXISTING ~ZSIPCRV0.itm~ ~override~
-    SAY NAME2 @12010
-    SAY IDENTIFIED_DESC @12011
-BUT_ONLY
+  SAY NAME2 @12010
+  SAY IDENTIFIED_DESC @12011
 
 COPY_EXISTING ~ZSIPCRV4.spl~ ~override~
-    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@12012) END
-BUT_ONLY
+  LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@12012) END
 
 COPY_EXISTING ~C6BODHI.CRE~ ~override~
   ADD_CRE_ITEM ~ZSIPCRV0~ #0 #0 #0 ~unstealable~ ~inv~

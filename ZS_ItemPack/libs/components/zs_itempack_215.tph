@@ -7,22 +7,19 @@ END
 COPY ~%MOD_FOLDER%/items/02_souls/moonlit_slumber~ ~override~
 ADD_PROJECTILE ~%MOD_FOLDER%/pro/mists_slumber/ZSIPMSCD.PRO~
 COPY_EXISTING ~ZSIPTRNA.itm~ ~override~
-    SAY NAME2 @6011
-    SAY IDENTIFIED_DESC @6010
-BUT_ONLY
+  SAY NAME2 @6011
+  SAY IDENTIFIED_DESC @6010
 
 COPY_EXISTING ~ZSIPTRMS.SPL~ ~override~
-    SAY NAME1 @6012
-    LPF ALTER_HEADER INT_VAR projectile = %ZSIPMSCD% END
-BUT_ONLY
-
+  SAY NAME1 @6012
+  LPF ALTER_HEADER INT_VAR projectile = %ZSIPMSCD% END
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
-    COPY_EXISTING ~STO0703.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPTRNA" position = "LAST" END
+  COPY_EXISTING ~STO0703.STO~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPTRNA" position = "LAST" END
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
-    COPY_EXISTING ~RIBALD.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPTRNA" position = "LAST" END
+  COPY_EXISTING ~RIBALD.STO~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPTRNA" position = "LAST" END
 END

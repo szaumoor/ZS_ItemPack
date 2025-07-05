@@ -5,45 +5,37 @@ END ELSE BEGIN
 END
 
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/bloodthirst~ ~override~
-COPY_EXISTING ~ZSIPDGAA.itm~ ~override~
-    SAY NAME2 @5004
-    SAY IDENTIFIED_DESC @5005
-BUT_ONLY
-
-COPY_EXISTING ~ZSIPDG01.spl~ ~override~
-              ~ZSIPDG02.spl~ ~override~
-    LPF ALTER_EFFECT INT_VAR match_opcode = 318 parameter2 = zs_missile_immunity END
-BUT_ONLY
-
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
+    COPY_EXISTING ~ZSIPBLT0.itm~ ~override~
+        SAY NAME2 @5004
+        SAY IDENTIFIED_DESC @5005
+
+    COPY_EXISTING ~ZSIPBLT1.spl~ ~override~
+                  ~ZSIPBLT2.spl~ ~override~
+        LPF ALTER_EFFECT INT_VAR match_opcode = 318 parameter2 = zs_piercing_immunity END
+
     COPY_EXISTING ~WINSKI2.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPDGAA~ #0 #0 #0 ~none~ ~inv~
-    BUT_ONLY IF_EXISTS
+        ADD_CRE_ITEM ~ZSIPBLT0~ #0 #0 #0 ~none~ ~inv~
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-    COPY_EXISTING ~BMTHIEF.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPDGAA" position = "LAST" flags= ~identified~ END
+    COPY_EXISTING ~ZSIPBLT3.itm~ ~override~
+        SAY NAME2 @50060
+        SAY IDENTIFIED_DESC @50061
+
+    COPY_EXISTING ~ZSIPBLT6.itm~ ~override~
+        SAY NAME2 @50062
+        SAY IDENTIFIED_DESC @50063
+
+    COPY_EXISTING ~ZSIPBLT4.spl~ ~override~
+                  ~ZSIPBLT5.spl~ ~override~
+                  ~ZSIPBLT7.spl~ ~override~
+                  ~ZSIPBLT8.spl~ ~override~
+        LPF ALTER_EFFECT INT_VAR match_opcode = 318 parameter2 = zs_piercing_immunity END
+
+    COPY_EXISTING ~C6BODHI.STO~ ~override~
+        ADD_CRE_ITEM ~ZSIPBLT3~ #0 #0 #0 ~unstealable~ ~inv~
+
+    COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_bloodthirst.d~
+    EXTEND_BOTTOM ~botsmith.bcs~ ~%MOD_FOLDER%/baf/upgrades/bloodthirst/botsmith.baf~
 END
-
-/*
-<<<<<<<<.../zs_itempack/cromwell_bloodthirst.baf
-IF
- Global("ZSIPItems","GLOBAL",1)
- Global("ForgeStuff","GLOBAL",1)
-THEN
- RESPONSE #100
-     SetGlobal("ZSIPItems","GLOBAL",0)
-     TakePartyItem("ZSIPDGAA")
-     DestroyItem("ZSIPDGAA")
-     GiveItemCreate("dagg02",PLAYER1,0,0,0) // completed item
-     ActionOverride("wsmith01",StartDialogueNoSet([PC]))
-END
->>>>>>>>
-
-COMPILE ~%MOD_FOLDER%/dialog/crommy/zsipdl01.d~
-EXTEND_BOTTOM "AR0334.bcs" ".../zs_itempack/cromwell_bloodthirst.baf"
-
-
-END
-*/

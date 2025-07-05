@@ -6,6 +6,5 @@ END
 
 COPY ~%MOD_FOLDER%/items/03_nwn/shining_light_lathander~ ~override~
 COPY_EXISTING ~ZSIPGSAA.itm~ ~override~
-    SAY NAME2 @8017
-    SAY IDENTIFIED_DESC @8018
-BUT_ONLY
+  SAY NAME2 @8017
+  SAY IDENTIFIED_DESC @8018

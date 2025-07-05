@@ -14,19 +14,15 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
         SAY NAME2 @80112
         SAY IDENTIFIED_DESC @80113
 
-
     COPY_EXISTING ~ZSIPRAP2.ITM~ ~override~
         SAY NAME2 @80114
         SAY IDENTIFIED_DESC @80115
-
 
     COPY_EXISTING ~ZSIPRAP3.ITM~ ~override~
         SAY NAME2 @80116
         SAY IDENTIFIED_DESC @80117
 
-
     ACTION_IF GAME_IS ~bgee eet~ BEGIN
-
         // +0
         COPY_EXISTING ~INN2616.STO~  ~override~ // winthrop
                       ~INN3304.STO~  ~override~ // jovial jugler
@@ -41,7 +37,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~ULGOTH.STO~   ~override~ // ulgoth's beard store
                       ~FRIEND.STO~   ~override~ // friendly arm inn
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            SET amount = RANDOM(2 7)
+            SET amount = RANDOM(1 5)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPRAP0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
@@ -52,8 +48,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~STO4907.STO~  ~override~ // carnival shop
                       ~TAERUM.STO~   ~override~ // thunderhammer's smithy
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            SET amount = RANDOM(1 2)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPRAP1" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         ACTION_IF zst_give_skie_bgee_rapier1 BEGIN
@@ -61,6 +56,12 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
             COPY_EXISTING ~SKIE.CRE~ ~override~
                 ADD_CRE_ITEM ~ZSIPRAP1~ #0 #0 #0 ~none~ ~weapon2~ EQUIP // CHECK COMPATIBILITY WITH LAVA'S MOD
         END
+
+        // +2
+        COPY_EXISTING ~STO0703.STO~  ~override~ // sorcerous sundries
+                      ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP2" position="LAST" flags=~identified~ END
+        BUT_ONLY IF_EXISTS
     END
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
@@ -79,12 +80,17 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~BERNARD5.STO~  ~override~ // BERNARD 5
                       ~BERNARD6.STO~  ~override~ // BERNARD 6
                       ~bmthief.STO~   ~override~ // SHADOW THIEF FENCE
-
-            SET amount = RANDOM(2 7)
+                      ~ambar01.sto~   ~override~ // the zephyr
+                      ~amsmug01.sto~  ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
+                      ~gorch.sto~     ~override~ // gorch
+                      ~hendak.sto~    ~override~ // hendak
+                      ~lehtinan.sto~  ~override~ // lehtinan
+                      ~uddrow22.sto~  ~override~ // drow merchant
+                      ~uddrow23.sto~  ~override~ // drow merchant
+            SET amount = RANDOM(1 5)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPRAP0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
-
-
 
         ACTION_IF zst_give_nalia_soa_rapier0 BEGIN
         // nalia uses a rapier now, since it's a noble weapon
@@ -95,6 +101,48 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                 END
         END
 
-    END
+        // +1
+        COPY_EXISTING ~ARLED.STO~     ~override~ // ARLED
+                      ~BERNARD.STO~   ~override~ // BERNARD 1
+                      ~BERNARD2.STO~  ~override~ // BERNARD 2
+                      ~BERNARD3.STO~  ~override~ // BERNARD 3
+                      ~BERNARD4.STO~  ~override~ // BERNARD 4
+                      ~BERNARD5.STO~  ~override~ // BERNARD 5
+                      ~BERNARD6.STO~  ~override~ // BERNARD 6
+                      ~bmthief.STO~   ~override~ // SHADOW THIEF FENCE
+                      ~ambar01.sto~   ~override~ // the zephyr
+                      ~amsmug01.sto~  ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
+                      ~gorch.sto~     ~override~ // gorch
+                      ~hendak.sto~    ~override~ // hendak
+                      ~lehtinan.sto~  ~override~ // lehtinan
+                      ~uddrow22.sto~  ~override~ // drow merchant
+                      ~uddrow23.sto~  ~override~ // drow merchant
+                      ~ribald.sto~    ~override~ // ribald
+                      ~ribald2.sto~   ~override~ // ribald
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP1" position="LAST" flags=~identified~ END
+        BUT_ONLY IF_EXISTS
 
+        // +2
+        COPY_EXISTING ~BERNARD5.STO~  ~override~ // BERNARD 5
+                      ~BERNARD6.STO~  ~override~ // BERNARD 6
+                      ~ohnsdwm.sto~   ~override~ // merchant
+                      ~trmer04a.sto~  ~override~ // anvir of the right
+                      ~ribald.sto~    ~override~ // ribald
+                      ~ribald3.sto~   ~override~ // ribald
+                      ~hgkar01.sto~   ~override~ // karthis
+                      ~sarbar01.sto~  ~override~ // saradush bar
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP2" position="LAST" flags=~identified~ END
+        BUT_ONLY IF_EXISTS
+
+         // +3
+        COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
+                      ~hgkar01.sto~   ~override~ // karthis
+                      ~sarbar01.sto~  ~override~ // saradush bar
+                      ~ohnsdwm.sto~   ~override~ // merchant
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP3" position="LAST" flags=~identified~ END
+        BUT_ONLY IF_EXISTS
+
+    END
 END

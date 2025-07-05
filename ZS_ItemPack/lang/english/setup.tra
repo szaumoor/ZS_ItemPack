@@ -59,11 +59,12 @@ Equipped abilities:
 Combat abilities:
 – Can strike demonic enemies that are normally immune to +2 weapons, and is treated as a +2 weapon against them
 – Fire damage dealt to demons by this weapon cannot be resisted, even by those normally immune to fire
+– THAC0, speed factor, enchantment level, and damage bonuses increase by 1 when wielded by tieflings
 
-THAC0: +1, +2 for Tieflings
-Damage: 1d10+1 (+2 for Tieflings), +1d2 fire damage (1d3+1 if wielded by Tieflings)
+THAC0: +1
+Damage: 1d10+1, +1d2 fire damage (1d3+1 if wielded by Tieflings)
 Damage type: Slashing
-Speed Factor: 8
+Speed Factor: 9
 Proficiency Type: Two-handed Sword
 Type: Two-handed
 Requires:
@@ -85,7 +86,8 @@ Combat abilities:
 – Additionally, each hit inflicts a -1% weakness to piercing damage (cumulative) for 5 rounds.
 
 THAC0: +3
-Damage: 1d4+3 (piercing)
+Damage: 1d4+3, +1 slashing damage
+Damage type: Piercing
 Speed Factor: 0
 Proficiency Type: Dagger
 Type: One-handed
@@ -93,6 +95,58 @@ Requires:
  3 Strength
 
 Weight: 1~
+
+@50060 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Critical chances while holding this weapon increase by 5%
+
+Combat abilities:
+– Hits with this weapon inflict a -20% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
+– Additionally, each hit inflicts a -1% weakness to piercing damage (cumulative) for 5 rounds.
+
+THAC0: +4
+Damage: 1d4+4, +2 slashing damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@50061 = ~Bloodthirst +4~
+
+@50062 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
+
+Now upgraded by Cespenar, this weapon is truly an instrument of bloody carnage.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +2
+– Critical chances while holding this weapon increase by 5%
+
+Combat abilities:
+– Hits with this weapon inflict a -25% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
+– Additionally, each hit inflicts a -2% weakness to piercing damage (cumulative) for 5 rounds.
+
+THAC0: +6
+Damage: 1d4+6, +3 slashing damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@50063 = ~Bloodthirst +6~
 
 @5007 = ~Crimson Mischief +3~
 @5008 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the weaker the target is, seemingly pushing itself more forcefully into the bodies of its victims, causing horrific damage. Because of this, only those with an unsavory moral compass may use it.
@@ -109,7 +163,7 @@ Deals bonus piercing damage based on the target's current Hit Points:
 Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
 
 THAC0: +3
-Damage: 1d6+3, +1d4 necrotic damage (only affects living creatures; cannot be resisted)
+Damage: 1d6+3, plus 1d3 Negative Plane Energy damage (damages the living and heals the undead)
 Damage type: Piercing
 Speed Factor: 0
 Proficiency Type: Short Sword
@@ -121,6 +175,34 @@ Weight: 3~
 
 @5009 = ~Weak spot hit: -20% of Hit Points lost~
 
+@50090 = ~Crimson Mischief +5~
+@50091 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the weaker the target is, seemingly pushing itself more forcefully into the bodies of its victims, causing horrific damage. Because of this, only those with an unsavory moral compass may use it.
+
+Now upgraded by Cespenar, this weapon is one of the deadliest weapons any assassin could hope to wield.
+
+STATISTICS:
+
+Combat abilities:
+Deals bonus piercing damage based on the target's current Hit Points:
+ – 110–130 HP: 1d2+1 damage
+ – 89–109 HP: 1d3+1 damage
+ – 68–88 HP: 1d4+2 damage
+ – 47–67 HP: 1d5+2 damage
+ – 46 HP or less: 1d6+2 damage
+Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
+
+THAC0: +5
+Damage: 1d6+5, plus 1d4 Negative Plane Energy (damages the living and heals the undead)
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+
 @5010 = ~Assassin's Touch +1~
 @5011 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. Its enchantments favor those skilled in the art of thievery, particularly assassins, making it especially deadly against sleeping or incapacitated targets.
 
@@ -128,14 +210,38 @@ STATISTICS:
 
 Equipped abilities:
 – +10% bonus to Hide in Shadows and Move Silently
-– Weapon damage is increased by +1 when wielded by thieves, or +2 if they're Assassins
+– Damage and THACO: +1 (thieves), +2 (assassins)
 
 Combat abilities:
-– Enemies that are helpless (stunned, paralyzed, asleep) receive 1d6 extra piercing and cold damage every hit
-– Critical chances: +5% (only for single-classed Thieves)
+– Helpless enemies take 1d8 extra piercing and cold damage every hit
+– Critical chances: +5% (single-classed Thieves)
 
-THAC0: +1 (+2 for Thieves, +3 for Assassins)
+THAC0: +1
 Damage: 1d4+1 (piercing)
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+// +2 version in BG2EE
+@50110 = ~Assassin's Touch +2~
+@50111 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. Its enchantments favor those skilled in the art of thievery, particularly assassins, making it especially deadly against sleeping or incapacitated targets.
+
+STATISTICS:
+
+Equipped abilities:
+– +15% bonus to Hide in Shadows and Move Silently
+– Damage and THACO: +1 (thieves), +2 (assassins)
+
+Combat abilities:
+– Helpless enemies take 1d8 extra piercing and cold damage every hit
+– Critical chances: +5% (single-classed Thieves)
+
+THAC0: +2
+Damage: 1d4+2 (piercing)
 Speed Factor: 0
 Proficiency Type: Dagger
 Type: One-handed
@@ -155,9 +261,11 @@ Combat abilities:
 – Acts as a +2 weapon for the purposes of overcoming weapon immunities
 
 Charge ability:
-– Pain is a path to power. Three times per day, you may cut your own hand, taking 1d6 slashing damage. This grants a +2 bonus to attack rolls and increases the chances to score a critical hit by 15% for 15 seconds. These bonuses do not stack with themselves.
+– Blood Offering, three times per day
+  Special: The wielder slices their own hand, sacrificing 1d6 plus 10% of their total Hit Points. In return, they gain a +2 bonus to attack rolls and a 15% increased chance to score a critical hit. This effect does not stack with itself.
+  Duration: 5/2 rounds
 
-THAC0: No bonus
+THAC0: +0
 Damage: 1d4+2 (piercing)
 Speed Factor: 4
 Proficiency Type: Dagger
@@ -179,7 +287,7 @@ Equipped abilities:
 
 Combat abilities:
 – 15% chance of dealing extra 1d8 cold damage
-– 15% chance on hit to snap-freeze the target. If the target fails a save vs. Death at -2, they are paralyzed for 4 seconds and take 25% more damage during this time. Undead and creatures immune to cold damage are not affected by this effect.
+– Snap Freeze: 15% chance on hit to freeze the target for 4 seconds if they fail a save vs. Death at -2. During this time, they take 25% more damage. This effect does not affect undead or creatures immune to cold damage.
 
 THAC0: +1
 Damage: 1d4+1, +1d2 cold damage
@@ -193,6 +301,29 @@ Requires:
 Weight: 1~
 
 @50160 = ~Snap-frozen~
+
+// +2 version in BG2EE
+@50161 = ~In the steel of this dagger, small ice formations resembling bubbles in a bath shimmer with a chill. As you hold it, faint crackles echo in your ears, and the air around the weapon turns crisp and cold, with a faint mist clinging to its surface. The blade lives up to its name, delivering a sharp bite of frost with every strike, freezing the victims as swiftly as a sudden winter storm.
+
+STATISTICS:
+
+Equipped abilities:
+– +25% cold resistance
+
+Combat abilities:
+– 15% chance of dealing extra 1d10 cold damage
+– Snap Freeze: 15% chance on hit to freeze the target for 4 seconds if they fail a save vs. Death at -2. During this time, they take 25% more damage. This effect does not affect undead or creatures immune to cold damage.
+
+THAC0: +2
+Damage: 1d4+2, +1d4 cold damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
 
 @5017 = ~Spell Siphon +1~
 @5018 = ~This dagger's blade is etched with shifting eldritch runes, which glow faintly whenever life is taken by its edge. The weapon seems to hunger for the energies of the slain, drawing their essence into its wielder's mind to restore their magical reserves. Only those who wield the arcane arts may use this weapon.
@@ -229,7 +360,7 @@ Combat abilities:
 – Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 poison damage damage over 5 seconds if they fail to save vs. Death at -1
 
 Charge abilities:
-– Spin web, two times per day
+– Spin Web, two times per day
   Special: Target must save vs. Breath at -2 or become webbed for 2 rounds.
   Area of effect: 1 target
 
@@ -391,7 +522,7 @@ Combat abilities:
 – Like all estocs, it is +5% more likely to critically hit than other weapons of its category
 
 Charge abilities:
-– Blink Bolt, once per day
+– Blinkbolt, once per day
   Special: Instantly teleport to the target, dealing 6d4 electricity damage and reducing their electricity resistance by 20%. Target must save vs. Death at -4 or be stunned for 1 round. Then, Chain Lightning strikes for 6d6 electricity damage to the target and nearby enemies. For 2 rounds, the caster is hasted and deals double electricity damage.
   Range: 60 ft.
   Area of Effect: 1 creature
@@ -408,13 +539,13 @@ Requires:
 
 Weight: 2~
 
-@6050 = ~Harp Bow +1~
+@6050 = ~Harp Bow~
 @6051 = ~This delicate and elegantly crafted bow is strung not just with a bowstring, but with fine, enchanted threads that sometimes resonate when an arrow is shot. While any archer can wield it effectively, this bow is at its most powerful in the hands of a bard. Their intimate connection to music awakens the bow's hidden magic, guiding arrows with more power and accuracy.
 
 STATISTICS:
 
 Combat abilities:
-– 15% chance per shot to create a melodious harmony, which increases the party's morale as if under the effects of a Bless spell, and grants a +1 bonus to THAC0 and Luck. This effect lasts for 2 rounds and can stack with other THAC0 bonuses, but not with other Luck bonuses.
+– 5% chance per shot to create a melodious harmony, which increases the party's morale as if under the effects of a Bless spell, and grants a +1 bonus to THAC0 and Luck. This effect lasts for 2 rounds and can stack with other THAC0 bonuses, but not with other Luck bonuses. The chances of this effect triggering are tripled for bards.
 
 Damage: +1 (bards only)
 THAC0: +1 (+2 for bards)
@@ -431,7 +562,7 @@ Weight: 2~
 STATISTICS:
 
 Combat abilities:
-– 15% chance per shot to create a melodious harmony, which increases the party's morale as if under the effects of a Bless spell, and grants a +1 bonus to THAC0 and Luck. This effect lasts for 2 rounds and can stack with other THAC0 bonuses, but not with other Luck bonuses.
+– 5% chance per shot to create a melodious harmony, which increases the party's morale as if under the effects of a Bless spell, and grants a +1 bonus to THAC0 and Luck. This effect lasts for 2 rounds and can stack with other THAC0 bonuses, but not with other Luck bonuses. The chances of this effect triggering are tripled for bards.
 
 Damage: +1 (bards only)
 THAC0: +2 (+3 for bards)
@@ -443,6 +574,40 @@ Requires:
 
 Weight: 2~
 
+// +2 version in BG2EE
+@6053 = ~This delicate and elegantly crafted bow is strung not just with a bowstring, but with fine, enchanted threads that sometimes resonate when an arrow is shot. While any archer can wield it effectively, this bow is at its most powerful in the hands of a bard. Their intimate connection to music awakens the bow's hidden magic, guiding arrows with more power and accuracy.
+
+STATISTICS:
+
+Combat abilities:
+– 5% chance per shot to create a melodious harmony, which increases the party's morale as if under the effects of a Bless spell, and grants a +1 bonus to THAC0 and Luck. This effect lasts for 2 rounds and can stack with other THAC0 bonuses, but not with other Luck bonuses. The chances of this effect triggering are tripled for bards.
+
+Damage: +1 (bards only)
+THAC0: +2 (+3 for bards)
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 3 Strength
+
+Weight: 2~
+
+@6054 = ~This delicate and elegantly crafted bow is strung not just with a bowstring, but with fine, enchanted threads that sometimes resonate when an arrow is shot. While any archer can wield it effectively, this bow is at its most powerful in the hands of a bard. Their intimate connection to music awakens the bow's hidden magic, guiding arrows with more power and accuracy.
+
+STATISTICS:
+
+Combat abilities:
+– 5% chance per shot to create a melodious harmony, which increases the party's morale as if under the effects of a Bless spell, and grants a +1 bonus to THAC0 and Luck. This effect lasts for 2 rounds and can stack with other THAC0 bonuses, but not with other Luck bonuses. The chances of this effect triggering are tripled for bards.
+
+Damage: +1 (bards only)
+THAC0: +3 (+4 for bards)
+Speed Factor: 5
+Proficiency Type: Longbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
 
 @6070 = ~Icicle~
 @6071 = ~Forged from enchanted ice, this razor-thin blade exudes an unnatural chill that freezes the blood of its enemies. Its unique design allows the wielder to hurl the blade at distant foes, whereupon it instantly regenerates in their hand.
@@ -491,16 +656,39 @@ Requires:
 
 Weight: 2~
 
+@6081 = ~It is rumored this gnarly estoc is a replica of the stinger of Orcus. Forged and fitted deep in the bowels of the hells, the weapon is a fitting tribute to Orcus that pulses with demonic exultation as it drinks the blood of those pierced by it.
+
+It is a mystery how it was enchanted with such precision, as none of the forgemasters lived beyond its creation to tell of its secrets. Regardless, it is a powerful weapon that attracts those who would aspire to his evil magnificence.
+
+STATISTICS:
+
+Combat abilities: // todo
+– Each hit has a 50% chance of causing the target to bleed, dealing 1d2 damage twice per round for 3 rounds. This amount is doubled if the target fails to save vs. Death at -2. Targets without blood or protected by Stoneskin are immune to this effect.
+– Blood Lord's Exultation: 5% chance to cause targets with blood to take 20 piercing damage. This empowers the wielder, increasing all their damage by 20% for 20 seconds.
+– Like all estocs, it is +5% more likely to critically hit than other weapons of its category
+
+THAC0: +5
+Damage: 1d8+5 (piercing or slashing)
+Speed Factor: 1
+Proficiency Type: Long Sword / Estoc
+Type: Two-handed
+Requires:
+ 10 Strength
+ 14 Dexterity
+
+Weight: 2~
+
 @6082 = ~Blood Lord's Exultation~
 
-@6090 = ~Stygian Fury +3~
+@6090 = ~Stygian Fury~
 @6091 = ~This weapon was once wielded by a bloodthirsty killer. It is somehow permanently coated with the nauseating stench of the River Styx. It has claimed countless lives, leaving rivers of blood in its wake. When Orcus, the Lord of Blood, first felt its blade, he offered its wielder a dark pact: the life of a demon, ensuring the weapon's insatiable thirst would never be quenched.
 
 STATISTICS:
 
 Combat abilities:
-– Stygian miasma: Each hit has a chance to poison the target with the toxic miasma of the Styx. The target must save vs. Death at -2 or suffer 6 poison damage over 2 rounds.
-– Bloodflame: If the target is poisoned three times within 2 rounds, their blood (or equivalent lifeblood) ignites, dealing 2d8 slashing and fire damage instantly. Additionally, the target must save vs. Death or become berserk for 1 round. Critical hits always trigger this effect.
+– Stygian Miasma: Each hit has a chance to poison the target with the toxic miasma of the Styx, if a save vs. Death at -2 is failed, inflicting 6 poison damage over 2 rounds.
+– Bloodflame: If the target is poisoned within the duration of a previous stack of poison, and this happens twice in a row, their lifeblood ignites, dealing 2d8 slashing and fire damage and making them berserk for 1 round if a save vs. Death is failed.
+– Critical hits always trigger Bloodflame
 
 THAC0: +3
 Damage: 1d10+3, +1d4 fire damage
@@ -514,6 +702,26 @@ Requires:
 Weight: 3~
 
 @6092 = ~Bloodflame~
+
+@6091 = ~This weapon was once wielded by a bloodthirsty killer. It is somehow permanently coated with the nauseating stench of the River Styx. It has claimed countless lives, leaving rivers of blood in its wake. When Orcus, the Lord of Blood, first felt its blade, he offered its wielder a dark pact: the life of a demon, ensuring the weapon's insatiable thirst would never be quenched.
+
+STATISTICS:
+
+Combat abilities:
+– Stygian Miasma: Each hit has a chance to poison the target with the toxic miasma of the Styx, if a save vs. Death at -2 is failed, inflicting 6 poison damage over 2 rounds.
+– Bloodflame: If the target is poisoned within the duration of a previous stack of poison, and this happens twice in a row, their lifeblood ignites, dealing 2d8 slashing and fire damage and making them berserk for 1 round if a save vs. Death is failed.
+– Critical hits always trigger Bloodflame
+
+THAC0: +3
+Damage: 1d10+5, plus 1d4+1 fire damage
+Damage type: Slashing
+Speed Factor: 0
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
 
 @6100 = ~Crimson of Life~
 @6101 = ~This talisman is a gift for the faithful of Lathander, the Morninglord, crafted to embody the boundless vitality of the rising sun. Those who wear it feel a steady warmth in their chest, as if their life force is strengthened by the dawn's embrace.
@@ -598,13 +806,31 @@ STATISTICS:
 
 Equipped abilities:
 – Armor Class: +1
-– Off-hand THAC0: +1
-– Wielder automatically gains specialization in two-weapon fighting, unless their skill is equal or greater
-– Second weapon: THAC0 and Damage improves by +1 when wielding this dagger
+– Gains specialization in two-weapon fighting, with a +1 bonus to off-hand THAC0
+– THAC0 and Damage improves by +1 when wielding this dagger
 
 THAC0: +1
 Damage: 1d4+1 (piercing)
-Speed Factor: 1
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@80030 = ~The Night Thief was a vicious assassin who specialized in fighting with two daggers. This knife was the weaker of the two items, but it granted him greater abilities in combat. One merchant in Sembia discovered these abilities when he laid an ambush for the assassin. He found all twelve of his guards dead and the lure, a two pound diamond, gone.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Gains specialization in two-weapon fighting and a +1 bonus to off-hand THAC0
+– Second weapon: THAC0 and Damage improves by +1 when wielding this dagger
+
+THAC0: +2
+Damage: 1d4+2 (piercing)
+Speed Factor: 0
 Proficiency Type: Dagger
 Type: One-handed
 Requires:
@@ -712,6 +938,34 @@ Requires:
 
 Weight: 1~
 
+// upgraded version of the Kukri of the Eclipse
+@80090 = ~Kukri of the Eclipse +5~
+@80091 = ~The symbol on the kukri indicates it belonged to the monks of the Dark Moon Order. Despite the weapon's sinister association, it has no evil aura and can be safely wielded by anyone.
+
+STATISTICS:
+
+Equipped abilities:
+– Infravision
+– Immunity to blindness
+– Negative Plane Protection
+
+Combat abilities:
+– Inflicts negative energy damage on hit, which damages the living and heals the undead. This type of damage is not affected by the target's resistances or immunities
+– Like all kukris, this weapon has +5% extra chance to critically hit
+– Incapable of critically missing (Dark Moon Monks and Shadowdancers only)
+– 25% chance of draining 2 to 5 levels on hit if the target fails a saving throw vs. Death at -5. It's more likely to drain smaller amounts of levels than larger ones.
+
+THAC0: +5
+Damage: 1d4+5, +2d4 negative energy damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger/Kukri
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
 @80110 = ~Rapier~
 @80111 = ~The rapier is a light, thrusting sword popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands. All rapiers are +5% more likely to critically hit than other weapons of their category.
 
@@ -810,7 +1064,7 @@ Equipped abilities:
 – When in combat, the sword emits a radiant light that causes hostile undead within a 15 ft. radius of the wielder to suffer a -3 penalty to their THAC0 and Armor Class
 
 Combat abilities:
-– Acts in every way as a +4 weapon vs. undead, and as a +2 weapon vs. non-undead
+– Acts in every way as a +4 weapon vs. undead, and a +2 weapon otherwise
 
 Charge ability:
 – Searing Light, twice per day

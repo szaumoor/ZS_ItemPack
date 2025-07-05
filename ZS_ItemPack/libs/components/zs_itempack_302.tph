@@ -6,9 +6,19 @@ END
 
 COPY "%MOD_FOLDER%/items/03_nwn/the_left_hand" ~override~
 COPY_EXISTING ~ZSIPLFH0.ITM~ ~override~
-    SAY NAME2 @8002
-    SAY IDENTIFIED_DESC @8003
+  SAY NAME2 @8002
+  SAY IDENTIFIED_DESC @8003
 
-COPY_EXISTING ~sto4803.STO~ ~override~ // nashkel store
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPLG0" position = "LAST" flags=~identified~ END
-BUT_ONLY IF_EXISTS
+COPY_EXISTING ~ZSIPLFH1.ITM~ ~override~
+  SAY NAME2 @8002
+  SAY IDENTIFIED_DESC @80030
+
+ACTION_IF GAME_IS "bgee eet" BEGIN
+  COPY_EXISTING ~sto4803.STO~ ~override~ // nashkel store
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPLFH0" position = "LAST" flags = ~identified~ END
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+  COPY_EXISTING ~bmthief.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags = ~identified~ item_name = "ZSIPLFH1" position = "LAST" END
+END
