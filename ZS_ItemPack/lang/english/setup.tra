@@ -54,10 +54,10 @@
 STATISTICS:
 
 Equipped abilities:
-– Demonic enemies suffer a penalty to attack rolls against the wielder, as if affected by a Protection from Evil spell (this effect applies only to demonic enemies)
+– +2 Armor class vs. demonic enemies
 
 Combat abilities:
-– Can strike demonic enemies that are normally immune to +2 weapons, and is treated as a +2 weapon against them
+– Can strike demonic enemies that are normally immune to +2 weapons, but hits as a +2 weapon against them
 – Fire damage dealt to demons by this weapon cannot be resisted, even by those normally immune to fire
 – THAC0, speed factor, enchantment level, and damage bonuses increase by 1 when wielded by tieflings
 
@@ -163,7 +163,7 @@ Deals bonus piercing damage based on the target's current Hit Points:
 Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
 
 THAC0: +3
-Damage: 1d6+3, plus 1d3 Negative Plane Energy damage (damages the living and heals the undead)
+Damage: 1d6+3, +1d3 Negative Plane Energy damage (damages the living and heals the undead)
 Damage type: Piercing
 Speed Factor: 0
 Proficiency Type: Short Sword
@@ -192,7 +192,7 @@ Deals bonus piercing damage based on the target's current Hit Points:
 Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
 
 THAC0: +5
-Damage: 1d6+5, plus 1d4 Negative Plane Energy (damages the living and heals the undead)
+Damage: 1d6+5, +1d4 Negative Plane Energy (damages the living and heals the undead)
 Damage type: Piercing
 Speed Factor: 0
 Proficiency Type: Short Sword
@@ -331,8 +331,8 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-– Each time this weapon kills an enemy, the wielder regains one expended arcane spell slot of level 1. There is also a 5% chance to restore a level 2 spell slot (or another level 1 slot if no level 2 spells are available).
-– Each hit with this weapon has a 15% chance to make the target lose one spell slot of the highest level they can cast. If this occurs, the target also suffers 30% spell failure for 9 seconds.
+– Each time this weapon kills an enemy, the wielder regains one expended arcane spell slot of level 1. There is also a 10% chance to restore a level 2 spell slot (or another level 1 slot if no level 2 spells are available).
+– Each hit with this weapon has a 15% chance to make the target lose one spell slot of the highest level they can cast. If this occurs, the target also suffers 30% spell failure for 10 seconds.
 
 THAC0: +1
 Damage: 1d4+1 (piercing)
@@ -347,6 +347,26 @@ Weight: 1~
 
 @50180 = ~Arcane siphoning~
 @50181 = ~Spell slot restored~
+
+@50182 = ~Spell Siphon +2~
+@50183 = ~This dagger's blade is etched with shifting eldritch runes, which glow faintly whenever life is taken by its edge. The weapon seems to hunger for the energies of the slain, drawing their essence into its wielder's mind to restore their magical reserves. Only those who wield the arcane arts may use this weapon.
+
+STATISTICS:
+
+Combat abilities:
+– Each time this weapon kills an enemy, the wielder regains one expended arcane spell slot of level 1. There is also a 15% chance to restore a level 2 spell slot (or another level 1 slot if no level 2 spells are available).
+– Each hit with this weapon has a 25% chance to make the target lose one spell slot of the highest level they can cast. If this occurs, the target also suffers 33% spell failure for 10 seconds.
+
+THAC0: +2
+Damage: 1d4+2 (piercing)
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+ 16 Intelligence
+
+Weight: 1~
 
 @5019 = ~Cruel Sting +1~
 @5020 = ~The trauma of becoming a drider is quickly set aside with a cold arachnid dispassion. This sword follows that disturbing trend–a replenishing poison gland is built within, deploying generously against trapped opponents.
@@ -641,7 +661,7 @@ It is a mystery how it was enchanted with such precision, as none of the forgema
 STATISTICS:
 
 Combat abilities:
-– Each hit has a 50% chance of causing the target to bleed, dealing 1d2 damage twice per round for 3 rounds. This amount is doubled if the target fails to save vs. Death at -2. Targets without blood or protected by Stoneskin are immune to this effect.
+– Each hit has a 33% chance of causing the target to bleed, dealing 1d2 damage twice per round for 3 rounds. This amount is doubled if the target fails to save vs. Death at -2. Targets without blood or protected by Stoneskin are immune to this effect.
 – Blood Lord's Exultation: 5% chance to cause targets with blood to take 20 piercing damage. This empowers the wielder, increasing all their damage by 20% for 20 seconds.
 – Like all estocs, it is +5% more likely to critically hit than other weapons of its category
 
@@ -656,14 +676,19 @@ Requires:
 
 Weight: 2~
 
-@6081 = ~It is rumored this gnarly estoc is a replica of the stinger of Orcus. Forged and fitted deep in the bowels of the hells, the weapon is a fitting tribute to Orcus that pulses with demonic exultation as it drinks the blood of those pierced by it.
+@6082 = ~Blood Lord's Exultation~
+
+@6083 = ~Bloody Sting +5~
+@6084 = ~It is rumored this gnarly estoc is a replica of the stinger of Orcus. Forged and fitted deep in the bowels of the hells, the weapon is a fitting tribute to Orcus that pulses with demonic exultation as it drinks the blood of those pierced by it.
 
 It is a mystery how it was enchanted with such precision, as none of the forgemasters lived beyond its creation to tell of its secrets. Regardless, it is a powerful weapon that attracts those who would aspire to his evil magnificence.
 
+Now upgraded by Cespenar, this weapon bleeds the enemy like lambs to the slaughter, and its power is truly terrifying.
+
 STATISTICS:
 
-Combat abilities: // todo
-– Each hit has a 50% chance of causing the target to bleed, dealing 1d2 damage twice per round for 3 rounds. This amount is doubled if the target fails to save vs. Death at -2. Targets without blood or protected by Stoneskin are immune to this effect.
+Combat abilities:
+– Each hit has a 50% chance of causing the target to bleed, dealing 1d2 damage twice per round for 3 rounds. This amount is doubled if the target fails to save vs. Death at -4. Targets without blood or protected by Stoneskin are immune to this effect.
 – Blood Lord's Exultation: 5% chance to cause targets with blood to take 20 piercing damage. This empowers the wielder, increasing all their damage by 20% for 20 seconds.
 – Like all estocs, it is +5% more likely to critically hit than other weapons of its category
 
@@ -677,8 +702,6 @@ Requires:
  14 Dexterity
 
 Weight: 2~
-
-@6082 = ~Blood Lord's Exultation~
 
 @6090 = ~Stygian Fury~
 @6091 = ~This weapon was once wielded by a bloodthirsty killer. It is somehow permanently coated with the nauseating stench of the River Styx. It has claimed countless lives, leaving rivers of blood in its wake. When Orcus, the Lord of Blood, first felt its blade, he offered its wielder a dark pact: the life of a demon, ensuring the weapon's insatiable thirst would never be quenched.
@@ -703,17 +726,18 @@ Weight: 3~
 
 @6092 = ~Bloodflame~
 
-@6091 = ~This weapon was once wielded by a bloodthirsty killer. It is somehow permanently coated with the nauseating stench of the River Styx. It has claimed countless lives, leaving rivers of blood in its wake. When Orcus, the Lord of Blood, first felt its blade, he offered its wielder a dark pact: the life of a demon, ensuring the weapon's insatiable thirst would never be quenched.
+@6093 = ~Stygian Fury~
+@6094 = ~This weapon was once wielded by a bloodthirsty killer. It is somehow permanently coated with the nauseating stench of the River Styx. It has claimed countless lives, leaving rivers of blood in its wake. When Orcus, the Lord of Blood, first felt its blade, he offered its wielder a dark pact: the life of a demon, ensuring the weapon's insatiable thirst would never be quenched.
 
 STATISTICS:
 
 Combat abilities:
-– Stygian Miasma: Each hit has a chance to poison the target with the toxic miasma of the Styx, if a save vs. Death at -2 is failed, inflicting 6 poison damage over 2 rounds.
-– Bloodflame: If the target is poisoned within the duration of a previous stack of poison, and this happens twice in a row, their lifeblood ignites, dealing 2d8 slashing and fire damage and making them berserk for 1 round if a save vs. Death is failed.
+– Stygian Miasma: Each hit has a chance to poison the target with the toxic miasma of the Styx, if a save vs. Death at -4 is failed, inflicting 6 poison damage over 2 rounds.
+– Bloodflame: If the target is poisoned within the duration of a previous stack of poison, and this happens twice in a row, their lifeblood ignites, dealing 2d10 slashing and fire damage and making them berserk for 1 round if a save vs. Death at -2 is failed.
 – Critical hits always trigger Bloodflame
 
-THAC0: +3
-Damage: 1d10+5, plus 1d4+1 fire damage
+THAC0: +5
+Damage: 1d10+5, plus 1d4+2 fire damage
 Damage type: Slashing
 Speed Factor: 0
 Proficiency Type: Katana
@@ -1041,13 +1065,13 @@ Equipped abilities:
 
 Combat abilities:
 – Inflicts a cumulative 10% spell failure chance on hit for 3 rounds
-– 25% chance per hit of increasing the casting time of all spells by 2 for 5 rounds. This effect does not stack.
-– Behaves as a +2 weapon when held by a barbarian, berserker, or Rashemi warrior, and as a +1 weapon otherwise
+– 25% chance per hit of non-cumulatively slowing down casting time by 2 for 5 rounds
+– Behaves in every way as a +2 weapon when held by a barbarian, berserker, or Rashemi warrior
 
-THAC0: +1, +2 (barbarian, berserker, or Rashemi warrior)
-Damage: 1d12+1, +2 (barbarian, berserker, or Rashemi warrior)
+THAC0: +1
+Damage: 1d12+1
 Damage type: Slashing
-Speed Factor: 8
+Speed Factor: 9
 Proficiency Type: Two-handed Sword
 Type: Two-handed
 Requires:
@@ -1147,7 +1171,7 @@ STATISTICS:
 
 Combat abilities:
 – The weapon can shapeshift to deal Piercing/Slashing or Crushing damage. The wielder can switch between these at will
-– Single-classed wizards and sorcerers may use this weapon twice per round
+– Single-classed arcane casters may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
@@ -1168,7 +1192,7 @@ STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Single-classed wizards and sorcerers may use this weapon twice per round
+– Single-classed arcane casters may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
@@ -1190,7 +1214,7 @@ STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Single-classed wizards and sorcerers may use this weapon twice per round
+– Single-classed arcane casters may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
@@ -1212,7 +1236,7 @@ STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Single-classed wizards and sorcerers may use this weapon twice per round
+– Single-classed arcane casters may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
@@ -1234,7 +1258,7 @@ STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Single-classed wizards and sorcerers may use this weapon twice per round
+– Single-classed arcane casters may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
@@ -1256,7 +1280,7 @@ STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Single-classed wizards and sorcerers may use this weapon twice per round
+– Single-classed arcane casters may use this weapon twice per round
 
 Charge abilities:
 – Evolve Weapon
@@ -1280,7 +1304,7 @@ STATISTICS:
 
 Combat abilities:
 – The weapon has a mode for Piercing/Slashing damage and a mode for Crushing damage. The wielder can switch between the two modes at will
-– Single-classed wizards and sorcerers may use this weapon twice per round
+– Single-classed arcane casters may use this weapon twice per round
 
 THAC0: +6
 Damage: 1d8+6, +4 magic damage
@@ -1291,12 +1315,10 @@ Type: One-handed
 
 Weight: 1~
 
-@10127 = ~The omniblade may only be used by wizards and sorcerers~
+@10127 = ~The omniblade may only be used by arcane casters~
 
 @10130 = ~Phantom's Blade~
-@10131 = ~This ninjatô was forged by a secret sect of assassins only known as the "Phantoms". This faction once operated from the shadows, eliminating their targets with frightening precision, before vanishing without a trace. Some believe they were wiped out, while others say that they still exist, watching from the shadows.
-
-Beyond its amazing enchantment, the blade's edge is so incredibly sharp, it can slice through flesh and bone with unnerving ease. Only those who proved their loyalty and skill to the Phantoms were granted the honor of wielding such a weapon. Yet, holding it now carries an unsettling feeling—a sense that its masters may one day return to reclaim what is theirs.
+@10131 = ~This ninjatô's blade is so incredibly sharp, it can slice through flesh and bone with extreme ease.It was forged by an ancient sect of killers only known as the "Phantoms", where only those that proved their loyalty by committing a very challenging murder were granted the honor of wielding such a blade. While many claim they were wiped out, and most indeed believe so, holding it carries the unsettling feeling that its masters may one day return to reclaim what is theirs.
 
 STATISTICS:
 
