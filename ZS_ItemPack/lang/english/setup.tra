@@ -395,6 +395,32 @@ Requires:
 Weight: 4~
 @5021 = ~Spin Web~
 
+@5022 = ~Cruel Sting +2~
+@5023 = ~The trauma of becoming a drider is quickly set aside with a cold arachnid dispassion. This sword follows that disturbing trend–a replenishing poison gland is built within, deploying generously against trapped opponents.
+
+STATISTICS:
+
+Equipped abilities:
+– Immunity to web spells and effects
+
+Combat abilities:
+– Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 poison damage damage over 5 seconds if they fail to save vs. Death at -1
+
+Charge abilities:
+– Spin Web, two times per day
+  Special: Target must save vs. Breath at -2 or become webbed for 2 rounds.
+  Area of effect: 1 target
+
+Damage: 1d8+2, +1d2 poison damage
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
 @5030 = ~Judgment +4~
 @5031 = ~This finely crafted war hammer was designed as both a weapon of war and a tool of mercy. Said to have been wielded by a champion of a benevolent deity, it strikes with incredible force, toppling foes while breaking through ensnaring magic. The hammer's head glows with a steady inner heat that sears foes on touch–a reminder that justice can both punish and liberate.
 

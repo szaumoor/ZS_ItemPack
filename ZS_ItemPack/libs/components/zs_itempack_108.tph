@@ -5,19 +5,23 @@ END ELSE BEGIN
 END
 
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/cruel_sting~ ~override~
-COPY_EXISTING ~ZSIPCRST.itm~ ~override~
+COPY_EXISTING ~ZSIPCST0.itm~ ~override~
   SAY NAME2 @5019
   SAY IDENTIFIED_DESC @5020
 
-COPY_EXISTING ~ZSIPCRS1.SPL~ ~override~
+COPY_EXISTING ~ZSIPCST3.itm~ ~override~
+  SAY NAME2 @5022
+  SAY IDENTIFIED_DESC @5023
+
+COPY_EXISTING ~ZSIPCST2.SPL~ ~override~
   SAY NAME1 @5021
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
   COPY_EXISTING ~CENTEO.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPCRST~ #2 #0 #0 ~none~ ~inv~
+    ADD_CRE_ITEM ~ZSIPCST0~ #2 #0 #0 ~none~ ~inv~
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
   COPY_EXISTING ~AR2101.ARE~ ~override~
-    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 1 charges1=2 STR_VAR item_to_add = ~ZSIPCRST~ END
+    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 1 charges1=2 STR_VAR item_to_add = ~ZSIPCST3~ END
 END
