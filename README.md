@@ -199,7 +199,7 @@ These are the base characteristics of the new weapon types compared to others in
 - **Estoc**: Estocs are large, two-handed thrusting swords that use the two-handed sword animation. They deal 1d8+1 piercing damage, have a base speed factor of 6, and require both hands to wield. Estocs use the long sword proficiency and have an innate 5% higher chance to score a critical hit. Their attack animations primarily feature thrusting (poke) motions.
 - **Kukri**: Kukris are for all intents and purposes considered daggers, but they are one point slower as far as speed factor goes, but critically hit 5% more often.
 - **Rapier**: Rapiers are light, thrusting swords that use the short sword animation. They deal 1d6 piercing damage, have a base speed factor of 4, and use the short sword proficiency. Rapiers have a 5% higher chance to score a critical hit compared to standard short swords, and their attack animations emphasize thrusting motions.
-- Shuriken: Shurikens are essentially darts that deal 1d2 missile but critically hit 10% more often and have a better speed factor. They are more expensive. Various varieties are introduced in the pack including: normal to +5 variants, poison and acid variants, and one that causes bleeding with a small chance of causing a sudden blood loss effect.
+- **Shuriken**: Shurikens are essentially darts that deal 1d2 missile but critically hit 10% more often and have a better speed factor. They are more expensive. Various varieties are introduced in the pack including: normal to +5 variants, poison and acid variants, and one that causes bleeding with a small chance of causing a sudden blood loss effect.
 
 ## Compatibility and Installation order
 
