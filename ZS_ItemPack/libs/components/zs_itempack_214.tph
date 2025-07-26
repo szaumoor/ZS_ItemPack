@@ -13,12 +13,6 @@ COPY_EXISTING ~ZSIPBCL8.ITM~ ~override~
   SAY NAME1 @6162
 
 // to be determined
-ACTION_IF GAME_IS "bgee eet" BEGIN
-  COPY_EXISTING ~CALDO.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPHKR0~ #0 #0 #0 ~unstealable~ ~inv~
-END
-
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
-  COPY_EXISTING ~SHOP05.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPHKR0" position = "LAST" END
+
 END
