@@ -36,6 +36,6 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     COPY_EXISTING ~C6BODHI.STO~ ~override~
         ADD_CRE_ITEM ~ZSIPBLT3~ #0 #0 #0 ~unstealable~ ~inv~
 
-    COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_bloodthirst.d~
+    COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_bloodthirst_cespy.d~
     EXTEND_BOTTOM ~botsmith.bcs~ ~%MOD_FOLDER%/baf/upgrades/bloodthirst/botsmith.baf~
 END

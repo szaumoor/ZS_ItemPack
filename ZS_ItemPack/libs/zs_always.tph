@@ -1,0 +1,6 @@
+INCLUDE ~%MOD_FOLDER%/zs_itempack_config.txt~
+INCLUDE ~%MOD_FOLDER%/libs/zs_find_weapon.tph~
+INCLUDE ~%MOD_FOLDER%/libs/zs_splprot_include.tph~
+INCLUDE ~%MOD_FOLDER%/libs/zs_cdfunctions.tpa~
+INCLUDE ~%MOD_FOLDER%/libs/zs_alter_functions.tpa~
+INCLUDE ~%MOD_FOLDER%/libs/components/zs_itempack_%COMPONENT_NUMBER%.tph~

@@ -29,7 +29,7 @@ APPEND BOTSMITH
     COPY_TRANS BOTSMITH 4
   END
 
-  IF WEIGHT #-1 ~Global("ZSIP_BloodthirstForge","GLOBAL",1)~ THEN BEGIN ItemForged SAY #70888
+  IF WEIGHT #-1 ~Global("ZSIP_BloodthirstForge","GLOBAL",1)~ THEN BEGIN ZSIP_ItemForged SAY #70888
     IF ~~ THEN DO ~SetGlobal("ZSIP_BloodthirstForge","GLOBAL", 0)~ EXIT
   END
 

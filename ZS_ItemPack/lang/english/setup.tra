@@ -16,11 +16,13 @@
 @106 = ~Add Cold Snap (Cold Snap; dagger)~
 @107 = ~Add Spell Siphon (Arcane Absorption Dagger; cut content dagger)~
 @108 = ~Add Cruel Sting (Cruel Sting; long sword)~
-@109 = ~Add Judgment (Orphic Hammer; warhammer)~
+@109 = ~Add Judgment (Orphic Hammer; war hammer)~
 @110 = ~Add The Deathstalker Mantle (The Deathstalker Mantle; cloak)~
 
+@205 = ~Add Ring of Hardiness (Dark Souls - Ring of Steel Protection; ring)~
 @211 = ~Add Sage Ring (Dark Souls 3 - Sage Ring; ring)~
 @213 = ~Add Hawk Ring (Dark Souls 3 - Hawk Ring; ring)~
+@214 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
@@ -39,6 +41,7 @@
 @308 = ~Add Shining Light of Lathander (Shining Light of Lathander; two-handed sword)~
 @309 = ~Add Goblinsplitter (Goblinsplitter; axe)~
 @311 = ~Add Mercykiller Blade (Mercykiller Blade; rapier)~
+@313 = ~Add Shining Light (shuriken)~
 
 @401 = ~Add Rod of Illusive Protections (rod)~
 @402 = ~Add Omniblade (universal sword)~
@@ -49,7 +52,7 @@
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
-@5002 = ~Silent, somewhat translucent flames surge the length of the blade as soon as it clears the scabbard. This two handed sword is a common weapon for servants of fiends involved in the eternal Blood War. How it ended up here is anyone's guess.
+@5002 = ~Silent, somewhat translucent flames surge the length of the blade as soon as it clears the scabbard. This two-handed sword is a common weapon for servants of fiends involved in the eternal Blood War. How it ended up here is anyone's guess.
 
 STATISTICS:
 
@@ -201,7 +204,6 @@ Requires:
  5 Strength
 
 Weight: 3~
-
 
 @5010 = ~Assassin's Touch +1~
 @5011 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. Its enchantments favor those skilled in the art of thievery, particularly assassins, making it especially deadly against sleeping or incapacitated targets.
@@ -377,7 +379,7 @@ Equipped abilities:
 – Immunity to web spells and effects
 
 Combat abilities:
-– Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 poison damage damage over 5 seconds if they fail to save vs. Death at -1
+– Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 poison damage over 5 seconds if they fail to save vs. Death at -1
 
 Charge abilities:
 – Spin Web, two times per day
@@ -404,7 +406,7 @@ Equipped abilities:
 – Immunity to web spells and effects
 
 Combat abilities:
-– Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 poison damage damage over 5 seconds if they fail to save vs. Death at -1
+– Opponents that are webbed or otherwise helpless receive 1d4 poison damage per hit and may become poisoned, suffering 10 poison damage over 5 seconds if they fail to save vs. Death at -1
 
 Charge abilities:
 – Spin Web, two times per day
@@ -784,7 +786,7 @@ Equipped abilities:
 Weight: 1~
 
 @6110 = ~Hawk Ring~
-@6111 = ~Crudely engraved with a hawk's silouette, this seemingly unassuming ring makes the wearer's vision, immediately upon wearing it, incredibly sharp, allowing them can see the world with a clarity that is normally impossible. It is rumored that it was once worn by a famed ranger now lost to time.
+@6111 = ~Crudely engraved with a hawk's silhouette, this seemingly unassuming ring makes the wearer's vision, immediately upon wearing it, incredibly sharp, allowing them can see the world with a clarity that is normally impossible. It is rumored that it was once worn by a famed ranger now lost to time.
 
 STATISTICS:
 
@@ -806,7 +808,7 @@ Equipped abilities:
 Weight: 3~
 
 @6130 = ~Sage's Ring~
-@6131 = ~This ring is imbued with an enchantment that sharpens the mind and focus of the wearer. Whether invoking divine prayers or arcane spells, the ring allows its bearer to channel their magic with more speed and precision, making it a prized possession for spellcasters of all disciplines.
+@6131 = ~This ring is imbued with an enchantment that sharpens the mind and focus of the wearer. Whether invoking divine prayers or arcane spells, the ring allows its bearer to channel their magic with more speed and precision, making it a prized possession for spell casters of all disciplines.
 
 STATISTICS:
 
@@ -825,6 +827,63 @@ Equipped abilities:
 – Regenerate 1 Hit Point per turn
 
 Weight: 3~
+
+@6150 = ~Ring of Hardiness~
+@6151 = ~This unadorned steel ring is surprisingly heavy for its size. Once awarded to knights who displayed exceptional courage against overwhelming odds, its magic forms an invisible barrier around the wearer. This subtle protection reinforces the wearer's defenses and lessens the impact of physical blows, making the ring highly prized by warriors and adventurers alike.
+
+STATISTICS:
+
+Equipped abilities:
+– Physical damage resistance: +5%
+– Armor Class: +1
+
+Weight: 1~
+
+@6152 = ~Ring of Hardiness +2~
+@6153 = ~This unadorned steel ring is surprisingly heavy for its size. Once awarded to knights who displayed exceptional courage against overwhelming odds, its magic forms an invisible barrier around the wearer. This subtle protection reinforces the wearer's defenses and lessens the impact of physical blows, making the ring highly prized by warriors and adventurers alike.
+
+Now upgraded by Cromwell, this ring is even more protective and allows the wearer to shroud themselves in a protective layer of stone once per day.
+
+STATISTICS:
+
+Charge abilities:
+– Stoneskin, once per day, cast at level 10
+
+Equipped abilities:
+– Physical damage resistance: +6%
+– Armor Class: +2
+
+Weight: 1~
+
+@6160 = ~Blade of Calling~
+@6161 = ~This dagger feels warm to the touch, and when it nears undead, the wielder is filled with that same comforting warmth, inspiring courage in the face of the living dead. It once belonged to a divine seeker of Ilmater. While fighting in the depths of the Underdark, her blade shattered, leaving only a fragment for her defense against hordes of undead. Though she ultimately fell, her righteousness was somehow absorbed by the broken weapon, which was later recovered by the Broken God's church. They reforged and sanctified it with a singular purpose: to destroy the undead wherever they may lurk.
+
+STATISTICS:
+
+Equipped abilities:
+– Immunity to fear effects and morale failure
+
+Combat abilities:
+– Deals irresistible radiant damage to undead
+– Radiant and magic damage is doubled on critical hits and backstabs.
+
+Charge abilities:
+– Blade of Gold once per day
+  Special: Unleash a golden blade of energy, dealing 4d6 magic damage (triple vs. undead), knocking the target prone and pushing them back unless they save vs. Spell at -4. Treated as a level 5 spell for immunities. For 1 turn, each hit with this dagger acts as a disruption weapon, destroying undead if they fail a save vs. Death. The dagger must be actively equipped for the latter effect to work.
+  Area of effect: 1 target
+
+THAC0: +3, +5 vs. undead
+Damage: 1d4+3, +1 magic (living), +2d4 (undead: half magic, half radiant)
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+@6162 = ~Blade of Gold~
 
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~
@@ -1081,7 +1140,7 @@ Weight: 2~
 
 @8015 = ~Blade of the Rashemi~
 @80150 = ~Casting speed reduced~
-@8016 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spellcasters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
+@8016 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spell casters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
 
 STATISTICS:
 
@@ -1092,7 +1151,7 @@ Equipped abilities:
 Combat abilities:
 – Inflicts a cumulative 10% spell failure chance on hit for 3 rounds
 – 25% chance per hit of non-cumulatively slowing down casting time by 2 for 5 rounds
-– Behaves in every way as a +2 weapon when held by a barbarian, berserker, or Rashemi warrior
+– Becomes a +2 weapon when held by a barbarian, berserker, or Rashemi warrior
 
 THAC0: +1
 Damage: 1d12+1
@@ -1105,8 +1164,53 @@ Requires:
 
 Weight: 14~
 
-@8017 = ~Shining Light of Lathander~
-@8018 = ~The Church of Lathander is a wealthy institution, and makes no secret of its affinity for adventurers. In their eyes, these people dare to bring light to the forgotten and secret places, and therefore they will always find safe haven in a house of the Morninglord. On occasion the church will grant a boon to a particularly favorable person, a weapon that will serve to light the dark paths ahead.
+@8017 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spell casters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
+
+STATISTICS:
+
+Equipped abilities:
+– Magic Resistance: +15%
+– Save vs. Spell: +1
+
+Combat abilities:
+– Inflicts a cumulative 12% spell failure chance on hit for 3 rounds
+– 25% chance per hit of non-cumulatively slowing down casting time by 2 for 5 rounds
+– Becomes a +3 weapon when held by a barbarian, berserker, or Rashemi warrior
+
+THAC0: +2
+Damage: 1d12+2
+Damage type: Slashing
+Speed Factor: 8
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 16 Strength
+
+Weight: 14~
+
+@80170 = ~Shining Light of Lathander~
+@80171 = ~The Church of Lathander is a wealthy institution, and makes no secret of its affinity for adventurers. In their eyes, these people dare to bring light to the forgotten and secret places, and therefore they will always find safe haven in a house of the Morninglord. On occasion the church will grant a boon to a particularly favorable person, a weapon that will serve to light the dark paths ahead.
+
+STATISTICS:
+
+Equipped abilities:
+– When in combat, the sword emits a radiant light that causes hostile undead within a 15 ft. radius of the wielder to suffer a -2 penalty to their THAC0 and Armor Class
+
+Combat abilities:
+– Acts in every way as a +3 weapon vs. undead, and a +1 weapon otherwise
+
+THAC0: +1, +3 vs. undead
+Damage: 1d10+1 (+3 vs. undead), +1 fire damage
+Damage type: Slashing
+Speed Factor: 9
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 12~
+
+@80172 = ~The Church of Lathander is a wealthy institution, and makes no secret of its affinity for adventurers. In their eyes, these people dare to bring light to the forgotten and secret places, and therefore they will always find safe haven in a house of the Morninglord. On occasion the church will grant a boon to a particularly favorable person, a weapon that will serve to light the dark paths ahead.
 
 STATISTICS:
 
@@ -1134,7 +1238,41 @@ Type: Two-handed
 Requires:
  14 Strength
 
-Weight: 11~
+Weight: 10~
+
+@80173 = ~The Church of Lathander is a wealthy institution, and makes no secret of its affinity for adventurers. In their eyes, these people dare to bring light to the forgotten and secret places, and therefore they will always find safe haven in a house of the Morninglord. On occasion the church will grant a boon to a particularly favorable person, a weapon that will serve to light the dark paths ahead.
+
+Now that the blade has been coated with illithium, it is even more potent, conferring to its user immunity to the life-draining powers of the more powerful undead.
+
+STATISTICS:
+
+Equipped abilities:
+– Negative Plane Protection
+– When in combat, the sword emits a radiant light that causes hostile undead within a 15 ft. radius of the wielder to suffer a -4 penalty to their THAC0 and Armor Class
+
+Combat abilities:
+– Acts in every way as a +5 weapon vs. undead, and a +3 weapon otherwise
+– Undead must save vs. Death or be utterly destroyed
+
+Charge ability:
+– Searing Light, three times per day
+  Special: Fires a bolt of light at the target, causing the following effects:
+  – Undead: Blinded for 2 rounds and take 8d6 magic damage (15d6 vs. vampires)
+  – Non-undead: Blinded for 2 rounds and take 4d6 magic damage
+  – A successful save vs. Spell at -4 negates the blindness
+  Range: 60 ft.
+  Area of Effect: 1 creature
+
+THAC0: +3, +5 vs. undead
+Damage: 1d10+3 (+5 vs. undead), +2 fire damage
+Damage type: Slashing
+Speed Factor: 7
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 9~
 
 @8019 = ~Goblinsplitter~
 @8020 = ~This is a rough-hewn axe forged not with artistry, but with hatred. The name Goblinsplitter is crudely carved into the axe's head, and its pitted blade and battered handle bear the marks of countless battles against goblinoid foes. Over years of brutal use, the edge has become jagged and serrated, not by design but by repeated blows and makeshift repairs. Created by a blacksmith whose village was razed by marauding goblins, the weapon was designed with a single purpose: vengeance.
@@ -1176,15 +1314,158 @@ Requires:
 
 Weight: 2~
 
+@15060 = ~Shining Light~
+@15061 = ~Years ago, Vilaneux of the Iron Order was lost to a hurricane and stranded in then-unknown Kara-Tur. He and his full plate armor were an oddity to the locals, but he soon proved his commitment to justice. He became so respected that, when he died, his armor was cut into these Shining Light weapons in tribute.
+
+STATISTICS:
+
+Combat abilities:
+– Each hit has a 50% chance of forcing the target to save vs. Spell at -4 or be blinded for 1 turn and stunned for 1 round.
+– Like all shurikens, this weapon has +10% extra chance to critically hit compared to other weapons of its category
+
+THAC0: +4
+Damage: 1d2+4 (missile)
+Speed Factor: 0
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15070 = ~Shuriken~
+@15071 = ~Shuriken are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly and have a 10% higher chance to critically hit than regular darts.
+
+STATISTICS:
+
+Damage: 1d2 (missile)
+Speed Factor: 1
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15072 = ~Shuriken +1~
+@15073 = ~Shuriken are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly and have a 10% higher chance to critically hit than regular darts. This particular shuriken is imbued with a magical aura, enhancing its lethality and precision.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d2+1 (missile)
+Speed Factor: 0
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15074 = ~Shuriken +2~
+@15075 = ~Shuriken are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly and have a 10% higher chance to critically hit than regular darts. This particular shuriken is imbued with a magical aura, enhancing its lethality and precision.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d2+2 (missile)
+Speed Factor: 0
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15076 = ~Shuriken +3~
+@15077 = ~Shuriken are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly and have a 10% higher chance to critically hit than regular darts. This particular shuriken is imbued with a magical aura, enhancing its lethality and precision.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d2+3 (missile)
+Speed Factor: 0
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15078 = ~Shuriken +4~
+@15079 = ~Shuriken are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly and have a 10% higher chance to critically hit than regular darts. This particular shuriken is imbued with a magical aura, enhancing its lethality and precision.
+
+STATISTICS:
+
+THAC0: +4
+Damage: 1d2+4 (missile)
+Speed Factor: 0
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15078 = ~Shuriken +5~
+@15079 = ~Shuriken are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly and have a 10% higher chance to critically hit than regular darts. This particular shuriken is imbued with a magical aura, enhancing its lethality and precision.
+
+STATISTICS:
+
+THAC0: +5
+Damage: 1d2+5 (missile)
+Speed Factor: 0
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15080 = ~Poisoned Shuriken~
+@15081 = ~Shuriken are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly and have a 10% higher chance to critically hit than regular darts. A thin coating of poison has been applied to each shuriken, making it a lethal tool in the hands of trained assassins.
+
+STATISTICS:
+
+Combat abilities:
+– Hit target must save vs. Death at -2 or suffer 5 points of poison damage per second for 5 seconds
+
+Damage: 1d2 (missile)
+Speed Factor: 1
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15082 = ~Barbed Shuriken +1~
+@15083 = ~Shuriken are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly and have a 10% higher chance to critically hit than regular darts. This particular shuriken is designed with barbs that can cause severe bleeding, making it a deadly weapon in the hands of skilled assassins.
+
+STATISTICS:
+
+Combat abilities:
+– 10% chance of causing massive blood loss on hit, inflicting damage equivalent to 10% of the target's maximum HP. No effect on targets protected with stoneskins, targets without blood, constructs, or undead
+– Wielders with less than 17 Dexterity have a 40% chance may be cut by the barbs each time they equip or throw this weapon, causing 1d2+1 piercing damage
+
+THAC0: +1
+Damage: 1d2+1, +4 piercing damage (save vs. Death for half)
+Damage type: Missile
+Speed Factor: 0
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
+@15084 = ~Blood loss triggered: -10% Hit Points~
+
+@15085 = ~Acid Shuriken +2~
+@15086 = ~This shuriken is coated in acid. When it strikes an enemy, it not only pierces flesh but also eats it away, enlarging and deepening the wound.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d2+2, +1d3 acid damage
+Damage type: Missile
+Speed Factor: 0
+Proficiency Type: Dart / Shuriken
+Type: One-handed
+
+Weight: 0~
+
 // mass effect inspired
 @10110 = ~Rod of Illusive Protections~
-@10111 = ~This rod is a slender and heavily adorned length of polished wood, capped with a fairly big and multi-colored gemstone. It is said to have been created by a rich illusionist, who was only known by the people around them as "The Illusive Man". He was known for using manipulation and trickery to get what he wanted, and the rod is said to be a reflection of that. In the end, The Illusive Man was betrayed by his own illusions, and the rod was lost to time.
+@10111 = ~This rod is a slender and heavily adorned length of polished wood, capped with a fairly big and multicolored gemstone. It is said to have been created by a rich illusionist, who was only known by the people around them as "The Illusive Man". He was known for using manipulation and trickery to get what he wanted, and the rod is said to be a reflection of that. In the end, The Illusive Man was betrayed by his own illusions, and the rod was lost to time.
 
 STATISTICS:
 
 Charge abilities:
 – Illusive Protection once per day
-  Special: Caster is protected by a combination of Nondetection, Mirror Image, Improved Invisibility, and Blur cast at level 20
+  Special: Caster is protected by a combination of Non-Detection, Mirror Image, Improved Invisibility, and Blur cast at level 20
   Range: Caster only
   Area of Effect: 1 creature
 
@@ -1344,7 +1625,7 @@ Weight: 1~
 @10127 = ~The omniblade may only be used by arcane casters~
 
 @10130 = ~Phantom's Blade~
-@10131 = ~This ninjatô's blade is so incredibly sharp, it can slice through flesh and bone with extreme ease.It was forged by an ancient sect of killers only known as the "Phantoms", where only those that proved their loyalty by committing a very challenging murder were granted the honor of wielding such a blade. While many claim they were wiped out, and most indeed believe so, holding it carries the unsettling feeling that its masters may one day return to reclaim what is theirs.
+@10131 = ~This ninjatô's blade is so incredibly sharp, it can slice through flesh and bone with extreme ease. It was forged by an ancient sect of killers only known as the "Phantoms", where only those that proved their loyalty by committing a very challenging murder were granted the honor of wielding such a blade. While many claim they were wiped out, and most indeed believe so, holding it carries the unsettling feeling that its masters may one day return to reclaim what is theirs.
 
 STATISTICS:
 

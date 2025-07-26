@@ -34,7 +34,7 @@ This component adds a new evil-only, Bhaal-inspired crimson twisted +3 dagger th
 
 **Component 103:** Add Crimson Mischief
 
-This component adds an evil-only +3 short sword that deals more damage the more wounded the target is, and can occassionally (4% chance) reduce the HP of the target by 20%. Cespenar can upgrade it to +5 in ToB with 12,500 gold and a rogue stone. Available for BG2EE and BGEE.
+This component adds an evil-only +3 short sword that deals more damage the more wounded the target is, negative energy damage, and can occassionally (4% chance) reduce the HP of the target by 20%. Cespenar can upgrade it to +5 in ToB with 12,500 gold and a rogue stone. Available for BG2EE and BGEE.
 
 **Component 104:** Add Assassin's Touch
 
@@ -42,31 +42,32 @@ This component adds a new +1 dagger that deals more damage to targets that are a
 
 **Component 105:** Add Ritual Dagger
 
-This component adds a new magical +0 dagger that is not very accurate but deals a good amount of damage as a +2 dagger, may cause bleeding, and increases the damage of the wielder each time it spills blood for 7 seconds. It can be used to get more beneficial effects if you're willing to spill your own blood. Available for BG2EE and BGEE.
+This component adds a new magical +2 dagger that is not very accurate but may cause bleeding, and increases the damage of the wielder each time it spills blood for 7 seconds. It can be used to get more beneficial effects if you're willing to spill your own blood. Available for BG2EE and BGEE.
 
 **Component 106:** Add Cold Snap
 
-This component adds a new +1 dagger that deals varying amounts of extra cold damage and may very briefly snap freeze some targets if they fail their saves. Available for BG2EE and BGEE. In BG2EE, it is a +2 weapon, identical in every other respect.
+This component adds a new +1 dagger that deals varying amounts of cold damage and may very briefly snap freeze and weaken some targets if they fail their saves. Available for BG2EE and BGEE. In BG2EE, it is a +2 weapon, identical in every other respect.
 
 **Component 107:** Add Spell Siphon
 
-This component adds a new +1 dagger which allows wizards and sorcerers to recall level 1 spells when something is killed with the dagger. On rare occasions, it will also restore level 2 spells. Available for BG2EE and BGEE.
+This component adds a new +1 dagger which allows wizards and sorcerers to recall level 1 spells when something is killed with the dagger. On rare occasions, it will also restore level 2 spells. Available for BG2EE and BGEE. It's a +2 dagger in BG2, with slightly improved stats.
 
 **Component 108:** Add Cruel Sting
 
-This component adds a new long sword with a spider and poisonous theme which excels when hitting targets that are webbed or otherwise incapacitated. Available for BG2EE and BGEE.
+This component adds a new +1 long sword with a spider and poisonous theme which excels when hitting targets that are webbed or otherwise incapacitated. Available for BG2EE and BGEE. It's a +2 long sword in BG2 with minor differences otherwise.
 
 **Component 109:** Add Judgment
 
-This adds a new powerful warhammer that deals crushing and fire damage and increases defenses. It has the ability to switch to a non-lethal mode which frees allies (or anyone else) from paralysis, stun, and hold effects on hit. Available for BG2EE.
+This adds a new powerful war hammer that deals crushing and fire damage and increases defenses. It has the ability to switch to a non-lethal mode which frees allies (or anyone else) from paralysis, stun, and hold effects on hit. Available for BG2EE.
 
 **Component 110:** Add The Deathstalker Mantle
 
-This adds a new cool cloak for assassins and other stabby-stabby characters, passively benefitting single-classed thieves, and assassins. Once per round, upon killing an enemy, the user becomes immediately invisible and gains a +1 bonus to THAC0 and damage for 2 rounds. Available for BG2EE and BGEE.
+This adds a new cool cloak for assassins and other stabby-stabby characters, passively benefitting single-classed thieves, and assassins. Once per round, upon killing an enemy, the user becomes immediately invisible and gains a +1 bonus to THAC0 and damage for 2 rounds. It also grants minor combat bonuses to single-classed thieves, assassins, and blackguards. Available for BG2EE and BGEE.
 
 </details>
 
 ---
+
 <details>
 
 <summary><b> Souls inspired </b></summary>
@@ -105,7 +106,7 @@ This adds a new Lathander-inspired necklace that provides a regeneration of 1 HP
 
 **Component 227:** Add Bloody Sting (Elden Ring - Bloody Helice; estoc)
 
-This adds a new +3 estoc inspired by a certain lord of blood, that has a chance of causing a lot of bleeding, including a chance to buff its wielder ocasionally when blood is spilt. Available for BG2EE.
+This adds a new +3 estoc inspired by a certain lord of blood, that has a chance of causing a lot of bleeding, including a chance to buff its wielder occasionally when blood is spilt. Available for BG2EE.
 
 **Component 228:** Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)
 
@@ -145,7 +146,7 @@ This adds a +2 two-handed sword that acts as a +4 weapon vs. undead, which emits
 
 **Component 309:** Add Goblinsplitter
 
-This adds a +0 axe that deals extra damage to all goblinoids and acts as +2 against them, with an extra +1 piercing damage on hit. It will placed in locations where goblins are found.Available for BG2EE and BGEE.
+This adds a +0 axe that deals extra damage to all goblinoids and acts as +2 against them, with an extra +1 piercing damage on hit. It will be placed in locations where goblins are found. Available for BG2EE and BGEE.
 
 **Component 311:** Add Mercykiller Blade
 
@@ -161,11 +162,11 @@ This adds a new +3 rapier that deals +1 fire damage, and 1d4+2 to targets that a
 
 **Component 401:** Add Rod of Illusive Protections (rod)
 
-This adds a new rod which activates several illusionary defenses on the user: Nondetection, Blur, Mirror Image, and Improved Invisibility. It can be used once per day. Available for BG2EE.
+This adds a new rod which activates several illusionary defenses on the user: Nond-Detection, Blur, Mirror Image, and Improved Invisibility. It can be used once per day. Available for BG2EE.
 
 **Component 402:** Add Omniblade (universal sword)
 
-This adds a new universal sword that can be used by any class that is a mage or a sorcerer (including multiclass). Single-classed mages and sorcerers get the most benefit out of it. It deals normal longsword damage, with an extra +1 magic damage. The item can be upgraded with a charge ability which depends on the level of the wielder, extending itself to a +6 weapon at level 31. This weapon cannot be equipped, even with the Use Any Item ability, unless the wielder belongs to the right class. Available for BG2EE and BGEE.
+This adds a new universal sword that can be used by any class that is a mage or a sorcerer (including multiclass). Single-classed mages and sorcerers get the most benefit out of it. It deals normal long sword damage, with an extra +1 magic damage. The item can be upgraded with a charge ability which depends on the level of the wielder, extending itself to a +6 weapon at level 31. This weapon cannot be equipped, even with the Use Any Item ability, unless the wielder belongs to the right class. Available for BG2EE and BGEE.
 
 **Component 403:** Add Phantom's Blade (ninja-to)
 
@@ -214,6 +215,6 @@ It should be installed before mods that add new kits, as some kits (like my shad
 - zenblack again for brainstorming functionalities and descriptions for some of the items
 - dark0dave and others who have helped me with the modding process or by providing resources
 - Various people on Discord for offering ideas as to where to put the items, like The Artisan, moggadeet, Fickle Swamp Wench, JDSilvergun, among others
-- moggadeet, JDSilvergun, and others for helping me with Cespenar dialog
+- **Big** thanks to moggadeet, JDSilvergun, and others for helping me with Cespenar dialog
 - SubtleDoctor for giving me a splstate-free way to hack the engine into giving an item a bonus that applies to Minsc if he wields it. This is always a good thing.
 - People on Discord generally for their help

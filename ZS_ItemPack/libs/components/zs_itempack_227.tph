@@ -11,10 +11,19 @@ COPY_EXISTING ~ZSIPBLS0.ITM~ ~override~
   SAY UNIDENTIFIED_DESC @60201
   SAY IDENTIFIED_DESC @6081
 
+COPY_EXISTING ~ZSIPBLS2.ITM~ ~override~
+  SAY NAME1 @60200
+  SAY NAME2 @6083
+  SAY UNIDENTIFIED_DESC @60201
+  SAY IDENTIFIED_DESC @6084
+
 COPY_EXISTING ~ZSIPBLS1.SPL~ ~override~
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6082) END
 
 COPY_EXISTING ~DRAGBLAC.CRE~ ~override~
   ADD_CRE_ITEM ~ZSIPBLS0~ #0 #0 #0 ~unstealable~ ~inv~
+
+COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_bloody_sting_cespy.d~
+EXTEND_BOTTOM ~botsmith.bcs~ ~%MOD_FOLDER%/baf/upgrades/bloody_sting/botsmith.baf~
 
 INCLUDE ~%MOD_FOLDER%/libs/zs_add_estocs.tph~

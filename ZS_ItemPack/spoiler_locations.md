@@ -10,9 +10,7 @@ In BG2EE, it will be in the Otyugh's stomach. Better kill it before it digests i
 
 ### Bloodthirst
 
-In BGEE, Winski Perorate holds it at the end of the shadow guild's maze. In order to get it, you must kill him, or steal it from him, if you want to avoid a reputation penalty.
-
-In BG2EE, it is held by Bodhi at Chapter 6, and it will be instead
+In BGEE, Winski Perorate holds it at the end of the shadow guild's maze. To get it, you must kill him, or steal it from him, if you want to avoid a reputation penalty. In BG2EE, it is held by Bodhi at Chapter 6 when confronted.
 
 ### Crimson Mischief
 
@@ -42,11 +40,11 @@ In BGEE, this drops from Centeol in the spider lair you can find in the first Cl
 
 ### Judgment
 
-This weapon is only found in BG2EE and may be purchased from the helmites at the beginning of Watcher's Keep for 30000 gold pieces, before price adjustments. For comparison, the Short Sword of Mask +4 is sold for 32000 gold pieces.
+This weapon is only found in BG2EE and may be purchased from the Helmites at the beginning of Watcher's Keep for 30000 gold pieces, before price adjustments. For comparison, the Short Sword of Mask +4 is sold for 32000 gold pieces.
 
 ### The Deathstalker Mantle
 
-This cloak is dropped in BGEE by Vay-ya, the chaotic evil mage companion of Desreta, a worshipper of entropy that stays in the first lower level of the Low Lantern and attacks you if you agree to feel the touch of entropy in the bedroom (silly naive CHARNAME). She will have this item equipped, and as such it cannot be pickpocketed.
+This cloak is dropped in BGEE by Vay-ya, the chaotic evil mage companion of Desreta, a worshipper of entropy that stays in the first lower level of the Low Lantern and attacks you if you agree to feel the touch of entropy in the bedroom (silly, naive CHARNAME). She will have this item equipped, and as such it cannot be pickpocketed.
 
 In BG2EE, this cloak will be held by the cambion in Irenicus' dungeon.
 

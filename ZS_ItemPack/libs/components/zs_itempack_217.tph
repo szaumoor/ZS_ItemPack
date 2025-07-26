@@ -14,3 +14,6 @@ COPY_EXISTING ~ZSIPSTF5.SPL~ ~override~
 
 COPY_EXISTING ~OBSDEM01.CRE~ ~override~
   ADD_CRE_ITEM ~ZSIPSTF0~ #0 #0 #0 ~unstealable~ ~inv~
+
+COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_stygian_fury_cespy.d~
+EXTEND_BOTTOM ~botsmith.bcs~ ~%MOD_FOLDER%/baf/upgrades/stygian_fury/botsmith.baf~

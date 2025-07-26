@@ -1,0 +1,24 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_214~) BEGIN
+  FAIL ~Script already included: zs_itempack_214~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_214~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/02_souls/blade_calling~ ~override~
+COPY_EXISTING ~ZSIPBCL0.ITM~ ~override~
+  SAY NAME2 @6160
+  SAY IDENTIFIED_DESC @6161
+
+COPY_EXISTING ~ZSIPBCL8.ITM~ ~override~
+  SAY NAME1 @6162
+
+// to be determined
+ACTION_IF GAME_IS "bgee eet" BEGIN
+  COPY_EXISTING ~CALDO.CRE~ ~override~
+    ADD_CRE_ITEM ~ZSIPHKR0~ #0 #0 #0 ~unstealable~ ~inv~
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+  COPY_EXISTING ~SHOP05.STO~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPHKR0" position = "LAST" END
+END

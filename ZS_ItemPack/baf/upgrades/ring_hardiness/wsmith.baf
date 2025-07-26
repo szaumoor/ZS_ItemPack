@@ -1,0 +1,9 @@
+IF
+  Global("ZSIP_RingHardinessForge","MYAREA",1)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+    GiveItemCreate("ZSIPRHR3",Player1,0,0,0) 
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END

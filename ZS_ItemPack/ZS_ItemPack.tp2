@@ -1,4 +1,4 @@
-BACKUP "weidu_external/backup/ZS_ItemPack"
+BACKUP "weidu_external/backup/%MOD_FOLDER%"
 SUPPORT "RoyalProtector at Gibberlings's forum https://www.gibberlings3.net/profile/12720-royalprotector/"
 VERSION "v1.0"
 README ~%MOD_FOLDER%/README.md~
@@ -12,16 +12,9 @@ MODDER
 	missing_eval warn
 	overwriting_file none
 	fun_args warn
-
 ALWAYS
-	INCLUDE ~%MOD_FOLDER%/zs_itempack_config.txt~
-	INCLUDE ~%MOD_FOLDER%/libs/zs_find_weapon.tph~
-	INCLUDE ~%MOD_FOLDER%/libs/zs_splprot_include.tph~
-	INCLUDE ~%MOD_FOLDER%/libs/zs_cdfunctions.tpa~
-	INCLUDE ~%MOD_FOLDER%/libs/zs_alter_functions.tpa~
-	INCLUDE ~%MOD_FOLDER%/libs/components/zs_itempack_%COMPONENT_NUMBER%.tph~
+	INCLUDE ~%MOD_FOLDER%/zs_always.tph~
 END
-/////////////////////////////////////////////////////////////////////////////////////////////////////
 LANGUAGE
 "English"
 "english"
@@ -64,6 +57,9 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
 
 BEGIN @213 DESIGNATED 213 GROUP @2 // HAWK RING
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
+
+BEGIN @214 DESIGNATED 214 GROUP @2 // BLADE OF CALLING
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @50
 
 BEGIN @215 DESIGNATED 215 GROUP @2 // MOONLIT SLUMBER
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @51
@@ -117,6 +113,9 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
 BEGIN @311 DESIGNATED 311 GROUP @3 // MERCYKILLER BLADE
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @51
 
+BEGIN @313 DESIGNATED 313 GROUP @3 // SHINING LIGHT
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @51
+
 /////////////////////////////////// MASS EFFECT INSPIRED ITEMS //////////////////////////////////////
 BEGIN @401 DESIGNATED 401 GROUP @4 // ROD OF ILLUSIVE PROTECTIONS
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
@@ -133,3 +132,4 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
 
 BEGIN @502 DESIGNATED 502 GROUP @5 // CRAVEN EDGE
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @51
+/////////////////////////////////////////////////////////////////////////////////////////////////////
