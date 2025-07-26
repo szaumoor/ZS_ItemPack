@@ -855,8 +855,10 @@ Equipped abilities:
 
 Weight: 1~
 
-@6160 = ~Blade of Calling~
-@6161 = ~This dagger feels warm to the touch, and when it nears undead, the wielder is filled with that same comforting warmth, inspiring courage in the face of the living dead. It once belonged to a divine seeker of Ilmater. While fighting in the depths of the Underdark, her blade shattered, leaving only a fragment for her defense against hordes of undead. Though she ultimately fell, her righteousness was somehow absorbed by the broken weapon, which was later recovered by the Broken God's church. They reforged and sanctified it with a singular purpose: to destroy the undead wherever they may lurk.
+@6160 = ~Light of the Calling~
+@6161 = ~This dagger feels warm to the touch, and when it nears undead, the wielder is filled with that same comforting warmth, inspiring courage in the face of the living dead.
+
+It once belonged to a divine seeker of Ilmater. While fighting in the depths of the Underdark, her blade shattered, leaving only a fragment for her defense against hordes of undead. Later recovered by the Church of the Broken God, the dagger was carefully reforged and preserved as a sacred tribute to her sacrifice and unwavering devotion.
 
 STATISTICS:
 
@@ -864,12 +866,12 @@ Equipped abilities:
 – Immunity to fear effects and morale failure
 
 Combat abilities:
-– Deals irresistible radiant damage to undead
+– Deals irresistible radiant damage to undead and acts as a +5 weapon against them
 – Radiant and magic damage is doubled on critical hits and backstabs.
 
 Charge abilities:
 – Blade of Gold once per day
-  Special: Unleash a golden blade of energy, dealing 4d6 magic damage (triple vs. undead), knocking the target prone and pushing them back unless they save vs. Spell at -4. Treated as a level 5 spell for immunities. For 1 turn, each hit with this dagger acts as a disruption weapon, destroying undead if they fail a save vs. Death. The dagger must be actively equipped for the latter effect to work.
+  Special: The dagger blazes with radiant golden light, unleashing a blade of energy that deals 6d6 magic damage (double vs. undead) and knocks the target prone, pushes them back, and blinds them if they're undead for 4 rounds (save vs. Spell at -4 to avoid). For the next turn, each hit with this dagger disrupts the undead, destroying them if they fail a save vs. Death. The dagger must be actively equipped for this effect to work and persist.
   Area of effect: 1 target
 
 THAC0: +3, +5 vs. undead
@@ -884,6 +886,26 @@ Requires:
 Weight: 1~
 
 @6162 = ~Blade of Gold~
+
+@6163 = ~Blade of Calling~
+@6164 = ~This dagger was given to you by Akachi at the Broken God's temple in Athkatla. He claimed this dagger could damage any undead, no matter how powerful, and could use its power to destroy the plague of undead that was spreading from the graveyard district. The dagger feels warm to the touch and you swear you can feel a faint vibration coming from within, as if the weapon's true power was waiting to be awakened from its slumber and unleashed.
+
+STATISTICS:
+
+Combat abilities:
+– Deals irresistible radiant damage to undead and acts as a +5 weapon against them
+– Radiant and magic damage is doubled on critical hits and backstabs.
+
+THAC0: +2, +5 vs. undead
+Damage: 1d4+2, +1 magic (living), +2d4 (undead: half magic, half radiant)
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
 
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~
