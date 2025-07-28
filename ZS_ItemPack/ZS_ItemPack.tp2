@@ -13,12 +13,16 @@ MODDER
 	overwriting_file none
 	fun_args warn
 ALWAYS
-	INCLUDE ~%MOD_FOLDER%/zs_always.tph~
+	INCLUDE ~%MOD_FOLDER%/libs/zs_always.tph~
 END
 LANGUAGE
 "English"
 "english"
-"ZS_ItemPack/lang/english/setup.tra"
+"%MOD_FOLDER%/lang/english/setup.tra"
+~%MOD_FOLDER%/lang/english/Journal.tra~
+~%MOD_FOLDER%/lang/english/zsipakac.tra~
+~%MOD_FOLDER%/lang/english/zsipmum.tra~
+~%MOD_FOLDER%/lang/english/zsipbern.tra~
 
 /////////////////////////////////// FORBIDDEN GAME ITEMS ////////////////////////////////////////////
 BEGIN @101 DESIGNATED 101 GROUP @1 // EVERBURN BLADE
