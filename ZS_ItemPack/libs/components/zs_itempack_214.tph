@@ -18,6 +18,14 @@ COPY_EXISTING ~ZSIPBCQT.ITM~ ~override~
 
 // to be determined
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
+LANGUAGE ~English~
+         ~english~
+         ~%MOD_FOLDER%/lang/english/Journal.tra~
+		 ~%MOD_FOLDER%/lang/english/zsipakac.tra~
+		 ~%MOD_FOLDER%/lang/english/zsipmum.tra~
+		 ~%MOD_FOLDER%/lang/english/zsipbern.tra~
+		 
 ADD_JOURNAL TITLE (@3000) @3001 @3002 @3003 @3004 @3005 USING ~%MOD_FOLDER%/lang/english/journal.tra~
 
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/quest~
