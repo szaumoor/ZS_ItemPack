@@ -21,11 +21,11 @@ END
 ++ @30019 /* Now that I've heard the particulars of your task, I've little interest in accepting it. */ EXTERN ZSIPAKAC ZS.QuestDeclined
 
 CHAIN ZSIPAKAC ZS.Quest3
-@30020 /* I find, in these matters, it's best to be prepared. The graveyard holds many dangers. Take this dagger with Ilmater's blessing. I will pray for your success. */ DO ~AddJournalEntry(@3002, QUEST) SetGlobal("ZSIlmaterQuest","GLOBAL",2) GiveItemCreate("ZSIPBCLQ",Player1,1,0,0)~ EXIT
+@30020 /* I find, in these matters, it's best to be prepared. The graveyard holds many dangers. Take this dagger with Ilmater's blessing. I will pray for your success. */ DO ~AddJournalEntry(@30002, QUEST) SetGlobal("ZSIlmaterQuest","GLOBAL",2) GiveItemCreate("ZSIPBCQT",Player1,1,0,0)~ EXIT
 
 CHAIN ZSIPAKAC ZS.QuestDeclined
 @30021 /* Then may Ilmater grant you the strength to carry your burdens. */
-DO ~AddJournalEntry(@3003, QUEST_DONE) DestroySelf()~ EXIT
+DO ~AddJournalEntry(@30003, QUEST_DONE) DestroySelf()~ EXIT
 
 /* upon return */
 CHAIN IF ~Global("ZSIlmaterQuest","GLOBAL",3)~ THEN ZSIPAKAC ZS.SourceUncovered
@@ -37,4 +37,4 @@ CHAIN ZSIPAKAC ZS.SourceUncovered1
 @30024 /* You have brought peace to the deceased, and spared the living from further suffering. */
 = @30025 /* Your service will not be forgotten. Allow me to further empower the dagger I gave you. */
 = @30026 /* May the Maimed God's grace shelter you. */
-DO ~AddJournalEntry(@30005, QUEST_DONE) TakeItemListParty("ZSIPBCLQ") GiveItemCreate("ZSIPBCL0",Player1,1,0,0) DestroySelf()~ EXIT
+DO ~AddJournalEntry(@30005, QUEST_DONE) TakeItemListParty("ZSIPBCQT") GiveItemCreate("ZSIPBCL0",Player1,1,0,0) DestroySelf()~ EXIT

@@ -19,19 +19,19 @@ COPY_EXISTING ~ZSIPBCQT.ITM~ ~override~
 // to be determined
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-ADD_JOURNAL TITLE (@30000) @30001 @30002 @30003 @30004 @30005 USING ~%MOD_FOLDER%/lang/english/journal.tra~
+  ADD_JOURNAL TITLE (@30000) @30001 @30002 @30003 @30004 @30005 USING ~%MOD_FOLDER%/lang/english/Journal.tra~
 
-COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/quest~
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/quest~
 
-EXTEND_BOTTOM ~AR0408.bcs~   ~%MOD_FOLDER%/baf/quest/AR0408.baf~
-EXTEND_BOTTOM ~AR0800.bcs~   ~%MOD_FOLDER%/baf/quest/AR0800.baf~
+  EXTEND_BOTTOM ~AR0408.bcs~   ~%MOD_FOLDER%/baf/quest/AR0408.baf~
+  EXTEND_BOTTOM ~AR0800.bcs~   ~%MOD_FOLDER%/baf/quest/AR0800.baf~
 
-COPY ~%MOD_FOLDER%/cre~ ~override~
-COPY ~%MOD_FOLDER%/cre/ZSIPAKAC.cre~ ~override/ZSIPAKAC.cre~
-SAY NAME1 ~Akachi~
-SAY NAME2 ~Akachi~
+  COPY ~%MOD_FOLDER%/cre~ ~override~
+  COPY ~%MOD_FOLDER%/cre/ZSIPAKAC.cre~ ~override~
+    SAY NAME1 ~Akachi~
+    SAY NAME2 ~Akachi~
 
-COPY ~%MOD_FOLDER%/cre/ZSIPMUM.cre~ ~override/ZSIPMUM.cre~
-SAY NAME1 ~Greater Mummy~
-SAY NAME2 ~Greater Mummy~
+  COPY ~%MOD_FOLDER%/cre/ZSIPMUM.cre~ ~override~
+    SAY NAME1 ~Greater Mummy~
+    SAY NAME2 ~Greater Mummy~
 END
