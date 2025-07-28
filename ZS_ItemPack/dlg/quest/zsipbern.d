@@ -1,6 +1,11 @@
-EXTEND_BOTTOM BERNARD 31
+EXTEND_BOTTOM BERNARD 22
 + ~Global("TalkedToSethle","GLOBAL",1) Global("ZSIlmaterQuest","GLOBAL",0)~ + @30030 /* Is there anywhere one can listen to harpsong here? */ DO ~SetGlobal("ZSIlmaterQuest","GLOBAL",1)~ + ZS.Harpsong
 END
+
+EXTEND_BOTTOM BERNARD 24
++ ~Global("TalkedToSethle","GLOBAL",1) Global("ZSIlmaterQuest","GLOBAL",0)~ + @30030 /* Is there anywhere one can listen to harpsong here? */ DO ~SetGlobal("ZSIlmaterQuest","GLOBAL",1)~ + ZS.Harpsong
+END
+
 
 CHAIN BERNARD ZS.Harpsong
 @30031 /* I wouldn't know, <PRO_SIRMAAM>. But friends might seek out a priest, Akachi, in the temple above. They say he hears more than prayers. */

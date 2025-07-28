@@ -25,10 +25,17 @@ CHAIN ZSIPAKAC ZS.Quest3
 
 CHAIN ZSIPAKAC ZS.QuestDeclined
 @30021 /* Then may Ilmater grant you the strength to carry your burdens. */
-DO ~AddJournalEntry(@30003, QUEST_DONE) DestroySelf()~ EXIT
+DO ~AddJournalEntry(@30003, QUEST_DONE)~ EXIT
 
-/* upon return */
-CHAIN IF ~Global("ZSIlmaterQuest","GLOBAL",3)~ THEN ZSIPAKAC ZS.SourceUncovered
+/* returns with dagger */
+CHAIN IF ~Global("ZSLacksDaggerUpgrade","GLOBAL",1) HasItem("ZSIPBCQT",Myself)~ THEN ZSIPAKAC ZS.DaggerBlessing
+@30029 /* I sense the dagger upon your person. Allow me to upgrade it further. */
+DO ~AddJournalEntry(@30005, QUEST_DONE) TakePartyItemNum("ZSIPBCQT",1) GiveItemCreate("ZSIPBCL0",Player1,1,0,0) AddexperienceParty(9000)~
+= @30026 /* May the Maimed God's grace shelter you. */
+DO ~EscapeAreaNoSee()~ EXIT
+
+/* upon return, has dagger */
+CHAIN IF ~Global("ZSIlmaterQuest","GLOBAL",3) PartyHasItem("ZSIPBCQT")~ THEN ZSIPAKAC ZS.SourceUncovered
 @30022 /* Ilmater's mercy upon you. Have you uncovered the cause of this affliction? */
 END
 ++ @30023 /* The dead rose from their tombs by night, spreading the plague across the Graveyard District. I've dealt with the one who lead them. */ EXTERN ZSIPAKAC ZS.SourceUncovered1
@@ -36,5 +43,27 @@ END
 CHAIN ZSIPAKAC ZS.SourceUncovered1
 @30024 /* You have brought peace to the deceased, and spared the living from further suffering. */
 = @30025 /* Your service will not be forgotten. Allow me to further empower the dagger I gave you. */
+DO ~AddJournalEntry(@30005, QUEST_DONE) TakePartyItemNum("ZSIPBCQT",1) GiveItemCreate("ZSIPBCL0",Player1,1,0,0) AddexperienceParty(9000)~
 = @30026 /* May the Maimed God's grace shelter you. */
-DO ~AddJournalEntry(@30005, QUEST_DONE) TakeItemListParty("ZSIPBCQT") GiveItemCreate("ZSIPBCL0",Player1,1,0,0) DestroySelf()~ EXIT
+DO ~EscapeAreaNoSee()~ EXIT
+
+/* upon return, no dagger */
+CHAIN IF ~Global("ZSIlmaterQuest","GLOBAL",3) !PartyHasItem("ZSIPBCQT") !Global("ZSLacksDaggerUpgrade","GLOBAL",1)~ THEN ZSIPAKAC ZS.SourceUncovered2
+@30022 /* Ilmater's mercy upon you. Have you uncovered the cause of this affliction? */
+END
+++ @30023 /* The dead rose from their tombs by night, spreading the plague across the Graveyard District. I've dealt with the one who lead them. */ EXTERN ZSIPAKAC ZS.SourceUncovered3
+
+CHAIN ZSIPAKAC ZS.SourceUncovered3
+@30024 /* You have brought peace to the deceased, and spared the living from further suffering. */
+= @30028 /* I see you do not carry the dagger I gifted you upon your person. A pity. If you were to find it, Ilmater bids that I empower it further. */
+DO ~SetGlobal("ZSLacksDaggerUpgrade","GLOBAL",1)~ EXIT
+
+/* second chance at accepting quest */
+CHAIN IF ~!GlobalGT("ZSIlmaterQuest","GLOBAL",1)~ THEN ZSIPAKAC ZS.NoticeBoard
+@30027 /* Have you reconsidered my request? */
+END
+++ @30017 /* I'll see what I can find. If there's something foul afoot, then I will uncover it. */ EXTERN ZSIPAKAC ZS.Quest3
+++ @30018 /* I'll take up this task but don't expect charity. I want to be well rewarded for my efforts. */ EXTERN ZSIPAKAC ZS.Quest3
+++ @30019 /* Now that I've heard the particulars of your task, I've little interest in accepting it. */ EXTERN ZSIPAKAC ZS.QuestDeclined
+
+
