@@ -1,0 +1,18 @@
+IF
+Global("ZSUndeadSpawn","AR0800",0)
+Global("ZSIlmaterQuest","GLOBAL",2)
+TimeOfDay(NIGHT)
+THEN
+RESPONSE #100
+SetGlobal("ZSUndeadSpawn","AR0800",1)
+CreateCreature("ZSIPMUM",[1574.504],S) /* greater mummy */
+CreateCreature("ZSIPSKAR",[1580.448],SE) /* skeleton archer */
+CreateCreature("ZSIPSKWR",[1674.530],E) /* skeleton warrior */
+CreateCreature("ZSIPZOMB",[1623.489],S) /* zombie */
+CreateCreature("ZSIPZOMB",[1620.480],S) /* zombie */
+CreateCreature("ZSIPGHAS",[1615.543],S) /* ghast */
+CreateCreature("ZSIPGOUL",[1641.570],S) /* ghoul */
+CreateCreature("ZSIPGOUL",[1643.572],S) /* ghoul */
+ActionOverride("ZSIPMUM",StartDialogueNoSet(Player1))
+Continue()
+END

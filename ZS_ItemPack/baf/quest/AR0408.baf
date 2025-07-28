@@ -1,0 +1,9 @@
+IF
+Global("ZSAkachiSpawn","AR0408",0)
+Global("ZSIlmaterQuest","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("ZSIPAKAC",[367.360],SW)
+SetGlobal("ZSAkachiSpawn","AR0408",1)
+Continue()
+END
