@@ -216,6 +216,7 @@ It should be installed before mods that add new kits, as some kits (like my shad
 - zenblack again for brainstorming functionalities and descriptions for some of the items
 - dark0dave and others who have helped me with the modding process or by providing resources
 - Various people on Discord for offering ideas as to where to put the items, like The Artisan, moggadeet, Fickle Swamp Wench, JDSilvergun, bucketfulofsunshine, among others
+- Big kudos to moggaadeet and bucketfulofsunshine for thinking of a quest idea for one of the items and to buckectfulofsunshine for doing the vast majority of the work to code that
 - **Big** thanks to moggadeet, JDSilvergun, and others for helping me with Cespenar dialog
 - SubtleDoctor for giving me a splstate-free way to hack the engine into giving an item a bonus that applies to Minsc if he wields it. This is always a good thing.
 - People on Discord generally for their help
