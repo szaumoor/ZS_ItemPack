@@ -64,6 +64,10 @@ In BGEE, this ring is held by Caldo, Krumm's brother. They probably looted them 
 
 In BG2EE, this ring is sold by Perter, the fletched that lives in the same shop as Arnolius.
 
+## Light of the Calling / Blade of Calling
+
+This weapon is only available in BG2, and will be offered through a short quest offered by talking to Bernard. Talk to him after starting the kidnapping quest in the Graveyard's district, and you dispatch Sethle.
+
 ### Moonlit Slumber
 
 This sword will be sold by Halzabazzer Drin at Sorcerous Sundries in BGEE. In BG2EE, it will be sold by Ribald.

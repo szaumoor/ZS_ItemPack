@@ -188,6 +188,10 @@ This adds a new +1 rapier that is more effective when wielded by characters of t
 
 This adds a new +4 two-handed sword that occasionally causes bleeding on hit and has an increased chance to critically hit. When bleeding is triggered, the wielder is healed for the same amount of damage dealt. However, there is a small chance that non-vampire wielders will go berserk for 2 rounds when the bleeding effect occurs.
 
+**Component 503:** Add Crushing Darkness (LOTR - Witch King of Angmar; flail)
+
+This adds a new non-good +4 flail that deals more damage than normal flails (1d6+9) and has a chance to inflict hopelessness on hit, which causes the target to suffer a -8 penalty to Armor Class and THAC0 for 2 rounds. Enemies around the wielder will also suffer a -2 penalty to saving throws and morale each round, with a 10% chance to cause Panic and Slow for a round if a save vs. Spell is failed.
+
 </details>
 
 ---

@@ -18,11 +18,11 @@ END
 LANGUAGE
 "English"
 "english"
-"%MOD_FOLDER%/lang/english/setup.tra"
-~%MOD_FOLDER%/lang/english/Journal.tra~
-~%MOD_FOLDER%/lang/english/zsipakac.tra~
-~%MOD_FOLDER%/lang/english/zsipmum.tra~
-~%MOD_FOLDER%/lang/english/zsipbern.tra~
+"ZS_ItemPack/lang/english/setup.tra"
+~ZS_ItemPack/lang/english/Journal.tra~
+~ZS_ItemPack/lang/english/zsipakac.tra~
+~ZS_ItemPack/lang/english/zsipmum.tra~
+~ZS_ItemPack/lang/english/zsipbern.tra~
 
 /////////////////////////////////// FORBIDDEN GAME ITEMS ////////////////////////////////////////////
 BEGIN @101 DESIGNATED 101 GROUP @1 // EVERBURN BLADE
