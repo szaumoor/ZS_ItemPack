@@ -25,7 +25,8 @@ CHAIN ZSIPAKAC ZS.Quest3
 
 CHAIN ZSIPAKAC ZS.QuestDeclined
 @30021 /* Then may Ilmater grant you the strength to carry your burdens. */
-DO ~AddJournalEntry(@30003, QUEST_DONE)~ EXIT
+// DO ~AddJournalEntry(@30003, QUEST_DONE)~ 
+EXIT
 
 /* returns with dagger */
 CHAIN IF ~Global("ZSLacksDaggerUpgrade","GLOBAL",1) HasItem("ZSIPBCQT",Myself)~ THEN ZSIPAKAC ZS.DaggerBlessing
