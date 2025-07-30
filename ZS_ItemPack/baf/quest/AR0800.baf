@@ -13,6 +13,5 @@ CreateCreature("ZSIPZOMB",[1620.480],S) /* zombie */
 CreateCreature("ZSIPGHAS",[1615.543],S) /* ghast */
 CreateCreature("ZSIPGOUL",[1641.570],S) /* ghoul */
 CreateCreature("ZSIPGOUL",[1643.572],S) /* ghoul */
-ActionOverride("ZSIPMUM",StartDialogueNoSet(Player1))
 Continue()
 END

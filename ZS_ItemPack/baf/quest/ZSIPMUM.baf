@@ -1,0 +1,25 @@
+IF
+See([PC])
+Global("ZSUndeadTalk","AR0800",0)
+THEN
+RESPONSE #100
+SetGlobal("ZSUndeadTalk","AR0800",1)
+StartDialogueNoSet([PC])
+Continue()
+END
+
+IF
+    ActionListEmpty()
+    See(NearestEnemyOf(Myself))
+THEN
+    RESPONSE #100
+        AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+    ActionListEmpty()
+    AttackedBy([ANYONE],DEFAULT)
+THEN
+    RESPONSE #100
+        Attack(LastAttackerOf(Myself))
+END
