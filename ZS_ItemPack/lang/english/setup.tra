@@ -1480,6 +1480,19 @@ Type: One-handed
 
 Weight: 0~
 
+@15100 = ~Arrow of the Vampire~
+@15101 = ~No one knows when or where these arrows were made. It is rumored that each tip is made with a vampire tooth. That seems unlikely due to the number of quivers of these arrows that can be found.
+
+STATISTICS:
+
+Combat abilities:
+– Vampiric Regeneration: On a successful hit, the wielder heals 2 Hit Points (double on critical hits)
+
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
 // mass effect inspired
 @10110 = ~Rod of Illusive Protections~
 @10111 = ~This rod is a slender and heavily adorned length of polished wood, capped with a fairly big and multicolored gemstone. It is said to have been created by a rich illusionist, who was only known by the people around them as "The Illusive Man". He was known for using manipulation and trickery to get what he wanted, and the rod is said to be a reflection of that. In the end, The Illusive Man was betrayed by his own illusions, and the rod was lost to time.
@@ -1715,7 +1728,7 @@ Weight: 12~
 @12012 = ~Driven mad by a blood rage~
 
 @12020 = ~Crushing Darkness +4~
-@12021 = ~This enormous and heavy flail is imbued with shadow and despair. Legends claim it was once wielded by a death knight who ruled over a legion of undead from their cursed shaded castle. The weapon's head is surrounded by jagged, blackened spikes, and those struck by the flail feel their hope draining away, and even the bravest may falter before its relentless assault.
+@12021 = ~This enormous and heavy flail is imbued with shadow and despair. Legends claim it was once wielded by a death knight who ruled over a legion of undead from their shaded castle. The weapon's head is surrounded by jagged, blackened spikes, and those struck by the flail feel their hope draining away, and even the bravest may falter before its relentless onslaught.
 
 STATISTICS:
 
@@ -1723,7 +1736,8 @@ Equipped abilities:
 – Aura of Despair: all living enemies near the wielder suffer a -2 penalty to saving throws, reduced morale as if they were affected by the Curse spell, and a 10% chance per round to become panicked and slowed for 2 rounds if they fail a save vs. Spell
 
 Combat abilities:
-– 15% chance on hit for the target become crushed by hopelessness, forced to stay in place for 2 rounds and suffer a -8 penalty to Armor Class and THAC0. This effect only applies to living creatures, and does not stack
+– 15% chance on hit for living targets to become crushed by hopelessness, suffering a -5 penalty to Armor Class and THAC0. This effect does not stack
+– Critical hits force the target to make a saving throw at -2 or be pushed back and knocked to the ground for 7 seconds
 
 THAC0: +4
 Damage: 1d6+9 (crushing)

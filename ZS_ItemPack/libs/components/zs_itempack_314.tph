@@ -1,0 +1,10 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_314~) BEGIN
+  FAIL ~Script already included: zs_itempack_314~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_314~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/arrow_vampire~ ~override~
+COPY_EXISTING ~ZSIPAVP0.ITM~ ~override~
+    SAY NAME2 @15100
+    SAY IDENTIFIED_DESC @15101
