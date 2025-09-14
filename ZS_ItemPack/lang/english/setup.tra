@@ -42,6 +42,7 @@
 @309 = ~Add Goblinsplitter (Goblinsplitter; axe)~
 @311 = ~Add Mercykiller Blade (Mercykiller Blade; rapier)~
 @313 = ~Add Shining Light (shuriken)~
+@314 = ~Add Arrows of the Vampire (Arrow of the Vampire; arrow)~
 
 @401 = ~Add Rod of Illusive Protections (rod)~
 @402 = ~Add Omniblade (universal sword)~
@@ -100,7 +101,8 @@ Requires:
 
 Weight: 1~
 
-@50060 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
+@50060 = ~Bloodthirst +4~
+@50061 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
 
 STATISTICS:
 
@@ -123,9 +125,9 @@ Requires:
 
 Weight: 1~
 
-@50061 = ~Bloodthirst +4~
 
-@50062 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
+@50062 = ~Bloodthirst +6~
+@50063 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
 
 Now upgraded by Cespenar, this weapon is truly an instrument of bloody carnage.
 
@@ -150,7 +152,6 @@ Requires:
 
 Weight: 1~
 
-@50063 = ~Bloodthirst +6~
 
 @5007 = ~Crimson Mischief +3~
 @5008 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the weaker the target is, seemingly pushing itself more forcefully into the bodies of its victims, causing horrific damage. Because of this, only those with an unsavory moral compass may use it.
@@ -167,7 +168,7 @@ Deals bonus piercing damage based on the target's current Hit Points:
 Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
 
 THAC0: +3
-Damage: 1d6+3, +1d3 Negative Plane Energy damage (damages the living and heals the undead)
+Damage: 1d6+3, +1d3 Negative Plane Energy damage (only affects the living)
 Damage type: Piercing
 Speed Factor: 0
 Proficiency Type: Short Sword
@@ -196,7 +197,7 @@ Deals bonus piercing damage based on the target's current Hit Points:
 Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
 
 THAC0: +5
-Damage: 1d6+5, +1d4 Negative Plane Energy (damages the living and heals the undead)
+Damage: 1d6+5, +1d4 Negative Plane Energy (only affects the living)
 Damage type: Piercing
 Speed Factor: 0
 Proficiency Type: Short Sword
