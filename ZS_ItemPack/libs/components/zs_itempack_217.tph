@@ -5,15 +5,20 @@ END ELSE BEGIN
 END
 
 COPY ~%MOD_FOLDER%/items/02_souls/stygian_fury~ ~override~
-COPY_EXISTING ~ZSIPSTF0.ITM~ ~override~
+COPY_EXISTING ~ZSIPSF00.ITM~ ~override~
   SAY NAME2 @6090
   SAY IDENTIFIED_DESC @6091
 
-COPY_EXISTING ~ZSIPSTF5.SPL~ ~override~
+COPY_EXISTING ~ZSIPSF05.SPL~ ~override~
+              ~ZSIPSF12.SPL~ ~override~
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6092) END
 
 COPY_EXISTING ~OBSDEM01.CRE~ ~override~
   ADD_CRE_ITEM ~ZSIPSTF0~ #0 #0 #0 ~unstealable~ ~inv~
+
+COPY_EXISTING ~ZSIPSF07.ITM~ ~override~
+  SAY NAME2 @6093
+  SAY IDENTIFIED_DESC @6094
 
 COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_stygian_fury_cespy.d~
 EXTEND_BOTTOM ~botsmith.bcs~ ~%MOD_FOLDER%/baf/upgrades/stygian_fury/botsmith.baf~

@@ -1,5 +1,5 @@
 EXTEND_BOTTOM BOTSMITH 4
-  IF ~PartyHasItem("ZSIPBLS0")~ THEN GOTO ZSIPStygianFury_PartyHasAtLeastOneItem
+  IF ~PartyHasItem("ZSIPSF00")~ THEN GOTO ZSIPStygianFury_PartyHasAtLeastOneItem
 END
 
 APPEND BOTSMITH
@@ -12,14 +12,14 @@ APPEND BOTSMITH
     IF ~~ THEN GOTO ZSIPStygianFury_MovingRightAlong
   END
 
-  IF ~~ THEN BEGIN ZSIPStygianFury_PartyHasAllParts SAY ~And you has scroll of Gate! Gives it here and 12,5000 gold and Cespenar makes it better, okays?~
+  IF ~~ THEN BEGIN ZSIPStygianFury_PartyHasAllParts SAY ~And you has scroll of Gate! Gives it here and 12,500 gold and Cespenar makes it better, okays?~
     IF ~PartyGoldLT(12500)~ THEN REPLY #66633 GOTO 10
     IF ~PartyGoldGT(12499)~ THEN DO ~SetGlobal("ZSIP_StygianFuryForge","GLOBAL",1)
                                     SetGlobal("ForgeStuff", "GLOBAL",1)
                                     TakePartyGold(12500)
                                     DestroyGold(12500)
-                                    TakePartyItemNum("ZSIPBLS0", 1)
-                                    DestroyItem("ZSIPBLS0")
+                                    TakePartyItemNum("ZSIPSF00", 1)
+                                    DestroyItem("ZSIPSF00")
                                     TakePartyItemNum("scrl9n", 1)
                                     DestroyItem("scrl9n")~ REPLY #66706 GOTO 11
     IF ~~ THEN REPLY #66650 GOTO ZSIPStygianFury_MovingRightAlong

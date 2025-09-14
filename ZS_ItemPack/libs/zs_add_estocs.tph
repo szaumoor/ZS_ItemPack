@@ -114,7 +114,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPEST0.ITM~ BEGIN
                       ~hgkar01.sto~   ~override~ // karthis
                       ~sarbar01.sto~  ~override~ // saradush bar
                       ~ohnsdwm.sto~   ~override~ // merchant
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP3" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPEST3" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
     END

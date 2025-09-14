@@ -31,10 +31,10 @@ BEGIN
     READ_LONG 0x2b8 item_slots_offset
 
     PATCH_IF anywhere BEGIN
-        READ_SHORT (item_slots_offset + (9 * 2 )) weapon1
-        READ_SHORT (item_slots_offset + (10 * 2)) weapon2
-        READ_SHORT (item_slots_offset + (11 * 2)) weapon3
-        READ_SHORT (item_slots_offset + (12 * 2)) weapon4
+        READ_SSHORT (item_slots_offset + (9 * 2 )) weapon1
+        READ_SSHORT (item_slots_offset + (10 * 2)) weapon2
+        READ_SSHORT (item_slots_offset + (11 * 2)) weapon3
+        READ_SSHORT (item_slots_offset + (12 * 2)) weapon4
 
         PATCH_FOR_EACH value IN weapon1 weapon2 weapon3 weapon4 BEGIN
             PATCH_IF value != "-1" BEGIN

@@ -12,7 +12,7 @@ APPEND BOTSMITH
     IF ~~ THEN GOTO ZSIPKukriEclipse_MovingRightAlong
   END
 
-  IF ~~ THEN BEGIN ZSIPKukriEclipse_PartyHasAllParts SAY ~And you has scroll of Gate! Gives it here and 12,5000 gold and Cespenar makes it better, okays?~
+  IF ~~ THEN BEGIN ZSIPKukriEclipse_PartyHasAllParts SAY ~And you has scroll of Gate! Gives it here and 12,500 gold and Cespenar makes it better, okays?~
     IF ~PartyGoldLT(12500)~ THEN REPLY #66633 GOTO 10
     IF ~PartyGoldGT(12499)~ THEN DO ~SetGlobal("ZSIP_KukriEclipseForge","GLOBAL",1)
                                     SetGlobal("ForgeStuff", "GLOBAL",1)

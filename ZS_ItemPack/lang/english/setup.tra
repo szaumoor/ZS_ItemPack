@@ -793,7 +793,9 @@ Weight: 1~
 STATISTICS:
 
 Equipped abilities:
-– Missile damage and THAC0: +1
+– Ranged damage and THAC0: +1
+– Find traps: +10%
+– Detect Illusions: +5%
 – Movement rate: +1
 
 Weight: 0~
