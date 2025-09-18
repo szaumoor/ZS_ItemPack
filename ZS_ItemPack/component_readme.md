@@ -2,13 +2,11 @@
 
 <summary><b> Forbidden-game-inspired </b></summary>
 
-These items are taken from a forbidden game that shall not be named. Due to plot critical reasons, a few items were changed in some degrees, retaining less from the original design, but it still aligns with it in some dimension.
+These items are taken from a forbidden game that shall not be named. Due to plot critical reasons, a few items were changed in some degrees, retaining less from the original design, but it still aligns with it in various dimensions.
 
 **Component 101:** Add Everburn Blade
 
-This component adds a new cool flaming +1 two-handed sword that acts as +3 vs. demons, and by default +2 when wielded by tieflings. It inflicts fire damage, which is enhanced when tieflings wield it, and demons cannot resist its flame. Available for BG2EE and BGEE
-
-Known issue: To bypass the fire immunity most fiends have, the sword will use a different method to reduce the current health of the demons, and this quantity will not be put in the combat log.
+This component adds a new flaming +1 two-handed sword that acts as +3 vs. demons, and by default +2 when wielded by tieflings. It inflicts fire damage, which is enhanced when tieflings wield it, and demons cannot resist its flame. Available for BG2EE and BGEE
 
 **Component 102:** Add Bloodthirst
 
@@ -16,7 +14,7 @@ This component adds a new evil-only, Bhaal-inspired crimson twisted +3 dagger th
 
 **Component 103:** Add Crimson Mischief
 
-This component adds an evil-only +3 short sword that deals more damage the more wounded the target is, negative energy damage, and can occassionally (4% chance) reduce the HP of the target by 20%. Cespenar can upgrade it to +5 in ToB with 12,500 gold and a rogue stone. Available for BG2EE and BGEE.
+This component adds an evil-only +3 short sword that deals more damage the more wounded the target is, negative energy damage, and can occasionally (4% chance) reduce the HP of the target by 20%. Cespenar can upgrade it to +5 in ToB with 12,500 gold and a rogue stone. Available for BG2EE and BGEE.
 
 **Component 104:** Add Assassin's Touch
 
@@ -24,7 +22,7 @@ This component adds a new +1 dagger that deals more damage to targets that are a
 
 **Component 105:** Add Ritual Dagger
 
-This component adds a new magical +2 dagger that is not very accurate but may cause bleeding, and increases the damage of the wielder each time it spills blood for 7 seconds. It can be used to get more beneficial effects if you're willing to spill your own blood. Available for BG2EE and BGEE.
+This component adds a new magical +2 dagger that is not very accurate but may cause bleeding, and increases the physical damage output of the wielder each time it spills blood for 7 seconds. It can be used to get more beneficial effects if you're willing to spill your own blood. Available for BG2EE and BGEE.
 
 **Component 106:** Add Cold Snap
 
@@ -144,7 +142,7 @@ This adds a new +3 rapier that deals +1 fire damage, and 1d4+2 to targets that a
 
 **Component 401:** Add Rod of Illusive Protections (rod)
 
-This adds a new rod which activates several illusionary defenses on the user: Nond-Detection, Blur, Mirror Image, and Improved Invisibility. It can be used once per day. Available for BG2EE.
+This adds a new rod which activates several illusionary defenses on the user: Non-detection, Blur, Mirror Image, and Improved Invisibility. It can be used once per day. Available for BG2EE.
 
 **Component 402:** Add Omniblade (universal sword)
 
@@ -170,10 +168,4 @@ This adds a new +1 rapier that is more effective when wielded by characters of t
 
 This adds a new +4 two-handed sword that occasionally causes bleeding on hit and has an increased chance to critically hit. When bleeding is triggered, the wielder is healed for the same amount of damage dealt. However, there is a small chance that non-vampire wielders will go berserk for 2 rounds when the bleeding effect occurs.
 
-**Component 503:** Add Crushing Darkness (LOTR - Witch King of Angmar; flail)
-
-This adds a new non-good +4 flail that deals more damage than normal flails (1d6+9) and has a chance to inflict hopelessness on hit, which causes the target to suffer a -8 penalty to Armor Class and THAC0 for 2 rounds. Enemies around the wielder will also suffer a -2 penalty to saving throws and morale each round, with a 10% chance to cause Panic and Slow for a round if a save vs. Spell is failed.
-
 </details>
-
----

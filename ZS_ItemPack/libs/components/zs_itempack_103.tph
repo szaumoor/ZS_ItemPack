@@ -7,7 +7,10 @@ END
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/crimson_mischief~ ~override~
 COPY_EXISTING ~ZSIPCM00.itm~ ~override~
               ~ZSIPCM10.itm~ ~override~
-    LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@5009) END
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 0 parameter1 = RESOLVE_STR_REF(@5009) END
+    PATCH_FOR_EACH p1 IN 1 2 3 4 BEGIN
+      LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 139 match_parameter1 = p1 parameter1 = RESOLVE_STR_REF(@50092) END
+    END
 
 COPY_EXISTING ~ZSIPCM00.itm~ ~override~
     SAY NAME2 @5007
@@ -39,7 +42,7 @@ END ELSE BEGIN
         ADD_CRE_ITEM ~ZSIPCM00~ #0 #0 #0 ~unstealable~ ~inv~
 
     PRINT "Item Crimson Mischief added to the second option."
-    
+
 END
 
 COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_crimson_mischief_cespy.d~

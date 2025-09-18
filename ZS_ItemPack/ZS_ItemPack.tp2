@@ -3,15 +3,15 @@ SUPPORT "Find me at Gibberlings3, IE/G3 discord serves, or email me at: royalpro
 VERSION "v1.0"
 README ~%MOD_FOLDER%/README.md~
 AUTO_EVAL_STRINGS
-MODDER
-	setup_tra none
-	area_variables warn
-	missing_extern warn
-	missing_resref warn
-	ict2_actions warn
-	missing_eval warn
-	overwriting_file none
-	fun_args warn
+// MODDER
+// 	setup_tra none
+// 	area_variables warn
+// 	missing_extern warn
+// 	missing_resref warn
+// 	ict2_actions warn
+// 	missing_eval warn
+// 	overwriting_file none
+// 	fun_args warn
 ALWAYS
 	INCLUDE ~%MOD_FOLDER%/libs/zs_always.tph~
 END

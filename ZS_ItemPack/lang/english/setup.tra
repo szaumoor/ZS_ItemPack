@@ -77,6 +77,8 @@ Requires:
 
 Weight: 12~
 
+@5003 = ~Takes %p1% irresistible fire damage~
+
 @5004 = ~Bloodthirst +3~
 @5005 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
 
@@ -206,6 +208,8 @@ Requires:
  5 Strength
 
 Weight: 3~
+
+@50092 = ~Takes %p1% negative energy damage~
 
 @5010 = ~Assassin's Touch +1~
 @5011 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. Its enchantments favor those skilled in the art of thievery, particularly assassins, making it especially deadly against sleeping or incapacitated targets.

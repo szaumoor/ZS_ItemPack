@@ -9,6 +9,17 @@ COPY_EXISTING ~ZSIPS2AA.itm~ ~override~
   SAY NAME2 @5001
   SAY IDENTIFIED_DESC @5002
 
+COPY_EXISTING ~ZSIPS203.spl~ ~override~
+  PATCH_FOR_EACH p1 IN 1 2 BEGIN
+    LPF ALTER_EFFECT INT_VAR match_opcode = 139 match_parameter1 = p1 parameter1 = RESOLVE_STR_REF(@5003) END
+  END
+
+COPY_EXISTING ~ZSIPS203.spl~ ~override~
+              ~ZSIPS206.spl~ ~override~
+  PATCH_FOR_EACH p1 IN 1 2 3 4 BEGIN
+    LPF ALTER_EFFECT INT_VAR silent=1 match_opcode = 139 match_parameter1 = p1 parameter1 = RESOLVE_STR_REF(@5003) END
+  END
+
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
   COPY_EXISTING ~SIMDEMON.CRE~ ~override~
@@ -23,5 +34,5 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~IOTYUGH.CRE~ ~override~
     ADD_CRE_ITEM ~ZSIPS2AA~ #0 #0 #0 ~unstealable~ ~inv~
-    
+
 END
