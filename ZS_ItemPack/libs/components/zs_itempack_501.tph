@@ -18,4 +18,11 @@ ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
 END
 
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
+  COPY_EXISTING ~OBSHAL01.CRE~ ~override~
+      ADD_CRE_ITEM ~ZSIPNDL0~ #0 #0 #0 ~none~ ~inv~
+
+END
+
 INCLUDE ~%MOD_FOLDER%/libs/zs_add_rapiers.tph~

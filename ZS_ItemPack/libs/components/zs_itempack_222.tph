@@ -12,13 +12,13 @@ COPY_EXISTING ~ZSIPLFC0.itm~ ~override~
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
   COPY_EXISTING ~TEM2304.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPLFC0" position = "LAST" END
-    
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPLFC0" position = "LAST" flags="identified" END
+
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~TEMLATH.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPLFC0" position = "LAST" END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPLFC0" position = "LAST" flags="identified" END
 
 END

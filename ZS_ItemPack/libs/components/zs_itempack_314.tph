@@ -4,7 +4,7 @@ END ELSE BEGIN
   OUTER_SET ~zs_itempack_314~ = 1
 END
 
-COPY ~%MOD_FOLDER%/items/arrow_vampire~ ~override~
+COPY ~%MOD_FOLDER%/items/03_nwn/arrows_vampire~ ~override~
 COPY_EXISTING ~ZSIPAVP0.ITM~ ~override~
     SAY NAME2 @15100
     SAY IDENTIFIED_DESC @15101
@@ -62,6 +62,6 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
                 ~TRMER03.STO~  ~override~ // fletcher
                 ~sarbar01.STO~  ~override~ // saradush inn
                 ~hgkar01.sto~   ~override~ // karthis
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=15 STR_VAR item_name="ZSIPSHU0" position="LAST" flags=~identified~ END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=15 STR_VAR item_name="ZSIPAVP0" position="LAST" flags=~identified~ END
 
 END

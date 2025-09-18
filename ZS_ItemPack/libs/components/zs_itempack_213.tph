@@ -10,13 +10,16 @@ COPY_EXISTING ~ZSIPHKR0.ITM~ ~override~
   SAY IDENTIFIED_DESC @6111
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
+
   COPY_EXISTING ~CALDO.CRE~ ~override~
     ADD_CRE_ITEM ~ZSIPHKR0~ #0 #0 #0 ~unstealable~ ~inv~
+
 END
 
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
   COPY_EXISTING ~SHOP05.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPHKR0" position = "LAST" END
-    
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPHKR0" position = "LAST" flags="identified" END
+
 END

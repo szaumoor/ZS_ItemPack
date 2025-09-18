@@ -50,6 +50,8 @@ It should be installed before mods that add new kits, as some kits (like my shad
 
 **WARNING**: If you use EET, I don't recommend you use a mod that transports your equipment from BGEE to BG2EE. I only know of the one that Roxanne made (but you should not use anything they make without a very good reason), but the consequence of this will be that most items will be duplicated. You will find the same items again, or the same weapon but with a higher enchantment level. The mod is not sophisticated enough to handle this possibility, nor do I know how to do it (if it's even possible), and I have very little interest in adding that in.
 
+Also do not that using a mod skip Irenicus' dungeon will prevent you from getting some of the weapons placed there. Consult the spoiler locations file for more information.
+
 ## User feedback and how to contribute
 
 If you have any feedback, suggestions, or bug reports, please feel free to reach out to me on Discord or through the mod's page. You can also reach me at `royalprotector@keemail.me` and I will respond eventually. I appreciate all input and will do my best to address any issues.

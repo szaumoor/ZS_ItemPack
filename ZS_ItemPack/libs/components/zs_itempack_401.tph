@@ -8,3 +8,23 @@ COPY ~%MOD_FOLDER%/items/04_me/rod_illusive~ ~override~
 COPY_EXISTING ~ZSIPRIL0.itm~ ~override~
   SAY NAME2 @10110
   SAY IDENTIFIED_DESC @10111
+
+ACTION_IF GAME_IS "bgee eet" AND GAME_INCLUDES "sod" BEGIN
+
+  COPY_EXISTING ~bdsorcsc.STO~ ~override~ // sorcerous sundries (SoD)
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRIL0" position="LAST" flags=~identified~ END
+  BUT_ONLY IF_EXISTS
+
+END ELSE ACTION_IF GAME_IS "bgee eet" AND NOT GAME_INCLUDES "sod" BEGIN
+
+  COPY_EXISTING ~STO0703.STO~  ~override~ // sorcerous sundries
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRIL0" position="LAST" flags=~identified~ END
+  BUT_ONLY IF_EXISTS
+
+END ELSE ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
+  COPY_EXISTING ~wmart2.STO~  ~override~ // deidre
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRIL0" position="LAST" flags=~identified~ END
+  BUT_ONLY IF_EXISTS
+
+END

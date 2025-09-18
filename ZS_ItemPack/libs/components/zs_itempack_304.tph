@@ -23,7 +23,7 @@ COPY_EXISTING ~ZSIPKRE0.itm~ ~override~
     LPF ALTER_EFFECT INT_VAR silent=1 match_opcode = 139 match_parameter1 = p1 parameter1 = RESOLVE_STR_REF(@50092) END
   END
 
-COPY_EXISTING ~DRAGBLAC.CRE~ ~override~ // NIZINIZINIZINIZINIZI
+COPY_EXISTING ~dragshad.CRE~ ~override~ // NIZINIZINIZINIZINIZI
   ADD_CRE_ITEM ~ZSIPKRE0.itm~ #0 #0 #0 ~unstealable~ ~inv~
 
 ACTION_IF MOD_IS_INSTALLED ~ZS_ShadowdancerOverhaul.tp2~ ~100~ BEGIN

@@ -53,3 +53,18 @@ COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
 
     END
 BUT_ONLY
+
+ACTION_IF GAME_IS "bgee eet" BEGIN
+
+    COPY_EXISTING ~INN3351.STO~  ~override~ // sorcerous sundries
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPOMN0" position="LAST" flags=~identified~ END
+    BUT_ONLY IF_EXISTS
+
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
+    COPY_EXISTING ~DUEMAG02.CRE~ ~override~
+        ADD_CRE_ITEM ~ZSIPOMN0~ #0 #0 #0 ~unstealable~ ~inv~
+
+END
