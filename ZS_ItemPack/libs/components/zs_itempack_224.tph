@@ -10,11 +10,15 @@ COPY_EXISTING ~ZSIPPRG0.ITM~ ~override~
   SAY IDENTIFIED_DESC @6141
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
+
   COPY_EXISTING ~TEM3402.STO~ ~override~ // KELDDATH
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPPRG0" position = "LAST" END
+
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
-  COPY_EXISTING ~TEMSUP.STO~ ~override~ // KELDDATH
+
+  COPY_EXISTING ~TEMSUP.STO~ ~override~ // OVERGOLD
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPPRG0" position = "LAST" END
+
 END

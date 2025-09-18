@@ -5,6 +5,31 @@ END ELSE BEGIN
 END
 
 COPY ~%MOD_FOLDER%/items/03_nwn/shining_light_lathander~ ~override~
-COPY_EXISTING ~ZSIPGSAA.itm~ ~override~
-  SAY NAME2 @8017
-  SAY IDENTIFIED_DESC @8018
+ACTION_IF GAME_IS "bgee eet" BEGIN
+
+  COPY_EXISTING ~ZSIPSL00.itm~ ~override~
+    SAY NAME2 @80170
+    SAY IDENTIFIED_DESC @80171
+
+  COPY_EXISTING ~tem3402.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPSL00" position = "LAST" flags=~identified~ END
+
+END
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
+  COPY_EXISTING ~ZSIPSL01.itm~ ~override~
+    SAY NAME2 @80170
+    SAY IDENTIFIED_DESC @80172
+
+  COPY_EXISTING ~ZSIPSL02.itm~ ~override~
+    SAY NAME2 @80170
+    SAY IDENTIFIED_DESC @80173
+
+  COPY_EXISTING ~DAWNMAS.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPSL01" position = "LAST" flags=~identified~ END
+
+  COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_shining_light_crommy.d~
+  EXTEND_BOTTOM ~ar0334.bcs~ ~%MOD_FOLDER%/baf/upgrades/shining_light/ar0334.baf~
+
+END

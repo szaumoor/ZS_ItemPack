@@ -14,11 +14,15 @@ COPY_EXISTING ~ZSIPASS4.itm~ ~override~
   SAY IDENTIFIED_DESC @50111
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
+
   COPY_EXISTING ~INN3351.STO~ ~override~
       LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPASS0" position = "LAST" END
+
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
   COPY_EXISTING ~bmthief.sto~ ~override~
       LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPASS4" position = "LAST" END
+      
 END

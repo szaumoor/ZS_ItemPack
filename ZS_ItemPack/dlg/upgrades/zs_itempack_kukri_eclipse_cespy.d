@@ -3,16 +3,16 @@ EXTEND_BOTTOM BOTSMITH 4
 END
 
 APPEND BOTSMITH
-  IF ~~ THEN BEGIN ZSIPKukriEclipse_PartyHasAtLeastOneItem SAY ~Heh, you use katana? You is some kind of ninja or somethings? Eww, smells like rotten eggs, you gets this from Styx?~
-    IF ~!PartyHasItem("scrl9n")~ GOTO ZSIPKukriEclipse_PartyDoesNotHaveAllParts
-    IF ~PartyHasItem("scrl9n")~  GOTO ZSIPKukriEclipse_PartyHasAllParts
+  IF ~~ THEN BEGIN ZSIPKukriEclipse_PartyHasAtLeastOneItem SAY ~What this? Bent dagger? You drop it or somethings? ~
+    IF ~!PartyHasItem("scrl9w")~ GOTO ZSIPKukriEclipse_PartyDoesNotHaveAllParts
+    IF ~PartyHasItem("scrl9w")~  GOTO ZSIPKukriEclipse_PartyHasAllParts
   END
 
-  IF ~~ THEN BEGIN ZSIPKukriEclipse_PartyDoesNotHaveAllParts SAY ~Coulds make this better if you has scroll of Gate. Come back when you finds one, okay?~
+  IF ~~ THEN BEGIN ZSIPKukriEclipse_PartyDoesNotHaveAllParts SAY ~Cespenar can makes it better with Energy Drain scroll... buuuuut you not has one yet.~
     IF ~~ THEN GOTO ZSIPKukriEclipse_MovingRightAlong
   END
 
-  IF ~~ THEN BEGIN ZSIPKukriEclipse_PartyHasAllParts SAY ~And you has scroll of Gate! Gives it here and 12,500 gold and Cespenar makes it better, okays?~
+  IF ~~ THEN BEGIN ZSIPKukriEclipse_PartyHasAllParts SAY ~And you has scroll of Energy Drain! Gives it here and 12,500 gold and Cespenar makes it better, okays?~
     IF ~PartyGoldLT(12500)~ THEN REPLY #66633 GOTO 10
     IF ~PartyGoldGT(12499)~ THEN DO ~SetGlobal("ZSIP_KukriEclipseForge","GLOBAL",1)
                                     SetGlobal("ForgeStuff", "GLOBAL",1)
@@ -20,12 +20,12 @@ APPEND BOTSMITH
                                     DestroyGold(12500)
                                     TakePartyItemNum("ZSIPKRE0", 1)
                                     DestroyItem("ZSIPKRE0")
-                                    TakePartyItemNum("scrl9n", 1)
-                                    DestroyItem("scrl9n")~ REPLY #66706 GOTO 11
+                                    TakePartyItemNum("scrl9w", 1)
+                                    DestroyItem("scrl9w")~ REPLY #66706 GOTO 11
     IF ~~ THEN REPLY #66650 GOTO ZSIPKukriEclipse_MovingRightAlong
   END
 
-  IF ~~ THEN BEGIN ZSIPKukriEclipse_MovingRightAlong SAY ~Okays, moving right along!~
+  IF ~~ THEN BEGIN ZSIPKukriEclipse_MovingRightAlong SAY ~What else you has in your pack? Dum de dum de dum~
     COPY_TRANS BOTSMITH 4
   END
 

@@ -6,6 +6,7 @@ END
 
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/bloodthirst~ ~override~
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
+
     COPY_EXISTING ~ZSIPBLT0.itm~ ~override~
         SAY NAME2 @5004
         SAY IDENTIFIED_DESC @5005
@@ -16,9 +17,11 @@ ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
     COPY_EXISTING ~WINSKI2.CRE~ ~override~
         ADD_CRE_ITEM ~ZSIPBLT0~ #0 #0 #0 ~none~ ~inv~
+        
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
     COPY_EXISTING ~ZSIPBLT3.itm~ ~override~
         SAY NAME2 @50060
         SAY IDENTIFIED_DESC @50061
@@ -38,4 +41,5 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 
     COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_bloodthirst_cespy.d~
     EXTEND_BOTTOM ~botsmith.bcs~ ~%MOD_FOLDER%/baf/upgrades/bloodthirst/botsmith.baf~
+
 END

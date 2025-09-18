@@ -46,8 +46,10 @@ OUTER_SET bard = IDS_OF_SYMBOL(class BARD)
 COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
     SET class = BYTE_AT 0x273
     PATCH_IF class = thief OR class = fighter_thief OR class = cleric_thief OR class = bard BEGIN
+
         PATCH_FOR_EACH enchantment IN 0 1 2 3 4 5 6 BEGIN
             LPF ADD_CRE_EFFECT INT_VAR opcode=180 target=1 timing=9 parameter1=RESOLVE_STR_REF(@10127) STR_VAR resource=~ZSIPOMN%enchantment%~ END
         END
+
     END
 BUT_ONLY

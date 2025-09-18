@@ -1,0 +1,37 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_205~) BEGIN
+  FAIL ~Script already included: zs_itempack_205~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_205~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/02_souls/ring_hardiness~ ~override~
+COPY_EXISTING ~ZSIPRHR2.itm~ ~override~
+  SAY NAME2 @6150
+  SAY IDENTIFIED_DESC @6151
+  LPF ALTER_EFFECT_EX INT_VAR parameter1=zst_ring_hardiness_dr STR_VAR match_opcode_ex="(o_opcode >= 86 AND o_opcode <= 89)" END
+
+COPY_EXISTING ~ZSIPRHR3.itm~ ~override~
+  SAY NAME2 @6152
+  SAY IDENTIFIED_DESC @6153
+  LPF ALTER_EFFECT_EX INT_VAR parameter1=zst_ring_hardiness_upgraded_dr STR_VAR match_opcode_ex="(o_opcode >= 86 AND o_opcode <= 89)" END
+
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+
+    COPY_EXISTING ~KAGAIN.CRE~ ~override~
+                  ~KAGAIN2.CRE~ ~override~
+                  ~KAGAIN4.CRE~ ~override~
+                  ~KAGAIN6.CRE~ ~override~
+        ADD_CRE_ITEM ~ZSIPRHR2.itm~ #0 #0 #0 ~none~ ~lring rring~
+
+END
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
+    COPY_EXISTING ~AR0602.ARE~ ~override~
+        LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 4 STR_VAR item_to_add = ~ZSIPRHR2~ END
+
+    COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_ring_hardiness_crommy.d~
+    EXTEND_BOTTOM ~ar0334.bcs~ ~%MOD_FOLDER%/baf/upgrades/ring_hardiness/ar0334.baf~
+
+END

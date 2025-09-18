@@ -12,8 +12,10 @@ COPY_EXISTING ~ZSIPICI0.itm~ ~override~
   SAY IDENTIFIED_DESC @6071
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
   COPY_EXISTING ~UDMASTER.CRE~ ~override~
     ADD_CRE_ITEM ~ZSIPICI0~ #0 #0 #0 ~unstealable~ ~inv~
+    
 END
 
 INCLUDE ~%MOD_FOLDER%/libs/zs_add_rapiers.tph~

@@ -1,0 +1,17 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_313~) BEGIN
+  FAIL ~Script already included: zs_itempack_313~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_313~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/03_nwn/shining_light~ ~override~
+COPY_EXISTING ~ZSIPSHL0.itm~ ~override~
+  SAY NAME1 @15070
+  SAY NAME2 @15060
+  SAY UNIDENTIFIED_DESC @15071
+  SAY IDENTIFIED_DESC @15061
+
+COPY_EXISTING ~ribald.sto~ ~override~ // ribald
+  LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=20 STR_VAR item_name="ZSIPSHL0" position="LAST" flags=~identified~ END
+
+INCLUDE ~%MOD_FOLDER%/libs/zs_add_shurikens.tph~

@@ -35,4 +35,5 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
   COPY ~%MOD_FOLDER%/cre/ZSIPMUM.cre~ ~override~
     SAY NAME1 ~Greater Mummy~
     SAY NAME2 ~Greater Mummy~
+    
 END

@@ -15,11 +15,15 @@ COPY_EXISTING ~ZSIPTRMS.SPL~ ~override~
   LPF ALTER_HEADER INT_VAR projectile = %ZSIPMSCD% END
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
+
   COPY_EXISTING ~STO0703.STO~ ~override~
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPTRNA" position = "LAST" END
+
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
   COPY_EXISTING ~RIBALD.STO~ ~override~
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPTRNA" position = "LAST" END
+    
 END

@@ -10,11 +10,15 @@ COPY_EXISTING ~ZSIPCKAA.itm~ ~override~
   SAY IDENTIFIED_DESC @5041
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
+
   COPY_EXISTING ~VAYYA.CRE~ ~override~
     ADD_CRE_ITEM ~ZSIPCKAA~ #0 #0 #0 ~unstealable~ ~cloak~
+    
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
   COPY_EXISTING ~IDEMON01.CRE~ ~override~
     ADD_CRE_ITEM ~ZSIPCKAA~ #0 #0 #0 ~unstealable~ ~cloak~
+
 END

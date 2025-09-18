@@ -4,6 +4,72 @@ OUTER_SET zst_harpbow_longbow = "0"
 // set to 0 if you'd rather not have generic variants of the new weapon types distributed to stores when a weapon of that type is installed (up to +1 in BGEE, +2 in BG2EE, +3 in ToB)
 OUTER_SET zst_generic_variants = "1"
 
+// include shurikens of enchantment level of 4 and 5 into the game (generic variants)
+OUTER_SET zst_include_shuriken4 = "1"
+OUTER_SET zst_include_shuriken5 = "1"
+
 // these options grant (without replacement) these items to these characters (base character), if the weapons exist
 OUTER_SET zst_give_nalia_soa_rapier0 = "1"
 OUTER_SET zst_give_skie_bgee_rapier1 = "1"
+
+/*
+//// PRICE SETTING \\\\
+
+// Forbidden-game
+OUTER_SET zst_price_assassins_touch                 = //
+OUTER_SET zst_price_bloodthirst                     = //
+OUTER_SET zst_price_bloodthirst_upgraded            = //
+OUTER_SET zst_price_cold_snap                       = //
+OUTER_SET zst_price_blade_crimson_mischief          = //
+OUTER_SET zst_price_blade_crimson_mischief_upgraded = //
+OUTER_SET zst_price_blade_cruel_sting               = //
+OUTER_SET zst_price_deathstalker_mantle             = //
+OUTER_SET zst_price_everburn_blade                  = //
+OUTER_SET zst_price_judgment                        = //
+OUTER_SET zst_price_ritual_dagger                   = //
+OUTER_SET zst_price_spell_siphon                    = //
+
+// Souls-games
+OUTER_SET zst_price_blade_calling           = //
+OUTER_SET zst_price_bloody_sting            = //
+OUTER_SET zst_price_bloody_sting_upgraded   = //
+OUTER_SET zst_price_crimson_life            = //
+OUTER_SET zst_price_harp_bow                = //
+OUTER_SET zst_price_hawk_ring               = //
+OUTER_SET zst_price_icicle                  = //
+OUTER_SET zst_price_moonlit_slumber         = //
+OUTER_SET zst_price_periapt_renewal         = //
+OUTER_SET zst_price_ring_hardiness          = //
+OUTER_SET zst_price_ring_hardiness_upgraded = //
+OUTER_SET zst_price_sage_ring               = //
+OUTER_SET zst_price_spellguard              = //
+OUTER_SET zst_price_storm_monarch           = //
+OUTER_SET zst_price_stygian_fury            = //
+OUTER_SET zst_price_stygian_upgraded        = //
+
+// NWN
+OUTER_SET zst_price_arrows_vampire                   = "12"
+OUTER_SET zst_price_goblinsplitter                   = //
+OUTER_SET zst_price_kukri_eclipse                    = //
+OUTER_SET zst_price_kukri_eclipse_upgraded           = //
+OUTER_SET zst_price_lawgiver                         = //
+OUTER_SET zst_price_master_li_way                    = //
+OUTER_SET zst_price_mercykiller_blade                = //
+OUTER_SET zst_price_rashemi_blade                    = //
+OUTER_SET zst_price_shining_light_shuriken           = //
+OUTER_SET zst_price_shining_light_lathander          = //
+OUTER_SET zst_price_shining_light_lathander_upgraded = //
+OUTER_SET zst_price_left_hand                        = //
+
+// Mass Effect
+OUTER_SET zst_price_omniblade      = //
+OUTER_SET zst_price_phantoms_blade = //
+OUTER_SET zst_price_rod_illusive   = //
+
+// TV
+OUTER_SET zst_price_craven_edge = //
+OUTER_SET zst_price_needle      = //
+*/
+
+OUTER_SET zst_ring_hardiness_dr          = "5"
+OUTER_SET zst_ring_hardiness_upgraded_dr = "6"

@@ -21,12 +21,18 @@ COPY_EXISTING ~DRAGBLAC.CRE~ ~override~ // NIZINIZINIZINIZINIZI
   ADD_CRE_ITEM ~ZSIPKRE0.itm~ #0 #0 #0 ~unstealable~ ~inv~
 
 ACTION_IF MOD_IS_INSTALLED ~ZS_ShadowdancerOverhaul.tp2~ ~100~ BEGIN
+
   PRINT "Patching for RoyalProtector's ZS Shadowdancer Overhaul..."
   OUTER_SET shadowdancer = IDS_OF_SYMBOL(kit SHADOWDANCER)
   OUTER_SET zs_shadowdancer = IDS_OF_SYMBOL(kit ZS_SHADOWDANCER)
+
   COPY_EXISTING ~ZSIPKRE0.itm~ ~override~
                 ~ZSIPKRE2.itm~ ~override~
     LPF CLONE_EFFECT INT_VAR match_opcode = 177 match_parameter1 = shadowdancer parameter1=zs_shadowdancer END
+
 END
+
+COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_kukri_eclipse_cespy.d~
+EXTEND_BOTTOM ~botsmith.bcs~ ~%MOD_FOLDER%/baf/upgrades/kukri_eclipse/botsmith.baf~
 
 INCLUDE ~%MOD_FOLDER%/libs/zs_add_kukris.tph~

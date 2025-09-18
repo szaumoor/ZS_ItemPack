@@ -18,20 +18,33 @@ APPEND WSMITH01
   END
 
   IF ~~ THEN BEGIN ZSIPRingHardiness_PartyHasAllParts SAY ~Aye, this be a ring of hardiness. Since ye have a scroll of Stoneskin already, I can improve it to make it more protective for ye.~
-    IF ~~ THEN REPLY #105299 GOTO ZSIPRingHardiness_HowMuch
-    IF ~~ THEN REPLY #105300 GOTO ZSIPRingHardiness_MovingRightAlong
+    IF ~~ THEN REPLY #59712 GOTO ZSIPRingHardiness_HowMuch
+    IF ~~ THEN REPLY #59713 GOTO ZSIPRingHardiness_MovingRightAlong
   END
 
    IF ~~ THEN BEGIN ZSIPRingHardiness_HowMuch SAY ~It'll cost ye 5000 gold and without me apprentice, you'll need to stay on a day and help me run the forge.~
     IF ~PartyGoldGT(4999)
-        PartyHasItem("scrl1v")~ THEN DO ~SetGlobal("ZSIP_RingHardinessForge","MYAREA",1)
+        PartyHasItem("scrl1v")
+        PartyHasItem("scrl2b")~ THEN DO ~SetGlobal("ZSIP_RingHardinessForge","MYAREA",1)
                                      TakePartyGold(5000)
                                      DestroyGold(5000)
                                      TakePartyItemNum("ZSIPRHR2", 1)
                                      DestroyItem("ZSIPRHR2")
                                      TakePartyItemNum("scrl1v", 1)
-                                     DestroyItem("scrl1v")~ REPLY ~Yes, let's do it.~ GOTO 56
+                                     DestroyItem("scrl1v")~ REPLY #59775 GOTO 56
+
     IF ~PartyGoldGT(4999)
+        PartyHasItem("scrl1v")
+        !PartyHasItem("scrl2b")~ THEN DO ~SetGlobal("ZSIP_RingHardinessForge","MYAREA",1)
+                                     TakePartyGold(5000)
+                                     DestroyGold(5000)
+                                     TakePartyItemNum("ZSIPRHR2", 1)
+                                     DestroyItem("ZSIPRHR2")
+                                     TakePartyItemNum("scrl1v", 1)
+                                     DestroyItem("scrl1v")~ REPLY #59775 GOTO 56
+
+    IF ~PartyGoldGT(4999)
+        PartyHasItem("scrl2b")
         !PartyHasItem("scrl1v")~ THEN DO ~SetGlobal("ZSIP_RingHardinessForge","MYAREA",1)
                                       TakePartyGold(5000)
                                       DestroyGold(5000)
@@ -48,8 +61,8 @@ APPEND WSMITH01
     COPY_TRANS WSMITH01 13
   END
 
-  IF WEIGHT #-1 ~Global("ZSIP_RingHardinessForge","GLOBAL",1)~ THEN BEGIN ZSIP_ItemForged SAY #70888
-    IF ~~ THEN DO ~SetGlobal("ZSIP_RingHardinessForge","GLOBAL", 0)~ EXIT
+  IF WEIGHT #-1 ~Global("ZSIP_RingHardinessForge","MYAREA",1)~ THEN BEGIN ZSIP_ItemForged SAY #59797
+    IF ~~ THEN DO ~SetGlobal("ZSIP_RingHardinessForge","MYAREA", 0)~ EXIT
   END
 
 END

@@ -12,3 +12,4 @@ COPY_EXISTING ~ZSIPMK0.itm~ ~override~
 COPY_EXISTING ~WMART2.STO~ ~override~
   LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPMK0" position = "LAST" flags= ~identified~ END
 
+INCLUDE ~%MOD_FOLDER%/libs/zs_add_rapiers.tph~

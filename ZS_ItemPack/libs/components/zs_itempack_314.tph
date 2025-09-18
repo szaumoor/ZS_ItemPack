@@ -8,3 +8,60 @@ COPY ~%MOD_FOLDER%/items/arrow_vampire~ ~override~
 COPY_EXISTING ~ZSIPAVP0.ITM~ ~override~
     SAY NAME2 @15100
     SAY IDENTIFIED_DESC @15101
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+
+  COPY_EXISTING ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
+                ~bdsorcsc.STO~ ~override~ // sorcerous sundries (SoD)
+                ~STO0703.STO~  ~override~ // sorcerous sundries
+                ~erdane.STO~ ~override~ // erdane
+                ~highhedg.STO~ ~override~ // high hedge
+                ~ULGOTH.STO~ ~override~ // ulgoth
+                ~stoblack.STO~ ~override~ // black lily
+                ~stosilen.STO~ ~override~ // silence
+                ~TAERUM.STO~ ~override~ // thunderhammer's smithy
+                ~bdwaizah.STO~ ~override~ // thieves guild sod
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=40 STR_VAR item_name="ZSIPAVP0" position="LAST" flags=~identified~ END
+  BUT_ONLY IF_EXISTS
+
+END
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
+  COPY_EXISTING ~AMSMUG01.STO~ ~override~ // smugglers 1
+                ~AMSMUG02.STO~ ~override~ // smugglers 2
+                ~ARLED.STO~    ~override~ // ARLED
+                ~BERNARD.STO~   ~override~ // BERNARD 1
+                ~BERNARD2.STO~  ~override~ // BERNARD 2
+                ~BERNARD3.STO~  ~override~ // BERNARD 3
+                ~BERNARD4.STO~  ~override~ // BERNARD 4
+                ~BERNARD5.STO~  ~override~ // BERNARD 4
+                ~BERNARD6.STO~  ~override~ // BERNARD 4
+                ~gorch.sto~     ~override~ // gorch
+                ~hendak.sto~    ~override~ // hendak
+                ~lehtinan.sto~  ~override~ // lehtinan
+                ~ribald.sto~    ~override~ // ribald
+                ~SHTHSTOR.STO~  ~override~ // ratell
+                ~TRMER03.STO~  ~override~ // fletcher
+                ~sarbar01.STO~  ~override~ // saradush inn
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=10 STR_VAR item_name="ZSIPAVP0" position="LAST" flags=~identified~ END
+
+  COPY_EXISTING ~BERNARD.STO~   ~override~ // BERNARD 1
+                ~BERNARD2.STO~  ~override~ // BERNARD 2
+                ~BERNARD3.STO~  ~override~ // BERNARD 3
+                ~BERNARD4.STO~  ~override~ // BERNARD 4
+                ~BERNARD5.STO~  ~override~ // BERNARD 4
+                ~BERNARD6.STO~  ~override~ // BERNARD 4
+                ~bmthief.STO~   ~override~ // SHADOW THIEF FENCE
+                ~gorch.sto~     ~override~ // gorch
+                ~hendak.sto~    ~override~ // hendak
+                ~lehtinan.sto~  ~override~ // lehtinan
+                ~ribald.sto~    ~override~ // ribald
+                ~ribald2.sto~   ~override~ // ribald
+                ~SHTHSTOR.STO~  ~override~ // ratell
+                ~TRMER03.STO~  ~override~ // fletcher
+                ~sarbar01.STO~  ~override~ // saradush inn
+                ~hgkar01.sto~   ~override~ // karthis
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=15 STR_VAR item_name="ZSIPSHU0" position="LAST" flags=~identified~ END
+
+END

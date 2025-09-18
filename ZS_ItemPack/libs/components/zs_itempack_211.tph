@@ -10,16 +10,21 @@ COPY_EXISTING ~ZSIPSGR0.ITM~ ~override~
     SAY IDENTIFIED_DESC @6131
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
+
     COPY_EXISTING ~DAVAEO.CRE~ ~override~
         READ_LONG 0x2b8 item_offset
         READ_SSHORT (item_offset + (6 * 2)) equipped_necklace
+
         PATCH_IF equipped_necklace = "-1" BEGIN
             ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable&undroppable~ ~amulet~
         END
+
         ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable~ ~inv~
+
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
     COPY_EXISTING ~TOLGER2.CRE~ ~override~
         READ_LONG 0x2b8 item_offset
         READ_SSHORT (item_offset + (4 * 2)) equipped_left_ring
@@ -28,4 +33,5 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
             ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable&undroppable~ ~lring~
         END
         ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable~ ~inv~
+        
 END
