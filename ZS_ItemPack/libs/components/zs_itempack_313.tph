@@ -12,6 +12,6 @@ COPY_EXISTING ~ZSIPSHL0.itm~ ~override~
   SAY IDENTIFIED_DESC @15061
 
 COPY_EXISTING ~ribald.sto~ ~override~ // ribald
-  LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=20 STR_VAR item_name="ZSIPSHL0" position="LAST" flags=~identified~ END
+  LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=80 STR_VAR item_name="ZSIPSHL0" position="LAST" flags=~identified~ END
 
 INCLUDE ~%MOD_FOLDER%/libs/zs_add_shurikens.tph~

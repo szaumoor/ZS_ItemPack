@@ -1,12 +1,13 @@
 ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
 
     COPY ~%MOD_FOLDER%/items/generic/shuriken~ ~override~
-    COPY_EXISTING ~ZSIPSHU0.ITM~ ~override~
-                  ~ZSIPSHU1.ITM~ ~override~
-                  ~ZSIPSHU2.ITM~ ~override~
-                  ~ZSIPSHU3.ITM~ ~override~
-                  ~ZSIPSHU4.ITM~ ~override~
-                  ~ZSIPSHU5.ITM~ ~override~
+    COPY_EXISTING
+                //   ~ZSIPSHU0.ITM~ ~override~
+                //   ~ZSIPSHU1.ITM~ ~override~
+                //   ~ZSIPSHU2.ITM~ ~override~
+                //   ~ZSIPSHU3.ITM~ ~override~
+                //   ~ZSIPSHU4.ITM~ ~override~
+                //   ~ZSIPSHU5.ITM~ ~override~
                   ~ZSIPSHUP.ITM~ ~override~
                   ~ZSIPSHUB.ITM~ ~override~
                   ~ZSIPSHUA.ITM~ ~override~
@@ -15,25 +16,29 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
         SAY UNIDENTIFIED_DESC @15071
         SAY IDENTIFIED_DESC @15071
 
-    COPY_EXISTING ~ZSIPSHU1.ITM~ ~override~
-        SAY NAME2 @15072
-        SAY IDENTIFIED_DESC @15073
+    // COPY_EXISTING ~ZSIPSHU0.ITM~ ~override~
+    //     SAY NAME2 @15070
+    //     SAY IDENTIFIED_DESC @15071
 
-    COPY_EXISTING ~ZSIPSHU2.ITM~ ~override~
-        SAY NAME2 @15074
-        SAY IDENTIFIED_DESC @15075
+    // COPY_EXISTING ~ZSIPSHU1.ITM~ ~override~
+    //     SAY NAME2 @15072
+    //     SAY IDENTIFIED_DESC @15073
 
-    COPY_EXISTING ~ZSIPSHU3.ITM~ ~override~
-        SAY NAME2 @15076
-        SAY IDENTIFIED_DESC @15077
+    // COPY_EXISTING ~ZSIPSHU2.ITM~ ~override~
+    //     SAY NAME2 @15074
+    //     SAY IDENTIFIED_DESC @15075
 
-    COPY_EXISTING ~ZSIPSHU4.ITM~ ~override~
-        SAY NAME2 @15078
-        SAY IDENTIFIED_DESC @15079
+    // COPY_EXISTING ~ZSIPSHU3.ITM~ ~override~
+    //     SAY NAME2 @15076
+    //     SAY IDENTIFIED_DESC @15077
 
-    COPY_EXISTING ~ZSIPSHU5.ITM~ ~override~
-        SAY NAME2 @15080
-        SAY IDENTIFIED_DESC @15081
+    // COPY_EXISTING ~ZSIPSHU4.ITM~ ~override~
+    //     SAY NAME2 @15078
+    //     SAY IDENTIFIED_DESC @15079
+
+    // COPY_EXISTING ~ZSIPSHU5.ITM~ ~override~
+    //     SAY NAME2 @15080
+    //     SAY IDENTIFIED_DESC @15081
 
     COPY_EXISTING ~ZSIPSHUP.ITM~ ~override~
         SAY NAME2 @15082
@@ -49,6 +54,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
 
     ACTION_IF GAME_IS ~bgee eet~ BEGIN
         // +0
+        /*
         COPY_EXISTING ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=80 unlimited=1 STR_VAR item_name="ZSIPSHU0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
@@ -108,11 +114,12 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
         COPY_EXISTING ~ULGOTH.STO~   ~override~ // thunderhammer's smithy
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=10 STR_VAR item_name="ZSIPSHU1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
+        */
 
         // +2 / poison / bleed / acid
 
         COPY_EXISTING ~bdwaizah.STO~ ~override~ // thieves guild sof
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=80 stack=10 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
+            // LPF ADD_STORE_ITEM_EX INT_VAR charge1=80 stack=10 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=80 stack=8 STR_VAR item_name="ZSIPSHUP" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=5 STR_VAR item_name="ZSIPSHUB" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=60 stack=5 STR_VAR item_name="ZSIPSHUA" position="LAST" flags=~identified~ END
@@ -120,7 +127,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
 
         COPY_EXISTING ~bdsorcsc.STO~ ~override~ // sorcerous sundries (SoD)
                       ~STO0703.STO~  ~override~ // sorcerous sundries
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=100 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
+            // LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=100 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=100 STR_VAR item_name="ZSIPSHUP" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=100 STR_VAR item_name="ZSIPSHUB" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=100 STR_VAR item_name="ZSIPSHUA" position="LAST" flags=~identified~ END
@@ -128,7 +135,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
 
         COPY_EXISTING ~stoblack.STO~ ~override~ // black lily
                       ~stosilen.STO~ ~override~ // silence
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=30 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
+            // LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=30 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=30 STR_VAR item_name="ZSIPSHUP" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=30 STR_VAR item_name="ZSIPSHUB" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=30 STR_VAR item_name="ZSIPSHUA" position="LAST" flags=~identified~ END
@@ -137,6 +144,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
     END
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+        /*
         // +0
         COPY_EXISTING ~AMSMUG01.STO~    ~override~ // smugglers 1
                       ~AMSMUG02.STO~    ~override~ // smugglers 2
@@ -185,29 +193,30 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
         COPY_EXISTING ~sahpr1.STO~  ~override~ // sekolah temple
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=4 STR_VAR item_name="ZSIPSHU1" position="LAST" flags=~identified~ END
 
+        */
         // +2
         COPY_EXISTING ~BERNARD5.STO~ ~override~ // BERNARD 5
                       ~BERNARD6.STO~ ~override~ // BERNARD 6
                       ~hendak.sto~   ~override~ // merchant
                       ~ohngduke.sto~ ~override~ // gul dukeem
                       ~ribald3.sto~  ~override~ // ribald
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=10 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
+            // LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=10 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=30 stack=8 STR_VAR item_name="ZSIPSHUA" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=6 STR_VAR item_name="ZSIPSHUP" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=6 STR_VAR item_name="ZSIPSHUB" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         COPY_EXISTING ~ARLED.STO~ ~override~ // ARLED
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=4 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
+            // LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=4 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=30 stack=3 STR_VAR item_name="ZSIPSHUA" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=2 STR_VAR item_name="ZSIPSHUP" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=2 STR_VAR item_name="ZSIPSHUB" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
-        COPY_EXISTING ~hgkar01.sto~   ~override~ // karthis
-                      ~sarbar01.sto~  ~override~ // saradush bar
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
-        BUT_ONLY IF_EXISTS
+        // COPY_EXISTING ~hgkar01.sto~   ~override~ // karthis
+        //               ~sarbar01.sto~  ~override~ // saradush bar
+        //     LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
+        // BUT_ONLY IF_EXISTS
 
          // +3
         COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
@@ -215,7 +224,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
                       ~hgkar01.sto~   ~override~ // karthis
                       ~sarbar01.sto~  ~override~ // saradush bar
                       ~ohnsdwm.sto~   ~override~ // merchant
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="ZSIPSHU3" position="LAST" flags=~identified~ END
+            // LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="ZSIPSHU3" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=30 STR_VAR item_name="ZSIPSHUA" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=20 STR_VAR item_name="ZSIPSHUP" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=20 STR_VAR item_name="ZSIPSHUB" position="LAST" flags=~identified~ END
@@ -223,14 +232,14 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
 
         // +4 / +5
 
-        COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
-                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
-                      ~hgkar01.sto~   ~override~ // karthis
-                      ~sarbar01.sto~  ~override~ // saradush bar
-                      ~ohnsdwm.sto~   ~override~ // merchant
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=30 STR_VAR item_name="ZSIPSHU4" position="LAST" flags=~identified~ END
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=20 STR_VAR item_name="ZSIPSHU5" position="LAST" flags=~identified~ END
-        BUT_ONLY IF_EXISTS
+        // COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
+        //               ~amsmug02.sto~  ~override~ // amekthran smugglers1
+        //               ~hgkar01.sto~   ~override~ // karthis
+        //               ~sarbar01.sto~  ~override~ // saradush bar
+        //               ~ohnsdwm.sto~   ~override~ // merchant
+        //     LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=30 STR_VAR item_name="ZSIPSHU4" position="LAST" flags=~identified~ END
+        //     LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=20 STR_VAR item_name="ZSIPSHU5" position="LAST" flags=~identified~ END
+        // BUT_ONLY IF_EXISTS
 
     END
 END
