@@ -12,10 +12,31 @@ BEGIN
     SET result = 0
     READ_LONG 0x2c4 effects_offset
     READ_LONG 0x2c8 effects_num
+
+    READ_BYTE 0x33 eff_version
+    PATCH_IF eff_version = 0 BEGIN
+        SET effects_size = 0x30
+    END ELSE BEGIN
+        SET effects_size = 0x108
+    END
+
     FOR ( index = 0 ; index < effects_num; ++index ) BEGIN
-        SET opcode = BYTE_AT(effects_offset + 0x08)
+
+        PATCH_IF eff_version = 0 BEGIN
+            SET opcode = SHORT_AT(effects_offset)
+        END ELSE BEGIN
+            SET opcode = BYTE_AT(effects_offset + 0x08)
+        END
+
         PATCH_IF opcode = match_op BEGIN // opcode matched
+
+            PATCH_IF eff_version = 0 BEGIN
+                SET p2 = SHORT_AT(effects_offset + 0x08)
+            END ELSE BEGIN
+                SET p2 = BYTE_AT(effects_offset + 0x18)
+            END
             SET p2 = LONG_AT (effects_offset + 0x18)
+
             PATCH_IF match_p2 = "-1" BEGIN // parameter2 not sought
                 SET result = 1
                 index = effects_num
@@ -24,7 +45,8 @@ BEGIN
                 index = effects_num
             END
         END
-        effects_offset += 0x108
+        effects_offset += effects_size
+
     END
 END
 

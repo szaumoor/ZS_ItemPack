@@ -27,8 +27,8 @@ WITH_SCOPE BEGIN
     COPY_EXISTING_REGEXP ~^.*\.cre$~ ~override~
         LPF CRE_OP_ANY INT_VAR match_op = 101 match_p2 = 109 RET found = result END
 
-        PATCH_IF found = 1 BEGIN
-            LPF ADD_CRE_EFFECT INT_VAR opcode = 206 insert_point = "-2" target = 1 STR_VAR resource = ~ZSIPCLS1~ END
+        PATCH_IF found BEGIN
+            LPF ADD_CRE_EFFECT INT_VAR opcode = 206 insert_point = "-1" target = 1 STR_VAR resource = ~ZSIPCLS1~ END
             ++matches
         END
 
@@ -43,7 +43,7 @@ WITH_SCOPE BEGIN
     COPY_EXISTING_REGEXP ~^.*\.itm$~ ~override~
         LPF ITM_OP_ANY INT_VAR match_op = 101 match_p2 = 109 RET found = result END
 
-        PATCH_IF found = 1 BEGIN
+        PATCH_IF found BEGIN
             LPF ADD_ITEM_EQEFFECT INT_VAR target = 1 timing = 2 opcode = 206 insert_point="-1" STR_VAR resource = ~ZSIPCLS1~ END
             ++matches
         END

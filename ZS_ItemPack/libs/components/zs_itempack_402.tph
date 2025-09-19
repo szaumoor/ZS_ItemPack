@@ -38,6 +38,7 @@ COPY_EXISTING ~SPCL915.SPL~ ~override~
     PATCH_FOR_EACH enchantment IN 0 1 2 3 4 5 6 BEGIN
         LPF ADD_SPELL_EFFECT INT_VAR opcode=180 target=1 timing=9 parameter1=RESOLVE_STR_REF(@10127) STR_VAR resource=~ZSIPOMN%enchantment%~ END
     END
+BUT_ONLY IF_EXISTS
 
 OUTER_SET thief = IDS_OF_SYMBOL(class THIEF)
 OUTER_SET fighter_thief = IDS_OF_SYMBOL(class FIGHTER_THIEF)
