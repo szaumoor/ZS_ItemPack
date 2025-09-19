@@ -63,8 +63,7 @@ DO ~SetGlobal("ZSLacksDaggerUpgrade","GLOBAL",1)~ EXIT
 CHAIN IF ~!GlobalGT("ZSIlmaterQuest","GLOBAL",1)~ THEN ZSIPAKAC ZS.NoticeBoard
 @30027 /* Have you reconsidered my request? */
 END
-++ @30017 /* I'll see what I can find. If there's something foul afoot, then I will uncover it. */ EXTERN ZSIPAKAC ZS.Quest3
-++ @30018 /* I'll take up this task but don't expect charity. I want to be well rewarded for my efforts. */ EXTERN ZSIPAKAC ZS.Quest3
-++ @30019 /* Now that I've heard the particulars of your task, I've little interest in accepting it. */ EXTERN ZSIPAKAC ZS.QuestDeclined
+++ @40000 /* Perhaps. Tell me the details. What's the source of this sickness? */ EXTERN ZSIPAKAC ZS.Quest2
+++ @40001 /* I haven't. */ EXTERN ZSIPAKAC ZS.QuestDeclined
 
 
