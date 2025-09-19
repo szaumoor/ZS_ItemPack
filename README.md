@@ -10,7 +10,7 @@ This mod is a collection of items adapted or inspired from other games or media 
 
 When you install a component that introduces a new weapon type (rapier, estoc, or kukri), the mod will also add generic versions of that weapon to various stores in the game. In BGEE, you can find up to +1 versions of these weapons for sale; in BG2EE, up to +3 versions will be available. If you prefer not to add these generic items, you can disable this feature in the configuration file.
 
-If you want spoilers for item descriptions, you can find them in the translation files at `ZS_ItemPack/lang`. For spoilers about where to find the items, you can check the spoiler locations file at `ZS_ItemPack/spoiler_locations.md`.
+
 
 ## Components
 
