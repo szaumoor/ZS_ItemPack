@@ -8,10 +8,12 @@ COPY ~%MOD_FOLDER%/items/01_forbidden_game/assassins_touch~ ~override~
 COPY_EXISTING ~ZSIPASS0.itm~ ~override~
   SAY NAME2 @5010
   SAY IDENTIFIED_DESC @5011
+  WRITE_LONG 0x34 zst_price_assassins_touch_bgee
 
 COPY_EXISTING ~ZSIPASS4.itm~ ~override~
   SAY NAME2 @50110
   SAY IDENTIFIED_DESC @50111
+  WRITE_LONG 0x34 zst_price_assassins_touch_bg2ee
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
@@ -24,5 +26,5 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~bmthief.sto~ ~override~
       LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPASS4" position = "LAST" END
-      
+
 END

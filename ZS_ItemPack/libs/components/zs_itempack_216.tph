@@ -10,12 +10,13 @@ COPY_EXISTING ~ZSIPICI0.itm~ ~override~
   SAY NAME2 @6070
   SAY UNIDENTIFIED_DESC @80111
   SAY IDENTIFIED_DESC @6071
+  WRITE_LONG 0x34 zst_price_icicle
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~UDMASTER.CRE~ ~override~
     ADD_CRE_ITEM ~ZSIPICI0~ #0 #0 #0 ~unstealable~ ~inv~
-    
+
 END
 
 INCLUDE ~%MOD_FOLDER%/libs/zs_add_rapiers.tph~

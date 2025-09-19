@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/01_forbidden_game/everburn_blade~ ~override~
 COPY_EXISTING ~ZSIPS2AA.itm~ ~override~
   SAY NAME2 @5001
   SAY IDENTIFIED_DESC @5002
+  WRITE_LONG 0x34 zst_price_everburn_blade
 
 COPY_EXISTING ~ZSIPS203.spl~ ~override~
   PATCH_FOR_EACH p1 IN 1 2 BEGIN

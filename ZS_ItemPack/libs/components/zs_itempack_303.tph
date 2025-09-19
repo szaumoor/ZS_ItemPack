@@ -10,13 +10,15 @@ COPY_EXISTING ~ZSIPKTAA.itm~ ~override~
   SAY IDENTIFIED_DESC @8005
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
+
   COPY_EXISTING ~stosilen.STO~ ~override~ // silence
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPKTAA" position = "LAST" flags=~identified~ END
+    
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~trmer02.STO~ ~override~ // trademeet merchant that also sells blackblood
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPKTAA" position = "LAST" flags=~identified~ END
-    
+
 END

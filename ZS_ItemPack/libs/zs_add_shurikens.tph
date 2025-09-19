@@ -1,4 +1,4 @@
-ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHU0.ITM~ BEGIN
+ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPSHUP.ITM~ BEGIN
 
     COPY ~%MOD_FOLDER%/items/generic/shuriken~ ~override~
     COPY_EXISTING

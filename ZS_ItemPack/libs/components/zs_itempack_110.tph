@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/01_forbidden_game/deathstalker_mantle~ ~override~
 COPY_EXISTING ~ZSIPCKAA.itm~ ~override~
   SAY NAME2 @5040
   SAY IDENTIFIED_DESC @5041
+  WRITE_LONG 0x34 zst_price_deathstalker_mantle
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 

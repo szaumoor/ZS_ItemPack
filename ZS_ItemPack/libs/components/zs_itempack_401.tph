@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/04_me/rod_illusive~ ~override~
 COPY_EXISTING ~ZSIPRIL0.itm~ ~override~
   SAY NAME2 @10110
   SAY IDENTIFIED_DESC @10111
+  WRITE_LONG 0x34 zst_price_rod_illusive
 
 ACTION_IF GAME_IS "bgee eet" AND GAME_INCLUDES "sod" BEGIN
 

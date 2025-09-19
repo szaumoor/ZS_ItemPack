@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/02_souls/spellguard~ ~override~
 COPY_EXISTING ~ZSIPSPG0.ITM~ ~override~
   SAY NAME2 @6120
   SAY IDENTIFIED_DESC @6121
+  WRITE_LONG 0x34 zst_price_spellguard
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 

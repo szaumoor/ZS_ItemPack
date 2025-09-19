@@ -8,10 +8,12 @@ COPY "%MOD_FOLDER%/items/03_nwn/the_left_hand" ~override~
 COPY_EXISTING ~ZSIPLFH0.ITM~ ~override~
   SAY NAME2 @8002
   SAY IDENTIFIED_DESC @8003
+  WRITE_LONG 0x34 zst_price_left_hand_bgee
 
 COPY_EXISTING ~ZSIPLFH1.ITM~ ~override~
   SAY NAME2 @8002
   SAY IDENTIFIED_DESC @80030
+  WRITE_LONG 0x34 zst_price_left_hand_bg2ee
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 

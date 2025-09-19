@@ -11,6 +11,7 @@ COPY_EXISTING ~ZSIPSTM0.ITM~ ~override~
   SAY UNIDENTIFIED_DESC @60201
   SAY IDENTIFIED_DESC @6041
   LPF ALTER_EFFECT INT_VAR match_opcode = 318 match_parameter2 = 0 parameter2 = zs_electric_immunity END
+  WRITE_LONG 0x34 zst_price_storm_monarch
 
 COPY_EXISTING ~AR2101.ARE~ ~override~
   LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 5 charges1=1 STR_VAR item_to_add = ~ZSIPSTM0~ END

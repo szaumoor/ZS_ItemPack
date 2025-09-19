@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/03_nwn/goblinsplitter~ ~override~
 COPY_EXISTING ~ZSIPAXAA.itm~ ~override~
   SAY NAME2 @8019
   SAY IDENTIFIED_DESC @8020
+  WRITE_LONG 0x34 zst_price_goblinsplitter
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 

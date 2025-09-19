@@ -8,10 +8,12 @@ COPY ~%MOD_FOLDER%/items/01_forbidden_game/cruel_sting~ ~override~
 COPY_EXISTING ~ZSIPCST0.itm~ ~override~
   SAY NAME2 @5019
   SAY IDENTIFIED_DESC @5020
+  WRITE_LONG 0x34 zst_price_cruel_sting_bgee
 
 COPY_EXISTING ~ZSIPCST3.itm~ ~override~
   SAY NAME2 @5022
   SAY IDENTIFIED_DESC @5023
+  WRITE_LONG 0x34 zst_price_cruel_sting_bg2ee
 
 COPY_EXISTING ~ZSIPCST2.SPL~ ~override~
   SAY NAME1 @5021

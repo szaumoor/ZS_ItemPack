@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/03_nwn/mercykiller_blade~ ~override~
 COPY_EXISTING ~ZSIPMK0.itm~ ~override~
   SAY NAME2 @8024
   SAY IDENTIFIED_DESC @8025
+  WRITE_LONG 0x34 zst_price_mercykiller_blade
 
 COPY_EXISTING ~WMART2.STO~ ~override~
   LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPMK0" position = "LAST" flags= ~identified~ END

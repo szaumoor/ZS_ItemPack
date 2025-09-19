@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/04_me/omniblade~ ~override~
 COPY_EXISTING ~ZSIPOMN0.itm~ ~override~
     SAY NAME2 @10113
     SAY IDENTIFIED_DESC @10114
+    WRITE_LONG 0x34 zst_price_base_omniblade
 
 COPY_EXISTING ~ZSIPOMN1.itm~ ~override~
     SAY NAME2 @10115

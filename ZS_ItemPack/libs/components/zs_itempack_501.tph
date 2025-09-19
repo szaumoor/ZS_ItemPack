@@ -10,11 +10,12 @@ COPY_EXISTING ~ZSIPNDL0.itm~ ~override~
   SAY NAME2 @12000
   SAY UNIDENTIFIED_DESC @80111
   SAY IDENTIFIED_DESC @12001
+  WRITE_LONG 0x34 zst_price_needle
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
   COPY_EXISTING ~TEM4003.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPNDL0" position = "LAST" END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPNDL0" position = "LAST" flags = ~identified~ END
 
 END
 

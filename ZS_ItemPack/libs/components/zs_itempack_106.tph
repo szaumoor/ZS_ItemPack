@@ -8,11 +8,15 @@ COPY ~%MOD_FOLDER%/items/01_forbidden_game/cold_snap~ ~override~
 COPY_EXISTING ~ZSIPCLS0.ITM~ ~override~
               ~ZSIPCLS2.ITM~ ~override~
     SAY NAME2 @5015
-    SAY IDENTIFIED_DESC @5016
     LPF ALTER_EFFECT INT_VAR match_opcode = 318 match_parameter2 = 0 parameter2 = zs_cold_immunity END
+
+COPY_EXISTING ~ZSIPCLS0.ITM~ ~override~
+    SAY IDENTIFIED_DESC @5016
+    WRITE_LONG 0x34 zst_price_cold_snap_bgee
 
 COPY_EXISTING ~ZSIPCLS2.ITM~ ~override~
     SAY IDENTIFIED_DESC @50161
+    WRITE_LONG 0x34 zst_price_cold_snap_bg2ee
 
 COPY_EXISTING ~ZSIPCLS1.SPL~ ~override~
     LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50160) END
@@ -58,7 +62,7 @@ WITH_SCOPE BEGIN
         PATCH_IF match = 1 BEGIN
             ++matches
         END
-        
+
     BUT_ONLY
     PRINT "Patched %matches% spells that should grant immunity to snap freezing (paralyze)."
 

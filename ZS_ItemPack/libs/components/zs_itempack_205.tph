@@ -9,11 +9,13 @@ COPY_EXISTING ~ZSIPRHR2.itm~ ~override~
   SAY NAME2 @6150
   SAY IDENTIFIED_DESC @6151
   LPF ALTER_EFFECT_EX INT_VAR parameter1=zst_ring_hardiness_dr STR_VAR match_opcode_ex="(o_opcode >= 86 AND o_opcode <= 89)" END
+  WRITE_LONG 0x34 zst_price_ring_hardiness
 
 COPY_EXISTING ~ZSIPRHR3.itm~ ~override~
   SAY NAME2 @6152
   SAY IDENTIFIED_DESC @6153
   LPF ALTER_EFFECT_EX INT_VAR parameter1=zst_ring_hardiness_upgraded_dr STR_VAR match_opcode_ex="(o_opcode >= 86 AND o_opcode <= 89)" END
+  WRITE_LONG 0x34 zst_price_ring_hardiness_upgraded
 
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN

@@ -9,11 +9,13 @@ COPY_EXISTING ~ZSIPSPS0.itm~ ~override~
   SAY NAME2 @5017
   SAY IDENTIFIED_DESC @5018
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50180) END
+  WRITE_LONG 0x34 zst_price_spell_siphon_bgee
 
 COPY_EXISTING ~ZSIPSPS2.itm~ ~override~
   SAY NAME2 @50182
   SAY IDENTIFIED_DESC @50183
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50180) END
+  WRITE_LONG 0x34 zst_price_spell_siphon_bg2ee
 
 COPY_EXISTING ~ZSIPSPS1.SPL~ ~override~
               ~ZSIPSPS3.SPL~ ~override~
@@ -30,5 +32,5 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~RIBALD.STO~ ~override~
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPSPS2" position = "LAST" END
-    
+
 END

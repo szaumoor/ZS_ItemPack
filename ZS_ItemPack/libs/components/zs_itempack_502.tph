@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/05_tv/craven_edge~ ~override~
 COPY_EXISTING ~ZSIPCRV0.itm~ ~override~
   SAY NAME2 @12010
   SAY IDENTIFIED_DESC @12011
+  WRITE_LONG 0x34 zst_price_craven_edge
 
 COPY_EXISTING ~ZSIPCRV4.spl~ ~override~
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@12012) END

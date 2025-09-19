@@ -10,6 +10,7 @@ COPY_EXISTING ~ZSIPSHL0.itm~ ~override~
   SAY NAME2 @15060
   SAY UNIDENTIFIED_DESC @15071
   SAY IDENTIFIED_DESC @15061
+  WRITE_LONG 0x34 zst_price_shining_light_shuriken
 
 COPY_EXISTING ~ribald.sto~ ~override~ // ribald
   LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=80 STR_VAR item_name="ZSIPSHL0" position="LAST" flags=~identified~ END

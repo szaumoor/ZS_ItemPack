@@ -10,6 +10,7 @@ ACTION_IF GAME_IS ~bgee eet~ BEGIN
     COPY_EXISTING ~ZSIPBLT0.itm~ ~override~
         SAY NAME2 @5004
         SAY IDENTIFIED_DESC @5005
+        WRITE_LONG 0x34 zst_price_bloodthirst_bgee
 
     COPY_EXISTING ~ZSIPBLT1.spl~ ~override~
                   ~ZSIPBLT2.spl~ ~override~
@@ -17,7 +18,7 @@ ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
     COPY_EXISTING ~WINSKI2.CRE~ ~override~
         ADD_CRE_ITEM ~ZSIPBLT0~ #0 #0 #0 ~none~ ~inv~
-        
+
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
@@ -25,10 +26,12 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     COPY_EXISTING ~ZSIPBLT3.itm~ ~override~
         SAY NAME2 @50060
         SAY IDENTIFIED_DESC @50061
+        WRITE_LONG 0x34 zst_price_bloodthirst_bg2ee
 
     COPY_EXISTING ~ZSIPBLT6.itm~ ~override~
         SAY NAME2 @50062
         SAY IDENTIFIED_DESC @50063
+        WRITE_LONG 0x34 zst_price_bloodthirst_bg2ee_upgraded
 
     COPY_EXISTING ~ZSIPBLT4.spl~ ~override~
                   ~ZSIPBLT5.spl~ ~override~

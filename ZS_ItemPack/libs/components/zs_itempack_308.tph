@@ -10,6 +10,7 @@ ACTION_IF GAME_IS "bgee eet" BEGIN
   COPY_EXISTING ~ZSIPSL00.itm~ ~override~
     SAY NAME2 @80170
     SAY IDENTIFIED_DESC @80171
+    WRITE_LONG 0x34 zst_price_shining_light_lathander_bgee
 
   COPY_EXISTING ~tem3402.sto~ ~override~
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPSL00" position = "LAST" flags=~identified~ END
@@ -21,10 +22,12 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
   COPY_EXISTING ~ZSIPSL01.itm~ ~override~
     SAY NAME2 @80170
     SAY IDENTIFIED_DESC @80172
+    WRITE_LONG 0x34 zst_price_shining_light_lathander_bg2ee
 
   COPY_EXISTING ~ZSIPSL02.itm~ ~override~
     SAY NAME2 @80170
     SAY IDENTIFIED_DESC @80173
+    WRITE_LONG 0x34 zst_price_shining_light_lathander_bg2ee_upgraded
 
   COPY_EXISTING ~DAWNMAS.sto~ ~override~
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPSL01" position = "LAST" flags=~identified~ END

@@ -9,6 +9,7 @@ COPY_EXISTING ~ZSIPDGRI.itm~ ~override~
   SAY NAME2 @5012
   SAY IDENTIFIED_DESC @5013
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@5014) END
+  WRITE_LONG 0x34 zst_price_ritual_dagger
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
@@ -21,5 +22,5 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~DUECLA01.CRE~ ~override~
     ADD_CRE_ITEM ~ZSIPDGRI~ #3 #0 #0 ~none~ ~inv~
-    
+
 END

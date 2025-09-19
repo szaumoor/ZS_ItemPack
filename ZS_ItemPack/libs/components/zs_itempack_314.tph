@@ -8,6 +8,7 @@ COPY ~%MOD_FOLDER%/items/03_nwn/arrows_vampire~ ~override~
 COPY_EXISTING ~ZSIPAVP0.ITM~ ~override~
     SAY NAME2 @15100
     SAY IDENTIFIED_DESC @15101
+    WRITE_LONG 0x34 zst_price_arrows_vampire
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 

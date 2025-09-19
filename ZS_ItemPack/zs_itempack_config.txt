@@ -1,75 +1,94 @@
-// set to 1 if you prefer the Harp Bow to be a long bow, since bards are not restricted to short bows like thieves
-OUTER_SET zst_harpbow_longbow = "0"
+//// CONFIGURATION OPTIONS \\\\
 
-// set to 0 if you'd rather not have generic variants of the new weapon types distributed to stores when a weapon of that type is installed (up to +1 in BGEE, +2 in BG2EE, +3 in ToB)
+
+// ITEM DISTRIBUTION \\
+
+// set to 0 if you'd rather not have generic variants of the new weapon types distributed to stores when a weapon of that type is installed (up to +2 in BGEE, +3 in BG2EE)
 OUTER_SET zst_generic_variants = "1"
-
-// include shurikens of enchantment level of 4 and 5 into the game (generic variants)
-OUTER_SET zst_include_shuriken4 = "1"
-OUTER_SET zst_include_shuriken5 = "1"
 
 // these options grant (without replacement) these items to these characters (base character), if the weapons exist
 OUTER_SET zst_give_nalia_soa_rapier0 = "1"
 OUTER_SET zst_give_skie_bgee_rapier1 = "1"
 
-/*
-//// PRICE SETTING \\\\
+// END OF ITEM DISTRIBUTION \\
+
+
+// PRICE SETTING \\
+// The defaults are an attempt to minimize destroying the economy with a lot of expensive lootable stuff, but with fair prices in buy-only options
 
 // Forbidden-game
-OUTER_SET zst_price_assassins_touch                 = //
-OUTER_SET zst_price_bloodthirst                     = //
-OUTER_SET zst_price_bloodthirst_upgraded            = //
-OUTER_SET zst_price_cold_snap                       = //
-OUTER_SET zst_price_blade_crimson_mischief          = //
-OUTER_SET zst_price_blade_crimson_mischief_upgraded = //
-OUTER_SET zst_price_blade_cruel_sting               = //
-OUTER_SET zst_price_deathstalker_mantle             = //
-OUTER_SET zst_price_everburn_blade                  = //
-OUTER_SET zst_price_judgment                        = //
-OUTER_SET zst_price_ritual_dagger                   = //
-OUTER_SET zst_price_spell_siphon                    = //
+OUTER_SET zst_price_assassins_touch_bgee       = "900"   // in stores
+OUTER_SET zst_price_assassins_touch_bg2ee      = "1500"  // in stores
+OUTER_SET zst_price_bloodthirst_bgee           = "4500"  // as loot
+OUTER_SET zst_price_bloodthirst_bg2ee          = "6000"  // as loot
+OUTER_SET zst_price_bloodthirst_bg2ee_upgraded = "7500"  // as loot
+OUTER_SET zst_price_cold_snap_bgee             = "2500"  // in stores
+OUTER_SET zst_price_cold_snap_bg2ee            = "3250"  // in stores
+OUTER_SET zst_price_crimson_mischief           = "6000"  // as loot
+OUTER_SET zst_price_crimson_mischief_upgraded  = "8000"  // as loot
+OUTER_SET zst_price_cruel_sting_bgee           = "2500"  // as loot
+OUTER_SET zst_price_cruel_sting_bg2ee          = "3000"  // as loot
+OUTER_SET zst_price_deathstalker_mantle        = "500"  // as loot
+OUTER_SET zst_price_everburn_blade             = "750"   // as loot
+OUTER_SET zst_price_judgment                   = "30000" // in stores
+OUTER_SET zst_price_ritual_dagger              = "350"   // as loot
+OUTER_SET zst_price_spell_siphon_bgee          = "2500"  // in stores
+OUTER_SET zst_price_spell_siphon_bg2ee         = "3000"  // in stores
 
 // Souls-games
-OUTER_SET zst_price_blade_calling           = //
-OUTER_SET zst_price_bloody_sting            = //
-OUTER_SET zst_price_bloody_sting_upgraded   = //
-OUTER_SET zst_price_crimson_life            = //
-OUTER_SET zst_price_harp_bow                = //
-OUTER_SET zst_price_hawk_ring               = //
-OUTER_SET zst_price_icicle                  = //
-OUTER_SET zst_price_moonlit_slumber         = //
-OUTER_SET zst_price_periapt_renewal         = //
-OUTER_SET zst_price_ring_hardiness          = //
-OUTER_SET zst_price_ring_hardiness_upgraded = //
-OUTER_SET zst_price_sage_ring               = //
-OUTER_SET zst_price_spellguard              = //
-OUTER_SET zst_price_storm_monarch           = //
-OUTER_SET zst_price_stygian_fury            = //
-OUTER_SET zst_price_stygian_upgraded        = //
+OUTER_SET zst_price_blade_calling           = "6500" // in quest
+OUTER_SET zst_price_bloody_sting            = "6000" // as loot
+OUTER_SET zst_price_bloody_sting_upgraded   = "7500" // as loot
+OUTER_SET zst_price_crimson_life            = "2900" // in stores
+OUTER_SET zst_price_harp_bow_bgee           = "950"  // in stores
+OUTER_SET zst_price_harp_bow_bg2ee          = "1350" // in stores
+OUTER_SET zst_price_hawk_ring               = "1500" // in stores
+OUTER_SET zst_price_icicle                  = "6000" // as loot
+OUTER_SET zst_price_moonlit_slumber         = "7800" // in stores
+OUTER_SET zst_price_periapt_renewal         = "1250" // in stores
+OUTER_SET zst_price_ring_hardiness          = "500"  // as loot
+OUTER_SET zst_price_ring_hardiness_upgraded = "750"  // as loot
+OUTER_SET zst_price_sage_ring               = "1000" // as loot
+OUTER_SET zst_price_spellguard              = "3750" // in stores
+OUTER_SET zst_price_storm_monarch           = "6500" // as loot
+OUTER_SET zst_price_stygian_fury            = "5000" // as loot
+OUTER_SET zst_price_stygian_upgraded        = "6500" // as loot
 
-// NWN
-OUTER_SET zst_price_arrows_vampire                   = "12"
-OUTER_SET zst_price_goblinsplitter                   = //
-OUTER_SET zst_price_kukri_eclipse                    = //
-OUTER_SET zst_price_kukri_eclipse_upgraded           = //
-OUTER_SET zst_price_lawgiver                         = //
-OUTER_SET zst_price_master_li_way                    = //
-OUTER_SET zst_price_mercykiller_blade                = //
-OUTER_SET zst_price_rashemi_blade                    = //
-OUTER_SET zst_price_shining_light_shuriken           = //
-OUTER_SET zst_price_shining_light_lathander          = //
-OUTER_SET zst_price_shining_light_lathander_upgraded = //
-OUTER_SET zst_price_left_hand                        = //
+// NWN / NWN2
+OUTER_SET zst_price_arrows_vampire                         = "13"    // in stores
+OUTER_SET zst_price_goblinsplitter                         = "150"   // as loot
+OUTER_SET zst_price_kukri_eclipse                          = "5500"  // as loot
+OUTER_SET zst_price_kukri_eclipse_upgraded                 = "6500"  // as loot
+OUTER_SET zst_price_lawgiver                               = "2000"  // in stores / as loot in bgee
+OUTER_SET zst_price_master_li_way                          = "6500"  // in stores
+OUTER_SET zst_price_mercykiller_blade                      = "20000" // in stores
+OUTER_SET zst_price_rashemi_blade_bgee                     = "1000"  // as loot
+OUTER_SET zst_price_rashemi_blade_b2gee                    = "1500"  // as loot
+OUTER_SET zst_price_shining_light_shuriken                 = "200"   // in stores
+OUTER_SET zst_price_shining_light_lathander_bgee           = "5000"  // in stores
+OUTER_SET zst_price_shining_light_lathander_bg2ee          = "7000"  // in stores
+OUTER_SET zst_price_shining_light_lathander_bg2ee_upgraded = "8000"  // in stores
+OUTER_SET zst_price_left_hand_bgee                         = "750"   // in stores
+OUTER_SET zst_price_left_hand_bg2ee                        = "1250"  // in stores
 
 // Mass Effect
-OUTER_SET zst_price_omniblade      = //
-OUTER_SET zst_price_phantoms_blade = //
-OUTER_SET zst_price_rod_illusive   = //
+OUTER_SET zst_price_base_omniblade = "1000" // in stores (bgee) / as loot (bg2ee)
+OUTER_SET zst_price_phantoms_blade = "7500" // as loot
+OUTER_SET zst_price_rod_illusive   = "8000" // in stores
 
 // TV
-OUTER_SET zst_price_craven_edge = //
-OUTER_SET zst_price_needle      = //
-*/
+OUTER_SET zst_price_craven_edge = "7000" // as loot
+OUTER_SET zst_price_needle      = "750"  // in stores (bgee) / in loot bg2ee
 
+// END OF PRICE VARIABLES \\
+
+// TWEAKS TO SPECIFIC ITEMS \\
+
+// damage resistance for Ring of Hardiness
 OUTER_SET zst_ring_hardiness_dr          = "5"
 OUTER_SET zst_ring_hardiness_upgraded_dr = "6"
+
+// set to 1 if you prefer the Harp Bow to be a long bow, since bards are not restricted to short bows like thieves
+OUTER_SET zst_harpbow_longbow = "0"
+
+// END TWEAKS TO SPECIFIC ITEMS \\
