@@ -1,6 +1,6 @@
 # RoyalProtector's Item Pack
 
-This mod is a collection of items adapted or inspired from other games into the Infinity Engine. Not all items are ported with their original mechanics for several reasons:
+This mod is a collection of items adapted or inspired from other games or media into the Infinity Engine. Not all items are ported with their original mechanics for several reasons:
 
 - The Infinity Engine may not support certain mechanics from the original games.
 - Some original effects are too generic or repetitive, so I avoid duplicating them across multiple items.
