@@ -19,10 +19,10 @@ Every one of the items is optional. You choose what you want in the game. Curren
 - A **Forbidden Game** which shall not be named
 - **Elden Ring**
 - **Dark Souls / Bloodborne**
-- Neverwinter Night 1/2
-- Mass Effect (yes, you read that right)
-- Game of Thrones
-- The Legend of Vox Machina (Critical Role)
+- **Neverwinter Nights** 1/2
+- **Mass Effect** (yes, you read that right)
+- **Game of Thrones**
+- **The Legend of Vox Machina** (Critical Role)
 
 There are still around 20–30 items that I plan to add but removed them to accelerate the release of the mod. They will be added in future updates. The following settings are also planned but not yet implemented:
 
