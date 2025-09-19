@@ -16,7 +16,6 @@ ACTION_IF GAME_IS "bgee eet" BEGIN
 
 END
 
-
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~SHOP05.STO~ ~override~
