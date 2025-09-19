@@ -52,6 +52,10 @@ This adds a new cool cloak for assassins and other stabby-stabby characters. Onc
 
 <summary><b> Souls inspired </b></summary>
 
+**Component 205:** Add Ring of Hardiness (Dark Souls - Ring of Steel Protection; ring)
+
+This adds a new ring that increases slightly physical damage resistance and Armor Class. Available for BG2EE, where it can be upgraded by Cromwell, and BGEE.
+
 **Component 211:** Add Sage Ring (Dark Souls 3 - Sage Ring; ring)
 
 This will add a nifty new ring that casters of all kinds can use to improve casting speed by 1 and casting level by 2. Applies to arcane and divine magic. Available for BG2EE and BGEE.
