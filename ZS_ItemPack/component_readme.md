@@ -58,7 +58,7 @@ This adds a new ring that increases slightly physical damage resistance and Armo
 
 **Component 211:** Add Sage Ring (Dark Souls 3 - Sage Ring; ring)
 
-This will add a nifty new ring that casters of all kinds can use to improve casting speed by 1 and casting level by 2. Applies to arcane and divine magic. Available for BG2EE and BGEE.
+This will add a nifty new ring that casters of all kinds can use to improve casting speed and level by 1. Applies to arcane and divine magic. Available for BG2EE and BGEE.
 
 **Component 213:** Add Hawk Ring (Dark Souls 3 - Hawk Ring; ring)
 
@@ -126,7 +126,7 @@ This adds a new +4 kukri that deals negative energy damage, which cannot be resi
 
 **Component 307:** Add Blade of the Rashemi (Blade of the Rashemi; two-handed sword)
 
-This adds a +1 two-handed sword that protects the wielder from magic, causes 10% spell cast failure on hit for 5/2 rounds, with a chance of causing casters to reduce their casting speed by a factor of 2. Deals 1d12+1 damage, and acts as a +2 weapon in every sense (including THAC0 and Damage) if a berserker, barbarian, or Minsc is wielding it. In BG2EE, it is a +2 weapon as base. Available for BGEE and BG2EE.
+This adds a +1 two-handed sword that protects the wielder from magic, causes 10% spell cast failure on hit for 5/2 rounds, with a chance of causing casters to reduce their casting speed by a factor of 2. Deals 1d12+1 damage, and acts as a +2 weapon in every sense (including THAC0 and Damage) if a berserker, barbarian, or Minsc is wielding it (small issue, if Minsc spawns with the sword in hand, equip it again on him to get the extra benefit). In BG2EE, it is a +2 weapon as base. Available for BGEE and BG2EE.
 
 **Component 308:** Add Shining Light of Lathander (Shining Light of Lathander; two-handed sword)
 

@@ -1,4 +1,4 @@
-ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
+ACTION_IF zst_generic_variants AND zst_generic_variants_rapiers AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
 
     COPY ~%MOD_FOLDER%/items/generic/rapier~ ~override~
     COPY_EXISTING ~ZSIPRAP0.ITM~ ~override~
@@ -38,7 +38,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~FRIEND.STO~   ~override~ // friendly arm inn
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
             SET amount = RANDOM(1 5)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPRAP0" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="ZSIPRAP0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +1
@@ -48,19 +48,20 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~STO4907.STO~  ~override~ // carnival shop
                       ~TAERUM.STO~   ~override~ // thunderhammer's smithy
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP1" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPRAP1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         ACTION_IF zst_give_skie_bgee_rapier1 BEGIN
             // skie uses a rapier now, since it's a noble weapon
             COPY_EXISTING ~SKIE.CRE~ ~override~
+                          ~SKIE6.CRE~ ~override~
                 ADD_CRE_ITEM ~ZSIPRAP1~ #0 #0 #0 ~none~ ~weapon2~ EQUIP // CHECK COMPATIBILITY WITH LAVA'S MOD
         END
 
         // +2
         COPY_EXISTING ~STO0703.STO~  ~override~ // sorcerous sundries
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP2" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPRAP2" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
     END
 
@@ -89,7 +90,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~uddrow22.sto~  ~override~ // drow merchant
                       ~uddrow23.sto~  ~override~ // drow merchant
             SET amount = RANDOM(1 5)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPRAP0" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="ZSIPRAP0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         ACTION_IF zst_give_nalia_soa_rapier0 BEGIN
@@ -120,7 +121,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~uddrow23.sto~  ~override~ // drow merchant
                       ~ribald.sto~    ~override~ // ribald
                       ~ribald2.sto~   ~override~ // ribald
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP1" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPRAP1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +2
@@ -132,7 +133,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~ribald3.sto~   ~override~ // ribald
                       ~hgkar01.sto~   ~override~ // karthis
                       ~sarbar01.sto~  ~override~ // saradush bar
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP2" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPRAP2" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
          // +3
@@ -141,7 +142,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPRAP0.ITM~ BEGIN
                       ~hgkar01.sto~   ~override~ // karthis
                       ~sarbar01.sto~  ~override~ // saradush bar
                       ~ohnsdwm.sto~   ~override~ // merchant
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPRAP3" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPRAP3" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
     END

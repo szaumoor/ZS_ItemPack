@@ -1,4 +1,4 @@
-ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
+ACTION_IF zst_generic_variants AND zst_generic_variants_kukris AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
 
     COPY ~%MOD_FOLDER%/items/generic/kukri~ ~override~
     COPY_EXISTING ~ZSIPKUK0.ITM~ ~override~
@@ -38,7 +38,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~FRIEND.STO~   ~override~ // friendly arm inn
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
             SET amount = RANDOM(2 7)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPKUK0" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="ZSIPKUK0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +1
@@ -49,13 +49,13 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~TAERUM.STO~   ~override~ // thunderhammer's smithy
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
             SET amount = RANDOM(1 2)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPKUK1" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="ZSIPKUK1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +2
         COPY_EXISTING ~STO0703.STO~  ~override~ // sorcerous sundries
                       ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPKUK2" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPKUK2" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
     END
@@ -84,7 +84,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~uddrow22.sto~  ~override~ // drow merchant
                       ~uddrow23.sto~  ~override~ // drow merchant
             SET amount = RANDOM(1 5)
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=amount STR_VAR item_name="ZSIPKUK0" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="ZSIPKUK0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         COPY_EXISTING ~ARLED.STO~     ~override~ // ARLED
@@ -105,7 +105,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~uddrow23.sto~  ~override~ // drow merchant
                       ~ribald.sto~    ~override~ // ribald
                       ~ribald2.sto~   ~override~ // ribald
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPKUK1" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPKUK1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
          // +2
@@ -117,7 +117,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~ribald3.sto~   ~override~ // ribald
                       ~hgkar01.sto~   ~override~ // karthis
                       ~sarbar01.sto~  ~override~ // saradush bar
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPKUK2" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPKUK2" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
          // +3
@@ -126,7 +126,7 @@ ACTION_IF zst_generic_variants AND NOT FILE_EXISTS_IN_GAME ~ZSIPKUK0.ITM~ BEGIN
                       ~hgkar01.sto~   ~override~ // karthis
                       ~sarbar01.sto~  ~override~ // saradush bar
                       ~ohnsdwm.sto~   ~override~ // merchant
-            LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="ZSIPKUK3" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPKUK3" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
     END

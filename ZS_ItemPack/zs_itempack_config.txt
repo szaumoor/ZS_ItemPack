@@ -1,10 +1,16 @@
 //// CONFIGURATION OPTIONS \\\\
 
-
 // ITEM DISTRIBUTION \\
 
 // set to 0 if you'd rather not have generic variants of the new weapon types distributed to stores when a weapon of that type is installed (up to +2 in BGEE, +3 in BG2EE)
-OUTER_SET zst_generic_variants = "1"
+OUTER_SET zst_generic_variants           = "1"
+OUTER_SET zst_generic_variants_kukris    = "1"
+OUTER_SET zst_generic_variants_rapiers   = "1"
+OUTER_SET zst_generic_variants_estocs    = "1"
+OUTER_SET zst_generic_variants_shurikens = "1"
+
+// set to 1 is you want generic estocs, shurikens, rapiers, and kukris injected into the world regardless of whether a special item of that type is installed (currently +0 - +3 variants as well as shurikens that add poison, acid, and bleed damage). Most relevant for BGEE because only one special rapier is available for bgee
+OUTER_SET zst_generic_variants_forced = "1"
 
 // these options grant (without replacement) these items to these characters (base character), if the weapons exist
 OUTER_SET zst_give_nalia_soa_rapier0 = "1"
@@ -44,7 +50,7 @@ OUTER_SET zst_price_harp_bow_bgee           = "950"  // in stores
 OUTER_SET zst_price_harp_bow_bg2ee          = "1350" // in stores
 OUTER_SET zst_price_hawk_ring               = "1500" // in stores
 OUTER_SET zst_price_icicle                  = "6000" // as loot
-OUTER_SET zst_price_moonlit_slumber         = "7800" // in stores
+OUTER_SET zst_price_moonlit_slumber         = "6500" // in stores
 OUTER_SET zst_price_periapt_renewal         = "1250" // in stores
 OUTER_SET zst_price_ring_hardiness          = "500"  // as loot
 OUTER_SET zst_price_ring_hardiness_upgraded = "750"  // as loot
