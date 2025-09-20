@@ -70,7 +70,7 @@ This adds a small quest to BG2EE that allows you to get a new +3 dagger that dea
 
 **Component 215:** Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)
 
-This adds a new +2 long sword which is themed around sleep and dreams. It has a chance to put targets to sleep, as well as releasing an 5-round soporific mist that puts targets to sleep for 3 rounds. Available for BG2EE and BGEE.
+This adds a new +2 long sword which is themed around sleep and dreams. It has a chance to put targets to sleep, and has a charge ability to release a 5-round soporific mist that puts targets to sleep for 3 rounds. Available for BG2EE and BGEE.
 
 **Component 216:** Add Icicle (Elden Ring - Frozen Needle; rapier)
 
