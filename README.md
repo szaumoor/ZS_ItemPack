@@ -39,18 +39,18 @@ These are the base characteristics of the new weapon types compared to others in
 
 - **Estoc**: Estocs are large, two-handed thrusting swords that use the two-handed sword animation. They deal 1d8+1 piercing damage, have a base speed factor of 6, and require both hands to wield. Estocs use the long sword proficiency and have an innate 5% higher chance to score a critical hit. Their attack animations primarily feature thrusting (poke) motions.
 - **Kukri**: Kukris are for all intents and purposes considered daggers, but they are one point slower as far as speed factor goes, but critically hit 5% more often.
-- **Rapier**: Rapiers are light, thrusting swords that use the short sword animation. They deal 1d6 piercing damage, have a base speed factor of 4, and use the short sword proficiency. Rapiers have a 5% higher chance to score a critical hit compared to standard short swords, and their attack animations emphasize thrusting motions.
+- **Rapier**: Rapiers are light, thrusting swords that use the long sword animation. They deal 1d6 piercing damage, have a base speed factor of 4, and use the short sword proficiency. Rapiers have a 5% higher chance to score a critical hit compared to standard short swords, and their attack animations emphasize thrusting motions.
 - **Shuriken**: Shuriken are essentially darts that deal 1d2 missile but critically hit 10% more often and have a better speed factor. They are more expensive. A variety of shurikens are introduced in the pack including: poison and acid variants, and one that causes bleeding with a small chance of causing a sudden blood loss effect (-10% HP). Generic shurikens are not included for now, as I lack the icons for them, but will add them in future releases.
 
 ## Compatibility and Installation order
 
 This mod should be installed after all other mods that add new creatures to the game, and to be extra safe, after all mods that add new items to the game. Currently, though, it only matters when and if you install Cold Snap, due to a technical detail of how the item is implemented, specifically, it tries to find items that provide immunity to paralysis. If you're confident that's not a problem, you can install it any order with respect to other item packs.
 
-It should be installed before mods that add new kits, as some kits (like my shadowdancer kit) will patch items in this pack, as well as any and all mods that modify items (such as my other mod ZSTweaks).
+It should be installed before mods that add new kits, or at least my Shadowdancer Overhaul mod, since it will patch a few things in this pack, as well as any and all mods that modify items (such as my other mod ZSTweaks).
 
 **WARNING**: If you use EET, I don't recommend you use a mod that transports your equipment from BGEE to BG2EE. I only know of the one that Roxanne made (but you should not use anything they make without a very good reason), but the consequence of this will be that most items will be duplicated. You will find the same items again, or the same weapon but with a higher enchantment level. The mod is not sophisticated enough to handle this possibility, nor do I know how to do it (if it's even possible), and I have very little interest in adding that in.
 
-Also do not that using a mod skip Irenicus' dungeon will prevent you from getting some of the weapons placed there. Consult the spoiler locations file for more information.
+Also do know that using a mod skip Irenicus' dungeon will prevent you from getting some of the weapons placed there. These include Goblinsplitter, Ritual Dagger, Ring of Hardiness, Everburn Blade, Omniblade, and Deathstalker Mantle.
 
 ## User feedback and how to contribute
 
