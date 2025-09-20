@@ -98,7 +98,7 @@ This adds a new +3 estoc inspired by a certain lord of blood, that has a chance 
 
 **Component 228:** Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)
 
-This adds a new +3 estoc that deals lightning damage, which increases the movement speed of the wielder, and allows the user to use the ability 'Blinkbolt' twice per day, teleporting to a target, and dealing significant electric damage to it and enemies around, while buffing the wielder briefly. Available for BG2EE.
+This adds a new +3 estoc that deals lightning damage, increases the movement speed of the wielder, and allows the user to use the ability 'Blinkbolt' twice per day, teleporting to a target, and dealing significant electric damage to it and enemies around, while buffing the wielder briefly. Available for BG2EE.
 
 </details>
 
