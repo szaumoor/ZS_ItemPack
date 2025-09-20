@@ -78,7 +78,7 @@ This adds a new +4 rapier that deals piercing and cold damage, and has a mode wh
 
 **Component 217:** Add Stygian Fury (Elden Ring - Rivers of Blood; katana)
 
-This adds a new +3 katana that deals slashing and fire damage, and has a chance to poison on contact, which can make targets suffer a slight case of blood boil if they're poisoned too quickly. Available for BG2EE and Cespenar can upgrade it to +5.
+This adds a new +3 katana that deals extra fire damage, and has a chance to poison on contact, which can make targets suffer a slight case of blood boil if they're poisoned consecutively three times. Available for BG2EE and Cespenar can upgrade it to +5.
 
 **Component 220:** Add Harp Bow (Elden Ring - Harp Bow; shortbow)
 
