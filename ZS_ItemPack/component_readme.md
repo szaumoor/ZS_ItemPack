@@ -66,7 +66,7 @@ This will add a new ring that increases slightly movement speed, and ranged THAC
 
 **Component 214:** Add Blade of Calling (Elden Ring; dagger)
 
-This adds a small quest to BG2EE that allows you to get a new +3 dagger that deals extra damage vs. undead and can hit any undead, no matter their natural immunities to weapons are. It can also shoot a blade of gold that deals heavy damage to undead, especially. Available for BG2EE.
+This adds a small quest to BG2EE that allows you to get a new +3 dagger that deals extra damage vs. undead and can hit any undead, no matter their natural immunities to weapons are. It can also shoot a blade of gold that empowers the blade for 1 turn, and deals heavy damage to undead, especially. Available for BG2EE.
 
 **Component 215:** Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)
 
