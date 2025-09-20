@@ -82,7 +82,7 @@ This adds a new +3 katana that deals extra fire damage, and has a chance to pois
 
 **Component 220:** Add Harp Bow (Elden Ring - Harp Bow; shortbow)
 
-This adds a new +1 shortbow that is more effective when wielded by bards, and has a 15% chance of releasing a tune when shooting, which provides a minor bard song buff to the whole party for 2 rounds (it stacks with other songs). The configuration file may be used to turn it into a longbow, if desired. In BG2EE, it is a +2 weapon. Available for BG2EE and BGEE.
+This adds a new +1 shortbow that is more effective when wielded by bards, and has a 5% chance of releasing a tune when shooting (triple change for bards), which provides a minor bard song buff to the whole party for 2 rounds (it stacks with other songs). The configuration file may be used to turn it into a longbow, if desired, since bards can use longbows. In BG2EE, it is a +2 weapon. Available for BG2EE and BGEE.
 
 **Component 222:** Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)
 
