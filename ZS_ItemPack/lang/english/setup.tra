@@ -54,12 +54,12 @@
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
-@5002 = ~Silent, somewhat translucent flames surge the length of the blade as soon as it clears the scabbard. This two-handed sword is a common weapon for servants of fiends involved in the eternal Blood War. How it ended up here is anyone's guess.
+@5002 = ~Silent, semi-translucent flames surge the length of the blade as it clears its scabbard. This two-handed sword is a common weapon for servants of devils involved in the eternal Blood War, harnessing the flames of the Nine Hells with such potency that it can burn through even the most resistant of foe. How it ended up here is anyone's guess, but having such a weapon in one's possession in undoubtedly a dangerous affair.
 
 STATISTICS:
 
 Equipped abilities:
-– +2 Armor class vs. demonic enemies
+– +2 Armor Class vs. demonic enemies
 
 Combat abilities:
 – Can strike demonic enemies that are normally immune to +2 weapons, but hits as a +2 weapon against them
@@ -80,13 +80,13 @@ Weight: 12~
 @5003 = ~Takes %p1% irresistible fire damage~
 
 @5004 = ~Bloodthirst +3~
-@5005 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
+@5005 = ~Before the Lord of Murder laid his claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that proceeded. Only those of dark hearts may wield this blade.
 
 STATISTICS:
 
 Equipped abilities:
 – Armor Class: +1
-– Critical chances while holding this weapon increase by 5%
+– Critical chance while holding this weapon increases by 5%
 
 Combat abilities:
 – Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
@@ -104,13 +104,13 @@ Requires:
 Weight: 1~
 
 @50060 = ~Bloodthirst +4~
-@50061 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
+@50061 = ~Before the Lord of Murder laid his claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that proceeded. Only those of dark hearts may wield this blade.
 
 STATISTICS:
 
 Equipped abilities:
 – Armor Class: +1
-– Critical chances while holding this weapon increase by 5%
+– Critical chance while holding this weapon increases by 5%
 
 Combat abilities:
 – Hits with this weapon inflict a -20% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
@@ -129,15 +129,15 @@ Weight: 1~
 
 
 @50062 = ~Bloodthirst +6~
-@50063 = ~The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped–and became sharp. Only those of dark hearts may use this blade.
+@50063 = ~Before the Lord of Murder laid his claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that proceeded. Only those of dark hearts may wield this blade.
 
-Now upgraded by Cespenar, this weapon is truly an instrument of bloody carnage.
+Now upgraded by Cespenar, former butler of Bhaal himself, this weapon is truly an instrument of bloody carnage.
 
 STATISTICS:
 
 Equipped abilities:
 – Armor Class: +2
-– Critical chances while holding this weapon increase by 5%
+– Critical chance while holding this weapon increases by 5%
 
 Combat abilities:
 – Hits with this weapon inflict a -25% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
@@ -156,7 +156,7 @@ Weight: 1~
 
 
 @5007 = ~Crimson Mischief +3~
-@5008 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the weaker the target is, seemingly pushing itself more forcefully into the bodies of its victims, causing horrific damage. Because of this, only those with an unsavory moral compass may use it.
+@5008 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the closer to death the target is, the weapon seemingly slashing harder, thrusting ever more eagerly, as though it has a mind of its own and seeks only to kill. Because of this, only those with an unsavory moral compass may use it.
 
 STATISTICS:
 
@@ -183,7 +183,7 @@ Weight: 3~
 @5009 = ~Weak spot hit: -20% of Hit Points lost~
 
 @50090 = ~Crimson Mischief +5~
-@50091 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the weaker the target is, seemingly pushing itself more forcefully into the bodies of its victims, causing horrific damage. Because of this, only those with an unsavory moral compass may use it.
+@50091 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the closer to death the target is, the weapon seemingly slashing harder, thrusting ever more eagerly, as though it has a mind of its own and seeks only to kill. Because of this, only those with an unsavory moral compass may use it.
 
 Now upgraded by Cespenar, this weapon is one of the deadliest weapons any assassin could hope to wield.
 
@@ -212,7 +212,7 @@ Weight: 3~
 @50092 = ~Takes %p1% negative energy damage~
 
 @5010 = ~Assassin's Touch +1~
-@5011 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. Its enchantments favor those skilled in the art of thievery, particularly assassins, making it especially deadly against sleeping or incapacitated targets.
+@5011 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. When a well-aimed strike is landed against a foe rendered incapacitated against its deadly touch, it instills a deep chill within the victim's body, causing them immeasurable pain without the means to scream. Its enchantments favor those with a deft touch, and a skilled assassin makes the full extent of its magical capabilities clear to bare.
 
 STATISTICS:
 
@@ -236,7 +236,7 @@ Weight: 1~
 
 // +2 version in BG2EE
 @50110 = ~Assassin's Touch +2~
-@50111 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. Its enchantments favor those skilled in the art of thievery, particularly assassins, making it especially deadly against sleeping or incapacitated targets.
+@50111 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. When a well-aimed strike is landed against a foe rendered incapacitated against its deadly touch, it instills a deep chill within the victim's body, causing them immeasurable pain without the means to scream. Its enchantments favor those with a deft touch, and a skilled assassin makes the full extent of its magical capabilities clear to bare.
 
 STATISTICS:
 
