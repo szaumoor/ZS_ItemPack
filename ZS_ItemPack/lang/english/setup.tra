@@ -218,7 +218,7 @@ STATISTICS:
 
 Equipped abilities:
 – +10% bonus to Hide in Shadows and Move Silently
-– Damage and THACO: +1 (thieves), +2 (assassins)
+– Damage and THAC0: +1 (thieves), +2 (assassins)
 
 Combat abilities:
 – Helpless enemies take 1d8 extra piercing and cold damage every hit
@@ -242,7 +242,7 @@ STATISTICS:
 
 Equipped abilities:
 – +15% bonus to Hide in Shadows and Move Silently
-– Damage and THACO: +1 (thieves), +2 (assassins)
+– Damage and THAC0: +1 (thieves), +2 (assassins)
 
 Combat abilities:
 – Helpless enemies take 1d8 extra piercing and cold damage every hit
@@ -1186,8 +1186,7 @@ Combat abilities:
 – Becomes a +2 weapon when held by a barbarian, berserker, or Rashemi warrior
 
 THAC0: +1
-Damage: 1d12+1
-Damage type: Slashing
+Damage: 1d12+1 (slashing)
 Speed Factor: 9
 Proficiency Type: Two-handed Sword
 Type: Two-handed
@@ -1210,8 +1209,7 @@ Combat abilities:
 – Becomes a +3 weapon when held by a barbarian, berserker, or Rashemi warrior
 
 THAC0: +2
-Damage: 1d12+2
-Damage type: Slashing
+Damage: 1d12+2 (slashing)
 Speed Factor: 8
 Proficiency Type: Two-handed Sword
 Type: Two-handed
