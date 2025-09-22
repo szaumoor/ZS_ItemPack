@@ -70,6 +70,7 @@ OUTER_SET zst_price_master_li_way                          = "6500"  // in store
 OUTER_SET zst_price_mercykiller_blade                      = "20000" // in stores
 OUTER_SET zst_price_rashemi_blade_bgee                     = "1000"  // as loot
 OUTER_SET zst_price_rashemi_blade_bg2ee                    = "1500"  // as loot
+OUTER_SET zst_price_forge_fire                             = "4000"  // store
 OUTER_SET zst_price_shining_light_shuriken                 = "200"   // in stores
 OUTER_SET zst_price_shining_light_lathander_bgee           = "5000"  // in stores
 OUTER_SET zst_price_shining_light_lathander_bg2ee          = "7000"  // in stores

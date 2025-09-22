@@ -140,6 +140,10 @@ This adds a +0 axe that deals extra damage to all goblinoids and acts as +2 agai
 
 This adds a new +3 rapier that deals +1 fire damage, and 1d4+2 to targets that are evil. Available for BG2EE.
 
+**Component 311:** Add Forge Fire (Forge Fire; warhammer)
+
+This adds a new +2 warhammer similar to Ashideena that deals +1d3 fire damage on hit, and was canonically in NWN built by Thalantyr. Available for BG2EE and, of course, BGEE.
+
 **Component 313:** Add Shining Light (Shining Light; dart / shuriken)
 
 This adds a new +4 shuriken in limited quantities (as per the lore in the description) that are expensive but have a high chance of stunning for 1 round and blinding for 1 turn. Available for BG2EE.

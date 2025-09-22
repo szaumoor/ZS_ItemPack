@@ -41,6 +41,7 @@
 @308 = ~Add Shining Light of Lathander (Shining Light of Lathander; two-handed sword)~
 @309 = ~Add Goblinsplitter (Goblinsplitter; axe)~
 @311 = ~Add Mercykiller Blade (Mercykiller Blade; rapier)~
+@312 = ~Add Forgefire (Forgefire; warhammer)~
 @313 = ~Add Shining Light (Shining Light; dart / shuriken)~
 @314 = ~Add Arrows of the Vampire (Arrow of the Vampire; arrow)~
 
@@ -1345,6 +1346,22 @@ Requires:
  14 Dexterity
 
 Weight: 2~
+
+@8050 = ~Forge Fire~
+@8051 = ~A legacy that Thalantyr the Conjurer has said he would prefer to forget, these weapons are tied to his early adventuring career and a time when he was held captive by a mysterious powerful creature. He has refused to say how the weapons have retained the heat of he forge they were crafted in, usually ending such inquiries with a frustrated "pray you never find out."
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d4+3, +1d3 fire damage
+Damage type: Crushing
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+9 Strength
+
+Weight: 6~
 
 @15060 = ~Shining Light~
 @15061 = ~Years ago, Vilaneux of the Iron Order was lost to a hurricane and stranded in then-unknown Kara-Tur. He and his full plate armor were an oddity to the locals, but he soon proved his commitment to justice. He became so respected that, when he died, his armor was cut into these Shining Light weapons in tribute.
