@@ -915,6 +915,8 @@ Requires:
 
 Weight: 1~
 
+@6165 = ~Slain by Light of the Calling~
+
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~
 @8001 = ~The bane of the chaotic or morally suspect, a Lawgiver blade has but one purpose: to enforce the rule of law wherever that authority is challenged or questioned. Whether or not the concept of "law" coincides with the concept of "justice" is largely irrelevant, as the owners of these weapons often view the world in a very polarized fashion. There is right and there is wrong, and other details only serve to confuse the matter.
