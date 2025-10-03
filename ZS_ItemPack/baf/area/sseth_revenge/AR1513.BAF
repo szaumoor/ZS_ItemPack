@@ -1,0 +1,6 @@
+IF Global("ZSIP_SilentSerpentSpawned","GLOBAL",0) THEN
+    RESPONSE #100
+        CreateCreature("zsipyua1",[1595.1104],3)
+        SetGlobal("ZSIP_SilentSerpentSpawned","GLOBAL",1)
+        Continue()
+END

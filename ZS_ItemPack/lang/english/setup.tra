@@ -27,6 +27,7 @@
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
 @220 = ~Add Harp Bow (Elden Ring - Harp Bow; shortbow/longbow)~
+@221 = ~Add Sseth's Revenge / Sseth's Fangs (Elden Ring - Serpent Bow / Serpent Arrows; shortbow / arrows)~
 @222 = ~Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)~
 @223 = ~Add Spellguard (Elden Ring - Spelldrake Amulet; necklace)~
 @224 = ~Add Periapt of Renewal (Elden Ring - Blessed Dew Amulet; necklace)~
@@ -917,6 +918,46 @@ Requires:
 Weight: 1~
 
 @6165 = ~Slain by Light of the Calling~
+
+
+@18000 = ~Sseth's Revenge~
+@18001 = ~This malformed bow imbues arrows with poison through an enchantment created by Sseth's followers, revealing its true worth when used with its own poison-infused arrows. Used by yuan-ti assassins known as the Formless Serpents.
+
+STATISTICS:
+
+Combat abilities:
+– Arrows fired from this bow are automatically imbued with a mild poison. Each shot has a 25% chance to deal an additional 1d4 poison damage and inflict a poison effect on the target, causing 5 poison damage over 5 seconds. The target can avoid the poison effect with a successful save vs. Death at -2.
+
+Charge abilities:
+– Create Sseth's Fangs once per day
+  Special: Creates 25 arrows designed to resemble flying snakes, their fangs daubed with deadly poison.
+  Duration: 4 hours
+
+THAC0: +2
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 3 Strength
+
+Weight: 2~
+
+@18002 = ~Sseth's Fang~
+@18003 = ~Created through the magic of Sseth's Revenge, this arrow resembles a flying snake, in tribute to their sybilline deity. Its fangs are daubed with deadly poison.
+
+STATISTICS:
+
+Combat abilities:
+– If shot from Sseth's Revenge, target must save vs. Death at -4 or take 2 poison damage every 3 seconds for 1 turn. No effect otherwise.
+
+THAC0: +2
+Damage: 1d6, +2 poison damage (+4 if shot from Sseth's Revenge)
+Damage type: Missile
+Launcher: Bow
+
+Weight: 0~
+
+@18004 = ~Formless Serpent~
 
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~

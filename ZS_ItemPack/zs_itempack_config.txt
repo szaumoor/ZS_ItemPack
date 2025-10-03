@@ -56,6 +56,7 @@ OUTER_SET zst_price_ring_hardiness          = "500"  // as loot
 OUTER_SET zst_price_ring_hardiness_upgraded = "750"  // as loot
 OUTER_SET zst_price_sage_ring               = "1000" // as loot
 OUTER_SET zst_price_spellguard              = "3750" // in stores
+OUTER_SET zst_price_sseth_revenge           = "1500" // as loot
 OUTER_SET zst_price_storm_monarch           = "6500" // as loot
 OUTER_SET zst_price_stygian_fury            = "5000" // as loot
 OUTER_SET zst_price_stygian_fury_upgraded   = "6500" // as loot
