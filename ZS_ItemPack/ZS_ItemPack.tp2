@@ -151,4 +151,7 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @50
 
 BEGIN @502 DESIGNATED 502 GROUP @5 // CRAVEN EDGE
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @51
+
+BEGIN @503 DESIGNATED 503 GROUP @5 // CRUSHING DARKNESS
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @51
 /////////////////////////////////////////////////////////////////////////////////////////////////////

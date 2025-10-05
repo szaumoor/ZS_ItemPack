@@ -1,0 +1,11 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_502~) BEGIN
+  FAIL ~Script already included: zs_itempack_502~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_502~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/05_tv/crushing_darkness~ ~override~
+COPY_EXISTING ~ZSIPDKF0.itm~ ~override~
+  SAY NAME2 @12020
+  SAY IDENTIFIED_DESC @12021
+  WRITE_LONG 0x34 zst_price_crushing_darkness

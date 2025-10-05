@@ -138,7 +138,7 @@ This adds a +0 axe that deals extra damage to all goblinoids and acts as +2 agai
 
 **Component 311:** Add Mercykiller Blade (Mercykiller Blade; rapier)
 
-This adds a new +3 rapier that deals +1 fire damage, and 1d4+2 to targets that are evil. Available for BG2EE.
+This adds a new +3 rapier that deals +1 fire damage, 1d4+2 instead to targets that are evil. Available for BG2EE.
 
 **Component 311:** Add Forge Fire (Forge Fire; warhammer)
 

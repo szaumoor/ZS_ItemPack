@@ -14,3 +14,4 @@
 - Sseth's Revenge & Sseth's Fang (Elden Ring): A new shortbow +2 that coats every arrow with mild poison, and has a special ammo that you can create with it that is much more powerful if shot from this bow specifically.
 - Infernal Rapier +2 (Forbidden Game): A rapier +2 that grants a bonus to THAC0 and damage based on charisma and allows you to summon a friendly cambion. (TODO)
 - Sylvan Scimitar +1 (Forbidden Game): A scimitar +1 that grants extra THAC0 and damage to classes that around nature such as rangers and druids, and rewards specialized characters with extra bonuses. Two of these can be found, as they also have a mild dual wielding bonus. (TODO)
+- Crushing Darkness (Lord of the Rings): A new heavy flail that causes a huge amount of damage but is very slow. (TODO)

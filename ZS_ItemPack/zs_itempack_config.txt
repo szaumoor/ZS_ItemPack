@@ -86,8 +86,9 @@ OUTER_SET zst_price_phantoms_blade = "7500" // as loot
 OUTER_SET zst_price_rod_illusive   = "8000" // in stores
 
 // TV
-OUTER_SET zst_price_craven_edge = "7000" // as loot
-OUTER_SET zst_price_needle      = "750"  // in stores (bgee) / in loot bg2ee
+OUTER_SET zst_price_craven_edge       = "7000" // as loot
+OUTER_SET zst_price_needle            = "750"  // in stores (bgee) / in loot bg2ee
+OUTER_SET zst_price_crushing_darkness =        // ?
 
 // END OF PRICE VARIABLES \\
 

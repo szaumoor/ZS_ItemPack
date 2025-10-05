@@ -1813,3 +1813,25 @@ Weight: 12~
 
 @12012 = ~Driven mad by a blood rage~
 
+@12020 = ~Crushing Darkness +4~
+@12021 = ~This enormous and heavy flail is imbued with shadow and despair. Legends claim it was once wielded by a death knight who ruled over a legion of undead from their shaded castle. The weapon's head is surrounded by jagged, blackened spikes, and those struck by the flail feel their hope draining away, and even the bravest may falter before its relentless onslaught.
+
+STATISTICS:
+
+Equipped abilities:
+– Aura of Despair: all living enemies near the wielder suffer a -2 penalty to saving throws, reduced morale as if they were affected by the Curse spell, and a 10% chance per round to become panicked and slowed for 2 rounds if they fail a save vs. Spell
+
+Combat abilities:
+– 15% chance on hit for living targets to become crushed by hopelessness, suffering a -5 penalty to Armor Class and THAC0. This effect does not stack
+– Critical hits force the target to make a saving throw at -2 or be pushed back and knocked to the ground for 7 seconds
+
+THAC0: +4
+Damage: 1d6+9 (crushing)
+Speed Factor: 8
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 18 Strength
+
+Weight: 15~
+
