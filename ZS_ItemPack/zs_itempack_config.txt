@@ -78,6 +78,7 @@ OUTER_SET zst_price_shining_light_lathander_bg2ee          = "7000"  // in store
 OUTER_SET zst_price_shining_light_lathander_bg2ee_upgraded = "8000"  // in stores
 OUTER_SET zst_price_left_hand_bgee                         = "750"   // in stores
 OUTER_SET zst_price_left_hand_bg2ee                        = "1250"  // in stores
+OUTER_SET zst_price_squire_defense                         = "6000"  // in stores
 
 // Mass Effect
 OUTER_SET zst_price_base_omniblade = "1000" // in stores (bgee) / as loot (bg2ee)

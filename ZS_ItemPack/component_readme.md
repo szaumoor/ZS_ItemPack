@@ -152,6 +152,10 @@ This adds a new +4 shuriken in limited quantities (as per the lore in the descri
 
 This adds new +0 magical arrows that heal the user by 2 HP every time they hit a target. Double on critical hits. Available for BG2EE and BGEE.
 
+**Component 315:** Add Squire's Defense (Squire's Defense; studded leather armor)
+
+This adds a new studded leather armor +2 that increases Strength and Constitution by 1, extraordinary strength to 100, and saves vs. Breath and Death by 1. Available for all games.
+
 </details>
 
 ---

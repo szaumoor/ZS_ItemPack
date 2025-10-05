@@ -45,6 +45,7 @@
 @312 = ~Add Forgefire (Forgefire; warhammer)~
 @313 = ~Add Shining Light (Shining Light; dart / shuriken)~
 @314 = ~Add Arrows of the Vampire (Arrow of the Vampire; arrow)~
+@315 = ~Add Squire's Defense (Squire's Defense; studded leather armor)~
 
 @401 = ~Add Rod of Illusive Protections (rod)~
 @402 = ~Add Omniblade (universal sword)~
@@ -926,6 +927,7 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
+– 1 extra attack per round
 – Arrows fired from this bow are automatically imbued with a mild poison. Each shot has a 25% chance to deal an additional 1d4 poison damage and inflict a poison effect on the target, causing 5 poison damage over 5 seconds. The target can avoid the poison effect with a successful save vs. Death at -2.
 
 Charge abilities:
@@ -948,7 +950,7 @@ Weight: 2~
 STATISTICS:
 
 Combat abilities:
-– If shot from Sseth's Revenge, target must save vs. Death at -4 or take 2 poison damage every 3 seconds for 1 turn. No effect otherwise.
+– If shot from Sseth's Revenge, target must save vs. Death at -4 or take 2 poison damage every 3 seconds for 1 turn. This effect stacks with the bow's own poison effect. No effect otherwise.
 
 THAC0: +2
 Damage: 1d6, +2 poison damage (+4 if shot from Sseth's Revenge)
@@ -1347,6 +1349,23 @@ Requires:
  14 Strength
 
 Weight: 9~
+
+@13070 = ~Squire's Defense +2~
+@13071 = ~The famed paladin Gareth Dragonsbane grew tired of losing squires to freak accidents. All sorts of misfortune befell his shield bearers, from being crushed by catapul stones to being trodden on by giants. He commissioned these suits of studded leather armor to give increased strength to his squires and hopefully prevent future losses. Nevertheless, only the breavest men ever applied for the job.
+
+STATISTICS:
+
+Equipped abilities:
+– Strength: +1, sets extraordinary strength to 100
+– Constitution: +1
+– Save vs. Death: +1
+– Save vs. Breath: +1
+
+Armor Class: 5 (3 vs. slashing, 4 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 8~
 
 @8019 = ~Goblinsplitter~
 @8020 = ~This is a rough-hewn axe forged not with artistry, but with hatred. The name Goblinsplitter is crudely carved into the axe's head, and its pitted blade and battered handle bear the marks of countless battles against goblinoid foes. Over years of brutal use, the edge has become jagged and serrated, not by design but by repeated blows and makeshift repairs. Created by a blacksmith whose village was razed by marauding goblins, the weapon was designed with a single purpose: vengeance.

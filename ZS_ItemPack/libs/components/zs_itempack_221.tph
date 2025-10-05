@@ -23,4 +23,4 @@ COPY_EXISTING ~zsipyua1.cre~ ~override~
   SAY 0x08 @18004
   SAY 0x0c @18004
 
-EXTEND_TOP ~AR1513.BCS~ ~%MOD_FOLDER%/bcs/sseth_revenge/AR1513.BAF~
+EXTEND_BOTTOM ~AR1513.BCS~ ~%MOD_FOLDER%/baf/area/sseth_revenge/AR1513.BAF~
