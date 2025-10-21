@@ -116,6 +116,8 @@ This adds a new +1 bastard sword that is more effective defensively and offensiv
 
 This adds a new +1 dagger that enhances dual-wielded capabilities, as well as enhancing the overall damage while doing so. In BG2EE, it acts as a +2 dagger. Available for BG2EE and BGEE.
 
+Known issues: this item sets proficiencies in dual wielding to 2. Do not level up or dual class while holding the dagger, because the game will act as if you have 2 points in dual wielding, and possibly allow you to increase it to 3.
+
 **Component 303:** Add Master Li's Way (Master Li's Way; katana)
 
 This adds a new +2 katana that deals extra acid damage critically hits more often. Available for BG2EE and BGEE.
