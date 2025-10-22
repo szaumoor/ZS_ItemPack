@@ -11,6 +11,7 @@ COPY_EXISTING ~ZSIPBLS0.ITM~ ~override~
   SAY UNIDENTIFIED_DESC @60201
   SAY IDENTIFIED_DESC @6081
   WRITE_LONG 0x34 zst_price_bloody_sting
+  LPF ALTER_EFFECT INT_VAR match_opcode=318 match_parameter1=0 match_parameter2=0 parameter2=zs_has_stoneskins END
 
 COPY_EXISTING ~ZSIPBLS2.ITM~ ~override~
   SAY NAME1 @60200
@@ -18,6 +19,7 @@ COPY_EXISTING ~ZSIPBLS2.ITM~ ~override~
   SAY UNIDENTIFIED_DESC @60201
   SAY IDENTIFIED_DESC @6084
   WRITE_LONG 0x34 zst_price_bloody_sting_upgraded
+  LPF ALTER_EFFECT INT_VAR match_opcode=318 match_parameter1=0 match_parameter2=0 parameter2=zs_has_stoneskins END
 
 COPY_EXISTING ~ZSIPBLS1.SPL~ ~override~
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6082) END

@@ -130,7 +130,6 @@ Requires:
 
 Weight: 1~
 
-
 @50062 = ~Bloodthirst +6~
 @50063 = ~Before the Lord of Murder laid his claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that proceeded. Only those of dark hearts may wield this blade.
 
@@ -156,7 +155,6 @@ Requires:
  3 Strength
 
 Weight: 1~
-
 
 @5007 = ~Crimson Mischief +3~
 @5008 = ~This blood-red short sword is a weapon born of pure evil and sadism. It causes more pain the closer to death the target is, the weapon seemingly slashing harder, thrusting ever more eagerly, as though it has a mind of its own and seeks only to kill. Because of this, only those with an unsavory moral compass may use it.
@@ -899,7 +897,7 @@ Weight: 1~
 @6162 = ~Blade of Gold~
 
 @6163 = ~Blade of Calling~
-@6164 = ~This dagger was given to you by Akachi at the Broken God's temple in Athkatla. He claimed this dagger could damage any undead, no matter how powerful, and could use its power to destroy the plague of undead that was spreading from the graveyard district. The dagger feels warm to the touch and you swear you can feel a faint vibration coming from within, as if the weapon's true power was waiting to be awakened from its slumber and unleashed.
+@6164 = ~This dagger was given to you by Akachi at the Broken God's temple in Athkatla. He claimed this dagger could damage any undead, no matter how powerful, and could use its power to destroy the plague of undead that was spreading from the graveyard district. The dagger feels warm to the touch, and you swear you can feel a faint vibration coming from within, as if the weapon's true power was waiting to be awakened from its slumber and unleashed.
 
 STATISTICS:
 
@@ -945,7 +943,7 @@ Requires:
 Weight: 2~
 
 @18002 = ~Sseth's Fang~
-@18003 = ~Created through the magic of Sseth's Revenge, this arrow resembles a flying snake, in tribute to their sybilline deity. Its fangs are daubed with deadly poison.
+@18003 = ~Created through the magic of Sseth's Revenge, this arrow resembles a flying snake, in tribute to their sibilant deity. Its fangs are daubed with deadly poison.
 
 STATISTICS:
 
@@ -1351,7 +1349,7 @@ Requires:
 Weight: 9~
 
 @13070 = ~Squire's Defense +2~
-@13071 = ~The famed paladin Gareth Dragonsbane grew tired of losing squires to freak accidents. All sorts of misfortune befell his shield bearers, from being crushed by catapul stones to being trodden on by giants. He commissioned these suits of studded leather armor to give increased strength to his squires and hopefully prevent future losses. Nevertheless, only the breavest men ever applied for the job.
+@13071 = ~The famed paladin Gareth Dragonsbane grew tired of losing squires to freak accidents. All sorts of misfortune befell his shield bearers, from being crushed by catapult stones to being trodden on by giants. He commissioned these suits of studded leather armor to give increased strength to his squires and hopefully prevent future losses. Nevertheless, only the bravest men ever applied for the job.
 
 STATISTICS:
 
@@ -1408,7 +1406,7 @@ Requires:
 Weight: 2~
 
 @8050 = ~Forge Fire~
-@8051 = ~A legacy that Thalantyr the Conjurer has said he would prefer to forget, these weapons are tied to his early adventuring career and a time when he was held captive by a mysterious powerful creature. He has refused to say how the weapons have retained the heat of he forge they were crafted in, usually ending such inquiries with a frustrated "pray you never find out."
+@8051 = ~A legacy that Thalantyr the Conjurer has said he would prefer to forget, these weapons are tied to his early adventuring career and a time when he was held captive by a mysterious powerful creature. He has refused to say how the weapons have retained the heat of the forge they were crafted in, usually ending such inquiries with a frustrated "pray you never find out."
 
 STATISTICS:
 
@@ -1538,7 +1536,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-– 10% chance of causing massive blood loss on hit, inflicting damage equivalent to 10% of the target's maximum HP. No effect on targets protected with stoneskins, targets without blood, constructs, or undead
+– 10% chance of causing massive blood loss on hit, inflicting damage equivalent to 10% of the target's maximum HP. No effect on targets protected with Stoneskins, targets without blood, constructs, or undead
 – Wielders with less than 17 Dexterity have a 40% chance may be cut by the barbs each time they equip or throw this weapon, causing 1d2+1 piercing damage
 
 THAC0: +1
@@ -1834,4 +1832,3 @@ Requires:
  18 Strength
 
 Weight: 15~
-

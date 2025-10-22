@@ -48,6 +48,7 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
         SAY NAME2 @15084
         SAY IDENTIFIED_DESC @15085
         LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@15086) END
+        LPF ALTER_EFFECT INT_VAR match_opcode=318 match_parameter1=0 match_parameter2=0 parameter2=zs_has_stoneskins END
 
     COPY_EXISTING ~ZSIPSHUA.ITM~ ~override~
         SAY NAME2 @15087
