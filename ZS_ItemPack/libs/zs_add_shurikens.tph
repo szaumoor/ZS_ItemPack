@@ -116,7 +116,6 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
         COPY_EXISTING ~ULGOTH.STO~   ~override~ // thunderhammer's smithy
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=10 STR_VAR item_name="ZSIPSHU1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
-        */
 
         // +2 / poison / bleed / acid
 
