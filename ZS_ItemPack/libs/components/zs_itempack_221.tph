@@ -1,0 +1,26 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_221~) BEGIN
+  FAIL ~Script already included: zs_itempack_221~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_221~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/02_souls/sseth_revenge~ ~override~
+ADD_PROJECTILE ~%MOD_FOLDER%/pro/sseth_revenge/ZSIPSSRZ.pro~
+
+COPY_EXISTING ~ZSIPSSR0.ITM~ ~override~
+  SAY NAME2 @18000
+  SAY IDENTIFIED_DESC @18001
+  WRITE_LONG 0x34 zst_price_sseth_revenge
+
+COPY_EXISTING ~ZSIPSSR2.ITM~ ~override~
+  SAY NAME2 @18002
+  SAY IDENTIFIED_DESC @18003
+
+COPY_EXISTING ~ZSIPSSR6.SPL~ ~override~
+  LPF ALTER_HEADER INT_VAR projectile = %ZSIPSSRZ% END
+
+COPY_EXISTING ~zsipyua1.cre~ ~override~
+  SAY 0x08 @18004
+  SAY 0x0c @18004
+
+EXTEND_BOTTOM ~AR1513.BCS~ ~%MOD_FOLDER%/baf/area/sseth_revenge/AR1513.BAF~

@@ -84,6 +84,12 @@ This adds a new +3 katana that deals extra fire damage, and has a chance to pois
 
 This adds a new +1 shortbow that is more effective when wielded by bards, and has a 5% chance of releasing a tune when shooting (triple change for bards), which provides a minor bard song buff to the whole party for 2 rounds (it stacks with other songs). The configuration file may be used to turn it into a longbow, if desired, since bards can use longbows. In BG2EE, it is a +2 weapon. Available for BG2EE and BGEE.
 
+**Component 221:** Add Sseth's Revenge / Sseth's Fangs (Elden Ring - Serpent Bow / Serpent Arrows; shortbow / arrows)
+
+This adds a new +2 shortbow that has a chance of automatically coat every arrow shot from it with mild poison (much less powerful than other common poisoned weapons). It has the ability to generate 20 very powerful +2 arrows than when shot from the same bow (and only this bow), deal a huge amount of poison damage and are difficult to resist. The arrows vanish if they're not shot in a few in-game hours. Available in BG2EE and EET at some point after travelling to Spellhold.
+
+*Technical note:* Due to technical limitations, the way the arrows are made to inflict the full potential of damage with Sseth's Revenge, the game makes a check every round when using the arrows to see if that bow is the one equipped, which means, it may take up to 6 seconds for it to unlock (or less, the timer seems to be independent of the player's actions). Keep this in mind when in battle.
+
 **Component 222:** Add Crimson of Life (Elden Ring - Crimson Amber Amulet; necklace)
 
 This adds a new necklace that increases the maximum HP of the wearer by 15%. Available for BG2EE and BGEE.
@@ -140,7 +146,11 @@ This adds a +0 axe that deals extra damage to all goblinoids and acts as +2 agai
 
 **Component 311:** Add Mercykiller Blade (Mercykiller Blade; rapier)
 
-This adds a new +3 rapier that deals +1 fire damage, and 1d4+2 to targets that are evil. Available for BG2EE.
+This adds a new +3 rapier that deals +1 fire damage, 1d4+2 instead to targets that are evil. Available for BG2EE.
+
+**Component 311:** Add Forge Fire (Forge Fire; warhammer)
+
+This adds a new +2 warhammer similar to Ashideena that deals +1d3 fire damage on hit, and was canonically in NWN built by Thalantyr. Available for BG2EE and, of course, BGEE.
 
 **Component 313:** Add Shining Light (Shining Light; dart / shuriken)
 
@@ -149,6 +159,10 @@ This adds a new +4 shuriken in limited quantities (as per the lore in the descri
 **Component 314:** Add Arrows of the Vampire (Arrow of the Vampire; arrow)
 
 This adds new +0 magical arrows that heal the user by 2 HP every time they hit a target. Double on critical hits. Available for BG2EE and BGEE.
+
+**Component 315:** Add Squire's Defense (Squire's Defense; studded leather armor)
+
+This adds a new studded leather armor +2 that increases Strength and Constitution by 1, extraordinary strength to 100, and saves vs. Breath and Death by 1. Available for all games.
 
 </details>
 

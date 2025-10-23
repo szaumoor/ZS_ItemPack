@@ -9,7 +9,7 @@ OUTER_SET zst_generic_variants_rapiers   = "1"
 OUTER_SET zst_generic_variants_estocs    = "1"
 OUTER_SET zst_generic_variants_shurikens = "1"
 
-// set to 1 is you want generic estocs, shurikens, rapiers, and kukris injected into the world regardless of whether a special item of that type is installed (currently +0 - +3 variants as well as shurikens that add poison, acid, and bleed damage). Most relevant for BGEE because only one special rapier is available for bgee
+// set to 1 is you want generic estocs, shurikens, rapiers, and kukris injected into the world regardless of whether a special item of that type is installed (currently +0 - +3 variants as well as shurikens). Most relevant for BGEE because only one special rapier is available for bgee
 OUTER_SET zst_generic_variants_forced = "1"
 
 // these options grant (without replacement) these items to these characters (base character), if the weapons exist
@@ -56,6 +56,7 @@ OUTER_SET zst_price_ring_hardiness          = "500"  // as loot
 OUTER_SET zst_price_ring_hardiness_upgraded = "750"  // as loot
 OUTER_SET zst_price_sage_ring               = "1000" // as loot
 OUTER_SET zst_price_spellguard              = "3750" // in stores
+OUTER_SET zst_price_sseth_revenge           = "1500" // as loot
 OUTER_SET zst_price_storm_monarch           = "6500" // as loot
 OUTER_SET zst_price_stygian_fury            = "5000" // as loot
 OUTER_SET zst_price_stygian_fury_upgraded   = "6500" // as loot
@@ -70,12 +71,14 @@ OUTER_SET zst_price_master_li_way                          = "6500"  // in store
 OUTER_SET zst_price_mercykiller_blade                      = "20000" // in stores
 OUTER_SET zst_price_rashemi_blade_bgee                     = "1000"  // as loot
 OUTER_SET zst_price_rashemi_blade_bg2ee                    = "1500"  // as loot
+OUTER_SET zst_price_forge_fire                             = "4000"  // store
 OUTER_SET zst_price_shining_light_shuriken                 = "200"   // in stores
 OUTER_SET zst_price_shining_light_lathander_bgee           = "5000"  // in stores
 OUTER_SET zst_price_shining_light_lathander_bg2ee          = "7000"  // in stores
 OUTER_SET zst_price_shining_light_lathander_bg2ee_upgraded = "8000"  // in stores
 OUTER_SET zst_price_left_hand_bgee                         = "750"   // in stores
 OUTER_SET zst_price_left_hand_bg2ee                        = "1250"  // in stores
+OUTER_SET zst_price_squire_defense                         = "6000"  // in stores
 
 // Mass Effect
 OUTER_SET zst_price_base_omniblade = "1000" // in stores (bgee) / as loot (bg2ee)
@@ -83,8 +86,8 @@ OUTER_SET zst_price_phantoms_blade = "7500" // as loot
 OUTER_SET zst_price_rod_illusive   = "8000" // in stores
 
 // TV
-OUTER_SET zst_price_craven_edge = "7000" // as loot
-OUTER_SET zst_price_needle      = "750"  // in stores (bgee) / in loot bg2ee
+OUTER_SET zst_price_craven_edge       = "7000" // as loot
+OUTER_SET zst_price_needle            = "750"  // in stores (bgee) / in loot bg2ee
 
 // END OF PRICE VARIABLES \\
 

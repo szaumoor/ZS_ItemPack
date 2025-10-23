@@ -30,7 +30,7 @@ COPY_EXISTING ~shadra01.CRE~ ~override~ // NIZINIZINIZINIZINIZI
 
 ACTION_IF MOD_IS_INSTALLED ~ZS_ShadowdancerOverhaul.tp2~ ~100~ BEGIN
 
-  PRINT "Patching for RoyalProtector's ZS Shadowdancer Overhaul..."
+  PRINT "Patching for RoyalProtector's Shadowdancer Overhaul..."
   OUTER_SET shadowdancer = IDS_OF_SYMBOL(kit SHADOWDANCER)
   OUTER_SET zs_shadowdancer = IDS_OF_SYMBOL(kit ZS_SHADOWDANCER)
 

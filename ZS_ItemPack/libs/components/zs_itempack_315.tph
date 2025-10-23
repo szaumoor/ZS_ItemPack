@@ -1,0 +1,25 @@
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_315~) BEGIN
+  FAIL ~Script already included: zs_itempack_315~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_315~ = 1
+END
+
+COPY ~%MOD_FOLDER%/items/03_nwn/squire_defense~ ~override~
+COPY_EXISTING ~ZSIPSQD0.ITM~ ~override~
+    SAY NAME2 @13070
+    SAY IDENTIFIED_DESC @13071
+    WRITE_LONG 0x34 zst_price_squire_defense
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+
+    COPY_EXISTING ~TAERUM.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX STR_VAR flags=~identified~ item_name = "ZSIPSQD0" position = "LAST" END
+
+END
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
+    COPY_EXISTING ~SHOP02.STO~ ~override~
+        LPF ADD_STORE_ITEM_EX STR_VAR flags=~identified~ item_name = "ZSIPSQD0" position = "LAST" END
+
+END

@@ -2,12 +2,12 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
 
     COPY ~%MOD_FOLDER%/items/generic/shuriken~ ~override~
     COPY_EXISTING
-                //   ~ZSIPSHU0.ITM~ ~override~
-                //   ~ZSIPSHU1.ITM~ ~override~
-                //   ~ZSIPSHU2.ITM~ ~override~
-                //   ~ZSIPSHU3.ITM~ ~override~
-                //   ~ZSIPSHU4.ITM~ ~override~
-                //   ~ZSIPSHU5.ITM~ ~override~
+                  ~ZSIPSHU0.ITM~ ~override~
+                  ~ZSIPSHU1.ITM~ ~override~
+                  ~ZSIPSHU2.ITM~ ~override~
+                  ~ZSIPSHU3.ITM~ ~override~
+                  ~ZSIPSHU4.ITM~ ~override~
+                  ~ZSIPSHU5.ITM~ ~override~
                   ~ZSIPSHUP.ITM~ ~override~
                   ~ZSIPSHUB.ITM~ ~override~
                   ~ZSIPSHUA.ITM~ ~override~
@@ -16,29 +16,29 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
         SAY UNIDENTIFIED_DESC @15071
         SAY IDENTIFIED_DESC @15071
 
-    // COPY_EXISTING ~ZSIPSHU0.ITM~ ~override~
-    //     SAY NAME2 @15070
-    //     SAY IDENTIFIED_DESC @15071
+    COPY_EXISTING ~ZSIPSHU0.ITM~ ~override~
+        SAY NAME2 @15070
+        SAY IDENTIFIED_DESC @15071
 
-    // COPY_EXISTING ~ZSIPSHU1.ITM~ ~override~
-    //     SAY NAME2 @15072
-    //     SAY IDENTIFIED_DESC @15073
+    COPY_EXISTING ~ZSIPSHU1.ITM~ ~override~
+        SAY NAME2 @15072
+        SAY IDENTIFIED_DESC @15073
 
-    // COPY_EXISTING ~ZSIPSHU2.ITM~ ~override~
-    //     SAY NAME2 @15074
-    //     SAY IDENTIFIED_DESC @15075
+    COPY_EXISTING ~ZSIPSHU2.ITM~ ~override~
+        SAY NAME2 @15074
+        SAY IDENTIFIED_DESC @15075
 
-    // COPY_EXISTING ~ZSIPSHU3.ITM~ ~override~
-    //     SAY NAME2 @15076
-    //     SAY IDENTIFIED_DESC @15077
+    COPY_EXISTING ~ZSIPSHU3.ITM~ ~override~
+        SAY NAME2 @15076
+        SAY IDENTIFIED_DESC @15077
 
-    // COPY_EXISTING ~ZSIPSHU4.ITM~ ~override~
-    //     SAY NAME2 @15078
-    //     SAY IDENTIFIED_DESC @15079
+    COPY_EXISTING ~ZSIPSHU4.ITM~ ~override~
+        SAY NAME2 @15078
+        SAY IDENTIFIED_DESC @15079
 
-    // COPY_EXISTING ~ZSIPSHU5.ITM~ ~override~
-    //     SAY NAME2 @15080
-    //     SAY IDENTIFIED_DESC @15081
+    COPY_EXISTING ~ZSIPSHU5.ITM~ ~override~
+        SAY NAME2 @15080
+        SAY IDENTIFIED_DESC @15081
 
     COPY_EXISTING ~ZSIPSHUP.ITM~ ~override~
         SAY NAME2 @15082
@@ -48,6 +48,7 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
         SAY NAME2 @15084
         SAY IDENTIFIED_DESC @15085
         LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@15086) END
+        LPF ALTER_EFFECT INT_VAR match_opcode=318 match_parameter1=0 match_parameter2=0 parameter2=zs_has_stoneskins END
 
     COPY_EXISTING ~ZSIPSHUA.ITM~ ~override~
         SAY NAME2 @15087
@@ -55,7 +56,7 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
 
     ACTION_IF GAME_IS ~bgee eet~ BEGIN
         // +0
-        /*
+
         COPY_EXISTING ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=80 unlimited=1 STR_VAR item_name="ZSIPSHU0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
@@ -115,7 +116,6 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
         COPY_EXISTING ~ULGOTH.STO~   ~override~ // thunderhammer's smithy
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=10 STR_VAR item_name="ZSIPSHU1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
-        */
 
         // +2 / poison / bleed / acid
 
@@ -145,7 +145,6 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
     END
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-        /*
         // +0
         COPY_EXISTING ~AMSMUG01.STO~    ~override~ // smugglers 1
                       ~AMSMUG02.STO~    ~override~ // smugglers 2
@@ -166,7 +165,6 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
                       ~TRMER03.STO~  ~override~ // fletcher
                       ~sarbar01.STO~  ~override~ // saradush inn
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 unlimited=1 STR_VAR item_name="ZSIPSHU0" position="LAST" flags=~identified~ END
-
 
         // +1
         COPY_EXISTING ~AMSMUG01.STO~    ~override~ // smugglers 1
@@ -194,7 +192,6 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
         COPY_EXISTING ~sahpr1.STO~  ~override~ // sekolah temple
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=4 STR_VAR item_name="ZSIPSHU1" position="LAST" flags=~identified~ END
 
-        */
         // +2
         COPY_EXISTING ~BERNARD5.STO~ ~override~ // BERNARD 5
                       ~BERNARD6.STO~ ~override~ // BERNARD 6
@@ -214,10 +211,10 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=2 STR_VAR item_name="ZSIPSHUB" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
-        // COPY_EXISTING ~hgkar01.sto~   ~override~ // karthis
-        //               ~sarbar01.sto~  ~override~ // saradush bar
-        //     LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
-        // BUT_ONLY IF_EXISTS
+        COPY_EXISTING ~hgkar01.sto~   ~override~ // karthis
+                      ~sarbar01.sto~  ~override~ // saradush bar
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="ZSIPSHU2" position="LAST" flags=~identified~ END
+        BUT_ONLY IF_EXISTS
 
          // +3
         COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
@@ -232,15 +229,14 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
         BUT_ONLY IF_EXISTS
 
         // +4 / +5
-
-        // COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
-        //               ~amsmug02.sto~  ~override~ // amekthran smugglers1
-        //               ~hgkar01.sto~   ~override~ // karthis
-        //               ~sarbar01.sto~  ~override~ // saradush bar
-        //               ~ohnsdwm.sto~   ~override~ // merchant
-        //     LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=30 STR_VAR item_name="ZSIPSHU4" position="LAST" flags=~identified~ END
-        //     LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=20 STR_VAR item_name="ZSIPSHU5" position="LAST" flags=~identified~ END
-        // BUT_ONLY IF_EXISTS
+        COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
+                      ~hgkar01.sto~   ~override~ // karthis
+                      ~sarbar01.sto~  ~override~ // saradush bar
+                      ~ohnsdwm.sto~   ~override~ // merchant
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=30 STR_VAR item_name="ZSIPSHU4" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=20 STR_VAR item_name="ZSIPSHU5" position="LAST" flags=~identified~ END
+        BUT_ONLY IF_EXISTS
 
     END
 END
