@@ -17,4 +17,4 @@
 
 - Forge Fire (NWN): New war hammer +2 that deals extra fire damage, canonically (in NWN) made by Thalantyr. Guess where it will be sold in BGEE. It will exist in BG2EE too.
 - Squire's Defense (NWN): Studded Leather Armor +2 that increases Strength by 1 and sets extraordinary strength to 100. Uses a recolored armor icon for now while a better one doesn't exist.
-- Sseth's Revenge & Sseth's Fang (Elden Ring): A new short bow +2 that coats every arrow with mild poison, and has a special ammo that you can create with it that is much more powerful if shot from this bow specifically.
+- Sseth's Revenge & Sseth's Fang (Elden Ring): A new short bow +2 that coats every arrow with mild poison, and has a special ammo that you can create with it that is much more powerful if shot from this bow specifically. A very special Yuan-Ti might have it. Carry some antidotes.

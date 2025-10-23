@@ -1537,7 +1537,7 @@ STATISTICS:
 
 Combat abilities:
 – 10% chance of causing massive blood loss on hit, inflicting damage equivalent to 10% of the target's maximum HP. No effect on targets protected with Stoneskins, targets without blood, constructs, or undead
-– Wielders with less than 17 Dexterity have a 40% chance may be cut by the barbs each time they equip or throw this weapon, causing 1d2+1 piercing damage
+– Wielders with less than 17 Dexterity have a 40% chance to be cut by the barbs each time they equip or throw this weapon, causing 1d2+1 piercing damage
 
 THAC0: +1
 Damage: 1d2+1, +4 piercing damage (save vs. Death for half)

@@ -9,7 +9,7 @@ OUTER_SET zst_generic_variants_rapiers   = "1"
 OUTER_SET zst_generic_variants_estocs    = "1"
 OUTER_SET zst_generic_variants_shurikens = "1"
 
-// set to 1 is you want generic estocs, shurikens, rapiers, and kukris injected into the world regardless of whether a special item of that type is installed (currently +0 - +3 variants as well as shurikens that add poison, acid, and bleed damage). Most relevant for BGEE because only one special rapier is available for bgee
+// set to 1 is you want generic estocs, shurikens, rapiers, and kukris injected into the world regardless of whether a special item of that type is installed (currently +0 - +3 variants as well as shurikens). Most relevant for BGEE because only one special rapier is available for bgee
 OUTER_SET zst_generic_variants_forced = "1"
 
 // these options grant (without replacement) these items to these characters (base character), if the weapons exist
@@ -88,7 +88,6 @@ OUTER_SET zst_price_rod_illusive   = "8000" // in stores
 // TV
 OUTER_SET zst_price_craven_edge       = "7000" // as loot
 OUTER_SET zst_price_needle            = "750"  // in stores (bgee) / in loot bg2ee
-OUTER_SET zst_price_crushing_darkness =        // ?
 
 // END OF PRICE VARIABLES \\
 

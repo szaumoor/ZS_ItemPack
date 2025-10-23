@@ -6,20 +6,20 @@ END
 
 COPY ~%MOD_FOLDER%/items/03_nwn/forge_fire~ ~override~
 COPY_EXISTING ~ZSIPFGF0.ITM~ ~override~
-    SAY NAME2 @8050
-    SAY IDENTIFIED_DESC @8051
-    WRITE_LONG 0x34 zst_price_forge_fire
+  SAY NAME2 @8050
+  SAY IDENTIFIED_DESC @8051
+  WRITE_LONG 0x34 zst_price_forge_fire
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
-    COPY_EXISTING ~highhedg.STO~ ~override~ // high hedge
-        LPF ADD_STORE_ITEM_EX STR_VAR item_name="ZSIPFGF0" position="LAST" flags=~identified~ END
+  COPY_EXISTING ~highhedg.STO~ ~override~ // high hedge
+    LPF ADD_STORE_ITEM_EX STR_VAR item_name="ZSIPFGF0" position="LAST" flags=~identified~ END
 
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 
-    COPY_EXISTING ~highhedg.STO~ ~override~ // high hedge
-        LPF ADD_STORE_ITEM_EX STR_VAR item_name="ZSIPFGF0" position="LAST" flags=~identified~ END
+  COPY_EXISTING ~TEMLATH.STO~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPFGF0" position = "LAST" flags="identified" END
 
 END

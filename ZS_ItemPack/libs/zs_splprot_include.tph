@@ -48,7 +48,7 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
     OUTER_SET ~zs_has_stoneskins~       = "-1"
 
     //----------------------------------------------------------------
-    ACTION_IF NOT ZS_MARKER_FILE_EXISTS BEGIN
+
 
         APPEND ~splprot.2da~ ~ZS_SLASHINGRESIST_>=100%TAB%21%TAB%100%TAB%4~ UNLESS ~ZS_SLASHINGRESIST_>=100~
         APPEND ~splprot.2da~ ~ZS_SLASHINGRESIST_<128%TAB%21%TAB%128%TAB%2~  UNLESS ~ZS_SLASHINGRESIST_<128~
@@ -82,7 +82,6 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
         
         APPEND ~splprot.2da~ ~ZS_HAS_STONESKINS%TAB%88%TAB%1%TAB%4~         UNLESS ~ZS_HAS_STONESKINS~
 
-    END
 
     // APPEND ~splprot.2da~ ~ZS_XP_>=n%TAB%44%TAB%-1%TAB%2~               UNLESS ~ZS_XP_>=n~
 
@@ -180,7 +179,6 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
 
     //----------------------------------------------------------------
 
-    ACTION_IF NOT ZS_MARKER_FILE_EXISTS BEGIN
 
         APPEND ~splprot.2da~ ~ZS_SLASHINGIMMUNITY%TAB%0x104%TAB%%zs_slashingresist_>=100%%TAB%%zs_slashingresist_<128%~
         UNLESS ~ZS_SLASHINGIMMUNITY~
@@ -209,7 +207,6 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
         APPEND ~splprot.2da~ ~ZS_CLASS_THIEF_OR_BARD_ALL%TAB%0x103%TAB%%zs_class_thief%%TAB%%zs_class_bard_all%~
         UNLESS ~ZS_CLASS_THIEF_OR_BARD_ALL~
 
-    END
 
     //----------------------------------------------------------------
         COPY_EXISTING ~splprot.2da~ ~override~
@@ -256,7 +253,7 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
             END
 
     //----------------------------------------------------------------
-    ACTION_IF zs_debug AND NOT ZS_MARKER_FILE_EXISTS BEGIN
+
 
         ACTION_IF ~zs_slashingresist_<128~  = "-1" OR
                   ~zs_slashingresist_>=100~ = "-1" OR
@@ -388,7 +385,6 @@ ACTION_IF !VARIABLE_IS_SET zs_splprot BEGIN
         COPY_EXISTING ~splprot.2da~ ~override~
             PRETTY_PRINT_2DA
 
-    END
 
     OUTER_SET zs_splprot = 1
 END
