@@ -42,7 +42,7 @@ This adds a new powerful war hammer that deals crushing and fire damage and incr
 
 **Component 110:** Add The Deathstalker Mantle
 
-This adds a new cool cloak for assassins and other stabby-stabby characters. Once per round, upon killing an enemy, the user becomes immediately invisible and gains a +1 bonus to THAC0 and damage for 2 rounds. It also grants minor combat bonuses to assassins and blackguards. Available for BG2EE and BGEE.
+This adds a new cool cloak for assassins and other stabby-stabby characters. Once per round, upon killing an enemy, the user becomes immediately invisible and gains a +1 bonus to THAC0 and damage for 2 rounds. It also grants minor combat bonuses to assassins and blackguards. Available for BG2EE and BGEE. It's also available for IWDEE but only if Lava's Dendjelion is installed.
 
 </details>
 
