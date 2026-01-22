@@ -63,7 +63,7 @@ jobs:
             --exclude=.git/
             --exclude=package/
             --exclude=.gitignore
-            --exclude=README.md
+            --exclude=readme.md
             --exclude=${PROJECT_NAME}/readme.md
             --exclude=${PROJECT_NAME}/component_readme.md
           )
