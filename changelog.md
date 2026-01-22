@@ -3,6 +3,7 @@
 ## Fixes
 
 - Code improvements
+- Injected +2 and +3 shurikens into the world that I seem to have forgotten to include
 
 ## Modifications
 
