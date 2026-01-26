@@ -1,1 +1,1 @@
-ZS_ItemPack/full_readme.md
+ZS_ItemPack/readme.md
