@@ -1,27 +1,24 @@
-ACTION_IF GAME_IS ~bgee bg2ee eet~ OR GAME_IS "iwdee" AND FILE_EXISTS_IN_GAME ~l#dendj.cre~ BEGIN
+DEFINE_PATCH_MACRO add BEGIN ADD_CRE_ITEM ~zsipckaa~ #0 #0 #0 ~unstealable~ ~cloak~ END
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/deathstalker_mantle~ ~override~
+COPY_EXISTING ~zsipckaa.itm~ ~override~
+  SAY NAME2 @5040
+  SAY IDENTIFIED_DESC @5041
+  WRITE_LONG 0x34 zst_price_deathstalker_mantle
 
-  DEFINE_PATCH_MACRO add BEGIN ADD_CRE_ITEM ~zsipckaa~ #0 #0 #0 ~unstealable~ ~cloak~ END
-  COPY ~%MOD_FOLDER%/items/01_forbidden_game/deathstalker_mantle~ ~override~
-  COPY_EXISTING ~zsipckaa.itm~ ~override~
-    SAY NAME2 @5040
-    SAY IDENTIFIED_DESC @5041
-    WRITE_LONG 0x34 zst_price_deathstalker_mantle
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+  COPY_EXISTING ~vayya.cre~ ~override~
+    LPM add
+END
 
-  ACTION_IF GAME_IS ~bgee eet~ BEGIN
-    COPY_EXISTING ~vayya.cre~ ~override~
-      LPM add
-  END
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+  COPY_EXISTING ~idemon02.cre~ ~override~
+    LPM add
+END
 
-  ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-    COPY_EXISTING ~idemon02.cre~ ~override~
-      LPM add
-  END
+ACTION_IF GAME_IS "iwdee" BEGIN
+  COPY_EXISTING ~ldd_nym.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR stack = 1 STR_VAR item_name = ~zsipckaa~ END 
+END
 
-  ACTION_IF GAME_IS "iwdee" BEGIN
-    COPY_EXISTING ~l#dendj.cre~ ~override~
-      LPM add
-  END
-
-END ELSE BEGIN WARN "[IWDEE Warning]: Dendjelion from Lava is not installed. Skipping..." END
 
 
