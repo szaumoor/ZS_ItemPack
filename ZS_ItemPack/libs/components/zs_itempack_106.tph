@@ -1,18 +1,18 @@
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/cold_snap~ ~override~
-COPY_EXISTING ~ZSIPCLS0.ITM~ ~override~
-              ~ZSIPCLS2.ITM~ ~override~
+COPY_EXISTING ~zsipcls0.itm~ ~override~
+              ~zsipcls2.itm~ ~override~
     SAY NAME2 @5015
     LPF ALTER_EFFECT INT_VAR match_opcode = 318 match_parameter2 = 0 parameter2 = zs_cold_immunity END
 
-COPY_EXISTING ~ZSIPCLS0.ITM~ ~override~
+COPY_EXISTING ~zsipcls0.itm~ ~override~
     SAY IDENTIFIED_DESC @5016
     WRITE_LONG 0x34 zst_price_cold_snap_bgee
 
-COPY_EXISTING ~ZSIPCLS2.ITM~ ~override~
+COPY_EXISTING ~zsipcls2.itm~ ~override~
     SAY IDENTIFIED_DESC @50161
     WRITE_LONG 0x34 zst_price_cold_snap_bg2ee
 
-COPY_EXISTING ~ZSIPCLS1.SPL~ ~override~
+COPY_EXISTING ~zsipcls1.spl~ ~override~
     LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@50160) END
 
 WITH_SCOPE BEGIN
@@ -22,7 +22,7 @@ WITH_SCOPE BEGIN
         LPF CRE_OP_ANY INT_VAR match_op = 101 match_p2 = 109 RET found = result END
 
         PATCH_IF found BEGIN
-            LPF ADD_CRE_EFFECT INT_VAR opcode = 206 insert_point = "-1" target = 1 STR_VAR resource = ~ZSIPCLS1~ END
+            LPF ADD_CRE_EFFECT INT_VAR opcode = 206 insert_point = "-1" target = 1 STR_VAR resource = ~zsipcls1~ END
             ++matches
         END
 
@@ -38,7 +38,7 @@ WITH_SCOPE BEGIN
         LPF ITM_OP_ANY INT_VAR match_op = 101 match_p2 = 109 RET found = result END
 
         PATCH_IF found BEGIN
-            LPF ADD_ITEM_EQEFFECT INT_VAR target = 1 timing = 2 opcode = 206 insert_point="-1" STR_VAR resource = ~ZSIPCLS1~ END
+            LPF ADD_ITEM_EQEFFECT INT_VAR target = 1 timing = 2 opcode = 206 insert_point="-1" STR_VAR resource = ~zsipcls1~ END
             ++matches
         END
 
@@ -51,7 +51,7 @@ WITH_SCOPE BEGIN
 
     OUTER_SET matches = 0
     COPY_EXISTING_REGEXP ~^.*\.spl$~ ~override~
-        LPF PATCH_SPL_WITH_OP INT_VAR match_op = 101 match_p2 = 109 STR_VAR res = ~ZSIPCLS1~ RET match = result END
+        LPF PATCH_SPL_WITH_OP INT_VAR match_op = 101 match_p2 = 109 STR_VAR res = ~zsipcls1~ RET match = result END
 
         PATCH_IF match = 1 BEGIN
             ++matches
@@ -65,14 +65,21 @@ END
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-    COPY_EXISTING ~HIGHHEDG.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPCLS0" position = "LAST" END
+    COPY_EXISTING ~highhedg.sto~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipcls0" position = "LAST" END
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-    COPY_EXISTING ~RIBALD.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPCLS2" position = "LAST" END
+    COPY_EXISTING ~ribald.sto~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipcls2" position = "LAST" END
+
+END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+
+    COPY_EXISTING ~kugerth.sto~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipcls0" position = "LAST" END
 
 END
