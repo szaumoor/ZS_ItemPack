@@ -1,19 +1,26 @@
 COPY ~%MOD_FOLDER%/items/02_souls/hawk_ring~ ~override~
-COPY_EXISTING ~ZSIPHKR0.ITM~ ~override~
+COPY_EXISTING ~zsiphkr0.itm~ ~override~
   SAY NAME2 @6110
   SAY IDENTIFIED_DESC @6111
   WRITE_LONG 0x34 zst_price_hawk_ring
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~CALDO.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPHKR0~ #0 #0 #0 ~unstealable~ ~inv~
+  COPY_EXISTING ~caldo.cre~ ~override~
+    ADD_CRE_ITEM ~zsiphkr0~ #0 #0 #0 ~unstealable~ ~inv~
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-  COPY_EXISTING ~SHOP05.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPHKR0" position = "LAST" flags="identified" END
+  COPY_EXISTING ~shop05.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsiphkr0" position = "LAST" flags="identified" END
+
+END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+
+  COPY_EXISTING ~emmeric.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsiphkr0" position = "LAST" flags="identified" END
 
 END
