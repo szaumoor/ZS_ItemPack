@@ -1,19 +1,26 @@
 COPY ~%MOD_FOLDER%/items/02_souls/periapt_renewal~ ~override~
-COPY_EXISTING ~ZSIPPRG0.ITM~ ~override~
+COPY_EXISTING ~zsipprg0.itm~ ~override~
   SAY NAME2 @6140
   SAY IDENTIFIED_DESC @6141
   WRITE_LONG 0x34 zst_price_periapt_renewal
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~TEM3402.STO~ ~override~ // KELDDATH
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPPRG0" position = "LAST" END
+  COPY_EXISTING ~tem3402.sto~ ~override~ // kelddath
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipprg0" position = "LAST" END
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-  COPY_EXISTING ~TEMSUP.STO~ ~override~ // OVERGOLD
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPPRG0" position = "LAST" END
+  COPY_EXISTING ~temsup.sto~ ~override~ // overgold
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipprg0" position = "LAST" END
+
+END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+
+  COPY_EXISTING ~kutemple.sto~ ~override~ // ilmater temple
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipprg0" position = "LAST" END
 
 END

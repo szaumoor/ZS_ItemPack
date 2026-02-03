@@ -1,14 +1,8 @@
 COPY ~%MOD_FOLDER%/items/02_souls/crimson_life~ ~override~
 
-ACTION_IF GAME_IS "iwdee" BEGIN
-  OUTER_SPRINT desc @6102
-END ELSE BEGIN
-  OUTER_SPRINT desc @6101
-END
-
 COPY_EXISTING ~zsiplfc0.itm~ ~override~
   SAY NAME2 @6100
-  WRITE_LONG IDENTIFIED_DESC desc
+  SAY IDENTIFIED_DESC @6101
   WRITE_LONG 0x34 zst_price_crimson_life
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
@@ -27,7 +21,10 @@ END
 
 ACTION_IF GAME_IS "iwdee" BEGIN
 
-  COPY_EXISTING ~kutemple.sto~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsiplfc0" position = "LAST" flags="identified" END
+  COPY_EXISTING ~zsiplfc0.itm~ ~override~
+    WRITE_SHORT 0x42 50 // lore required
+
+  COPY_EXISTING ~ar6006.are~ ~override~
+    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 7 STR_VAR item_to_add = ~zsiplfc0~ END
 
 END
