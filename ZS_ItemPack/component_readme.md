@@ -102,6 +102,10 @@ This adds a new +2 shortbow that has a chance of automatically coat every arrow 
 
 This adds a new necklace that increases the maximum HP of the wearer by 15%.
 
+### Add Spellguard (223) (IWDEE BGEE BG2EE EET)
+
+This adds a new necklace that slightly increases magic resistance and magic damage resistance.
+
 ### Add Periapt of Renewal (224) (IWDEE BGEE BG2EE EET)
 
 This adds a new Lathander-inspired necklace that provides a regeneration of 1 HP per turn.
