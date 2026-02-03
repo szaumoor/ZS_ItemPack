@@ -22,7 +22,7 @@
 @205 = ~Add Ring of Hardiness (Dark Souls - Ring of Steel Protection; ring)~
 @211 = ~Add Sage Ring (Dark Souls 3 - Sage Ring; ring)~
 @213 = ~Add Hawk Ring (Dark Souls 3 - Hawk Ring; ring)~
-@214 = ~Add Blade of Calling (Elden Ring; dagger)~ // undead destruction dagger
+@214 = ~Add Blade of Calling (Elden Ring; dagger)~ 
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
@@ -89,10 +89,10 @@ STATISTICS:
 
 Equipped abilities:
 – Armor Class: +1
-– Critical chance while holding this weapon increases by 5%
+– Critical chances while holding this weapon increase by 5%
 
 Combat abilities:
-– Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
+– Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce Armor Class vs. piercing by 2 (cumulative). Both of these effects last 2 rounds.
 – Additionally, each hit inflicts a -1% weakness to piercing damage (cumulative) for 5 rounds.
 
 THAC0: +3
@@ -113,10 +113,10 @@ STATISTICS:
 
 Equipped abilities:
 – Armor Class: +1
-– Critical chance while holding this weapon increases by 5%
+– Critical chances while holding this weapon increase by 5%
 
 Combat abilities:
-– Hits with this weapon inflict a -20% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
+– Hits with this weapon inflict a -20% weakness to piercing damage (non-cumulative) and reduce Armor Class vs. piercing by 2 (cumulative). Both of these effects last 2 rounds.
 – Additionally, each hit inflicts a -1% weakness to piercing damage (cumulative) for 5 rounds.
 
 THAC0: +4
@@ -139,10 +139,10 @@ STATISTICS:
 
 Equipped abilities:
 – Armor Class: +2
-– Critical chance while holding this weapon increases by 5%
+– Critical chances while holding this weapon increase by 5%
 
 Combat abilities:
-– Hits with this weapon inflict a -25% weakness to piercing damage (non-cumulative) and reduce Armor Class against piercing attacks by 2 (cumulative). Both of these effects last 2 rounds.
+– Hits with this weapon inflict a -25% weakness to piercing damage (non-cumulative) and reduce Armor Class vs. piercing by 2 (cumulative). Both of these effects last 2 rounds.
 – Additionally, each hit inflicts a -2% weakness to piercing damage (cumulative) for 5 rounds.
 
 THAC0: +6
@@ -163,10 +163,10 @@ STATISTICS:
 
 Combat abilities:
 Deals bonus piercing damage based on the target's current Hit Points:
- – 85–100 HP: 1d2 damage
- – 70–84 HP: 1d2+1 damage
- – 54–69 HP: 1d3+1 damage
- – 38–53 HP: 1d4+1 damage
+ – 85-100 HP: 1d2 damage
+ – 70-84 HP: 1d2+1 damage
+ – 54-69 HP: 1d3+1 damage
+ – 38-53 HP: 1d4+1 damage
  – 37 HP or less: 1d5+1 damage
 Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
 
@@ -192,10 +192,10 @@ STATISTICS:
 
 Combat abilities:
 Deals bonus piercing damage based on the target's current Hit Points:
- – 110–130 HP: 1d2+1 damage
- – 89–109 HP: 1d3+1 damage
- – 68–88 HP: 1d4+2 damage
- – 47–67 HP: 1d5+2 damage
+ – 110-130 HP: 1d2+1 damage
+ – 89-109 HP: 1d3+1 damage
+ – 68-88 HP: 1d4+2 damage
+ – 47-67 HP: 1d5+2 damage
  – 46 HP or less: 1d6+2 damage
 Also, each hit has a 4% chance to strike a weak spot, instantly causing the target to lose 20% of their maximum Hit Points.
 
