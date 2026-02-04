@@ -16,7 +16,7 @@ ACTION_IF GAME_IS ~bgee eet~ BEGIN
                 ~stosilen.sto~ ~override~ // silence
                 ~taerum.sto~   ~override~ // thunderhammer's smithy
                 ~bdwaizah.sto~ ~override~ // thieves guild sod
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=40 STR_VAR item_name="ZSIPAVP0" position="LAST" flags=~identified~ END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=40 STR_VAR item_name="zsipavp0" position="LAST" flags=~identified~ END
   BUT_ONLY IF_EXISTS
 
 END
@@ -39,12 +39,12 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
                 ~shthstor.sto~  ~override~ // ratell
                 ~trmer03.sto~   ~override~ // fletcher
                 ~sarbar01.sto~  ~override~ // saradush inn
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=10 STR_VAR item_name="ZSIPAVP0" position="LAST" flags=~identified~ END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=10 STR_VAR item_name="zsipavp0" position="LAST" flags=~identified~ END
 
   COPY_EXISTING ~bmthief.sto~   ~override~ // shadow thief fence
                 ~ribald2.sto~   ~override~ // ribald
                 ~hgkar01.sto~   ~override~ // karthis
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=15 STR_VAR item_name="ZSIPAVP0" position="LAST" flags=~identified~ END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=15 STR_VAR item_name="zsipavp0" position="LAST" flags=~identified~ END
 
 END
 
@@ -52,9 +52,36 @@ ACTION_IF GAME_IS ~iwdee~ BEGIN
 
   COPY_EXISTING_REGEXP ~^.+\.sto~ ~override~
   
+      READ_LONG 0x38 items_sale
+      PATCH_IF items_sale > 0 BEGIN
+        READ_LONG 0x34 items_sale_offset
+        SET last_offset = items_sale_offset + ( (items_sale -1 ) * 28)
 
+        FOR (i = items_sale_offset; i < last_offset; i += 28) BEGIN
+            READ_ASCII i resource (8)
+            SET matched = 0
+            INNER_PATCH_FILE ~%resource%.itm~ BEGIN
+                READ_SHORT 0x1c category
 
+                PATCH_IF category = 5 BEGIN
 
+                    SET stacks = RANDOM(1 10)
+                    SET size_stack = RANDOM(1 4)
+
+                    LPF ADD_STORE_ITEM_EX INT_VAR charge1=(size_stack * 10) stack=stacks STR_VAR item_name="zsipavp0" position="LAST" flags=~identified~ END
+
+                    SET matched = 1
+                END
+              
+            END
+
+            PATCH_IF matched = 1 BEGIN
+              i = last_offset
+            END
+
+        END
+
+      END
 
   BUT_ONLY
 
