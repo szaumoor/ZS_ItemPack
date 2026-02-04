@@ -115,7 +115,7 @@ OUTER_SET zst_price_left_hand_bg2ee                        = "1250"  // in store
 OUTER_SET zst_price_squire_defense                         = "6000"  // in stores
 
 // Mass Effect
-OUTER_SET zst_price_base_omniblade = "1000" // in stores (bgee) / as loot (bg2ee)
+OUTER_SET zst_price_base_omniblade = "1000" // in stores (bgee, iwdee) / as loot (bg2ee)
 OUTER_SET zst_price_phantoms_blade = "7500" // as loot
 OUTER_SET zst_price_rod_illusive   = "8000" // in stores
 
