@@ -3,6 +3,12 @@ COPY_EXISTING ~zsipktaa.itm~ ~override~
   SAY NAME2 @8004
   SAY IDENTIFIED_DESC @8005
 
+  PATCH_IF NOT GAME_IS "iwdee" BEGIN
+    WRITE_LONG 0x34 zst_price_master_li_way
+  END ELSE BEGIN
+    WRITE_LONG 0x34 zst_price_master_li_way_loot
+  END
+
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
   COPY_EXISTING ~stosilen.sto~ ~override~ // silence
@@ -18,6 +24,8 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
 END
 
 ACTION_IF GAME_IS "iwdee" BEGIN
+
+  
 
   COPY_EXISTING ~ar7004.are~ ~override~ 
     LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 14 STR_VAR item_to_add = ~zsipktaa~ END

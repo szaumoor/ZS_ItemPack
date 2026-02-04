@@ -95,6 +95,7 @@ OUTER_SET zst_price_kukri_eclipse_upgraded                 = "6500"  // as loot 
 OUTER_SET zst_price_lawgiver                               = "2000"  // in stores in bg2ee and iwdee, as loot in bgee
 
 OUTER_SET zst_price_master_li_way                          = "6500"  // in stores
+OUTER_SET zst_price_master_li_way_loot                     = "1500" // in loot (iwdee)
 
 OUTER_SET zst_price_mercykiller_blade                      = "20000" // in stores
 
