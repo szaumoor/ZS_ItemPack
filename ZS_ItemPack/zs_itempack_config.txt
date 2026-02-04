@@ -9,7 +9,7 @@ OUTER_SET zst_generic_variants_rapiers   = "1"
 OUTER_SET zst_generic_variants_estocs    = "1"
 OUTER_SET zst_generic_variants_shurikens = "1"
 
-// set to 1 is you want generic estocs, shurikens, rapiers, and kukris injected into the world regardless of whether a special item of that type is installed (currently +0 - +3 variants as well as shurikens). Most relevant for BGEE because only one special rapier is available for bgee
+// set to 1 is you want generic estocs, shurikens, rapiers, and kukris injected into the world regardless of whether a special item of that type is installed whether by choice or because they're not available for the current game.
 OUTER_SET zst_generic_variants_forced = "1"
 
 // these options grant (without replacement) these items to these characters (base character), if the weapons exist
