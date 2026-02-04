@@ -3,7 +3,12 @@ COPY ~%MOD_FOLDER%/items/02_souls/crimson_life~ ~override~
 COPY_EXISTING ~zsiplfc0.itm~ ~override~
   SAY NAME2 @6100
   SAY IDENTIFIED_DESC @6101
-  WRITE_LONG 0x34 zst_price_crimson_life
+
+  PATCH_IF NOT GAME_IS "iwdee" BEGIN
+    WRITE_LONG 0x34 zst_price_crimson_life
+  END ELSE BEGIN 
+    WRITE_LONG 0x34 zst_price_crimson_life_iwdee
+  END
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
@@ -20,9 +25,6 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
 END
 
 ACTION_IF GAME_IS "iwdee" BEGIN
-
-  COPY_EXISTING ~zsiplfc0.itm~ ~override~
-    WRITE_LONG 0x34 zst_price_crimson_life_iwdee
 
   COPY_EXISTING ~zsiplfc0.itm~ ~override~
     WRITE_SHORT 0x42 50 // lore required
