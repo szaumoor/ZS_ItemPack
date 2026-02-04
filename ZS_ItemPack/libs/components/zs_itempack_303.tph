@@ -16,3 +16,11 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsipktaa" position = "LAST" flags=~identified~ END
 
 END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+
+  COPY_EXISTING ~ar7004.are~ ~override~ 
+    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 14 STR_VAR item_to_add = ~zsipktaa~ END
+
+END
+
