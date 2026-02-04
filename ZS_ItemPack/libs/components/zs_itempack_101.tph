@@ -1,27 +1,27 @@
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/everburn_blade~ ~override~
-COPY_EXISTING ~ZSIPS2AA.itm~ ~override~
+COPY_EXISTING ~zsips2aa.itm~ ~override~
   SAY NAME2 @5001
   SAY IDENTIFIED_DESC @5002
   WRITE_LONG 0x34 zst_price_everburn_blade
 
-COPY_EXISTING ~ZSIPS203.spl~ ~override~
+COPY_EXISTING ~zsips203.spl~ ~override~
   PATCH_FOR_EACH p1 IN 1 2 BEGIN
     LPF ALTER_EFFECT INT_VAR match_opcode = 139 match_parameter1 = p1 parameter1 = RESOLVE_STR_REF(@5003) END
   END
 
-COPY_EXISTING ~ZSIPS203.spl~ ~override~
-              ~ZSIPS206.spl~ ~override~
+COPY_EXISTING ~zsips203.spl~ ~override~
+              ~zsips206.spl~ ~override~
   PATCH_FOR_EACH p1 IN 1 2 3 4 BEGIN
     LPF ALTER_EFFECT INT_VAR silent=1 match_opcode = 139 match_parameter1 = p1 parameter1 = RESOLVE_STR_REF(@5003) END
   END
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~SIMDEMON.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPS2AA~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~ EQUIP
+  COPY_EXISTING ~simdemon.cre~ ~override~
+    ADD_CRE_ITEM ~zsips2aa~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~ EQUIP
 
-  COPY_EXISTING ~SIMMEON.CRE~ ~override~
-    REPLACE_CRE_ITEM ~ZSIPS2AA~ #0 #0 #0 ~unstealable~ ~inv~
+  COPY_EXISTING ~simmeon.cre~ ~override~
+    REPLACE_CRE_ITEM ~zsips2aa~ #0 #0 #0 ~unstealable~ ~inv~
 
 END
 

@@ -1,11 +1,11 @@
 COPY ~%MOD_FOLDER%/items/05_tv/craven_edge~ ~override~
-COPY_EXISTING ~ZSIPCRV0.itm~ ~override~
+COPY_EXISTING ~zsipcrv0.itm~ ~override~
   SAY NAME2 @12010
   SAY IDENTIFIED_DESC @12011
   WRITE_LONG 0x34 zst_price_craven_edge
 
-COPY_EXISTING ~ZSIPCRV4.spl~ ~override~
+COPY_EXISTING ~zsipcrv4.spl~ ~override~
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@12012) END
 
-COPY_EXISTING ~HLSHYR.CRE~ ~override~
-  ADD_CRE_ITEM ~ZSIPCRV0~ #0 #0 #0 ~unstealable~ ~inv~
+COPY_EXISTING ~hlshyr.cre~ ~override~
+  ADD_CRE_ITEM ~zsipcrv0~ #0 #0 #0 ~unstealable~ ~inv~

@@ -1,21 +1,21 @@
 COPY ~%MOD_FOLDER%/items/02_souls/blade_calling~ ~override~
-COPY_EXISTING ~ZSIPBCL0.ITM~ ~override~
+COPY_EXISTING ~zsipbcl0.itm~ ~override~
   SAY NAME2 @6160
   SAY IDENTIFIED_DESC @6161
   WRITE_LONG 0x34 zst_price_blade_calling
 
-COPY_EXISTING ~ZSIPBCL3.SPL~ ~override~
+COPY_EXISTING ~zsipbcl3.spl~ ~override~
   PATCH_FOR_EACH p1 IN 1 2 3 4 BEGIN
     LPF ALTER_EFFECT INT_VAR silent=1 match_opcode = 139 match_parameter1 = p1 parameter1 = RESOLVE_STR_REF(@5003) END
   END
 
-COPY_EXISTING ~ZSIPBCL8.SPL~ ~override~
+COPY_EXISTING ~zsipbcl8.spl~ ~override~
   SAY NAME1 @6162
 
-COPY_EXISTING ~ZSIPBCL8.SPL~ ~override~
+COPY_EXISTING ~zsipbcl8.spl~ ~override~
   SAY NAME1 @6162
 
-COPY_EXISTING ~ZSIPBCL#.spl~ ~override~
+COPY_EXISTING ~zsipbcl#.spl~ ~override~
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6165) END
 
 ADD_JOURNAL TITLE (@30000) @30001 @30002 @30003 @30004 @30005 USING ~%MOD_FOLDER%/lang/english/Journal.tra~
@@ -23,15 +23,15 @@ ADD_JOURNAL TITLE (@30000) @30001 @30002 @30003 @30004 @30005 USING ~%MOD_FOLDER
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/quest~
                         ~%MOD_FOLDER%/baf/quest/zsipmum.baf~
 
-EXTEND_BOTTOM ~AR0408.bcs~   ~%MOD_FOLDER%/baf/quest/AR0408.baf~
-EXTEND_BOTTOM ~AR0800.bcs~   ~%MOD_FOLDER%/baf/quest/AR0800.baf~
+EXTEND_BOTTOM ~ar0408.bcs~   ~%MOD_FOLDER%/baf/quest/AR0408.baf~
+EXTEND_BOTTOM ~ar0800.bcs~   ~%MOD_FOLDER%/baf/quest/AR0800.baf~
 
 COPY ~%MOD_FOLDER%/cre~ ~override~
-COPY ~%MOD_FOLDER%/cre/ZSIPAKAC.cre~ ~override~
+COPY ~%MOD_FOLDER%/cre/zsipakac.cre~ ~override~
   SAY NAME1 ~Akachi~
   SAY NAME2 ~Akachi~
 
-COPY ~%MOD_FOLDER%/cre/ZSIPMUM.cre~ ~override~
+COPY ~%MOD_FOLDER%/cre/zsipmum.cre~ ~override~
   SAY NAME1 ~Greater Mummy~
   SAY NAME2 ~Greater Mummy~
 

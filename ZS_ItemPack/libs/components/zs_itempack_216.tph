@@ -1,5 +1,5 @@
 COPY ~%MOD_FOLDER%/items/02_souls/icicle~ ~override~
-COPY_EXISTING ~ZSIPICI0.itm~ ~override~
+COPY_EXISTING ~zsipici0.itm~ ~override~
   SAY NAME1 @80110
   SAY NAME2 @6070
   SAY UNIDENTIFIED_DESC @80111
@@ -8,8 +8,8 @@ COPY_EXISTING ~ZSIPICI0.itm~ ~override~
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-  COPY_EXISTING ~UDMASTER.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPICI0~ #0 #0 #0 ~unstealable~ ~inv~
+  COPY_EXISTING ~udmaster.cre~ ~override~
+    ADD_CRE_ITEM ~zsipici0~ #0 #0 #0 ~unstealable~ ~inv~
 
 END
 

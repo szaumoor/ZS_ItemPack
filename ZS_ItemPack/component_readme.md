@@ -172,7 +172,7 @@ This adds a new +4 shuriken in limited quantities (as per the lore in the descri
 
 ### Add Arrows of the Vampire (314) (IWDEE BGEE BG2EE EET)
 
-This adds new +0 magical arrows that heal the user by 2 HP every time they hit a target. Double on critical hits.
+This adds new +0 magical arrows that heal the user by 2 HP every time they hit a target. Double on critical hits. In BG, these arrows are manually placed to relevant stores, but in IWDEE they will be added to any store that sells arrows, the amount of which is randomized at installation time per specific store (1 to 8 stacks of 5 to 40 arrows)
 
 ### Add Squire's Defense (315) (BGEE BG2EE EET)
 

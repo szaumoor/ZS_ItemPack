@@ -1,24 +1,24 @@
 COPY "%MOD_FOLDER%/items/03_nwn/the_left_hand" ~override~
-COPY_EXISTING ~ZSIPLFH0.ITM~ ~override~
+COPY_EXISTING ~zsiplfh0.itm~ ~override~
   SAY NAME2 @8002
   SAY IDENTIFIED_DESC @8003
   WRITE_LONG 0x34 zst_price_left_hand_bgee
 
-COPY_EXISTING ~ZSIPLFH1.ITM~ ~override~
+COPY_EXISTING ~zsiplfh1.itm~ ~override~
   SAY NAME2 @8002
   SAY IDENTIFIED_DESC @80030
   WRITE_LONG 0x34 zst_price_left_hand_bg2ee
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~sto4803.STO~ ~override~ // nashkel store
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPLFH0" position = "LAST" flags = ~identified~ END
+  COPY_EXISTING ~sto4803.sto~ ~override~ // nashkel store
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsiplfh0" position = "LAST" flags = ~identified~ END
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~bmthief.sto~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags = ~identified~ item_name = "ZSIPLFH1" position = "LAST" END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags = ~identified~ item_name = "zsiplfh1" position = "LAST" END
 
 END

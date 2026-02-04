@@ -1,5 +1,5 @@
 COPY ~%MOD_FOLDER%/items/03_nwn/shining_light~ ~override~
-COPY_EXISTING ~ZSIPSHL0.itm~ ~override~
+COPY_EXISTING ~zsipshl0.itm~ ~override~
   SAY NAME1 @15070
   SAY NAME2 @15060
   SAY UNIDENTIFIED_DESC @15071

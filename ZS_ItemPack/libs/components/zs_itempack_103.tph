@@ -1,34 +1,34 @@
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/crimson_mischief~ ~override~
-COPY_EXISTING ~ZSIPCM00.itm~ ~override~
-              ~ZSIPCM10.itm~ ~override~
+COPY_EXISTING ~zsipcm00.itm~ ~override~
+              ~zsipcm10.itm~ ~override~
     LPF ALTER_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 0 parameter1 = RESOLVE_STR_REF(@5009) END
     PATCH_FOR_EACH p1 IN 1 2 3 4 BEGIN
       LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 139 match_parameter1 = p1 parameter1 = RESOLVE_STR_REF(@50092) END
     END
 
-COPY_EXISTING ~ZSIPCM00.itm~ ~override~
+COPY_EXISTING ~zsipcm00.itm~ ~override~
     SAY NAME2 @5007
     SAY IDENTIFIED_DESC @5008
     WRITE_LONG 0x34 zst_price_crimson_mischief
 
-COPY_EXISTING ~ZSIPCM10.itm~ ~override~
+COPY_EXISTING ~zsipcm10.itm~ ~override~
     SAY NAME2 @50090
     SAY IDENTIFIED_DESC @50091
     WRITE_LONG 0x34 zst_price_crimson_mischief_upgraded
 
-COPY_EXISTING ~ARAN.CRE~ ~override~
-    LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~SW1H29~ RET aran1_found = found END
+COPY_EXISTING ~aran.cre~ ~override~
+    LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~sw1h29~ RET aran1_found = found END
 
-COPY_EXISTING ~ARAN02.CRE~ ~override~
-    LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~SW1H29~ RET aran2_found = found END
+COPY_EXISTING ~aran02.cre~ ~override~
+    LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~sw1h29~ RET aran2_found = found END
 
 ACTION_IF aran1_found AND aran2_found BEGIN
 
-    COPY_EXISTING ~ARAN.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPCM00~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
+    COPY_EXISTING ~aran.cre~ ~override~
+        ADD_CRE_ITEM ~zsipcm00~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
 
-    COPY_EXISTING ~ARAN02.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPCM00~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
+    COPY_EXISTING ~aran02.cre~ ~override~
+        ADD_CRE_ITEM ~zsipcm00~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
 
     PRINT "Item Crimson Mischief added to the first option."
 

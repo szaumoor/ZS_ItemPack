@@ -1,5 +1,5 @@
 COPY ~%MOD_FOLDER%/items/02_souls/bloody_sting~ ~override~
-COPY_EXISTING ~ZSIPBLS0.ITM~ ~override~
+COPY_EXISTING ~zsipbls0.itm~ ~override~
   SAY NAME1 @60200
   SAY NAME2 @6080
   SAY UNIDENTIFIED_DESC @60201
@@ -7,7 +7,7 @@ COPY_EXISTING ~ZSIPBLS0.ITM~ ~override~
   WRITE_LONG 0x34 zst_price_bloody_sting
   LPF ALTER_EFFECT INT_VAR match_opcode=318 match_parameter1=0 match_parameter2=0 parameter2=zs_has_stoneskins END
 
-COPY_EXISTING ~ZSIPBLS2.ITM~ ~override~
+COPY_EXISTING ~zsipbls2.itm~ ~override~
   SAY NAME1 @60200
   SAY NAME2 @6083
   SAY UNIDENTIFIED_DESC @60201
@@ -15,13 +15,13 @@ COPY_EXISTING ~ZSIPBLS2.ITM~ ~override~
   WRITE_LONG 0x34 zst_price_bloody_sting_upgraded
   LPF ALTER_EFFECT INT_VAR match_opcode=318 match_parameter1=0 match_parameter2=0 parameter2=zs_has_stoneskins END
 
-COPY_EXISTING ~ZSIPBLS1.SPL~ ~override~
+COPY_EXISTING ~zsipbls1.spl~ ~override~
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@6082) END
 
-COPY_EXISTING ~DRAGBLAC.CRE~ ~override~
-  ADD_CRE_ITEM ~ZSIPBLS0~ #0 #0 #0 ~unstealable~ ~inv~
+COPY_EXISTING ~dragblac.cre~ ~override~
+  ADD_CRE_ITEM ~zsipbls0~ #0 #0 #0 ~unstealable~ ~inv~
 
-COPY_EXISTING ~SUDEMON.CRE~ ~override~
+COPY_EXISTING ~sudemon.cre~ ~override~
   ADD_CRE_ITEM ~misc6m~ #0 #0 #0 ~unstealable~ ~inv~
 
 COMPILE ~%MOD_FOLDER%/dlg/upgrades/zs_itempack_bloody_sting_cespy.d~
