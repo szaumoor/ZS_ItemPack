@@ -6,7 +6,7 @@ COPY_EXISTING ~zsipcls0.itm~ ~override~
 
 COPY_EXISTING ~zsipcls0.itm~ ~override~
     SAY IDENTIFIED_DESC @5016
-    WRITE_LONG 0x34 zst_price_cold_snap_bgee
+    WRITE_LONG 0x34 zst_price_cold_snap_bgee_iwdee
 
 COPY_EXISTING ~zsipcls2.itm~ ~override~
     SAY IDENTIFIED_DESC @50161

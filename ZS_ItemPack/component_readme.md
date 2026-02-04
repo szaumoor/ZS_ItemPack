@@ -62,7 +62,7 @@ This adds a new cool cloak for assassins and other roguish characters. Once per 
 
 ### Add Ring of Hardiness (205) (IWDEE BGEE BG2EE EET)
 
-This adds a new ring that increases slightly physical damage resistance and Armor Class. Can be upgraded by Cromwell.
+This adds a new ring that increases slightly physical damage resistance and Armor Class. Can be upgraded by Cromwell in BG2.
 
 ### Add Sage Ring (211) (IWDEE BGEE BG2EE EET)
 

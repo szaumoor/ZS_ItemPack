@@ -2,7 +2,7 @@ COPY ~%MOD_FOLDER%/items/01_forbidden_game/assassins_touch~ ~override~
 COPY_EXISTING ~zsipass0.itm~ ~override~
   SAY NAME2 @5010
   SAY IDENTIFIED_DESC @5011
-  WRITE_LONG 0x34 zst_price_assassins_touch_bgee
+  WRITE_LONG 0x34 zst_price_assassins_touch_bgee_iwdee
 
 COPY_EXISTING ~zsipass4.itm~ ~override~
   SAY NAME2 @50110

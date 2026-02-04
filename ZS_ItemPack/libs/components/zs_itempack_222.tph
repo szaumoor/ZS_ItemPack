@@ -22,6 +22,9 @@ END
 ACTION_IF GAME_IS "iwdee" BEGIN
 
   COPY_EXISTING ~zsiplfc0.itm~ ~override~
+    WRITE_LONG 0x34 zst_price_crimson_life_iwdee
+
+  COPY_EXISTING ~zsiplfc0.itm~ ~override~
     WRITE_SHORT 0x42 50 // lore required
 
   COPY_EXISTING ~ar6006.are~ ~override~

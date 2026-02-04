@@ -1,33 +1,40 @@
 COPY ~%MOD_FOLDER%/items/02_souls/sage_ring~ ~override~
-COPY_EXISTING ~ZSIPSGR0.ITM~ ~override~
+COPY_EXISTING ~zsipsgr0.itm~ ~override~
     SAY NAME2 @6130
     SAY IDENTIFIED_DESC @6131
     WRITE_LONG 0x34 zst_price_sage_ring
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-    COPY_EXISTING ~DAVAEO.CRE~ ~override~
+    COPY_EXISTING ~davaeo.cre~ ~override~
         READ_LONG 0x2b8 item_offset
         READ_SSHORT (item_offset + (6 * 2)) equipped_necklace
 
         PATCH_IF equipped_necklace = "-1" BEGIN
-            ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable&undroppable~ ~amulet~
+            ADD_CRE_ITEM ~zsipsgr0~ #0 #0 #0 ~unstealable&undroppable~ ~amulet~
         END
 
-        ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~zsipsgr0~ #0 #0 #0 ~unstealable~ ~inv~
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-    COPY_EXISTING ~TOLGER2.CRE~ ~override~
+    COPY_EXISTING ~tolger2.cre~ ~override~
         READ_LONG 0x2b8 item_offset
         READ_SSHORT (item_offset + (4 * 2)) equipped_left_ring
 
         PATCH_IF equipped_left_ring = "-1" BEGIN
-            ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable&undroppable~ ~lring~
+            ADD_CRE_ITEM ~zsipsgr0~ #0 #0 #0 ~unstealable&undroppable~ ~lring~
         END
 
-        ADD_CRE_ITEM ~ZSIPSGR0~ #0 #0 #0 ~unstealable~ ~inv~
+        ADD_CRE_ITEM ~zsipsgr0~ #0 #0 #0 ~unstealable~ ~inv~
+
+END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+
+    COPY_EXISTING ~adran.cre~ ~override~
+        ADD_CRE_ITEM ~zsipsgr0~ #0 #0 #0 ~unstealable~ ~helmet gloves inv~
 
 END
