@@ -34,8 +34,8 @@ ACTION_IF aran1_found AND aran2_found BEGIN
 
 END ELSE BEGIN
 
-    COPY_EXISTING ~BHEYE.CRE~ ~override~
-        ADD_CRE_ITEM ~ZSIPCM00~ #0 #0 #0 ~unstealable~ ~inv~
+    COPY_EXISTING ~bheye.cre~ ~override~
+        ADD_CRE_ITEM ~zsipcm00~ #0 #0 #0 ~unstealable~ ~inv~
 
     PRINT "Item Crimson Mischief added to the second option."
 

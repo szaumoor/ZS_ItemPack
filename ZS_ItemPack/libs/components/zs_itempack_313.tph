@@ -7,6 +7,6 @@ COPY_EXISTING ~zsipshl0.itm~ ~override~
   WRITE_LONG 0x34 zst_price_shining_light_shuriken
 
 COPY_EXISTING ~ribald.sto~ ~override~ // ribald
-  LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=80 STR_VAR item_name="ZSIPSHL0" position="LAST" flags=~identified~ END
+  LPF ADD_STORE_ITEM_EX INT_VAR charge1=5 stack=80 STR_VAR item_name="zsipshl0" position="LAST" flags=~identified~ END
 
 INCLUDE ~%MOD_FOLDER%/libs/zs_add_shurikens.tph~

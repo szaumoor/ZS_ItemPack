@@ -53,7 +53,7 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_rapiers AND NOT FILE_EXI
 
         ACTION_IF zst_give_skie_bgee_rapier1 BEGIN
             // skie uses a rapier now, since it's a noble weapon
-            COPY_EXISTING ~skie.cre~ ~override~
+            COPY_EXISTING ~skie.cre~  ~override~
                           ~skie6.cre~ ~override~
                 ADD_CRE_ITEM ~zsiprap1~ #0 #0 #0 ~none~ ~weapon2~ EQUIP // CHECK COMPATIBILITY WITH LAVA'S MOD
         END
@@ -67,28 +67,28 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_rapiers AND NOT FILE_EXI
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
         // +0
-        COPY_EXISTING ~shop01.sto~    ~override~ // mira
-                      ~shop03.sto~    ~override~ // maheed
-                      ~shop04.sto~    ~override~ // store owner that talks in a way that is difficult to understand
-                      ~shop06.sto~    ~override~ // hes
-                      ~shop07.sto~    ~override~ // another store in waukeen promenade
-                      ~shthstor.sto~  ~override~ // ratell
-                      ~arled.sto~     ~override~ // arled
-                      ~bernard.sto~   ~override~ // bernard 1
-                      ~bernard2.sto~  ~override~ // bernard 2
-                      ~bernard3.sto~  ~override~ // bernard 3
-                      ~bernard4.sto~  ~override~ // bernard 4
-                      ~bernard5.sto~  ~override~ // bernard 5
-                      ~bernard6.sto~  ~override~ // bernard 6
-                      ~bmthief.sto~   ~override~ // shadow thief fence
-                      ~ambar01.sto~   ~override~ // the zephyr
-                      ~amsmug01.sto~  ~override~ // amekthran smugglers1
-                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
-                      ~gorch.sto~     ~override~ // gorch
-                      ~hendak.sto~    ~override~ // hendak
-                      ~lehtinan.sto~  ~override~ // lehtinan
-                      ~uddrow22.sto~  ~override~ // drow merchant
-                      ~uddrow23.sto~  ~override~ // drow merchant
+        COPY_EXISTING ~shop01.sto~   ~override~ // mira
+                      ~shop03.sto~   ~override~ // maheed
+                      ~shop04.sto~   ~override~ // store owner that talks in a way that is difficult to understand
+                      ~shop06.sto~   ~override~ // hes
+                      ~shop07.sto~   ~override~ // another store in waukeen promenade
+                      ~shthstor.sto~ ~override~ // ratell
+                      ~arled.sto~    ~override~ // arled
+                      ~bernard.sto~  ~override~ // bernard 1
+                      ~bernard2.sto~ ~override~ // bernard 2
+                      ~bernard3.sto~ ~override~ // bernard 3
+                      ~bernard4.sto~ ~override~ // bernard 4
+                      ~bernard5.sto~ ~override~ // bernard 5
+                      ~bernard6.sto~ ~override~ // bernard 6
+                      ~bmthief.sto~  ~override~ // shadow thief fence
+                      ~ambar01.sto~  ~override~ // the zephyr
+                      ~amsmug01.sto~ ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~ ~override~ // amekthran smugglers1
+                      ~gorch.sto~    ~override~ // gorch
+                      ~hendak.sto~   ~override~ // hendak
+                      ~lehtinan.sto~ ~override~ // lehtinan
+                      ~uddrow22.sto~ ~override~ // drow merchant
+                      ~uddrow23.sto~ ~override~ // drow merchant
             SET amount = RANDOM(1 5)
             LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="zsiprap0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
@@ -103,45 +103,45 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_rapiers AND NOT FILE_EXI
         END
 
         // +1
-        COPY_EXISTING ~arled.sto~     ~override~ // arled
-                      ~bernard.sto~   ~override~ // bernard 1
-                      ~bernard2.sto~  ~override~ // bernard 2
-                      ~bernard3.sto~  ~override~ // bernard 3
-                      ~bernard4.sto~  ~override~ // bernard 4
-                      ~bernard5.sto~  ~override~ // bernard 5
-                      ~bernard6.sto~  ~override~ // bernard 6
-                      ~bmthief.sto~   ~override~ // shadow thief fence
-                      ~ambar01.sto~   ~override~ // the zephyr
-                      ~amsmug01.sto~  ~override~ // amekthran smugglers1
-                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
-                      ~gorch.sto~     ~override~ // gorch
-                      ~hendak.sto~    ~override~ // hendak
-                      ~lehtinan.sto~  ~override~ // lehtinan
-                      ~uddrow22.sto~  ~override~ // drow merchant
-                      ~uddrow23.sto~  ~override~ // drow merchant
-                      ~ribald.sto~    ~override~ // ribald
-                      ~ribald2.sto~   ~override~ // ribald
+        COPY_EXISTING ~arled.sto~    ~override~ // arled
+                      ~bernard.sto~  ~override~ // bernard 1
+                      ~bernard2.sto~ ~override~ // bernard 2
+                      ~bernard3.sto~ ~override~ // bernard 3
+                      ~bernard4.sto~ ~override~ // bernard 4
+                      ~bernard5.sto~ ~override~ // bernard 5
+                      ~bernard6.sto~ ~override~ // bernard 6
+                      ~bmthief.sto~  ~override~ // shadow thief fence
+                      ~ambar01.sto~  ~override~ // the zephyr
+                      ~amsmug01.sto~ ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~ ~override~ // amekthran smugglers1
+                      ~gorch.sto~    ~override~ // gorch
+                      ~hendak.sto~   ~override~ // hendak
+                      ~lehtinan.sto~ ~override~ // lehtinan
+                      ~uddrow22.sto~ ~override~ // drow merchant
+                      ~uddrow23.sto~ ~override~ // drow merchant
+                      ~ribald.sto~   ~override~ // ribald
+                      ~ribald2.sto~  ~override~ // ribald
             LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="zsiprap1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +2
-        COPY_EXISTING ~bernard5.sto~  ~override~ // bernard 5
-                      ~bernard6.sto~  ~override~ // bernard 6
-                      ~ohnsdwm.sto~   ~override~ // merchant
-                      ~trmer04a.sto~  ~override~ // anvir of the right
-                      ~ribald.sto~    ~override~ // ribald
-                      ~ribald3.sto~   ~override~ // ribald
-                      ~hgkar01.sto~   ~override~ // karthis
-                      ~sarbar01.sto~  ~override~ // saradush bar
+        COPY_EXISTING ~bernard5.sto~ ~override~ // bernard 5
+                      ~bernard6.sto~ ~override~ // bernard 6
+                      ~ohnsdwm.sto~  ~override~ // merchant
+                      ~trmer04a.sto~ ~override~ // anvir of the right
+                      ~ribald.sto~   ~override~ // ribald
+                      ~ribald3.sto~  ~override~ // ribald
+                      ~hgkar01.sto~  ~override~ // karthis
+                      ~sarbar01.sto~ ~override~ // saradush bar
             LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="zsiprap2" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
          // +3
-        COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
-                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
-                      ~hgkar01.sto~   ~override~ // karthis
-                      ~sarbar01.sto~  ~override~ // saradush bar
-                      ~ohnsdwm.sto~   ~override~ // merchant
+        COPY_EXISTING ~amsmug01.sto~ ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~ ~override~ // amekthran smugglers1
+                      ~hgkar01.sto~  ~override~ // karthis
+                      ~sarbar01.sto~ ~override~ // saradush bar
+                      ~ohnsdwm.sto~  ~override~ // merchant
             LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="zsiprap3" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 

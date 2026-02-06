@@ -12,20 +12,20 @@ COPY_EXISTING ~zsipass4.itm~ ~override~
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
   COPY_EXISTING ~inn3351.sto~ ~override~
-      LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipass0" position = "LAST" END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipass0" position = "LAST" END
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~bmthief.sto~ ~override~
-      LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipass4" position = "LAST" END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipass4" position = "LAST" END
 
 END
 
 ACTION_IF GAME_IS "iwdee" BEGIN
 
   COPY_EXISTING ~bmthief.sto~ ~override~
-      LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipass4" position = "LAST" END
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipass4" position = "LAST" END
 
 END

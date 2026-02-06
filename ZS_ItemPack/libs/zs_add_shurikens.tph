@@ -62,26 +62,26 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
 
         COPY_EXISTING ~erdane.sto~  ~override~ // erdane (durlag's tower)
                       ~friend.sto~  ~override~ // friendly arm inn
-                      ~sto4803.sto~  ~override~ // nashkel store
+                      ~sto4803.sto~ ~override~ // nashkel store
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=5 STR_VAR item_name="zsipshu0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         COPY_EXISTING ~inn2616.sto~ ~override~ // winthrop
-                      ~inn3304.sto~  ~override~ // jovial jugler
-                      ~sto1116.sto~  ~override~ // general store
-                      ~sto1302.sto~  ~override~ // general store
-                      ~sto4909.sto~  ~override~ // carnival shop
-                      ~tav0810.sto~  ~override~ // maltz's weapon shop
+                      ~inn3304.sto~ ~override~ // jovial jugler
+                      ~sto1116.sto~ ~override~ // general store
+                      ~sto1302.sto~ ~override~ // general store
+                      ~sto4909.sto~ ~override~ // carnival shop
+                      ~tav0810.sto~ ~override~ // maltz's weapon shop
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 unlimited=1 STR_VAR item_name="zsipshu0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
-        COPY_EXISTING ~erdane.sto~  ~override~ // erdane (durlag's tower)
-                      ~friend.sto~  ~override~ // friendly arm inn
-                      ~ulgoth.sto~   ~override~ // ulgoth's beard store
+        COPY_EXISTING ~erdane.sto~ ~override~ // erdane (durlag's tower)
+                      ~friend.sto~ ~override~ // friendly arm inn
+                      ~ulgoth.sto~ ~override~ // ulgoth's beard store
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=5 STR_VAR item_name="zsipshu0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
-        COPY_EXISTING ~taerum.sto~   ~override~ // thunderhammer's smithy
+        COPY_EXISTING ~taerum.sto~ ~override~ // thunderhammer's smithy
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=100 STR_VAR item_name="zsipshu0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
@@ -145,50 +145,50 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
         // +0
-        COPY_EXISTING ~amsmug01.sto~    ~override~ // smugglers 1
-                      ~amsmug02.sto~    ~override~ // smugglers 2
-                      ~arled.sto~       ~override~ // arled
+        COPY_EXISTING ~amsmug01.sto~ ~override~ // smugglers 1
+                      ~amsmug02.sto~ ~override~ // smugglers 2
+                      ~arled.sto~    ~override~ // arled
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=10 STR_VAR item_name="zsipshu0" position="LAST" flags=~identified~ END
 
-        COPY_EXISTING ~bernard.sto~   ~override~ // bernard 1
-                      ~bernard2.sto~  ~override~ // bernard 2
-                      ~bernard3.sto~  ~override~ // bernard 3
-                      ~bernard4.sto~  ~override~ // bernard 4
-                      ~bmthief.sto~   ~override~ // shadow thief fence
-                      ~gorch.sto~     ~override~ // gorch
-                      ~hendak.sto~    ~override~ // hendak
-                      ~lehtinan.sto~  ~override~ // lehtinan
-                      ~ribald.sto~    ~override~ // ribald
-                      ~ribald2.sto~   ~override~ // ribald
-                      ~shthstor.sto~  ~override~ // ratell
+        COPY_EXISTING ~bernard.sto~  ~override~ // bernard 1
+                      ~bernard2.sto~ ~override~ // bernard 2
+                      ~bernard3.sto~ ~override~ // bernard 3
+                      ~bernard4.sto~ ~override~ // bernard 4
+                      ~bmthief.sto~  ~override~ // shadow thief fence
+                      ~gorch.sto~    ~override~ // gorch
+                      ~hendak.sto~   ~override~ // hendak
+                      ~lehtinan.sto~ ~override~ // lehtinan
+                      ~ribald.sto~   ~override~ // ribald
+                      ~ribald2.sto~  ~override~ // ribald
+                      ~shthstor.sto~ ~override~ // ratell
                       ~trmer03.sto~  ~override~ // fletcher
-                      ~sarbar01.sto~  ~override~ // saradush inn
+                      ~sarbar01.sto~ ~override~ // saradush inn
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 unlimited=1 STR_VAR item_name="zsipshu0" position="LAST" flags=~identified~ END
 
         // +1
-        COPY_EXISTING ~amsmug01.sto~  ~override~ // smugglers 1
-                      ~amsmug02.sto~  ~override~ // smugglers 2
-                      ~arled.sto~     ~override~ // arled
+        COPY_EXISTING ~amsmug01.sto~ ~override~ // smugglers 1
+                      ~amsmug02.sto~ ~override~ // smugglers 2
+                      ~arled.sto~    ~override~ // arled
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=10 STR_VAR item_name="zsipshu1" position="LAST" flags=~identified~ END
 
-        COPY_EXISTING ~bernard3.sto~  ~override~ // bernard 3
-                      ~bernard4.sto~  ~override~ // bernard 4
-                      ~gorch.sto~     ~override~ // gorch
-                      ~bmthief.sto~   ~override~ // shadow thief fence
-                      ~hendak.sto~    ~override~ // hendak
-                      ~ribald.sto~    ~override~ // ribald
-                      ~ribald2.sto~   ~override~ // ribald
-                      ~udduer02.sto~  ~override~ // duergar merchant
+        COPY_EXISTING ~bernard3.sto~ ~override~ // bernard 3
+                      ~bernard4.sto~ ~override~ // bernard 4
+                      ~gorch.sto~    ~override~ // gorch
+                      ~bmthief.sto~  ~override~ // shadow thief fence
+                      ~hendak.sto~   ~override~ // hendak
+                      ~ribald.sto~   ~override~ // ribald
+                      ~ribald2.sto~  ~override~ // ribald
+                      ~udduer02.sto~ ~override~ // duergar merchant
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=5 STR_VAR item_name="zsipshu1" position="LAST" flags=~identified~ END
 
-        COPY_EXISTING ~garlena.sto~  ~override~ // garlena helm
+        COPY_EXISTING ~garlena.sto~ ~override~ // garlena helm
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=4 STR_VAR item_name="zsipshu1" position="LAST" flags=~identified~ END
 
         COPY_EXISTING ~hgkar01.sto~  ~override~ // hgkar
-                      ~sarbar01.sto~  ~override~ // saradush inn
+                      ~sarbar01.sto~ ~override~ // saradush inn
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="zsipshu1" position="LAST" flags=~identified~ END
 
-        COPY_EXISTING ~sahpr1.sto~  ~override~ // sekolah temple
+        COPY_EXISTING ~sahpr1.sto~ ~override~ // sekolah temple
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=10 stack=4 STR_VAR item_name="zsipshu1" position="LAST" flags=~identified~ END
 
         // +2
@@ -210,17 +210,17 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=20 stack=2 STR_VAR item_name="zsipshub" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
-        COPY_EXISTING ~hgkar01.sto~   ~override~ // karthis
-                      ~sarbar01.sto~  ~override~ // saradush bar
+        COPY_EXISTING ~hgkar01.sto~  ~override~ // karthis
+                      ~sarbar01.sto~ ~override~ // saradush bar
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="zsipshu2" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
          // +3
-        COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
-                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
-                      ~hgkar01.sto~   ~override~ // karthis
-                      ~sarbar01.sto~  ~override~ // saradush bar
-                      ~ohnsdwm.sto~   ~override~ // merchant
+        COPY_EXISTING ~amsmug01.sto~ ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~ ~override~ // amekthran smugglers1
+                      ~hgkar01.sto~  ~override~ // karthis
+                      ~sarbar01.sto~ ~override~ // saradush bar
+                      ~ohnsdwm.sto~  ~override~ // merchant
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=40 STR_VAR item_name="zsipshu3" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=30 STR_VAR item_name="zsipshua" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=20 STR_VAR item_name="zsipshup" position="LAST" flags=~identified~ END
@@ -228,11 +228,11 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_shurikens AND NOT FILE_E
         BUT_ONLY IF_EXISTS
 
         // +4 / +5
-        COPY_EXISTING ~amsmug01.sto~  ~override~ // amekthran smugglers1
-                      ~amsmug02.sto~  ~override~ // amekthran smugglers1
-                      ~hgkar01.sto~   ~override~ // karthis
-                      ~sarbar01.sto~  ~override~ // saradush bar
-                      ~ohnsdwm.sto~   ~override~ // merchant
+        COPY_EXISTING ~amsmug01.sto~ ~override~ // amekthran smugglers1
+                      ~amsmug02.sto~ ~override~ // amekthran smugglers1
+                      ~hgkar01.sto~  ~override~ // karthis
+                      ~sarbar01.sto~ ~override~ // saradush bar
+                      ~ohnsdwm.sto~  ~override~ // merchant
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=30 STR_VAR item_name="zsipshu4" position="LAST" flags=~identified~ END
             LPF ADD_STORE_ITEM_EX INT_VAR charge1=40 stack=20 STR_VAR item_name="zsipshu5" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS

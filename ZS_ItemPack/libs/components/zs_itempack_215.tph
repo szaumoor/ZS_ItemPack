@@ -5,7 +5,7 @@ COPY_EXISTING ~zsiptrna.itm~ ~override~
   SAY IDENTIFIED_DESC @6010
   WRITE_LONG 0x34 zst_price_moonlit_slumber
 
-COPY_EXISTING ~zsiptrms.SPL~ ~override~
+COPY_EXISTING ~zsiptrms.spl~ ~override~
   SAY NAME1 @6012
   LPF ALTER_HEADER INT_VAR projectile = %zsipmscd% END
 

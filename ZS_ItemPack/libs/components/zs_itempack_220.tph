@@ -7,7 +7,7 @@ COPY_EXISTING ~zsiphrw0.itm~ ~override~
         WRITE_LONG 0x08 6860
         SAY IDENTIFIED_DESC @6052
         WRITE_LONG 0x1e (THIS + 541065216)
-        WRITE_ASCII 0x22 "BW" #2
+        WRITE_ASCII 0x22 "bw" #2
         WRITE_BYTE 0x31 104
     END ELSE BEGIN
         SAY IDENTIFIED_DESC @6051
@@ -21,7 +21,7 @@ COPY_EXISTING ~zsiphrw4.itm~ ~override~
         WRITE_LONG 0x08 6860
         SAY IDENTIFIED_DESC @6054
         WRITE_LONG 0x1e (THIS + 541065216)
-        WRITE_ASCII 0x22 "BW" #2
+        WRITE_ASCII 0x22 "bw" #2
         WRITE_BYTE 0x31 104
 
     END ELSE BEGIN

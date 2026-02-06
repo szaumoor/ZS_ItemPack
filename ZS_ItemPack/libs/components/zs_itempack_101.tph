@@ -21,13 +21,13 @@ ACTION_IF GAME_IS "bgee eet" BEGIN
     ADD_CRE_ITEM ~zsips2aa~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~ EQUIP
 
   COPY_EXISTING ~simmeon.cre~ ~override~
-    REPLACE_CRE_ITEM ~zsips2aa~ #0 #0 #0 ~unstealable~ ~inv~
+    ADD_CRE_ITEM ~zsips2aa~ #0 #0 #0 ~unstealable~ ~inv~
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-  COPY_EXISTING ~IOTYUGH.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPS2AA~ #0 #0 #0 ~unstealable~ ~inv~
+  COPY_EXISTING ~iotyugh.cre~ ~override~
+    ADD_CRE_ITEM ~zsips2aa~ #0 #0 #0 ~unstealable~ ~inv~
 
 END

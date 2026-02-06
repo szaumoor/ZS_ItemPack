@@ -16,7 +16,7 @@ END
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 
   COPY_EXISTING ~obshal01.cre~ ~override~
-      ADD_CRE_ITEM ~zsipndl0~ #0 #0 #0 ~none~ ~inv~
+    ADD_CRE_ITEM ~zsipndl0~ #0 #0 #0 ~none~ ~inv~
 
 END
 

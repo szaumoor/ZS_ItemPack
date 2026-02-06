@@ -24,6 +24,7 @@ OUTER_SET zst_give_skie_bgee_rapier1 = "1"
 
 // Forbidden-game
 OUTER_SET zst_price_assassins_touch_bgee_iwdee = "900"   // in stores
+OUTER_SET zst_price_assassins_touch_iwdee      = "400"   // in loot
 OUTER_SET zst_price_assassins_touch_bg2ee      = "1500"  // in stores
 
 OUTER_SET zst_price_bloodthirst_bgee           = "4500"  // as loot
