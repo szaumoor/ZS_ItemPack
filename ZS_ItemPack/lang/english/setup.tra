@@ -985,13 +985,13 @@ Requires:
  6 Strength~
 
 @8150 = ~Vipertooth~
-@8151 = ~This magical scimitar is fashioned in the image of serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to become animated sometimes and bite into an enemy upon striking them, possible causing them to be poisoned.
+@8151 = ~This magical scimitar is fashioned in the image of serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to become animated sometimes and bite into an enemy upon striking them, possibly causing them to be poisoned.
 
 STATISTICS:
 
 Combat abilities:
-– Upon killing an enemy, 6 Hit Points plus 10% of your maximum Hit Points are immediately restored.
 – 12% chance on hit the animated head of the sword bites into the enemy, dealing 1d4 piercing damage plus 1 point of poison damage, and if a save vs. Death is failed they become poisoned, taking 1 point of poison damage every round for one turn.
+– Upon killing an enemy, 6 Hit Points plus 10% of your maximum Hit Points are immediately restored. Only kills caused by direct, instant damage from this weapon count.
 
 THAC0: +2
 Damage: 1d8+2 (slashing)
