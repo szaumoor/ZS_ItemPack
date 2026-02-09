@@ -35,6 +35,8 @@
 @224 = ~Add Periapt of Renewal (Elden Ring - Blessed Dew Amulet; necklace)~
 @227 = ~Add Bloody Sting (Elden Ring - Bloody Helice; estoc)~
 @228 = ~Add Storm's Monarch (Elden Ring - Dragon King's Cragblade; estoc)~
+@229 = ~Add Vipertooth (Elden Ring - Serpent-God's Curved Sword; scimitar)~
+@230 = ~Add Chikage (Bloodborne - Chikage; ninjatô)~
 
 @301 = ~Add Lawgiver (Lawgiver; bastard sword)~
 @302 = ~Add The Left Hand (The Left Hand; dagger)~
@@ -984,8 +986,8 @@ Type: One-handed
 Requires:
  6 Strength~
 
-@8150 = ~Vipertooth~
-@8151 = ~This magical scimitar is fashioned in the image of serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to become animated sometimes and bite into an enemy upon striking them, possibly causing them to be poisoned.
+@18150 = ~Vipertooth~
+@18151 = ~This magical scimitar is fashioned in the image of serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to become animated sometimes and bite into an enemy upon striking them, possibly causing them to be poisoned.
 
 STATISTICS:
 
