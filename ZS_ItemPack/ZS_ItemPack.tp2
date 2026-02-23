@@ -55,6 +55,9 @@ REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @51
 BEGIN @110 DESIGNATED 110 GROUP @1 // DEATHSTALKER MANTLE
 REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
 
+BEGIN @111 DESIGNATED 111 GROUP @1 // CAUSTIC BAND
+REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
+
 /////////////////////////////////////// SOULS ITEMS /////////////////////////////////////////////////
 BEGIN @205 DESIGNATED 205 GROUP @2 // RING OF HARDINESS
 REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53

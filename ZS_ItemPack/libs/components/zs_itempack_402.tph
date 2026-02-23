@@ -54,7 +54,6 @@ ACTION_IF GAME_IS "bgee eet" BEGIN
 
     COPY_EXISTING ~inn3351.sto~  ~override~ // sorcerous sundries
         LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="zsipomn0" position="LAST" flags=~identified~ END
-    BUT_ONLY IF_EXISTS
 
 END
 

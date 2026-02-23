@@ -2,12 +2,15 @@ COPY ~%MOD_FOLDER%/items/02_souls/hawk_ring~ ~override~
 COPY_EXISTING ~zsiphkr0.itm~ ~override~
   SAY NAME2 @6110
   SAY IDENTIFIED_DESC @6111
-  WRITE_LONG 0x34 zst_price_hawk_ring
+  WRITE_LONG 0x34 zst_price_hawk_ring_bg2ee_iwdee
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
+  COPY_EXISTING ~zsiphkr0.itm~ ~override/zsiphkr1.itm~
+    WRITE_LONG 0x34 zst_price_hawk_ring_bgee
+
   COPY_EXISTING ~caldo.cre~ ~override~
-    ADD_CRE_ITEM ~zsiphkr0~ #0 #0 #0 ~unstealable~ ~inv~
+    ADD_CRE_ITEM ~zsiphkr1~ #0 #0 #0 ~unstealable~ ~inv~
 
 END
 

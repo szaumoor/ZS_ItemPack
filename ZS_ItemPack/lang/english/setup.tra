@@ -24,7 +24,7 @@
 @205 = ~Add Ring of Hardiness (Dark Souls - Ring of Steel Protection; ring)~
 @211 = ~Add Sage Ring (Dark Souls 3 - Sage Ring; ring)~
 @213 = ~Add Hawk Ring (Dark Souls 3 - Hawk Ring; ring)~
-@214 = ~Add Blade of Calling (Elden Ring; dagger)~ 
+@214 = ~Add Blade of Calling (Elden Ring; dagger)~
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
 @216 = ~Add Icicle (Elden Ring - Frozen Needle; rapier)~
 @217 = ~Add Stygian Fury (Elden Ring - Rivers of Blood; katana)~
@@ -66,7 +66,7 @@
 STATISTICS:
 
 Equipped abilities:
-– +2 Armor Class vs. demonic enemies
+– +2 Armor Class vs. demonic
 
 Combat abilities:
 – Can strike demonic enemies that are normally immune to +2 weapons, but hits as a +2 weapon against them
@@ -470,6 +470,39 @@ Equipped abilities:
 – The Shadow Itself: Upon killing an enemy, the wearer becomes invisible for 2 rounds and gains a +1 bonus to damage and THAC0 during this time. This effect can only trigger once per round
 
 Weight: 3~
+
+@5050 = ~Caustic Band~ // +2 acid on attacks, Adjusting this unassuming ring on your finger, you hear a faint sizzle, as of pressure being released.
+@5060 = ~Ring of Shadows~ // party-wide +10% stealth, For some, darkness is wielded like a black opal stud embedded in a signet ring - fashioned to a sharp and unforgiving point. 
+@5070 = ~Risky Ring~ // +1 THAC0 and Damage, -1 AC and Saving Throws, Life is just a series of risks taken while blindfolded. 
+@5080 = ~Amulet of the Drunkard~ // regen while drunk, +1 damage with fists, -1 thac0
+@5090 = ~Fleshmelter~ // cloak, targets that kit wearer take 1d4 acid damage
+@5100 = ~The Gift~ // khalid's gift 
+@5110 = ~Spiderstep Boots~ // immunity to all web stuff
+@5120 = ~Winkling Gloves~ // 5% to open locks, pick pocket, +1 THAC0, only thieves?
+@5130 = ~Covert Cowl~ // while invisible, +5% critical hit chances shadow of menzoberranzan
+@5140 = ~Dark Justiciar Helmet~ // save vs death and spell +1, 5% crit chances while invisible
+@5150 = ~Assassin of Bhaal Cowl~ // detect invisibility once, infravision, +3 to Speed Factor, +2 to movement speed
+@5151 = ~When he was killed, Bhaal's blight upon the world was not destroyed. For the many people upon whom he had sired his spawn slithered out of tainted wombs, and with their arrival Bhaal's malcontent returned with force. ~
+@5160 = ~Hood of the Weave~ // saves vs all schools of magic +1, +5 magic resistance
+@5170 = ~The Gift~
+@5171 = ~Crafted from the most delicate spider silk, an unblemished aquamarine gem its centerpiece, this necklace represents its creator's undying devotion for his beloved. It does more than accentuate its wearer's beauty, though it certainly does that as well. It also seemingly rejuvenates her, leaving her practically glowing with youth and vitality. Were arcane energies involved in its creation, or does it merely reflect the deeply-held feelings of the necklace's maker for its intended recipient? It is impossible to say; such is the magic of love.
+
+Hit Points: +10
+Charisma: +1
+Immunity to fatigue
+immunity to curses?
+wisdom +1?~
+
+
+@5180 = ~Sarevok's Horned Helmet~
+@5181 = ~
+
+Critical Hit Chances: +5%
+Infravision
+Dauntless: Immunity to fear, morale failure, and every other emotion-altering condition
+immunity to curses?
+wisdom +1?~
+
 
 // souls games inspired
 @6010 = ~This silver sword is often wielded by followers of Sehanine Moonbow, also known as the Lady of Dreams or the Lunar Lady. One of the most powerful members of the Seldarine, her domain encompasses sleep and dreams. It is said that even gazing upon her face can lull mortals into a deep slumber.
@@ -963,7 +996,7 @@ Weight: 0~
 @18004 = ~Formless Serpent~
 
 @18100 = ~Chikage~
-@18101 = ~Forged beyond the western seas for an obscure court of secretive nobles, the blade is etched with a running pattern of intricate rippled engravings. When these engravings that span the blade are imbrued with blood, the sword sings in scarlet hues. However, the rite eats away at the wielder's essence. 
+@18101 = ~Forged beyond the western seas for an obscure court of secretive nobles, the blade is etched with a running pattern of intricate rippled engravings. When these engravings that span the blade are imbrued with blood, the sword sings in scarlet hues. However, the rite eats away at the wielder's essence.
 
 The word "Chikage" is elegantly engraved near the blade's handle. Whether that is the name of its intended owner, or something else entirely, is unknown.
 
@@ -971,7 +1004,7 @@ STATISTICS:
 
 Combat abilities:
 – Sanguine Tax: For every successful hit, the sword drinks the lifeblood of the user, reducing Hit Points by 1-2, but also increases the damage of the user by 1 for the next 2 rounds. When it adds up to +3, the effect lasts for 1 turn, and the sanguine tax is paused.
-– Bloodtinge: Successful critical hits cause enemies with blood to lose 13% of their total health while the user is healed by 13% of theirs, and increasing their critical hit chances by 5% for the next 3/2 rounds.
+– Bloodtinge: Successful critical hits cause unprotected enemies with blood to lose 13% of their total health while the user is healed by 13% of theirs, and increasing their critical hit chances by 5% for the next 3/2 rounds. Backstabs also trigger this effect, but it's not possible to trigger it twice if a backstab results in a critical hit.
 
 Charge abilities:
 – Ritual Offering once per day
@@ -987,7 +1020,7 @@ Requires:
  6 Strength~
 
 @18150 = ~Vipertooth~
-@18151 = ~This magical scimitar is fashioned in the image of serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to become animated sometimes and bite into an enemy upon striking them, possibly causing them to be poisoned.
+@18151 = ~This magical scimitar is fashioned in the image of serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to become animated sometimes and bite into an enemy upon striking them, possibly causing them to be poisoned.%vipertooth_evil_only_addendum%
 
 STATISTICS:
 
@@ -1004,6 +1037,8 @@ Requires:
  10 Strength
 
 Weight: 2~
+
+@18152 = ~ It may only be wielded by those of dark hearts.~
 
 // nwn/nwn2 inspired
 @8000 = ~Lawgiver +1~
@@ -1624,7 +1659,7 @@ Launcher: Bow
 Weight: 0~
 
 // mass effect inspired
-@10110 = ~Rod of Illusive Protections~
+@10110 = ~Rod of Illusiveness~
 @10111 = ~This rod is a slender and heavily adorned length of polished wood, capped with a fairly big and multicolored gemstone. It is said to have been created by a rich illusionist, who was only known by the people around them as "The Illusive Man". He was known for using manipulation and trickery to get what he wanted, and the rod is said to be a reflection of that. In the end, The Illusive Man was betrayed by his own illusions, and the rod was lost to time.
 
 STATISTICS:
@@ -1791,7 +1826,7 @@ Weight: 1~
 @10127 = ~The omniblade may only be used by arcane casters~
 
 @10130 = ~Phantom's Blade~
-@10131 = ~This ninjatô's blade is so incredibly sharp, it can slice through flesh and bone with extreme ease. It was forged by an ancient sect of killers only known as the "Phantoms", where only those that proved their loyalty by committing a very challenging murder were granted the honor of wielding such a blade. While many claim they were wiped out, and most indeed believe so, holding it carries the unsettling feeling that its masters may one day return to reclaim what is theirs.
+@10131 = ~This ninjatō's blade is so incredibly sharp, it can slice through flesh and bone with extreme ease. It was forged by an ancient sect of killers only known as the "Phantoms", where only those that proved their loyalty by committing a very challenging murder were granted the honor of wielding such a blade. While many claim they were wiped out, and most indeed believe so, holding it carries the unsettling feeling that its masters may one day return to reclaim what is theirs.
 
 STATISTICS:
 
@@ -1814,12 +1849,13 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-– +1 to Armor Class and saving throws (short races only)
-– 3/2 attacks per round (2 attacks per round for short races)
+– Armor Class: +1 (dwarves, halflings, and gnomes only)
+– Saving Throws: +1 (dwarves, halflings, and gnomes only)
+– Attacks per round: +1/2 (2 for dwarves, halflings, and gnomes)
 
 Combat abilities:
 – 25% chance of inflicting a bleeding wound on hit, dealing 1d4 piercing damage instantly and then again after one round. No effect on creatures without blood
-– 5% more likely to critically hit compared to other rapiers (short races only)
+– 5% more likely to critically hit compared to other rapiers (dwarves, halflings, and gnomes only)
 
 THAC0: +1, +2 if wielded by short races
 Damage: 1d6+1 (piercing)

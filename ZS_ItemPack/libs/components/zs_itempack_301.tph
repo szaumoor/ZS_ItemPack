@@ -2,12 +2,14 @@ COPY "%MOD_FOLDER%/items/03_nwn/lawgiver" ~override~
 COPY_EXISTING ~zsiplg0.itm~ ~override~
   SAY NAME2 @8000
   SAY IDENTIFIED_DESC @8001
-  WRITE_LONG 0x34 zst_price_lawgiver
+  WRITE_LONG 0x34 zst_price_lawgiver_bg2ee_iwdee
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
+  COPY_EXISTING ~zsiplg0.itm~ ~override/zsiplg2.itm~
+
   COPY_EXISTING ~flam2.cre~ ~override~
-    ADD_CRE_ITEM ~zsiplg0~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP
+    ADD_CRE_ITEM ~zsiplg2~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP
 
 END
 

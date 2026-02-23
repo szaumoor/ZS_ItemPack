@@ -40,7 +40,8 @@ OUTER_SET zst_price_crimson_mischief_upgraded  = "8000"  // as loot (cespenar)
 OUTER_SET zst_price_cruel_sting_bgee           = "2500"  // as loot
 OUTER_SET zst_price_cruel_sting_bg2ee          = "3000"  // as loot
 
-OUTER_SET zst_price_deathstalker_mantle        = "500"  // as loot
+OUTER_SET zst_price_deathstalker_mantle_bg     = "500"  // as loot
+OUTER_SET zst_price_deathstalker_mantle_iwdee  = "2750" // in store
 
 OUTER_SET zst_price_everburn_blade             = "750"   // as loot
 
@@ -63,7 +64,8 @@ OUTER_SET zst_price_crimson_life_iwdee      = "900"  // in loot
 OUTER_SET zst_price_harp_bow_bgee           = "950"  // in stores
 OUTER_SET zst_price_harp_bow_bg2ee          = "1350" // in stores
 
-OUTER_SET zst_price_hawk_ring               = "1500" // in stores
+OUTER_SET zst_price_hawk_ring_bg2ee_iwdee   = "1500" // in stores
+OUTER_SET zst_price_hawk_ring_bgee          = "500" // as loot
 
 OUTER_SET zst_price_icicle                  = "6000" // as loot
 
@@ -71,12 +73,14 @@ OUTER_SET zst_price_moonlit_slumber         = "6500" // in stores
 
 OUTER_SET zst_price_periapt_renewal         = "1250" // in stores
 
-OUTER_SET zst_price_ring_hardiness          = "500"  // as loot
-OUTER_SET zst_price_ring_hardiness_upgraded = "750"  // as loot (cromwell)
+OUTER_SET zst_price_ring_hardiness_bg          = "500"  // as loot
+OUTER_SET zst_price_ring_hardiness_bg_upgraded = "750"  // as loot (cromwell)
+OUTER_SET zst_price_ring_hardiness_base_iwdee  = "1500" // in store
 
 OUTER_SET zst_price_sage_ring               = "1000" // as loot
 
-OUTER_SET zst_price_spellguard              = "3750" // in stores
+OUTER_SET zst_price_spellguard_bg           = "3750" // in stores
+OUTER_SET zst_price_spellguard_iwdee        = "1100" // in stores
 
 OUTER_SET zst_price_sseth_revenge           = "1500" // as loot
 
@@ -85,18 +89,20 @@ OUTER_SET zst_price_storm_monarch           = "6500" // as loot
 OUTER_SET zst_price_stygian_fury            = "5000" // as loot
 OUTER_SET zst_price_stygian_fury_upgraded   = "6500" // as loot (cespenar)
 
-OUTER_SET zst_price_vipertooth_bg2ee        = "2000" // as loot
+OUTER_SET zst_price_vipertooth_bg2ee        = "1000" // as loot
+OUTER_SET zst_price_vipertooth_bgee         = "3000" // in stores
 
 
 // NWN / NWN2
 OUTER_SET zst_price_arrows_vampire                         = "13"    // in stores
 
-OUTER_SET zst_price_goblinsplitter                         = "150"   // as loot
+OUTER_SET zst_price_goblinsplitter                         = "150"   // as loot / in store
 
 OUTER_SET zst_price_kukri_eclipse                          = "5500"  // as loot
 OUTER_SET zst_price_kukri_eclipse_upgraded                 = "6500"  // as loot (cespenar)
 
-OUTER_SET zst_price_lawgiver                               = "2000"  // in stores in bg2ee and iwdee, as loot in bgee
+OUTER_SET zst_price_lawgiver_bgee                          = "500"  // as loot
+OUTER_SET zst_price_lawgiver_bg2ee_iwdee                   = "2000"  // in stores
 
 OUTER_SET zst_price_master_li_way                          = "6500"  // in stores
 OUTER_SET zst_price_master_li_way_loot                     = "1500" // in loot (iwdee)

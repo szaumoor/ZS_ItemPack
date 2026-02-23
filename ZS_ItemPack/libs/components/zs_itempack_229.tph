@@ -1,13 +1,44 @@
+OUTER_SET bg2ee = GAME_IS "bg2ee eet"
+OUTER_SET bgee = GAME_IS "bgee eet"
+
+
 COPY ~%MOD_FOLDER%/items/02_souls/vipertooth~ ~override~
 COPY_EXISTING ~zsivpth0.itm~ ~override~
+  PATCH_IF bg2ee BEGIN
+    WRITE_LONG 0x34 zst_price_vipertooth_bg2ee
+  END ELSE PATCH_IF bgee BEGIN
+    WRITE_LONG 0x34 zst_price_vipertooth_bg2ee
+  END
+
+  PATCH_IF NOT zst_vipertooth_evil BEGIN
+    SPRINT vipertooth_evil_only_addendum ""
+  END ELSE BEGIN
+    SPRINT vipertooth_evil_only_addendum @18152
+  END
+
   SAY NAME2 @18150
   SAY IDENTIFIED_DESC @18151
-  WRITE_LONG 0x34 zst_price_vipertooth_bg2ee
+  
+ACTION_IF bg2ee BEGIN
 
+  COPY_EXISTING ~cefald01.cre~ ~override~
+    LPF IS_WEAPON_EQUIPPED INT_VAR at_slot = 1 STR_VAR weapon = ~blun01~ RET club_faldorn_found = found END
+    PATCH_IF club_faldorn_found BEGIN
+      ADD_CRE_ITEM ~zsivpth0~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP
+    END ELSE BEGIN
+      ADD_CRE_ITEM ~zsivpth0~ #0 #0 #0 ~unstealable~ ~inv~
+    END
 
-  ACTION_IF GAME_IS "bg2ee eet" BEGIN
+END
 
-  COPY_EXISTING ~bmthief.sto~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsipass4" position = "LAST" END
+ACTION_IF bgee AND FILE_EXISTS_IN_GAME "bdonoro.sto" BEGIN
+
+  COPY_EXISTING ~bdonoro.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsivpth0" position = "LAST" END
+
+END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+  
 
 END

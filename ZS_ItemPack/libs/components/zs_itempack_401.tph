@@ -4,22 +4,25 @@ COPY_EXISTING ~zsipril0.itm~ ~override~
   SAY IDENTIFIED_DESC @10111
   WRITE_LONG 0x34 zst_price_rod_illusive
 
-ACTION_IF GAME_IS "bgee eet" AND GAME_INCLUDES "sod" BEGIN
+ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~bdsorcsc.sto~ ~override~ // sorcerous sundries (SoD)
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="zsipril0" position="LAST" flags=~identified~ END
-  BUT_ONLY IF_EXISTS
+  ACTION_IF GAME_INCLUDES "sod" BEGIN
 
-END ELSE ACTION_IF GAME_IS "bgee eet" AND NOT GAME_INCLUDES "sod" BEGIN
+    COPY_EXISTING ~bdsorcsc.sto~ ~override~ // sorcerous sundries (SoD)
+      LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="zsipril0" position="LAST" flags=~identified~ END
 
-  COPY_EXISTING ~sto0703.sto~  ~override~ // sorcerous sundries
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="zsipril0" position="LAST" flags=~identified~ END
-  BUT_ONLY IF_EXISTS
+  END ELSE BEGIN
 
-END ELSE ACTION_IF GAME_IS "bg2ee eet" BEGIN
+    COPY_EXISTING ~sto0703.sto~  ~override~ // sorcerous sundries
+      LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="zsipril0" position="LAST" flags=~identified~ END
+
+  END
+
+END 
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
   COPY_EXISTING ~wmart2.sto~  ~override~ // deidre
     LPF ADD_STORE_ITEM_EX INT_VAR charge1=1 STR_VAR item_name="zsipril0" position="LAST" flags=~identified~ END
-  BUT_ONLY IF_EXISTS
 
 END
