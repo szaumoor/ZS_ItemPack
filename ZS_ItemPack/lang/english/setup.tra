@@ -275,8 +275,8 @@ Combat abilities:
 
 Charge ability:
 – Blood Offering, three times per day
-  Special: The wielder slices their own hand, sacrificing 1d6 plus 10% of their total Hit Points. In return, they gain a +2 bonus to attack rolls and a 15% increased chance to score a critical hit. This effect does not stack with itself.
-  Duration: 5/2 rounds
+  Special: The wielder slices their own hand, sacrificing 1d6 plus 20% of their total Hit Points. In return, they gain a +2 bonus to combat rolls and a 15% increased chance to score a critical hit. This effect does not stack with itself.
+  Duration: 15 seconds
 
 THAC0: +0
 Damage: 1d4+2 (piercing)
@@ -1004,7 +1004,7 @@ STATISTICS:
 
 Combat abilities:
 – Sanguine Tax: For every successful hit, the sword drinks the lifeblood of the user, reducing Hit Points by 1-2, but also increases the damage of the user by 1 for the next 2 rounds. When it adds up to +3, the effect lasts for 1 turn, and the sanguine tax is paused.
-– Bloodtinge: Successful critical hits cause unprotected enemies with blood to lose 13% of their total health while the user is healed by 13% of theirs, and increasing their critical hit chances by 5% for the next 3/2 rounds. Backstabs also trigger this effect, but it's not possible to trigger it twice if a backstab results in a critical hit.
+– Bloodtinge: Successful critical hits cause unprotected enemies with blood to lose 13% of their total health while the user is healed by 13% of theirs, and increasing their critical hit chances by 5% for the next 9 seconds. Backstabs also trigger this effect, but it's not possible to trigger it twice if a backstab results in a critical hit.
 
 Charge abilities:
 – Ritual Offering once per day
