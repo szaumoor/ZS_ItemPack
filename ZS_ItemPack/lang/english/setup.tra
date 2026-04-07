@@ -22,7 +22,7 @@
 @110 = ~Add The Deathstalker Mantle (The Deathstalker Mantle; cloak)~
 
 @205 = ~Add Ring of Hardiness (Dark Souls - Ring of Steel Protection; ring)~
-@211 = ~Add Sage Ring (Dark Souls 3 - Sage Ring; ring)~
+@211 = ~Add Sage's Ring (Dark Souls 3 - Sage Ring; ring)~
 @213 = ~Add Hawk Ring (Dark Souls 3 - Hawk Ring; ring)~
 @214 = ~Add Blade of Calling (Elden Ring; dagger)~
 @215 = ~Add Moonlit Slumber (Elden Ring - Sword of St. Trina, long sword)~
@@ -43,7 +43,7 @@
 @303 = ~Add Master Li's Way (Master Li's Way; katana)~
 @304 = ~Add Kukri of the Eclipse (Kukri of the Eclipse; dagger / kukri)~
 @307 = ~Add Blade of the Rashemi (Blade of the Rashemi; two-handed sword)~
-@308 = ~Add Shining Light of Lathander (Shining Light of Lathander; two-handed sword)~
+@308 = ~Add Shining Dawn of Lathander (Shining Light of Lathander; two-handed sword)~
 @309 = ~Add Goblinsplitter (Goblinsplitter; axe)~
 @311 = ~Add Mercykiller Blade (Mercykiller Blade; rapier)~
 @312 = ~Add Forgefire (Forgefire; warhammer)~
@@ -51,9 +51,9 @@
 @314 = ~Add Arrows of the Vampire (Arrow of the Vampire; arrow)~
 @315 = ~Add Squire's Defense (Squire's Defense; studded leather armor)~
 
-@401 = ~Add Rod of Illusive Protections (rod)~
-@402 = ~Add Omniblade (universal sword)~
-@403 = ~Add Phantom's Blade (Phantom's Monomolecular Sword; ninja-to)~
+@401 = ~Add Rod of Illusiveness (ME2/ME3, The Illlusive Man; rod)~
+@402 = ~Add Omniblade (All; universal sword)~
+@403 = ~Add Phantom's Blade (Mass Effect 3; Phantom's Monomolecular Sword; ninja-to)~
 
 @501 = ~Add Needle (Game of Thrones - Needle; rapier)~
 @502 = ~Add Craven Edge (The Legend of Vox Machina - Craven Edge; two-handed sword)~
@@ -61,12 +61,12 @@
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
-@5002 = ~Silent, semi-translucent flames surge the length of the blade as it clears its scabbard. This two-handed sword is a common weapon for servants of devils involved in the eternal Blood War, harnessing the flames of the Nine Hells with such potency that it can burn through even the most resistant of foe. How it ended up here is anyone's guess, but having such a weapon in one's possession in undoubtedly a dangerous affair.
+@5002 = ~Silent, semi-translucent flames surge the length of the blade as it clears its scabbard. This two-handed sword is a common weapon for servants of devils involved in the eternal Blood War, harnessing the flames of the Nine Hells with such potency that it can burn through even the most resistant of foes. How it ended up here is anyone's guess, but having such a weapon in one's possession is undoubtedly a dangerous affair.
 
 STATISTICS:
 
 Equipped abilities:
-– +2 Armor Class vs. demonic
+– +2 Armor Class vs. demons and devils
 
 Combat abilities:
 – Can strike demonic enemies that are normally immune to +2 weapons, but hits as a +2 weapon against them
@@ -87,13 +87,13 @@ Weight: 12~
 @5003 = ~Takes %p1% irresistible fire damage~
 
 @5004 = ~Bloodthirst +3~
-@5005 = ~Before the Lord of Murder laid his claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that proceeded. Only those of dark hearts may wield this blade.
+@5005 = ~Before the Lord of Murder laid claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that ensued. Only those of dark hearts may wield this blade.
 
 STATISTICS:
 
 Equipped abilities:
 – Armor Class: +1
-– Critical chances while holding this weapon increase by 5%
+– Critical hit chance while holding this weapon increase by 5%
 
 Combat abilities:
 – Hits with this weapon inflict a -15% weakness to piercing damage (non-cumulative) and reduce Armor Class vs. piercing by 2 (cumulative). Both of these effects last 2 rounds.
@@ -111,13 +111,13 @@ Requires:
 Weight: 1~
 
 @50060 = ~Bloodthirst +4~
-@50061 = ~Before the Lord of Murder laid his claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that proceeded. Only those of dark hearts may wield this blade.
+@50061 = ~Before the Lord of Murder laid claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that ensued. Only those of dark hearts may wield this blade.
 
 STATISTICS:
 
 Equipped abilities:
 – Armor Class: +1
-– Critical chances while holding this weapon increase by 5%
+– Critical hit chance while holding this weapon increase by 5%
 
 Combat abilities:
 – Hits with this weapon inflict a -20% weakness to piercing damage (non-cumulative) and reduce Armor Class vs. piercing by 2 (cumulative). Both of these effects last 2 rounds.
@@ -135,7 +135,7 @@ Requires:
 Weight: 1~
 
 @50062 = ~Bloodthirst +6~
-@50063 = ~Before the Lord of Murder laid his claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that proceeded. Only those of dark hearts may wield this blade.
+@50063 = ~Before the Lord of Murder laid claim to his title, for a time he was naught but a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it leaked into the cobblestone pavement and lingered, uncleaned and unnoticed by the otherwise uncaring denizens of Baldur's Gate. When Bhaal ascended to godhood, that dried blood warped and formed a jagged blade, as if a promise made in that alley had been fulfilled by Bhaal's ascent. Members of Bhaal's clergy—outright forbidden in most parts, but ever-present in the shadows—found the blade and beheld it as a holy relic until their lord's death, where it was lost in the chaos that ensued. Only those of dark hearts may wield this blade.
 
 Now upgraded by Cespenar, former butler of Bhaal himself, this weapon is truly an instrument of bloody carnage.
 
@@ -143,7 +143,7 @@ STATISTICS:
 
 Equipped abilities:
 – Armor Class: +2
-– Critical chances while holding this weapon increase by 5%
+– Critical hit chance while holding this weapon increase by 5%
 
 Combat abilities:
 – Hits with this weapon inflict a -25% weakness to piercing damage (non-cumulative) and reduce Armor Class vs. piercing by 2 (cumulative). Both of these effects last 2 rounds.
@@ -217,7 +217,7 @@ Weight: 3~
 @50092 = ~Takes %p1% negative energy damage~
 
 @5010 = ~Assassin's Touch +1~
-@5011 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. When a well-aimed strike is landed against a foe rendered incapacitated against its deadly touch, it instills a deep chill within the victim's body, causing them immeasurable pain without the means to scream. Its enchantments favor those with a deft touch, and a skilled assassin makes the full extent of its magical capabilities clear to bare.
+@5011 = ~This long, slender blade is designed to fit perfectly between the ribs of an unsuspecting victim. When a well-aimed strike is landed against an incapacitated foe, its deadly touch instills a deep chill within the victim's body, causing them immeasurable pain without the means to scream. Its enchantments favor those with a deft touch, and a skilled assassin brings the full extent of its magical potential to bear.
 
 STATISTICS:
 
@@ -227,7 +227,7 @@ Equipped abilities:
 
 Combat abilities:
 – Helpless enemies take 1d8 extra piercing and cold damage every hit
-– Critical chances: +5% (single-classed Thieves)
+– Critical hit chance: +5% (single-classed Thieves)
 
 THAC0: +1
 Damage: 1d4+1 (piercing)
@@ -251,7 +251,7 @@ Equipped abilities:
 
 Combat abilities:
 – Helpless enemies take 1d8 extra piercing and cold damage every hit
-– Critical chances: +5% (single-classed Thieves)
+– Critical hit chance: +5% (single-classed Thieves)
 
 THAC0: +2
 Damage: 1d4+2 (piercing)
@@ -471,21 +471,73 @@ Equipped abilities:
 
 Weight: 3~
 
-@5050 = ~Caustic Band~ // +2 acid on attacks, Adjusting this unassuming ring on your finger, you hear a faint sizzle, as of pressure being released.
-@5060 = ~Ring of Shadows~ // party-wide +10% stealth, For some, darkness is wielded like a black opal stud embedded in a signet ring - fashioned to a sharp and unforgiving point. 
-@5070 = ~Risky Ring~ // +1 THAC0 and Damage, -1 AC and Saving Throws, Life is just a series of risks taken while blindfolded. 
-@5080 = ~Amulet of the Drunkard~ // regen while drunk, +1 damage with fists, -1 thac0
+@5050 = ~Caustic Band~ // +2 acid on attacks
+@5051 = ~Though plain in appearance, this magical ring traps a thin film of caustic essence that hisses softly when worn. Each movement of the hand leaves a stinging residue along blade and bowstring alike, turning even glancing blows into searing wounds.
+
+STATISTICS:
+
+Equipped abilities:
+– Every ranged and melee weapon attack from the wearer of this ring has a 50% chance of dealing 2 extra points of acid damage.
+
+Weight: 0~
+
+
+@5060 = ~Ring of Shadows~ 
+@5061 = ~A dark opal, ground to a needle point and set in blackened silver, crowns this austere signet. When worn, a hush of shadow settles over the wearer and those nearby, softening movement and swallowing the telltale scrape of steel and leather. By night, the ring favors masters of stealth most of all, lending sharper reflexes to shadowdancers and swifter pursuit to assassins.
+
+STATISTICS:
+
+Equipped abilities:
+– The wearer and every other party member benefit from a +10 bonus to Move Silently and Hide in the Shadows as long as it's worn. 
+– If the wearer is a single-classed thief, they gain an extra +5 points.
+– Armor Class and Saving Throws: at night, gain +1 bonus (shadowdancers only)
+– Movement rate: at night, gain a +2 bonus to their movement rate (assassins only).
+
+Weight: 0~
+
+@5070 = ~Risky Ring~ 
+@5071 = ~This plain brass ring carries a gambler's promise: strike first, strike hard, and trust fortune to settle the debt. It lends a sharper eye and heavier hand in battle, but leaves its wearer exposed when luck turns.
+
+STATISTICS:
+
+Equipped abilities:
+– THAC0: +1
+– Damage: +1
+– Armor Class: -2
+– Saving Throws: -1
+
+Weight: 0~
+
+@5080 = ~Amulet of the Drunkard~ 
+@5081 = ~A favorite of brawlers and tavern legends, this amulet turns deep drink into dangerous momentum. The more thoroughly the wearer is pickled, the harder they hit and the faster they stagger back from injury, laughing through blood and broken teeth.
+
+STATISTICS:
+
+Equipped abilities:
+– In combat, regenerate 2d4 Hit Points while drunk once per round
+– While intoxicated, gain a +2 bonus to physical damage
+
+Charge abilities:
+– Endrunken Self once per day
+  Special: Upon activating the ability, the wearer becomes fully intoxicated (100). Intoxication decays at a rate of 1 point every 12.5 seconds.
+
+– Alcoholic Pick-Me-Up, three times per day
+Special: Upon activating this ability, the necklace injects pure alcohol into the wearer's lifeblood, increasing intoxication by 10 points. This may be used to extend the duration of intoxication by 125 seconds.
+
+Weight: 0~
+
+
 @5090 = ~Fleshmelter~ // cloak, targets that kit wearer take 1d4 acid damage
+@5091 = ~The frayed tails of this cloak seep with caustic ichor that hisses where it falls. Any foe reckless enough to strike the wearer at close quarters is rewarded with a burning splash that eats at flesh and steel alike.
+
+Equipped abilities:
+– Whenever a creature deals damage to the wearer in melee range, that creature takes 1d4 acid damage.
+
+Weight: 3~
+
+
 @5100 = ~The Gift~ // khalid's gift 
-@5110 = ~Spiderstep Boots~ // immunity to all web stuff
-@5120 = ~Winkling Gloves~ // 5% to open locks, pick pocket, +1 THAC0, only thieves?
-@5130 = ~Covert Cowl~ // while invisible, +5% critical hit chances shadow of menzoberranzan
-@5140 = ~Dark Justiciar Helmet~ // save vs death and spell +1, 5% crit chances while invisible
-@5150 = ~Assassin of Bhaal Cowl~ // detect invisibility once, infravision, +3 to Speed Factor, +2 to movement speed
-@5151 = ~When he was killed, Bhaal's blight upon the world was not destroyed. For the many people upon whom he had sired his spawn slithered out of tainted wombs, and with their arrival Bhaal's malcontent returned with force. ~
-@5160 = ~Hood of the Weave~ // saves vs all schools of magic +1, +5 magic resistance
-@5170 = ~The Gift~
-@5171 = ~Crafted from the most delicate spider silk, an unblemished aquamarine gem its centerpiece, this necklace represents its creator's undying devotion for his beloved. It does more than accentuate its wearer's beauty, though it certainly does that as well. It also seemingly rejuvenates her, leaving her practically glowing with youth and vitality. Were arcane energies involved in its creation, or does it merely reflect the deeply-held feelings of the necklace's maker for its intended recipient? It is impossible to say; such is the magic of love.
+@5101 = ~Crafted from the most delicate spider silk, an unblemished aquamarine gem its centerpiece, this necklace represents its creator's undying devotion for his beloved. It does more than accentuate its wearer's beauty, though it certainly does that as well. It also seemingly rejuvenates her, leaving her practically glowing with youth and vitality. Were arcane energies involved in its creation, or does it merely reflect the deeply-held feelings of the necklace's maker for its intended recipient? It is impossible to say; such is the magic of love.
 
 Hit Points: +10
 Charisma: +1
@@ -494,14 +546,41 @@ immunity to curses?
 wisdom +1?~
 
 
+@5110 = ~Spiderstep Boots~ // immunity to all web stuff
+@5111 = ~The soles of these boots cling and release with uncanny precision, as though spun from a giant spider's own silk. Webbing, slick grease, and treacherous ground fail to hold the wearer for long, each step finding purchase where none should exist.
+
+Equipped abilities:
+– Wearer is immune to the Web spell and similar effects, as well as effects that affect movement speed across terrain (such as Grease).
+
+Weight: 4~
+
+@5120 = ~Winkling Gloves~
+@5121 = ~These close-fitted gloves were made for nimble hands and nervous work. Locks turn more readily, pockets are emptied with less notice, and trapwork is easier to spot and set. For trained thieves, their cut and balance also lend a subtle edge in striking true.
+
+STATISTICS:
+
+Equipped abilities:
+– Open Locks: +10%
+– Pick Pockets: +5%
+– Find Traps: +10%
+– Set Traps: +5%
+– THAC0: +1 (thieves only)
+
+Weight: 1~
+
+@5130 = ~Covert Cowl~ // while invisible, +5% critical hit chances shadow of menzoberranzan
+@5140 = ~Dark Justiciar Helmet~ // save vs death and spell +1, 5% crit chances while invisible
+@5150 = ~Assassin of Bhaal Cowl~ // detect invisibility once, infravision, +3 to Speed Factor, +2 to movement speed
+@5151 = ~When he was killed, Bhaal's blight upon the world was not destroyed. For the many people upon whom he had sired his spawn slithered out of tainted wombs, and with their arrival Bhaal's malcontent returned with force. ~
+@5160 = ~Hood of the Weave~ // saves vs all schools of magic +1, +5 magic resistance
+
+
 @5180 = ~Sarevok's Horned Helmet~
 @5181 = ~
 
 Critical Hit Chances: +5%
 Infravision
-Dauntless: Immunity to fear, morale failure, and every other emotion-altering condition
-immunity to curses?
-wisdom +1?~
+Dauntless: Immunity to fear, morale failure, and every other emotion-altering condition~
 
 
 // souls games inspired
@@ -510,8 +589,8 @@ wisdom +1?~
 STATISTICS:
 
 Equipped abilities:
-– Non-elven wielders must save vs. Spell to avoid falling asleep when equipping it for 1 round. After that, the user will become immune to sleep and unconsciousness as long the weapon is held
-– +1 bonus to saving throws against Illusion and Enchantment effects (+2 for Elves)
+– Non-elven wielders must save vs. Spell to avoid falling asleep when equipping it for 1 round. After that, the wielder will become immune to sleep and unconsciousness as long as the weapon is held
+– +1 bonus to Saving Throws vs. Illusion and Enchantment effects (+2 for Elves)
 
 Combat abilities:
 – Hit target must save vs. Spell or fall asleep for 1 round
@@ -755,7 +834,7 @@ Weight: 2~
 
 It is a mystery how it was enchanted with such precision, as none of the forgemasters lived beyond its creation to tell of its secrets. Regardless, it is a powerful weapon that attracts those who would aspire to his evil magnificence.
 
-Now upgraded by Cespenar, this weapon bleeds the enemy like lambs to the slaughter, and its power is truly terrifying.
+Now upgraded by Cespenar, this weapon bleeds its victims like lambs to the slaughter, and its power is truly terrifying.
 
 STATISTICS:
 
@@ -830,31 +909,32 @@ Equipped abilities:
 Weight: 1~
 
 @6110 = ~Hawk Ring~
-@6111 = ~Crudely engraved with a hawk's silhouette, this seemingly unassuming ring makes the wearer's vision, immediately upon wearing it, incredibly sharp, allowing them can see the world with a clarity that is normally impossible. It is rumored that it was once worn by a famed ranger now lost to time.
+@6111 = ~Crudely engraved with a hawk's silhouette, this seemingly unassuming ring makes the wearer's vision, immediately upon wearing it, incredibly sharp, allowing them to see the world with a clarity that is normally impossible. It is rumored that it was once worn by a famed ranger now lost to time.
 
 STATISTICS:
 
 Equipped abilities:
-– Ranged damage and THAC0: +1
-– Find traps: +10%
+– Ranged Damage: +1
+– Ranged THAC0: +1
+– Find Traps: +10%
 – Detect Illusions: +5%
 – Movement rate: +1
 
 Weight: 0~
 
 @6120 = ~Spellguard~
-@6121 = ~Being obliterated by a spell from a deranged wizard is a common fear among adventurers. This necklace was designed to protect its wearer from the worst of the magical onslaught, and it does so with success.
+@6121 = ~Being obliterated by a spell from a deranged wizard is a common fear among adventurers. This necklace was designed to protect its wearer from the worst of the magical onslaught, and it serves that purpose well.
 
 STATISTICS:
 
 Equipped abilities:
 – Magic Resistance: +8%
-– Magic damage resistance: +25%
+– Magic Damage Resistance: +25%
 
 Weight: 3~
 
 @6130 = ~Sage's Ring~
-@6131 = ~This ring is imbued with an enchantment that sharpens the mind and focus of the wearer. Whether invoking divine prayers or arcane spells, the ring allows its bearer to channel their magic with more speed and precision, making it a prized possession for spell casters of all disciplines.
+@6131 = ~This ring is imbued with an enchantment that sharpens the mind and focus of the wearer. Whether invoking divine prayers or arcane spells, the ring allows its bearer to channel their magic with more speed and precision, making it a prized possession for spellcasters of all disciplines.
 
 STATISTICS:
 
@@ -917,7 +997,7 @@ Combat abilities:
 
 Charge abilities:
 – Blade of Gold once per day
-  Special: The dagger blazes with radiant golden light, unleashing a blade of energy that deals 6d6 magic damage (double vs. undead) and knocks the target prone, pushes them back, and blinds them if they're undead for 4 rounds (save vs. Spell at -4 to avoid). For the next turn, each hit with this dagger disrupts the undead, destroying them if they fail a save vs. Death. The dagger must be actively equipped for this effect to work and persist.
+  Special: The dagger blazes with radiant golden light, unleashing a blade of energy that deals 6d6 magic damage (double vs. undead) and knocks the target prone, pushes them back, and blinds them if they're undead for 4 rounds (Save vs. Spell at -4 to avoid). For the next turn, each hit with this dagger disrupts the undead, destroying them if they fail a save vs. Death. The dagger must be actively equipped for this effect to work and persist.
   Area of effect: 1 target
 
 THAC0: +3, +5 vs. undead
@@ -996,37 +1076,36 @@ Weight: 0~
 @18004 = ~Formless Serpent~
 
 @18100 = ~Chikage~
-@18101 = ~Forged beyond the western seas for an obscure court of secretive nobles, the blade is etched with a running pattern of intricate rippled engravings. When these engravings that span the blade are imbrued with blood, the sword sings in scarlet hues. However, the rite eats away at the wielder's essence.
+@18101 = ~Forged beyond the western seas for an obscure court of secretive nobles, the blade is etched with a running pattern of intricate rippled engravings. When these engravings that span the blade are filled with blood, the sword sings in scarlet hues. However, the rite eats away at the wielder's essence.
 
 The word "Chikage" is elegantly engraved near the blade's handle. Whether that is the name of its intended owner, or something else entirely, is unknown.
 
 STATISTICS:
 
 Combat abilities:
-– Sanguine Tax: For every successful hit, the sword drinks the lifeblood of the user, reducing Hit Points by 1-2, but also increases the damage of the user by 1 for the next 2 rounds. When it adds up to +3, the effect lasts for 1 turn, and the sanguine tax is paused.
-– Bloodtinge: Successful critical hits cause unprotected enemies with blood to lose 13% of their total health while the user is healed by 13% of theirs, and increasing their critical hit chances by 5% for the next 9 seconds. Backstabs also trigger this effect, but it's not possible to trigger it twice if a backstab results in a critical hit.
+– Sanguine Tax: For every successful hit, the sword drinks the lifeblood of the wielder, reducing their Hit Points by 1-2, but also increases their damage by 1 for the next 2 rounds. When it adds up to +3, the effect lasts for 1 turn, and the sanguine tax is paused.
+– Bloodtinge: Critical hits and backstabs cause unprotected enemies with blood to lose 13% of their total health, heal the wielder for 13% of the wielder's own maximum Hit Points, and increase critical hit chance by 5% for the next 9 seconds.
 
 Charge abilities:
 – Ritual Offering once per day
-  Special: Drive the blade through your flesh, bathing it in blood. This causes damage equal to half the user's maximum Hit Points but causes every hit with the sword to deal extra 4d4 fire damage once per round (1d4 the rest of the time). This effect only persists while this blade is equipped.
+  Special: Drive the blade through your flesh, bathing it in blood. This causes damage equal to half the wielder's maximum Hit Points but causes every hit with the sword to deal extra 4d4 fire damage once per round (1d4 the rest of the time). This effect only persists while this blade is equipped.
   Duration: 2 turns
 
-Damage: 1d8+2
-Damage type: Slashing
+Damage: 1d8+2 (slashing)
 Speed Factor: 2
-Proficiency Type: Ninjatō
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
 Type: One-handed
 Requires:
  6 Strength~
 
 @18150 = ~Vipertooth~
-@18151 = ~This magical scimitar is fashioned in the image of serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to become animated sometimes and bite into an enemy upon striking them, possibly causing them to be poisoned.%vipertooth_evil_only_addendum%
+@18151 = ~This magical scimitar is fashioned in the image of a serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to animate itself at times and bite into an enemy upon striking them, possibly causing them to be poisoned.%vipertooth_evil_only_addendum%
 
 STATISTICS:
 
 Combat abilities:
 – 12% chance on hit the animated head of the sword bites into the enemy, dealing 1d4 piercing damage plus 1 point of poison damage, and if a save vs. Death is failed they become poisoned, taking 1 point of poison damage every round for one turn.
-– Upon killing an enemy, 6 Hit Points plus 10% of your maximum Hit Points are immediately restored. Only kills caused by direct, instant damage from this weapon count.
+– Upon killing an enemy, 6 Hit Points plus 10% of the wielder's maximum Hit Points are immediately restored. Only kills caused by direct, instant damage from this weapon count.
 
 THAC0: +2
 Damage: 1d8+2 (slashing)
@@ -1297,7 +1376,7 @@ Weight: 2~
 
 @8015 = ~Blade of the Rashemi~
 @80150 = ~Casting speed reduced~
-@8016 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spell casters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
+@8016 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spellcasters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
 
 STATISTICS:
 
@@ -1320,7 +1399,7 @@ Requires:
 
 Weight: 14~
 
-@8017 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spell casters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
+@8017 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spellcasters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
 
 STATISTICS:
 
@@ -1343,7 +1422,7 @@ Requires:
 
 Weight: 14~
 
-@80170 = ~Shining Light of Lathander~
+@80170 = ~Shining Dawn of Lathander~
 @80171 = ~The Church of Lathander is a wealthy institution, and makes no secret of its affinity for adventurers. In their eyes, these people dare to bring light to the forgotten and secret places, and therefore they will always find safe haven in a house of the Morninglord. On occasion the church will grant a boon to a particularly favorable person, a weapon that will serve to light the dark paths ahead.
 
 STATISTICS:
@@ -1397,7 +1476,7 @@ Weight: 10~
 
 @80173 = ~The Church of Lathander is a wealthy institution, and makes no secret of its affinity for adventurers. In their eyes, these people dare to bring light to the forgotten and secret places, and therefore they will always find safe haven in a house of the Morninglord. On occasion the church will grant a boon to a particularly favorable person, a weapon that will serve to light the dark paths ahead.
 
-Now that the blade has been coated with illithium, it is even more potent, conferring to its user immunity to the life-draining powers of the more powerful undead.
+Now that the blade has been coated with illithium, it is even more potent, conferring its wielder immunity to the life-draining powers of the more powerful undead.
 
 STATISTICS:
 
@@ -1467,7 +1546,7 @@ Requires:
 Weight: 7~
 
 @8024 = ~Mercykiller Blade~
-@8025 = ~A series of runes claim these blades are designed for the "quick eradication of evil, that they will suffer no longer as creatures at odds with all that is good." A sweeping proclamation, one that suggests the involvement of a radical group no longer giving second thought to deadly force where villains are concerned. Certainly an unpopular stance in some quarters, thought probably welcomed in others.
+@8025 = ~A series of runes claim these blades are designed for the "quick eradication of evil, that they will suffer no longer as creatures at odds with all that is good." A sweeping proclamation, one that suggests the involvement of a radical group no longer giving second thought to deadly force where villains are concerned. Certainly an unpopular stance in some quarters, though probably welcomed in others.
 
 STATISTICS:
 
@@ -1486,7 +1565,7 @@ Requires:
 
 Weight: 2~
 
-@8050 = ~Forge Fire~
+@8050 = ~Forgefire~
 @8051 = ~A legacy that Thalantyr the Conjurer has said he would prefer to forget, these weapons are tied to his early adventuring career and a time when he was held captive by a mysterious powerful creature. He has refused to say how the weapons have retained the heat of the forge they were crafted in, usually ending such inquiries with a frustrated "pray you never find out."
 
 STATISTICS:
@@ -1683,7 +1762,7 @@ Combat abilities:
 
 Charge abilities:
 – Evolve Weapon
-  Special: The wielder attempts to improve the weapon's enchantment level. The user must be level 6 or higher to upgrade the weapon
+  Special: The wielder attempts to improve the weapon's enchantment level. The wielder must be level 6 or higher to upgrade the weapon
 
 Damage: 1d8, +1 magic damage
 Damage type: Piercing/Slashing or Crushing
@@ -1704,7 +1783,7 @@ Combat abilities:
 
 Charge abilities:
 – Evolve Weapon
-  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 11 or higher to upgrade the weapon
+  Special: Wielder attempts to improve the weapon's enchantment level. The wielder must be level 11 or higher to upgrade the weapon
 
 THAC0: +1
 Damage: 1d8+1, +2 magic damage
@@ -1726,7 +1805,7 @@ Combat abilities:
 
 Charge abilities:
 – Evolve Weapon
-  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 16 or higher to upgrade the weapon
+  Special: Wielder attempts to improve the weapon's enchantment level. The wielder must be level 16 or higher to upgrade the weapon
 
 THAC0: +2
 Damage: 1d8+2, +2 magic damage
@@ -1748,7 +1827,7 @@ Combat abilities:
 
 Charge abilities:
 – Evolve Weapon
-  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 21 or higher to upgrade the weapon
+  Special: Wielder attempts to improve the weapon's enchantment level. The wielder must be level 21 or higher to upgrade the weapon
 
 THAC0: +3
 Damage: 1d8+3, +3 magic damage
@@ -1770,7 +1849,7 @@ Combat abilities:
 
 Charge abilities:
 – Evolve Weapon
-  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 26 or higher to upgrade the weapon
+  Special: Wielder attempts to improve the weapon's enchantment level. The wielder must be level 26 or higher to upgrade the weapon
 
 THAC0: +4
 Damage: 1d8+4, +3 magic damage
@@ -1792,7 +1871,7 @@ Combat abilities:
 
 Charge abilities:
 – Evolve Weapon
-  Special: Wielder attempts to improve the weapon's enchantment level. The user must be level 31 or higher to upgrade the weapon
+  Special: Wielder attempts to improve the weapon's enchantment level. The wielder must be level 31 or higher to upgrade the weapon
 
 THAC0: +5
 Damage: 1d8+5, +4 magic damage

@@ -10,6 +10,7 @@
 - Added fallback inventory slots for Deathstalker mantle to be placed in specific creatures in case the cloak slot is occupied
 - Various price corrections and inconsistencies where "store-ready" prices were used in versions that are meant to be found as loot in different games, as per the configuration options
 - Fixed Rod of Illusive Protections only being placed in the BGEE portion in EET games
+- Fixed many typos and issues in text to improve clarity and text quality generally
 
 ## Modifications
 
