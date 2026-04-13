@@ -40,7 +40,7 @@ This component adds a new +1 dagger which allows wizards and sorcerers to recall
 
 ### Add Cruel Sting (108) (BGEE BG2EE EET)
 
-This component adds a new +1 long sword with a spider and poisonous theme which excels when hitting targets that are webbed or otherwise incapacitated. Available for BG2EE and BGEE. It's a +2 long sword in BG2 with minor differences otherwise.
+This component adds a new +1 long sword with a spider and venomous theme which excels when hitting targets that are webbed or otherwise incapacitated. Available for BG2EE and BGEE. It's a +2 long sword in BG2 with minor differences otherwise.
 
 ### Add Judgment (108) (BG2EE EET)
 
