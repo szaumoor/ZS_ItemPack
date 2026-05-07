@@ -1085,21 +1085,23 @@ The word "Chikage" is elegantly engraved near the blade's handle. Whether that i
 STATISTICS:
 
 Combat abilities:
-– Sanguine Tax: For every successful hit, the sword drinks the lifeblood of the wielder, reducing their Hit Points by 1-2, but also increases their damage by 1 for the next 2 rounds. When it adds up to +3, the effect lasts for 1 turn, and the sanguine tax is paused.
-– Bloodtinge: Critical hits and backstabs cause unprotected enemies with blood to lose 13% of their total health, heal the wielder for 13% of the wielder's own maximum Hit Points, and increase critical hit chance by 5% for the next 9 seconds.
+– Sanguine Tax: For every hit, the sword drinks the lifeblood of the wielder, reducing their Hit Points by 1d6, but also increases their damage by 1 for the next 2 rounds. If this happens again within 2 rounds after each increase, it increases again. If this happens twice, the effect persists for 1 turn, and the tax is paused.
+– Bloodtinge: Critical hits and backstabs cause unprotected enemies to lose 13% of their total health, heal the wielder for 13% of the wielder's own maximum Hit Points, and increase critical hit chance by 5% for the next 9 seconds. This effect does not work on constructs or the undead.
 
 Charge abilities:
-– Ritual Offering once per day
-  Special: Drive the blade through your flesh, bathing it in blood. This causes damage equal to half the wielder's maximum Hit Points but causes every hit with the sword to deal extra 4d4 fire damage once per round (1d4 the rest of the time). This effect only persists while this blade is equipped.
+– Blood Imbruing once per day
+  Special: Drive the blade through your flesh, imbruing it in blood. This causes damage equal to half the wielder's maximum Hit Points but causes every hit with the sword to deal extra 4d4 fire damage once per round (1d4 the rest of the time). This will have no effect if protected with stoneskins.
   Duration: 2 turns
 
 THAC0: +2
 Damage: 1d8+2 (slashing)
 Speed Factor: 2
-Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Proficiency Type: Ninjatō
 Type: One-handed
 Requires:
  6 Strength~
+
+@18102 = ~Blood Imbruing~
 
 @18150 = ~Vipertooth~
 @18151 = ~This magical scimitar is fashioned in the image of a serpent, made by a reclusive sect of druids with extreme views, who occasionally worship snakes. The incredible alteration magic embedded in the blade allows the snake head to animate itself at times and bite into an enemy upon striking them, possibly causing them to be poisoned.%vipertooth_evil_only_addendum%
