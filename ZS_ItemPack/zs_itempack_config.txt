@@ -52,6 +52,10 @@ OUTER_SET zst_price_ritual_dagger              = "350"   // as loot
 OUTER_SET zst_price_spell_siphon_bgee          = "2500"  // in stores
 OUTER_SET zst_price_spell_siphon_bg2ee         = "3000"  // in stores
 
+OUTER_SET zst_price_spiderstep_boots_bg2ee     = "2000"  // in stores
+OUTER_SET zst_price_spiderstep_boots_bgee      = "650"   // as loot
+
+
 // Souls-games
 OUTER_SET zst_price_blade_calling           = "6500" // in loot (quest reward)
 

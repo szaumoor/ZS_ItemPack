@@ -20,6 +20,16 @@
 @108 = ~Add Cruel Sting (Cruel Sting; long sword)~
 @109 = ~Add Judgment (Orphic Hammer; war hammer)~
 @110 = ~Add The Deathstalker Mantle (The Deathstalker Mantle; cloak)~
+@111 = ~Add Spiderstep Boots (Spiderstep Boots; boots)~
+@112 = ~Add Risky Ring (Risky Ring; ring)~
+@113 = ~Add Winkling Gloves (Winkling Gloves; gloves)~
+@114 = ~Add Hood of the Weave (Hood of the Weave; headgear)~
+@115 = ~Add Fleshmelter (Fleshmelter; cloak)~
+@116 = ~Add Ring of Shadows (Ring of Shadows; ring)~
+@117 = ~Add Bhaalist Cowl (Assassin of Bhaal Cowl; headgear)~
+@118 = ~Add Amulet of the Drunkard (Amulet of the Drunkard; necklace)~
+@119 = ~Add Dark Justiciar Helmet (Dark Justiciar Helmet; helmet)~
+@120 = ~Add Deathbringer's Helmet (Sarevok's Horned Helmet; helmet)~
 
 @205 = ~Add Ring of Hardiness (Dark Souls - Ring of Steel Protection; ring)~
 @211 = ~Add Sage's Ring (Dark Souls 3 - Sage Ring; ring)~
@@ -51,13 +61,13 @@
 @314 = ~Add Arrows of the Vampire (Arrow of the Vampire; arrow)~
 @315 = ~Add Squire's Defense (Squire's Defense; studded leather armor)~
 
-@401 = ~Add Rod of Illusiveness (ME2/ME3, The Illlusive Man; rod)~
+@401 = ~Add Rod of Illusiveness (ME2/ME3, The Illusive Man; rod)~
 @402 = ~Add Omniblade (All; universal sword)~
 @403 = ~Add Phantom's Blade (Mass Effect 3; Phantom's Monomolecular Sword; ninja-to)~
 
 @501 = ~Add Needle (Game of Thrones - Needle; rapier)~
 @502 = ~Add Craven Edge (The Legend of Vox Machina - Craven Edge; two-handed sword)~
-@503 = ~Add Crushing Darkness (LOTR - Witch King of Angmar; flail)~
+//@503 = ~Add Crushing Darkness (LOTR - Witch King of Angmar; flail)~
 
 // forbidden game inspired items
 @5001 = ~Everburn Blade +1~
@@ -466,6 +476,8 @@ Weight: 4~
 @5041 = ~The Deathstalker Mantle
 This blood-red cloak was once the sinister badge of honor bestowed upon Bhaal's most ruthless assassins. Forged in the name of the Lord of Murder, it served as a grim token of their unholy deeds. Etched along the hem these words can be read: "Let hill and hollow be a door to screams that last forevermore."
 
+STATISTICS:
+
 Equipped abilities:
 – THAC0: +1 (single-classed Thieves only)
 – Damage: +1 (Assassins and Blackguards only)
@@ -473,16 +485,15 @@ Equipped abilities:
 
 Weight: 3~
 
-@5050 = ~Caustic Band~ // +2 acid on attacks
+@5050 = ~Caustic Band~
 @5051 = ~Though plain in appearance, this magical ring traps a thin film of caustic essence that hisses softly when worn. Each movement of the hand leaves a stinging residue along blade and bowstring alike, turning even glancing blows into searing wounds.
 
 STATISTICS:
 
 Equipped abilities:
-– Every ranged and melee weapon attack from the wearer of this ring has a 50% chance of dealing 2 extra points of acid damage.
+– Malefic Excretion: Every ranged and melee attack from the wearer of this ring deals 2 extra points of acid damage, with a 10% chance the target must Save vs. Breath or have their Armor Class reduced by 2 for 2 rounds. If the target is protected by Stoneskin, they are only affected 50% of the time.
 
 Weight: 0~
-
 
 @5060 = ~Ring of Shadows~ 
 @5061 = ~A dark opal, ground to a needle point and set in blackened silver, crowns this austere signet. When worn, a hush of shadow settles over the wearer and those nearby, softening movement and swallowing the telltale scrape of steel and leather. By night, the ring favors masters of stealth most of all, lending sharper reflexes to shadowdancers and swifter pursuit to assassins.
@@ -504,9 +515,10 @@ STATISTICS:
 
 Equipped abilities:
 – THAC0: +1
-– Damage: +1
-– Armor Class: -2
+– Armor Class: -1
 – Saving Throws: -1
+– Damage inflicted: +10%
+– Damage taken: +15%
 
 Weight: 0~
 
@@ -532,24 +544,30 @@ Weight: 0~
 @5090 = ~Fleshmelter~ // cloak, targets that kit wearer take 1d4 acid damage
 @5091 = ~The frayed tails of this cloak seep with caustic ichor that hisses where it falls. Any foe reckless enough to strike the wearer at close quarters is rewarded with a burning splash that eats at flesh and steel alike.
 
+STATISTICS:
+
 Equipped abilities:
 – Whenever a creature deals damage to the wearer in melee range, that creature takes 1d4 acid damage.
 
 Weight: 3~
 
 
-@5100 = ~The Gift~ // khalid's gift 
-@5101 = ~Crafted from the most delicate spider silk, an unblemished aquamarine gem its centerpiece, this necklace represents its creator's undying devotion for his beloved. It does more than accentuate its wearer's beauty, though it certainly does that as well. It also seemingly rejuvenates her, leaving her practically glowing with youth and vitality. Were arcane energies involved in its creation, or does it merely reflect the deeply-held feelings of the necklace's maker for its intended recipient? It is impossible to say; such is the magic of love.
+// @5100 = ~The Gift~
+// @5101 = ~Crafted from the most delicate spider silk, an unblemished aquamarine gem its centerpiece, this necklace represents its creator's undying devotion for his beloved. It does more than accentuate its wearer's beauty, though it certainly does that as well. It also seemingly rejuvenates her, leaving her practically glowing with youth and vitality. Were arcane energies involved in its creation, or does it merely reflect the deeply-held feelings of the necklace's maker for its intended recipient? It is impossible to say; such is the magic of love.
 
-Hit Points: +10
-Charisma: +1
-Immunity to fatigue
-immunity to curses?
-wisdom +1?~
+// STATISTICS:
+
+// Equipped abilities:
+// – Immunity to fatigue
+// – Hit Points: +10
+// – Wisdom: +1
+// – Charisma: +1~
 
 
 @5110 = ~Spiderstep Boots~ // immunity to all web stuff
 @5111 = ~The soles of these boots cling and release with uncanny precision, as though spun from a giant spider's own silk. Webbing, slick grease, and treacherous ground fail to hold the wearer for long, each step finding purchase where none should exist.
+
+STATISTICS:
 
 Equipped abilities:
 – Wearer is immune to the Web spell and similar effects, as well as effects that affect movement speed across terrain (such as Grease).
@@ -562,27 +580,84 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
+– THAC0: +2 (thieves only)
 – Open Locks: +10%
 – Pick Pockets: +5%
 – Find Traps: +10%
 – Set Traps: +5%
-– THAC0: +1 (thieves only)
 
 Weight: 1~
 
-@5130 = ~Covert Cowl~ // while invisible, +5% critical hit chances shadow of menzoberranzan
+@5130 = ~Shadow of Menzoberrazan~ 
+@5131 = ~You sense the shadows that envelop this drowcraft cowl, eagerly awaiting to envelop you and shield you from view. 
+
+One of the relics of Deep Duerra's rebellious children. Keeping themselves and one another safe from the nasty surprises of their home, the siblings made good progress.
+
+At the final hurdle, they were confronted by none other than Duerra herself, and her rage was great, and they felt the candles of hope in their hearts snuff out.
+
+STATISTICS:
+
+Equipped abilities:
+– Critical Hit Chance: +5% (if invisible)
+
+Charge abilities:
+– Shrouded in Shadow once per day
+  Special: Once per day, become invisible as per the Improved Invisibility spell
+  Duration: 5 rounds
+  Casting time: Instant
+
+Weight: 2~
+
 @5140 = ~Dark Justiciar Helmet~ // save vs death and spell +1, 5% crit chances while invisible
-@5150 = ~Assassin of Bhaal Cowl~ // detect invisibility once, infravision, +3 to Speed Factor, +2 to movement speed
-@5151 = ~When he was killed, Bhaal's blight upon the world was not destroyed. For the many people upon whom he had sired his spawn slithered out of tainted wombs, and with their arrival Bhaal's malcontent returned with force. ~
-@5160 = ~Hood of the Weave~ // saves vs all schools of magic +1, +5 magic resistance
+@5141 = ~Adorned in a fanned coronet of speartip points, its mask fixed with stiff-lipped intent, this helmet evokes a frightful, almost alien aspect that gestures to Shar. For she is strange and terrible indeed. 
+
+STATISTICS:
+
+Equipped abilities:
+– Save vs. Spell: +1
+– Covert Critical: At night, critical hit chances increase by 5%
+– Protects against critical hits
+
+Weight: 3~
+
+@5150 = ~Bhaalist Cowl~
+@5151 = ~When he was killed, Bhaal's blight upon the world was not destroyed. For the many people upon whom he had sired his spawn slithered out of tainted wombs, and with their arrival Bhaal's malcontent returned with force.
+
+STATISTICS:
+
+Equipped abilities:
+– Murderous Sight: Grants Infravision, Speed Factor improves by 3, and movement rate increases by a factor of 2
+
+Charge abilities:
+– See Invisibility twice per day
+  Special: Detect invisible enemies instantly upon casting the spell
+  Casting time: Instant
+
+Weight: 2~
+
+@5160 = ~Hood of the Weave~ 
+@5161 = ~Though modest in appearance, this hood was once worn by the archmage Tenser upon his induction into the Circle of Eight. Those gifted in arcana can feel a palpable aura of magic woven through the fabric, shielding its wearer from the spells of malicious rivals.
+
+STATISTICS:
+
+Equipped abilities:
+– Magic Resistance: +5%
+– Saving Throws: +1 vs. all schools of magic (nonmagical effects are exempt)
+
+Weight: 1~
 
 
 @5180 = ~Sarevok's Horned Helmet~
-@5181 = ~
+@5181 = ~The last sight Sarevok witnessed as a mortal was his sibling's knife. This duel, the first between Bhaalspawn, is worshipped still by the cult of Bhaal, who now believe that no act is more sacred than fratricide between spawn before the altar of their Dread Lord.
 
-Critical Hit Chances: +5%
-Infravision
-Dauntless: Immunity to fear, morale failure, and every other emotion-altering condition~
+STATISTICS:
+
+Equipped abilities:
+– Deathbringer's Sight: Grants Infravision and critical hit chances improve by +5%
+– Dauntless: Immunity to fear, morale failure, and spells that affect emotion, such as Emotion: Hopelessness and Blood Rage
+– Protects against critical hits
+
+Weight: 3~
 
 
 // souls games inspired
@@ -1958,7 +2033,7 @@ Weight: 1~
 STATISTICS:
 
 Combat abilities:
-– Vampiric Bloodlust: Each time the sword causes a bleeding wound or lands a critical hit, there is a 4% chance the wielder will enter a blood rage for 2 rounds. While in this state, the wielder is consumed by bloodlust, gaining +2 to damage and THAC0 but losing control, attacking both enemies and allies indiscriminately. Vampires are unaffected by this effect.
+– Vampiric Bloodlust: Each time the sword causes a bleeding wound or lands a critical hit, there is a 4% chance the wielder will enter a Blood Rage for 2 rounds. While in this state, the wielder is consumed by bloodlust, gaining +2 to damage and THAC0 but losing control, attacking both enemies and allies indiscriminately. Vampires are unaffected by this effect.
 – Vampiric Thirst: Each hit drinks a small amount of the target's lifeblood, healing the wielder for 1 Hit Point. In addition, there is a 15% chance on hit to inflict a bleeding wound: the target takes 2d4 slashing damage per round for 3 rounds, and the wielder is healed for the same amount. The target may Save vs. Death at -2 to take only half damage and heal the wielder for half as much. This effect does not work on vampires or creatures without blood.
 – Critical hits are 5% more likely and deal an additional 2d4+4 slashing damage
 
