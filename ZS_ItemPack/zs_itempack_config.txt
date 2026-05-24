@@ -55,6 +55,16 @@ OUTER_SET zst_price_spell_siphon_bg2ee         = "3000"  // in stores
 OUTER_SET zst_price_spiderstep_boots_bg2ee     = "2000"  // in stores
 OUTER_SET zst_price_spiderstep_boots_bgee      = "650"   // as loot
 
+OUTER_SET zst_price_risky_ring                 = ""
+OUTER_SET zst_price_cowl_weave                 = ""
+OUTER_SET zst_price_bhaalist_cowl              = ""
+OUTER_SET zst_price_fleshmelter                = ""
+OUTER_SET zst_price_ring_shadows               = ""
+OUTER_SET zst_price_winkling_gloves            = ""
+OUTER_SET zst_price_amulet_drunkard            = ""
+OUTER_SET zst_price_dark_justiciar_helmet      = ""
+OUTER_SET zst_price_deathbringer_helmet        = ""
+
 
 // Souls-games
 OUTER_SET zst_price_blade_calling           = "6500" // in loot (quest reward)
@@ -95,6 +105,8 @@ OUTER_SET zst_price_stygian_fury_upgraded   = "6500" // as loot (cespenar)
 
 OUTER_SET zst_price_vipertooth_bg2ee        = "1000" // as loot
 OUTER_SET zst_price_vipertooth_bgee         = "3000" // in stores
+
+OUTER_SET zst_price_chikage               //??  = "1000" // as loot
 
 
 // NWN / NWN2

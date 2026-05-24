@@ -85,6 +85,9 @@ REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
 BEGIN @120 DESIGNATED 120 GROUP @1 // DEATHBRINGER'S HELMET
 REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
 
+BEGIN @121 DESIGNATED 120 GROUP @1 // CAUSTIC BAND
+REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
+
 /////////////////////////////////////// SOULS ITEMS /////////////////////////////////////////////////
 BEGIN @205 DESIGNATED 205 GROUP @2 // RING OF HARDINESS
 REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53

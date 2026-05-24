@@ -12,6 +12,7 @@
 - Fixed Rod of Illusive Protections only being placed in the BGEE portion in EET games
 - Fixed many typos and issues in text to improve clarity and text quality generally
 - Fixed some descriptions missing the "STATISTICS:" part of it
+- Fix Light of the Calling not using the custom icon for the charge ability
 
 ## Modifications
 
