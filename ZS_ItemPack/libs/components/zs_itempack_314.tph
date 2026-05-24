@@ -3,6 +3,10 @@ COPY_EXISTING ~zsipavp0.itm~ ~override~
     SAY NAME2 @15100
     SAY IDENTIFIED_DESC @15101
     WRITE_LONG 0x34 zst_price_arrows_vampire
+    LPF ALTER_EFFECT INT_VAR match_opcode = 326 parameter2 = zs_has_no_stoneskins END
+
+COPY_EXISTING ~zsipavp2.spl~ ~override~
+  LPF ALTER_EFFECT INT_VAR match_opcode = 326 parameter2 = zs_has_no_stoneskins END
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 

@@ -20,6 +20,7 @@
 - Changed name: Rod of Illusive Protections → Rod of Illusiveness
 - Ritual Dagger requires now a bigger toll in blood to get the benefits: 20% of total health (from 10%) plus the usual 1d6.
 - Bloodthirst now grants the wielder a +2 THAC0 for 2 rounds if the user critically misses
+- Vampire Arrows no longer heal when hitting stoneskinned targets (TODO)
   
 ## New components
 
