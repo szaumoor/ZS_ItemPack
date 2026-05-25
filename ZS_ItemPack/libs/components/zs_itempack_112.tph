@@ -1,31 +1,28 @@
 COPY ~%MOD_FOLDER%/items/01_forbidden_game/risky_ring~ ~override~
-COPY_EXISTING ~zsiprkr0.itm~ ~override~
+COPY_EXISTING ~zsiprkrg.itm~ ~override~
   SAY NAME2 @5070
   SAY IDENTIFIED_DESC @5071
- // WRITE_LONG 0x34 zst_price_spiderstep_boots_bg2ee
+  WRITE_LONG 0x34 zst_price_risky_ring
 
 OUTER_SET is_eet = GAME_IS "eet"
 
 ACTION_IF GAME_IS "bg2ee" OR is_eet BEGIN
 
-    COPY_EXISTING ~bmthief.sto~ ~override~
-        LPF ADD_STORE_ITEM_EX STR_VAR item_name="zsiprkr0" position="LAST" flags=~identified~ END
+    COPY_EXISTING ~ruffian.cre~ ~override~
+        ADD_CRE_ITEM ~zsiprkrg~ #0 #0 #0 ~none~ ~ring inv~
 
 END
 
 ACTION_IF GAME_IS "bgee" OR is_eet BEGIN
 
-    // COPY_EXISTING ~zsipsps0.itm~ ~override/zsipsps1.itm~
-    //     WRITE_LONG 0x34 zst_price_spiderstep_boots_bgee
-
-    COPY_EXISTING ~diana.cre~ ~override~
-        ADD_CRE_ITEM ~zsiprkr0~ #0 #0 #0 ~unstealable~ ~boots inv~
+    COPY_EXISTING ~ike2.cre~ ~override~
+        ADD_CRE_ITEM ~zsiprkrg~ #0 #0 #0 ~none~ ~ring inv~
 
 END
 
 ACTION_IF GAME_IS "iwdee" BEGIN
 
-    COPY_EXISTING ~erevdead.cre~ ~override~
-        ADD_CRE_ITEM ~zsiprkr0~ #0 #0 #0 ~none~ ~boots inv~
+    COPY_EXISTING ~lysan.cre~ ~override~
+        ADD_CRE_ITEM ~zsiprkrg~ #0 #0 #0 ~none~ ~ring inv~
 
 END

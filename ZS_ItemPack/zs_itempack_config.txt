@@ -55,7 +55,7 @@ OUTER_SET zst_price_spell_siphon_bg2ee         = "3000"  // in stores
 OUTER_SET zst_price_spiderstep_boots_bg2ee     = "2000"  // in stores
 OUTER_SET zst_price_spiderstep_boots_bgee      = "650"   // as loot
 
-OUTER_SET zst_price_risky_ring                 = ""
+OUTER_SET zst_price_risky_ring                 = "500"
 OUTER_SET zst_price_cowl_weave                 = ""
 OUTER_SET zst_price_bhaalist_cowl              = ""
 OUTER_SET zst_price_fleshmelter                = ""
