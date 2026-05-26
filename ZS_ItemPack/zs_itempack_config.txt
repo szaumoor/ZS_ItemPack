@@ -23,47 +23,48 @@ OUTER_SET zst_give_skie_bgee_rapier1 = "1"
 // The defaults are an attempt to minimize destroying the economy with a lot of expensive lootable stuff, but with fair prices in buy-only options. Keep that in mind when deciding how much things that you can loot from enemies should cost (i.e. how rich they'll make you) in order to keep the game economy balanced.
 
 // Forbidden-game
-OUTER_SET zst_price_assassins_touch_bgee_iwdee = "900"   // in stores
-OUTER_SET zst_price_assassins_touch_iwdee      = "400"   // in loot
-OUTER_SET zst_price_assassins_touch_bg2ee      = "1500"  // in stores
+OUTER_SET zst_price_assassins_touch_bgee_iwdee  = "900"   // in stores
+OUTER_SET zst_price_assassins_touch_iwdee       = "400"   // in loot
+OUTER_SET zst_price_assassins_touch_bg2ee       = "1500"  // in stores
+ 
+OUTER_SET zst_price_bloodthirst_bgee            = "4500"  // as loot
+OUTER_SET zst_price_bloodthirst_bg2ee           = "6000"  // as loot
+OUTER_SET zst_price_bloodthirst_bg2ee_upgraded  = "7500"  // as loot (cespenar)
+ 
+OUTER_SET zst_price_cold_snap_bgee_iwdee        = "2500"  // in stores
+OUTER_SET zst_price_cold_snap_bg2ee             = "3250"  // in stores
+ 
+OUTER_SET zst_price_crimson_mischief            = "6000"  // as loot
+OUTER_SET zst_price_crimson_mischief_upgraded   = "8000"  // as loot (cespenar)
+ 
+OUTER_SET zst_price_cruel_sting_bgee            = "2500"  // as loot
+OUTER_SET zst_price_cruel_sting_bg2ee           = "3000"  // as loot
+ 
+OUTER_SET zst_price_deathstalker_mantle_bg      = "500"  // as loot
+OUTER_SET zst_price_deathstalker_mantle_iwdee   = "2750" // in store
+ 
+OUTER_SET zst_price_everburn_blade              = "750"   // as loot
+ 
+OUTER_SET zst_price_judgment                    = "30000" // in stores
+ 
+OUTER_SET zst_price_ritual_dagger               = "350"   // as loot
+ 
+OUTER_SET zst_price_spell_siphon_bgee           = "2500"  // in stores
+OUTER_SET zst_price_spell_siphon_bg2ee          = "3000"  // in stores
+ 
+OUTER_SET zst_price_spiderstep_boots_bg2ee      = "2000"  // in stores
+OUTER_SET zst_price_spiderstep_boots_iwdee_bgee = "650"   // as loot
 
-OUTER_SET zst_price_bloodthirst_bgee           = "4500"  // as loot
-OUTER_SET zst_price_bloodthirst_bg2ee          = "6000"  // as loot
-OUTER_SET zst_price_bloodthirst_bg2ee_upgraded = "7500"  // as loot (cespenar)
-
-OUTER_SET zst_price_cold_snap_bgee_iwdee       = "2500"  // in stores
-OUTER_SET zst_price_cold_snap_bg2ee            = "3250"  // in stores
-
-OUTER_SET zst_price_crimson_mischief           = "6000"  // as loot
-OUTER_SET zst_price_crimson_mischief_upgraded  = "8000"  // as loot (cespenar)
-
-OUTER_SET zst_price_cruel_sting_bgee           = "2500"  // as loot
-OUTER_SET zst_price_cruel_sting_bg2ee          = "3000"  // as loot
-
-OUTER_SET zst_price_deathstalker_mantle_bg     = "500"  // as loot
-OUTER_SET zst_price_deathstalker_mantle_iwdee  = "2750" // in store
-
-OUTER_SET zst_price_everburn_blade             = "750"   // as loot
-
-OUTER_SET zst_price_judgment                   = "30000" // in stores
-
-OUTER_SET zst_price_ritual_dagger              = "350"   // as loot
-
-OUTER_SET zst_price_spell_siphon_bgee          = "2500"  // in stores
-OUTER_SET zst_price_spell_siphon_bg2ee         = "3000"  // in stores
-
-OUTER_SET zst_price_spiderstep_boots_bg2ee     = "2000"  // in stores
-OUTER_SET zst_price_spiderstep_boots_bgee      = "650"   // as loot
-
-OUTER_SET zst_price_risky_ring                 = "500"
-OUTER_SET zst_price_cowl_weave                 = ""
-OUTER_SET zst_price_bhaalist_cowl              = ""
-OUTER_SET zst_price_fleshmelter                = ""
-OUTER_SET zst_price_ring_shadows               = ""
-OUTER_SET zst_price_winkling_gloves            = ""
-OUTER_SET zst_price_amulet_drunkard            = ""
-OUTER_SET zst_price_dark_justiciar_helmet      = ""
-OUTER_SET zst_price_deathbringer_helmet        = ""
+OUTER_SET zst_price_risky_ring                  = "500"
+OUTER_SET zst_price_cowl_weave                  = ""
+OUTER_SET zst_price_bhaalist_cowl               = ""
+OUTER_SET zst_price_fleshmelter                 = ""
+OUTER_SET zst_price_ring_shadows                = ""
+OUTER_SET zst_price_winkling_gloves_bgee        = "350"
+OUTER_SET zst_price_winkling_gloves_bg2ee       = "1500"
+OUTER_SET zst_price_amulet_drunkard             = ""
+OUTER_SET zst_price_dark_justiciar_helmet       = ""
+OUTER_SET zst_price_deathbringer_helmet         = ""
 
 
 // Souls-games

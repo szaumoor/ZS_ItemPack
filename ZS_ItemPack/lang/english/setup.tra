@@ -581,7 +581,7 @@ Weight: 4~
 STATISTICS:
 
 Equipped abilities:
-– THAC0: +2 (thieves only)
+– THAC0: +1, +2 for single-classed thieves
 – Open Locks: +10%
 – Pick Pockets: +5%
 – Find Traps: +10%
