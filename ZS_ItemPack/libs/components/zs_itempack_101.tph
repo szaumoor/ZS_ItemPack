@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/everburn_blade~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/everburn_blade~ ~override~
 COPY_EXISTING ~zsips2aa.itm~ ~override~
   SAY NAME2 @5001
   SAY IDENTIFIED_DESC @5002

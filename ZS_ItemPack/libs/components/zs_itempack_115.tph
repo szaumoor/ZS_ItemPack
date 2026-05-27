@@ -1,8 +1,8 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/risky_ring~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/fleshmelter~ ~override~
 COPY_EXISTING ~zsiprkr0.itm~ ~override~
   SAY NAME2 @5120
   SAY IDENTIFIED_DESC @5121
- // WRITE_LONG 0x34 zst_price_spiderstep_boots_bg2ee
+  WRITE_LONG 0x34 zst_price_fleshmelter
 
 OUTER_SET is_eet = GAME_IS "eet"
 

@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/cruel_sting~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/cruel_sting~ ~override~
 COPY_EXISTING ~zsipcst0.itm~ ~override~
   SAY NAME2 @5019
   SAY IDENTIFIED_DESC @5020

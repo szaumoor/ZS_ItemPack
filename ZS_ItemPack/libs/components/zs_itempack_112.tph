@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/risky_ring~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/risky_ring~ ~override~
 COPY_EXISTING ~zsiprkrg.itm~ ~override~
   SAY NAME2 @5070
   SAY IDENTIFIED_DESC @5071

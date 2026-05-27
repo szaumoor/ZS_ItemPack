@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/spell_siphon~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/spell_siphon~ ~override~
 COPY_EXISTING ~zsipsps0.itm~ ~override~
   SAY NAME2 @5017
   SAY IDENTIFIED_DESC @5018

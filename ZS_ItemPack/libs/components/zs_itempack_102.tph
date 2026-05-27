@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/bloodthirst~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/bloodthirst~ ~override~
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
     COPY_EXISTING ~zsipblt0.itm~ ~override~

@@ -16,13 +16,13 @@ To check details on specific components, please refer to the [component_readme.m
 
 Every one of the items is optional. You choose what you want in the game. Currently, the mod adds new items pulled from the following settings:
 
-- A **Forbidden Game** which shall not be named
+- **Baldur's Gate 3**
 - **Elden Ring**
 - **Dark Souls / Bloodborne**
-- **Neverwinter Nights** 1/2
-- **Mass Effect** (yes, you read that right)
+- **Neverwinter Nights 1 and 2**
+- **Mass Effect**
 - **Game of Thrones**
-- **The Legend of Vox Machina** (Critical Role)
+- **The Legend of Vox Machina**
 
 There are still around 20–30 items that I plan to add but removed them to accelerate the release of the mod. They will be added in future updates. The following settings are also planned but not yet implemented:
 

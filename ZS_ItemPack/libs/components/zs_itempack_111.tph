@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/spiderstep_boots~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/spiderstep_boots~ ~override~
 COPY_EXISTING ~zsipsps0.itm~ ~override~
   SAY NAME2 @5110
   SAY IDENTIFIED_DESC @5111

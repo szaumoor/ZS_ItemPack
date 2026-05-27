@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/cold_snap~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/cold_snap~ ~override~
 COPY_EXISTING ~zsipcls0.itm~ ~override~
               ~zsipcls2.itm~ ~override~
     SAY NAME2 @5015

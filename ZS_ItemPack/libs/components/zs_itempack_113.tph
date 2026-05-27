@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/winkling_gloves~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/winkling_gloves~ ~override~
 COPY_EXISTING ~zsipwkgv.itm~ ~override~
   SAY NAME2 @5120
   SAY IDENTIFIED_DESC @5121

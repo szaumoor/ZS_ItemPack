@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/hood_weave~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/hood_weave~ ~override~
 COPY_EXISTING ~zsiphdwv.itm~ ~override~
   SAY NAME2 @5160
   SAY IDENTIFIED_DESC @5161

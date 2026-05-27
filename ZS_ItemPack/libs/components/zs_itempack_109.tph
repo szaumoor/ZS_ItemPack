@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/judgment~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/judgment~ ~override~
 COPY_EXISTING ~zsipjug0.itm~ ~override~
   SAY NAME2 @5030
   SAY IDENTIFIED_DESC @5031

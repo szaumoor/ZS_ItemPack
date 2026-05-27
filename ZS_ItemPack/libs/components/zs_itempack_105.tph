@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/ritual_dagger~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/ritual_dagger~ ~override~
 COPY_EXISTING ~zsipdgri.itm~ ~override~
   SAY NAME2 @5012
   SAY IDENTIFIED_DESC @5013

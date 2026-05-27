@@ -44,13 +44,6 @@ jobs:
           git tag $TAG_NAME
           git push origin $TAG_NAME
 
-      - name: Create combined README
-        run: |
-          cat ${PROJECT_NAME}/readme.md > ${PROJECT_NAME}/full_readme.md
-          echo "" >> ${PROJECT_NAME}/full_readme.md
-          echo "---" >> ${PROJECT_NAME}/full_readme.md
-          echo "" >> ${PROJECT_NAME}/full_readme.md
-          cat ${PROJECT_NAME}/component_readme.md >> ${PROJECT_NAME}/full_readme.md
 
       - name: Create filtered zip
         run: |
@@ -63,9 +56,7 @@ jobs:
             --exclude=.git/
             --exclude=package/
             --exclude=.gitignore
-            --exclude=readme.md
-            --exclude=${PROJECT_NAME}/readme.md
-            --exclude=${PROJECT_NAME}/component_readme.md
+            --exclude=/readme.md
           )
 
           if [[ "${{ matrix.platform }}" != "windows" ]]; then
