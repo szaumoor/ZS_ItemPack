@@ -1,31 +1,35 @@
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/risky_ring~ ~override~
-COPY_EXISTING ~zsiprkr0.itm~ ~override~
-  SAY NAME2 @5120
-  SAY IDENTIFIED_DESC @5121
- // WRITE_LONG 0x34 zst_price_spiderstep_boots_bg2ee
-
-OUTER_SET is_eet = GAME_IS "eet"
+COPY ~%MOD_FOLDER%/items/01_forbidden_game/hood_weave~ ~override~
+COPY_EXISTING ~zsiphdwv.itm~ ~override~
+  SAY NAME2 @5160
+  SAY IDENTIFIED_DESC @5161
+  WRITE_LONG 0x34 zst_price_cowl_weave
 
 ACTION_IF GAME_IS "bg2ee" OR is_eet BEGIN
 
     COPY_EXISTING ~bmthief.sto~ ~override~
-        LPF ADD_STORE_ITEM_EX STR_VAR item_name="zsiprkr0" position="LAST" flags=~identified~ END
+        LPF ADD_STORE_ITEM_EX STR_VAR item_name="zsiphdwv" position="LAST" flags=~identified~ END
 
 END
 
-ACTION_IF GAME_IS "bgee" OR is_eet BEGIN
+ACTION_IF GAME_IS "bgee" OR GAME_IS "eet" BEGIN
 
-    // COPY_EXISTING ~zsipsps0.itm~ ~override/zsipsps1.itm~
-    //     WRITE_LONG 0x34 zst_price_spiderstep_boots_bgee
+    ACTION_IF GAME_INCLUDES "sod" BEGIN
 
-    COPY_EXISTING ~diana.cre~ ~override~
-        ADD_CRE_ITEM ~zsiprkr0~ #0 #0 #0 ~unstealable~ ~boots inv~
+        COPY_EXISTING ~bdsorcs.sto~ ~override~
+            LPF ADD_STORE_ITEM_EX STR_VAR item_name="zsiphdwv" position="LAST" flags=~identified~ END
+
+    END ELSE BEGIN
+
+        COPY_EXISTING ~sto0703.sto~ ~override~
+            LPF ADD_STORE_ITEM_EX STR_VAR item_name="zsiphdwv" position="LAST" flags=~identified~ END
+
+    END
 
 END
 
 ACTION_IF GAME_IS "iwdee" BEGIN
 
-    COPY_EXISTING ~erevdead.cre~ ~override~
-        ADD_CRE_ITEM ~zsiprkr0~ #0 #0 #0 ~none~ ~boots inv~
+    COPY_EXISTING ~malavon.cre~ ~override~
+        ADD_CRE_ITEM ~zsiphdwv~ #0 #0 #0 ~none~ ~helmet inv~
 
 END
