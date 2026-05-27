@@ -497,7 +497,7 @@ Equipped abilities:
 Weight: 0~
 
 @5060 = ~Ring of Shadows~ 
-@5061 = ~A dark opal, ground to a needle point and set in blackened silver, crowns this austere signet. When worn, a hush of shadow settles over the wearer and those nearby, softening movement and swallowing the telltale scrape of steel and leather. By night, the ring favors masters of stealth most of all, lending sharper reflexes to shadowdancers and swifter pursuit to assassins.
+@5061 = ~A dark opal, ground to a needle point and set in blackened silver, crowns this austere signet. When worn, a hush of shadow settles over the wearer and those nearby, softening movement and swallowing the telltale scrape of steel and leather.
 
 STATISTICS:
 
@@ -510,7 +510,7 @@ Equipped abilities:
 Weight: 0~
 
 @5070 = ~Risky Ring~ 
-@5071 = ~This plain brass ring carries a gambler's promise: strike first, strike hard, and trust fortune to settle the debt. It lends a sharper eye and heavier hand in battle, but leaves its wearer exposed when luck turns.
+@5071 = ~At first glance, this is only a plain metal band. It lends force and confidence to the wearer's attacks, but seems equally eager to invite retaliation. Its many previous owners (one of whom referred to wearing armor as "a pessimist's worldview") are generally agreed to have been very exciting people, if not especially long-lived.
 
 STATISTICS:
 
@@ -524,7 +524,7 @@ Equipped abilities:
 Weight: 0~
 
 @5080 = ~Amulet of the Drunkard~ 
-@5081 = ~A favorite of brawlers and tavern legends, this amulet turns deep drink into dangerous momentum. The more thoroughly the wearer is pickled, the harder they hit and the faster they stagger back from injury, laughing through blood and broken teeth.
+@5081 = ~A favorite of brawlers and tavern legends, this amulet turns a bad habit into a force to be reckoned with. The more thoroughly the wearer is wasted, the harder they hit and the faster they recover from injury, laughing through blood and broken teeth.
 
 STATISTICS:
 
@@ -542,15 +542,16 @@ Special: Upon activating this ability, the necklace injects pure alcohol into th
 Weight: 0~
 
 
-@5090 = ~Fleshmelter~ // cloak, targets that kit wearer take 1d4 acid damage
-@5091 = ~The frayed tails of this cloak seep with caustic ichor that hisses where it falls. Any foe reckless enough to strike the wearer at close quarters is rewarded with a burning splash that eats at flesh and steel alike.
+@5090 = ~Fleshmelter~
+@5091 = ~The frayed tails of this cloak seep with caustic ichor that hisses where it falls. Any foe reckless enough to strike the wearer at close quarters is rewarded with a burning splash that eats at their flesh. That the cloak has not yet dissolved into a spiteful puddle is a credit to its enchantment, which offers the wearer a measure of the same protection.
 
 STATISTICS:
 
 Equipped abilities:
+– Acid Resistance: +25%
 – Whenever a creature deals damage to the wearer in melee range, that creature takes 1d4 acid damage.
 
-Weight: 3~
+Weight: 2~
 
 
 // @5100 = ~The Gift~
@@ -566,17 +567,17 @@ Weight: 3~
 
 
 @5110 = ~Spiderstep Boots~ // immunity to all web stuff
-@5111 = ~The soles of these boots cling and release with uncanny precision, as though spun from a giant spider's own silk. Webbing, slick grease, and treacherous ground fail to hold the wearer for long, each step finding purchase where none should exist.
+@5111 = ~Slightly sticky to the touch, these boots have an excellent grip. They are highly valued by those who have spent several long seconds inside a Web spell, reconsidering their tactics, their life choices, and their place on a spider's menu.
 
 STATISTICS:
 
 Equipped abilities:
-– Wearer is immune to the Web spell and similar effects, as well as effects that affect movement speed across terrain (such as Grease).
+– Spider Step: Wearer is immune to the Web spell and similar effects, as well as effects that affect movement speed across terrain (such as Grease).
 
 Weight: 4~
 
 @5120 = ~Winkling Gloves~
-@5121 = ~These close-fitted gloves were made for nimble hands and nervous work. Locks turn more readily, pockets are emptied with less notice, and trapwork is easier to spot and set. For trained thieves, their cut and balance also lend a subtle edge in striking true.
+@5121 = ~Much of a good thief's success relies on precise and subtle manual work. These close-fitting gloves are made for such hands: whether nocking an arrow, drawing a dagger, lifting a purse, disarming a trap, or opening a lock, they improve almost every task a thief might describe as delicate work and a magistrate might describe as evidence.
 
 STATISTICS:
 
@@ -616,13 +617,13 @@ STATISTICS:
 
 Equipped abilities:
 – Save vs. Spell: +1
-– Covert Critical: At night, critical hit chances increase by 5%
+– Backstab Multiplier: +1 (clerics and paladins only)
 – Protects against critical hits
 
 Weight: 3~
 
 @5150 = ~Bhaalist Cowl~
-@5151 = ~When he was killed, Bhaal's blight upon the world was not destroyed. For the many people upon whom he had sired his spawn slithered out of tainted wombs, and with their arrival Bhaal's malcontent returned with force.
+@5151 = ~When he was killed, Bhaal's blight upon the world was not destroyed. For the many people upon whom he had sired his spawn slithered out of tainted wombs, and with their arrival, Bhaal's malcontent returned with force.
 
 STATISTICS:
 
@@ -648,18 +649,17 @@ Equipped abilities:
 Weight: 1~
 
 
-@5180 = ~Sarevok's Horned Helmet~
-@5181 = ~The last sight Sarevok witnessed as a mortal was his sibling's knife. This duel, the first between Bhaalspawn, is worshipped still by the cult of Bhaal, who now believe that no act is more sacred than fratricide between spawn before the altar of their Dread Lord.
+// @5180 = ~Sarevok's Horned Helmet~
+// @5181 = ~The last sight Sarevok witnessed as a mortal was his sibling's knife. This duel, the first between Bhaalspawn, is worshipped still by the cult of Bhaal, who now believe that no act is more sacred than fratricide between spawn before the altar of their Dread Lord.
 
-STATISTICS:
+// STATISTICS:
 
-Equipped abilities:
-– Deathbringer's Sight: Grants Infravision and critical hit chances improve by +5%
-– Dauntless: Immunity to fear, morale failure, and spells that affect emotion, such as Emotion: Hopelessness and Blood Rage
-– Protects against critical hits
+// Equipped abilities:
+// – Deathbringer's Sight: Grants Infravision and critical hit chances improve by +5%
+// – Dauntless: Immunity to fear, morale failure, and spells that affect emotion, such as Emotion: Hopelessness and Blood Rage
+// – Protects against critical hits
 
-Weight: 3~
-
+// Weight: 3~
 
 // souls games inspired
 @6010 = ~This silver sword is often wielded by followers of Sehanine Moonbow, also known as the Lady of Dreams or the Lunar Lady. One of the most powerful members of the Seldarine, her domain encompasses sleep and dreams. It is said that even gazing upon her face can lull mortals into a deep slumber.

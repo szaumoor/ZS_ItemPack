@@ -60,7 +60,10 @@ OUTER_SET zst_price_risky_ring                  = "500" // as loot
 OUTER_SET zst_price_cowl_weave                  = "2500" // in stores
 
 OUTER_SET zst_price_bhaalist_cowl               = ""
-OUTER_SET zst_price_fleshmelter                 = ""
+
+OUTER_SET zst_price_fleshmelter                 = "650" // loot
+OUTER_SET zst_price_fleshmelter_iwdee           = "2500" // stores
+
 OUTER_SET zst_price_ring_shadows                = ""
 OUTER_SET zst_price_winkling_gloves_bgee        = "350"
 OUTER_SET zst_price_winkling_gloves_bg2ee       = "1500"

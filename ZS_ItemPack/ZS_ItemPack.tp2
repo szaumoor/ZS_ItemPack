@@ -82,8 +82,8 @@ REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
 BEGIN @119 LABEL ~zs_ip_dark_justiciar_helmet~ DESIGNATED 119 GROUP @1 // DARK JUSTICIAR HELMET
 REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
 
-BEGIN @120 LABEL ~zs_ip_deathbringers_helmet~ DESIGNATED 120 GROUP @1 // DEATHBRINGER'S HELMET
-REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
+// BEGIN @120 LABEL ~zs_ip_deathbringers_helmet~ DESIGNATED 120 GROUP @1 // DEATHBRINGER'S HELMET
+// REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53
 
 BEGIN @121 LABEL ~zs_ip_caustic_band~ DESIGNATED 120 GROUP @1 // CAUSTIC BAND
 REQUIRE_PREDICATE GAME_IS ~iwdee bgee bg2ee eet~ @53

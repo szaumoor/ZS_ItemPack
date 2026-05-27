@@ -1,5 +1,5 @@
 COPY ~%MOD_FOLDER%/items/01_bg3/fleshmelter~ ~override~
-COPY_EXISTING ~zsiprkr0.itm~ ~override~
+COPY_EXISTING ~zsiflsm0.itm~ ~override~
   SAY NAME2 @5120
   SAY IDENTIFIED_DESC @5121
   WRITE_LONG 0x34 zst_price_fleshmelter
@@ -8,24 +8,24 @@ OUTER_SET is_eet = GAME_IS "eet"
 
 ACTION_IF GAME_IS "bg2ee" OR is_eet BEGIN
 
-    COPY_EXISTING ~bmthief.sto~ ~override~
-        LPF ADD_STORE_ITEM_EX STR_VAR item_name="zsiprkr0" position="LAST" flags=~identified~ END
+    COPY_EXISTING ~ar1301.are~ ~override~
+        LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 1 STR_VAR item_to_add = ~zsiflsm0~ END
 
 END
 
 ACTION_IF GAME_IS "bgee" OR is_eet BEGIN
 
-    // COPY_EXISTING ~zsipsps0.itm~ ~override/zsipsps1.itm~
-    //     WRITE_LONG 0x34 zst_price_spiderstep_boots_bgee
-
-    COPY_EXISTING ~diana.cre~ ~override~
-        ADD_CRE_ITEM ~zsiprkr0~ #0 #0 #0 ~unstealable~ ~boots inv~
+    COPY_EXISTING ~ar0514.are~ ~override~
+        LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 21 STR_VAR item_to_add = ~zsiflsm0~ END
 
 END
 
 ACTION_IF GAME_IS "iwdee" BEGIN
 
-    COPY_EXISTING ~erevdead.cre~ ~override~
-        ADD_CRE_ITEM ~zsiprkr0~ #0 #0 #0 ~none~ ~boots inv~
+    COPY_EXISTING ~zsiflsm0.itm~ ~override/zsiflsm2.itm~
+         WRITE_LONG 0x34 zst_price_fleshmelter_iwdee
+
+    COPY_EXISTING ~kuork0.sto~ ~override~
+        LPF ADD_STORE_ITEM_EX STR_VAR item_name="zsiflsm2" position="LAST" flags=~identified~ END
 
 END
