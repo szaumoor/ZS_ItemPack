@@ -502,10 +502,11 @@ Weight: 0~
 STATISTICS:
 
 Equipped abilities:
-– The wearer and every other party member benefit from a +10 bonus to Move Silently and Hide in the Shadows as long as it's worn. 
-– If the wearer is a single-classed thief, they gain an extra +5 points.
-– Armor Class and Saving Throws: at night, gain +1 bonus (shadowdancers only)
-– Movement rate: at night, gain a +2 bonus to their movement rate (assassins only).
+– The wearer and every other party member benefit from a +10 bonus to Move Silently and Hide in the Shadows as long as it's worn. If the wearer is a single-classed Thief or Stalker, they gain an extra +5 points.
+
+Charge abilities:
+– May cast Invisibility 10' radius once per day
+  Special: The caster and allies in a 10' radius become invisible for 24 hours.
 
 Weight: 0~
 
@@ -552,7 +553,6 @@ Equipped abilities:
 – Whenever a creature deals damage to the wearer in melee range, that creature takes 1d4 acid damage.
 
 Weight: 2~
-
 
 // @5100 = ~The Gift~
 // @5101 = ~Crafted from the most delicate spider silk, an unblemished aquamarine gem its centerpiece, this necklace represents its creator's undying devotion for his beloved. It does more than accentuate its wearer's beauty, though it certainly does that as well. It also seemingly rejuvenates her, leaving her practically glowing with youth and vitality. Were arcane energies involved in its creation, or does it merely reflect the deeply-held feelings of the necklace's maker for its intended recipient? It is impossible to say; such is the magic of love.
@@ -610,15 +610,19 @@ Charge abilities:
 
 Weight: 2~
 
-@5140 = ~Dark Justiciar Helmet~ // save vs death and spell +1, 5% crit chances while invisible
+@5140 = ~Dark Justiciar Helmet~
 @5141 = ~Adorned in a fanned coronet of speartip points, its mask fixed with stiff-lipped intent, this helmet evokes a frightful, almost alien aspect that gestures to Shar. For she is strange and terrible indeed. 
 
 STATISTICS:
 
 Equipped abilities:
+– Infravision
 – Save vs. Spell: +1
-– Backstab Multiplier: +1 (clerics and paladins only)
+– Evil-only: +1 Backstab Multiplier (clerics, paladins,  only)
 – Protects against critical hits
+
+Charge abilities:
+– Invisibility once per day
 
 Weight: 3~
 
