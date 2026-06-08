@@ -23,7 +23,7 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
 END
 
-ACTION_IF GAME_IS "bg2ee eet" BEGIN
+ACTION_IF GAME_IS "iwdee" BEGIN
 
   COPY_EXISTING ~shlehlan.sto~ ~override~
     LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsiptrna" position = "LAST" flags="identified" END
