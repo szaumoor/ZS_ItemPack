@@ -1,4 +1,5 @@
 COPY ~%MOD_FOLDER%/items/03_nwn/arrows_vampire~ ~override~
+ADD_PROJECTILE ~%MOD_FOLDER%/pro/arrows_vampire/zsipavpp.PRO~
 COPY_EXISTING ~zsipavp0.itm~ ~override~
     SAY NAME2 @15100
     SAY IDENTIFIED_DESC @15101
@@ -7,6 +8,7 @@ COPY_EXISTING ~zsipavp0.itm~ ~override~
 
 COPY_EXISTING ~zsipavp2.spl~ ~override~
   LPF ALTER_EFFECT INT_VAR match_opcode = 326 parameter2 = zs_has_no_stoneskins END
+  LPF ALTER_HEADER INT_VAR projectile = %zsipavpp% END
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
