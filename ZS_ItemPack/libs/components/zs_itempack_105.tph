@@ -1,11 +1,5 @@
-ACTION_IF (VARIABLE_IS_SET ~zs_itempack_105~) BEGIN
-  FAIL ~Script already included: zs_itempack_105~
-END ELSE BEGIN
-  OUTER_SET ~zs_itempack_105~ = 1
-END
-
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/ritual_dagger~ ~override~
-COPY_EXISTING ~ZSIPDGRI.itm~ ~override~
+COPY ~%MOD_FOLDER%/items/01_bg3/ritual_dagger~ ~override~
+COPY_EXISTING ~zsipdgri.itm~ ~override~
   SAY NAME2 @5012
   SAY IDENTIFIED_DESC @5013
   LPF ALTER_EFFECT INT_VAR match_opcode = 139 parameter1 = RESOLVE_STR_REF(@5014) END
@@ -13,14 +7,14 @@ COPY_EXISTING ~ZSIPDGRI.itm~ ~override~
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~BASSIL.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPDGRI~ #3 #0 #0 ~none~ ~inv~
+  COPY_EXISTING ~bassil.cre~ ~override~
+    ADD_CRE_ITEM ~zsipdgri~ #3 #0 #0 ~none~ ~inv~
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-  COPY_EXISTING ~DUECLA01.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPDGRI~ #3 #0 #0 ~none~ ~inv~
+  COPY_EXISTING ~duecla01.cre~ ~override~
+    ADD_CRE_ITEM ~zsipdgri~ #3 #0 #0 ~none~ ~inv~
 
 END

@@ -1,11 +1,5 @@
-ACTION_IF (VARIABLE_IS_SET ~zs_itempack_501~) BEGIN
-  FAIL ~Script already included: zs_itempack_501~
-END ELSE BEGIN
-  OUTER_SET ~zs_itempack_501~ = 1
-END
-
 COPY ~%MOD_FOLDER%/items/05_tv/needle~ ~override~
-COPY_EXISTING ~ZSIPNDL0.itm~ ~override~
+COPY_EXISTING ~zsipndl0.itm~ ~override~
   SAY NAME1 @80110
   SAY NAME2 @12000
   SAY UNIDENTIFIED_DESC @80111
@@ -14,15 +8,15 @@ COPY_EXISTING ~ZSIPNDL0.itm~ ~override~
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
-  COPY_EXISTING ~TEM4003.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPNDL0" position = "LAST" flags = ~identified~ END
+  COPY_EXISTING ~tem4003.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsipndl0" position = "LAST" flags = ~identified~ END
 
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 
-  COPY_EXISTING ~OBSHAL01.CRE~ ~override~
-      ADD_CRE_ITEM ~ZSIPNDL0~ #0 #0 #0 ~none~ ~inv~
+  COPY_EXISTING ~obshal01.cre~ ~override~
+    ADD_CRE_ITEM ~zsipndl0~ #0 #0 #0 ~none~ ~inv~
 
 END
 

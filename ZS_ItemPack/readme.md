@@ -1,4 +1,4 @@
-# RoyalProtector's Item Pack
+# Kaelyn's Item Pack
 
 This mod is a collection of items adapted or inspired from other games or media into the Infinity Engine. Not all items are ported with their original mechanics for several reasons:
 
@@ -16,13 +16,13 @@ To check details on specific components, please refer to the [component_readme.m
 
 Every one of the items is optional. You choose what you want in the game. Currently, the mod adds new items pulled from the following settings:
 
-- A **Forbidden Game** which shall not be named
+- **Baldur's Gate 3**
 - **Elden Ring**
 - **Dark Souls / Bloodborne**
-- **Neverwinter Nights** 1/2
-- **Mass Effect** (yes, you read that right)
+- **Neverwinter Nights 1 and 2**
+- **Mass Effect**
 - **Game of Thrones**
-- **The Legend of Vox Machina** (Critical Role)
+- **The Legend of Vox Machina**
 
 There are still around 20–30 items that I plan to add but removed them to accelerate the release of the mod. They will be added in future updates. The following settings are also planned but not yet implemented:
 
@@ -54,7 +54,7 @@ Also do know that using a mod skip Irenicus' dungeon will prevent you from getti
 
 ## User feedback and how to contribute
 
-If you have any feedback, suggestions, or bug reports, please feel free to reach out to me on Discord or through the mod's page. You can also reach me at `royalprotector@keemail.me` and I will respond eventually. I appreciate all input and will do my best to address any issues.
+If you have any feedback, suggestions, or bug reports, please feel free to reach out to me on Discord or through the mod's page. You can also reach me at `kaelyn@tuta.io` and I will respond eventually. I appreciate all input and will do my best to address any issues.
 
 I am accepting of user submissions for new items. If it's an item that exists in a setting that I like, or I'm interested in it, I may include it. If you have an idea about what to do with it, let me know. And if you want to design a custom item, I can include it as well, you don't need to design how it works, you can just craft a description and I can do my best to include it if I like it. Otherwise, pull requests are welcome. Feel free to contact me if you need help with the contribution process.
 
@@ -65,7 +65,7 @@ I am accepting of user submissions for new items. If it's an item that exists in
 - zenblack again for brainstorming functionalities and descriptions for some of the items
 - dark0dave and others who have helped me with the modding process or by providing resources
 - Various people on Discord for offering ideas as to where to put the items, like The Artisan, moggadeet, Fickle Swamp Wench, JDSilvergun, bucketfulofsunshine, among others
-- Big kudos to moggaadeet and bucketfulofsunshine for thinking of a quest idea for one of the items and to buckectfulofsunshine for doing the vast majority of the work to code that
+- Big kudos to moggadeet and bucketfulofsunshine for thinking of a quest idea for one of the items and to bucketfulofsunshine for doing the vast majority of the work to code that
 - **Big** thanks to moggadeet, JDSilvergun, and others for helping me with Cespenar dialog
-- SubtleDoctor for giving me a splstate-free way to hack the engine into giving an item a bonus that applies to Minsc if he wields it. This is always a good thing.
+- subtledoctor for giving me a splstate-free way to hack the engine into giving an item a bonus that applies to Minsc if he wields it. This is always a good thing.
 - People on Discord generally for their help

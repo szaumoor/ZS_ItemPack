@@ -3,6 +3,13 @@ INCLUDE ~%MOD_FOLDER%/libs/zs_find_weapon.tph~
 INCLUDE ~%MOD_FOLDER%/libs/zs_splprot_include.tph~
 INCLUDE ~%MOD_FOLDER%/libs/zs_cdfunctions.tpa~
 INCLUDE ~%MOD_FOLDER%/libs/zs_alter_functions.tpa~
+
+ACTION_IF (VARIABLE_IS_SET ~zs_itempack_%COMPONENT_NUMBER%~) BEGIN
+  FAIL ~Script already included: zs_itempack_%COMPONENT_NUMBER%~
+END ELSE BEGIN
+  OUTER_SET ~zs_itempack_%COMPONENT_NUMBER%~ = 1
+END
+
 INCLUDE ~%MOD_FOLDER%/libs/components/zs_itempack_%COMPONENT_NUMBER%.tph~
 
 ACTION_IF NOT VARIABLE_IS_SET ~zs_added_generics~ BEGIN

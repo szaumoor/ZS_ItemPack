@@ -1,25 +1,28 @@
-ACTION_IF (VARIABLE_IS_SET ~zs_itempack_301~) BEGIN
-  FAIL ~Script already included: zs_itempack_301~
-END ELSE BEGIN
-  OUTER_SET ~zs_itempack_301~ = 1
-END
-
 COPY "%MOD_FOLDER%/items/03_nwn/lawgiver" ~override~
-COPY_EXISTING ~ZSIPLG0.ITM~ ~override~
+COPY_EXISTING ~zsiplg0.itm~ ~override~
   SAY NAME2 @8000
   SAY IDENTIFIED_DESC @8001
-  WRITE_LONG 0x34 zst_price_lawgiver
+  WRITE_LONG 0x34 zst_price_lawgiver_bg2ee_iwdee
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~FLAM2.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPLG0~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP
+  COPY_EXISTING ~zsiplg0.itm~ ~override/zsiplg2.itm~
+
+  COPY_EXISTING ~flam2.cre~ ~override~
+    ADD_CRE_ITEM ~zsiplg2~ #0 #0 #0 ~unstealable~ ~weapon1~ EQUIP
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-  COPY_EXISTING ~BHELM.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPLG0" position = "LAST" END
+  COPY_EXISTING ~bhelm.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsiplg0" position = "LAST" END
+
+END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+
+  COPY_EXISTING ~kutemple.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsiplg0" position = "LAST" END
 
 END

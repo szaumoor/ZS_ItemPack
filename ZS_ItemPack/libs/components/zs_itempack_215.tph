@@ -1,30 +1,31 @@
-ACTION_IF (VARIABLE_IS_SET ~zs_itempack_215~) BEGIN
-  FAIL ~Script already included: zs_itempack_215~
-END ELSE BEGIN
-  OUTER_SET ~zs_itempack_215~ = 1
-END
-
 COPY ~%MOD_FOLDER%/items/02_souls/moonlit_slumber~ ~override~
-ADD_PROJECTILE ~%MOD_FOLDER%/pro/mists_slumber/ZSIPMSCD.PRO~
-COPY_EXISTING ~ZSIPTRNA.itm~ ~override~
+ADD_PROJECTILE ~%MOD_FOLDER%/pro/mists_slumber/zsipmscd.pro~
+COPY_EXISTING ~zsiptrna.itm~ ~override~
   SAY NAME2 @6011
   SAY IDENTIFIED_DESC @6010
   WRITE_LONG 0x34 zst_price_moonlit_slumber
 
-COPY_EXISTING ~ZSIPTRMS.SPL~ ~override~
+COPY_EXISTING ~zsiptrms.spl~ ~override~
   SAY NAME1 @6012
-  LPF ALTER_HEADER INT_VAR projectile = %ZSIPMSCD% END
+  LPF ALTER_HEADER INT_VAR projectile = %zsipmscd% END
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~STO0703.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPTRNA" position = "LAST" END
+  COPY_EXISTING ~sto0703.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsiptrna" position = "LAST" END
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-  COPY_EXISTING ~RIBALD.STO~ ~override~
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPTRNA" position = "LAST" flags="identified" END
+  COPY_EXISTING ~ribald.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsiptrna" position = "LAST" flags="identified" END
+
+END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+
+  COPY_EXISTING ~shlehlan.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsiptrna" position = "LAST" flags="identified" END
 
 END

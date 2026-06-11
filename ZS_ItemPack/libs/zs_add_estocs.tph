@@ -1,85 +1,85 @@
-ACTION_IF zst_generic_variants AND zst_generic_variants_estocs AND NOT FILE_EXISTS_IN_GAME ~ZSIPEST0.ITM~ BEGIN
+ACTION_IF zst_generic_variants AND zst_generic_variants_estocs AND NOT FILE_EXISTS_IN_GAME ~zsipest0.itm~ BEGIN
 
     COPY ~%MOD_FOLDER%/items/generic/estoc~ ~override~
-    COPY_EXISTING ~ZSIPEST0.ITM~ ~override~
-                  ~ZSIPEST1.ITM~ ~override~
-                  ~ZSIPEST2.ITM~ ~override~
-                  ~ZSIPEST3.ITM~ ~override~
+    COPY_EXISTING ~zsipest0.itm~ ~override~
+                  ~zsipest1.itm~ ~override~
+                  ~zsipest2.itm~ ~override~
+                  ~zsipest3.itm~ ~override~
         SAY NAME1 @60200
         SAY NAME2 @60200
         SAY UNIDENTIFIED_DESC @60201
         SAY IDENTIFIED_DESC @60201
 
-    COPY_EXISTING ~ZSIPEST1.ITM~ ~override~
+    COPY_EXISTING ~zsipest1.itm~ ~override~
         SAY NAME2 @60202
         SAY IDENTIFIED_DESC @60203
 
-    COPY_EXISTING ~ZSIPEST2.ITM~ ~override~
+    COPY_EXISTING ~zsipest2.itm~ ~override~
         SAY NAME2 @60204
         SAY IDENTIFIED_DESC @60205
 
-    COPY_EXISTING ~ZSIPEST3.ITM~ ~override~
+    COPY_EXISTING ~zsipest3.itm~ ~override~
         SAY NAME2 @60206
         SAY IDENTIFIED_DESC @60207
 
     ACTION_IF GAME_IS ~bgee eet~ BEGIN
         // +0
-        COPY_EXISTING ~INN2616.STO~  ~override~ // winthrop
-                      ~INN3304.STO~  ~override~ // jovial jugler
-                      ~STO1112.STO~  ~override~ // general store
-                      ~STO1320.STO~  ~override~ // general store
-                      ~STO4803.STO~  ~override~ // nashkel store
-                      ~STO4908.STO~  ~override~ // carnival shop
-                      ~STOBLACK.STO~ ~override~ // black lily
-                      ~STOSILEN.STO~ ~override~ // shop of silence
-                      ~TAERUM.STO~   ~override~ // thunderhammer's smithy
-                      ~TAV0810.STO~  ~override~ // maltz's weapon shop
-                      ~ULGOTH.STO~   ~override~ // ulgoth's beard store
-                      ~FRIEND.STO~   ~override~ // friendly arm inn
-                      ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
+        COPY_EXISTING ~inn2616.sto~  ~override~ // winthrop
+                      ~inn3304.sto~  ~override~ // jovial jugler
+                      ~sto1112.sto~  ~override~ // general store
+                      ~sto1320.sto~  ~override~ // general store
+                      ~sto4803.sto~  ~override~ // nashkel store
+                      ~sto4908.sto~  ~override~ // carnival shop
+                      ~stoblack.sto~ ~override~ // black lily
+                      ~stosilen.sto~ ~override~ // shop of silence
+                      ~taerum.sto~   ~override~ // thunderhammer's smithy
+                      ~tav0810.sto~  ~override~ // maltz's weapon shop
+                      ~ulgoth.sto~   ~override~ // ulgoth's beard store
+                      ~friend.sto~   ~override~ // friendly arm inn
+                      ~bdbelega.sto~ ~override~ // belegarm's store (quartermaster sod)
             SET amount = RANDOM(2 7)
-            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="ZSIPEST0" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="zsipest0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +1
-        COPY_EXISTING ~INN3351.STO~  ~override~ // feldepost inn
-                      ~STO0703.STO~  ~override~ // sorcerous sundries
-                      ~STO1117.STO~  ~override~ // general store
-                      ~STO4907.STO~  ~override~ // carnival shop
-                      ~TAERUM.STO~   ~override~ // thunderhammer's smithy
-                      ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
+        COPY_EXISTING ~inn3351.sto~  ~override~ // feldepost inn
+                      ~sto0703.sto~  ~override~ // sorcerous sundries
+                      ~sto1117.sto~  ~override~ // general store
+                      ~sto4907.sto~  ~override~ // carnival shop
+                      ~taerum.sto~   ~override~ // thunderhammer's smithy
+                      ~bdbelega.sto~ ~override~ // belegarm's store (quartermaster sod)
             SET amount = RANDOM(1 2)
-            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="ZSIPEST1" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="zsipest1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +2
-        COPY_EXISTING ~STO0703.STO~  ~override~ // sorcerous sundries
-                      ~bdbelega.STO~ ~override~ // Belegarm's store (quartermaster SoD)
-            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPEST2" position="LAST" flags=~identified~ END
+        COPY_EXISTING ~sto0703.sto~  ~override~ // sorcerous sundries
+                      ~bdbelega.sto~ ~override~ // belegarm's store (quartermaster sod)
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="zsipest2" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
     END
 
     ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 
          // +0
-        COPY_EXISTING ~SHOP01.STO~    ~override~ // mira
-                      ~SHOP03.STO~    ~override~ // maheed
-                      ~SHOP04.STO~    ~override~ // store owner that talks in a way that is difficult to understand
-                      ~SHOP06.STO~    ~override~ // hes
-                      ~SHOP07.STO~    ~override~ // another store in waukeen promenade
-                      ~BERNARD.STO~   ~override~ // BERNARD 1
-                      ~BERNARD2.STO~  ~override~ // BERNARD 2
-                      ~BERNARD3.STO~  ~override~ // BERNARD 3
-                      ~BERNARD4.STO~  ~override~ // BERNARD 4
-                      ~BERNARD5.STO~  ~override~ // BERNARD 5
-                      ~BERNARD6.STO~  ~override~ // BERNARD 6
+        COPY_EXISTING ~shop01.sto~    ~override~ // mira
+                      ~shop03.sto~    ~override~ // maheed
+                      ~shop04.sto~    ~override~ // store owner that talks in a way that is difficult to understand
+                      ~shop06.sto~    ~override~ // hes
+                      ~shop07.sto~    ~override~ // another store in waukeen promenade
+                      ~bernard.sto~   ~override~ // bernard 1
+                      ~bernard2.sto~  ~override~ // bernard 2
+                      ~bernard3.sto~  ~override~ // bernard 3
+                      ~bernard4.sto~  ~override~ // bernard 4
+                      ~bernard5.sto~  ~override~ // bernard 5
+                      ~bernard6.sto~  ~override~ // bernard 6
                       ~ambar01.sto~   ~override~ // the zephyr
                       ~amsmug01.sto~  ~override~ // amekthran smugglers1
                       ~amsmug02.sto~  ~override~ // amekthran smugglers1
                       ~uddrow22.sto~  ~override~ // drow merchant
                       ~uddrow23.sto~  ~override~ // drow merchant
             SET amount = RANDOM(1 3)
-            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="ZSIPEST0" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=amount STR_VAR item_name="zsipest0" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +1
@@ -93,19 +93,19 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_estocs AND NOT FILE_EXIS
                       ~uddrow23.sto~  ~override~ // drow merchant
                       ~ribald.sto~    ~override~ // ribald
                       ~ribald2.sto~   ~override~ // ribald
-            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPEST1" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="zsipest1" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
         // +2
-        COPY_EXISTING ~BERNARD5.STO~  ~override~ // BERNARD 5
-                      ~BERNARD6.STO~  ~override~ // BERNARD 6
+        COPY_EXISTING ~bernard5.sto~  ~override~ // bernard 5
+                      ~bernard6.sto~  ~override~ // bernard 6
                       ~ohnsdwm.sto~   ~override~ // merchant
                       ~trmer04a.sto~  ~override~ // anvir of the right
                       ~ribald.sto~    ~override~ // ribald
                       ~ribald3.sto~   ~override~ // ribald
                       ~hgkar01.sto~   ~override~ // karthis
                       ~sarbar01.sto~  ~override~ // saradush bar
-            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPEST2" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="zsipest2" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
          // +3
@@ -114,7 +114,7 @@ ACTION_IF zst_generic_variants AND zst_generic_variants_estocs AND NOT FILE_EXIS
                       ~hgkar01.sto~   ~override~ // karthis
                       ~sarbar01.sto~  ~override~ // saradush bar
                       ~ohnsdwm.sto~   ~override~ // merchant
-            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="ZSIPEST3" position="LAST" flags=~identified~ END
+            LPF ADD_STORE_ITEM_EX INT_VAR stack=1 STR_VAR item_name="zsipest3" position="LAST" flags=~identified~ END
         BUT_ONLY IF_EXISTS
 
     END

@@ -18,42 +18,69 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        platform: [windows, linux, mac]
 
     env:
       TAG_NAME: ${{ github.event.inputs.tag || github.ref_name }}
+      PROJECT_NAME: ZS_ItemPack
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Derive platform short name
+        run: |
+          PLATFORM="${{ matrix.platform }}"
+          echo "PLATFORM_SHORT=${PLATFORM:0:3}" >> $GITHUB_ENV
+
       - name: Create Git tag (only if manual)
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'workflow_dispatch' && matrix.platform == 'windows'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git tag $TAG_NAME
           git push origin $TAG_NAME
 
+
       - name: Create filtered zip
         run: |
           mkdir package
-          rsync -av --exclude='changelog.md' --exclude='README.md' --exclude='LICENSE' --exclude='.github/' --exclude='.git/' --exclude='package/' --exclude='.gitignore' ./ package/
+
+          EXCLUDES=(
+            --exclude=changelog.md
+            --exclude=LICENSE
+            --exclude=.github/
+            --exclude=.git/
+            --exclude=package/
+            --exclude=.gitignore
+            --exclude=/readme.md
+          )
+
+          if [[ "${{ matrix.platform }}" != "windows" ]]; then
+            EXCLUDES+=( --exclude=*.exe )
+          fi
+
+          rsync -av "${EXCLUDES[@]}" ./ package/
+
           cd package
-          zip -r ../ZS_ItemPack_${TAG_NAME}.zip .
+          zip -r ../${PLATFORM_SHORT}-${PROJECT_NAME}-${TAG_NAME}.zip .
 
       - name: Read changelog from file
         id: changelog
         run: |
-            echo "body<<EOF" >> $GITHUB_OUTPUT
-            cat changelog.md >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          cat changelog.md >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ env.TAG_NAME }}
-          name: "ZS_ItemPack ${{ env.TAG_NAME }}"
+          name: "${{ env.PROJECT_NAME }} ${{ env.TAG_NAME }}"
           body: ${{ steps.changelog.outputs.body }}
-          files: ZS_ItemPack_${{ env.TAG_NAME }}.zip
+          files: ${{ env.PLATFORM_SHORT }}-${{ env.PROJECT_NAME }}-${{ env.TAG_NAME }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

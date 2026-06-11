@@ -1,0 +1,8 @@
+COPY ~%MOD_FOLDER%/items/02_souls/chikage~ ~override~
+COPY_EXISTING ~zsipchk0.itm~ ~override~
+  SAY NAME2 @18100
+  SAY IDENTIFIED_DESC @18101
+  WRITE_LONG 0x34 zst_price_chikage
+
+COPY_EXISTING ~zsipchkk.spl~ ~override~
+  SAY NAME1 @18102

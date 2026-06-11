@@ -1,25 +1,29 @@
-ACTION_IF (VARIABLE_IS_SET ~zs_itempack_110~) BEGIN
-  FAIL ~Script already included: zs_itempack_110~
-END ELSE BEGIN
-  OUTER_SET ~zs_itempack_110~ = 1
-END
-
-COPY ~%MOD_FOLDER%/items/01_forbidden_game/deathstalker_mantle~ ~override~
-COPY_EXISTING ~ZSIPCKAA.itm~ ~override~
+DEFINE_PATCH_MACRO add BEGIN ADD_CRE_ITEM ~zsipckaa~ #0 #0 #0 ~unstealable~ ~cloak helmet ring amulet belt boots inv~ END
+COPY ~%MOD_FOLDER%/items/01_bg3/deathstalker_mantle~ ~override~
+COPY_EXISTING ~zsipckaa.itm~ ~override~
   SAY NAME2 @5040
   SAY IDENTIFIED_DESC @5041
-  WRITE_LONG 0x34 zst_price_deathstalker_mantle
+
+  PATCH_IF NOT GAME_IS "iwdee" BEGIN
+    WRITE_LONG 0x34 zst_price_deathstalker_mantle_bg
+  END ELSE BEGIN
+    WRITE_LONG 0x34 zst_price_deathstalker_mantle_iwdee
+  END
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
-
-  COPY_EXISTING ~VAYYA.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPCKAA~ #0 #0 #0 ~unstealable~ ~cloak~
-
+  COPY_EXISTING ~vayya.cre~ ~override~
+    LPM add
 END
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-
-  COPY_EXISTING ~IDEMON02.CRE~ ~override~
-    ADD_CRE_ITEM ~ZSIPCKAA~ #0 #0 #0 ~unstealable~ ~cloak~
-
+  COPY_EXISTING ~idemon02.cre~ ~override~
+    LPM add
 END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+  COPY_EXISTING ~ldd_nym.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX INT_VAR stack = 1 STR_VAR item_name = ~zsipckaa~ END 
+END
+
+
+

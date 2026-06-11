@@ -1,24 +1,32 @@
-ACTION_IF (VARIABLE_IS_SET ~zs_itempack_303~) BEGIN
-  FAIL ~Script already included: zs_itempack_303~
-END ELSE BEGIN
-  OUTER_SET ~zs_itempack_303~ = 1
-END
-
 COPY ~%MOD_FOLDER%/items/03_nwn/master_li_way~ ~override~
-COPY_EXISTING ~ZSIPKTAA.itm~ ~override~
+COPY_EXISTING ~zsipktaa.itm~ ~override~
   SAY NAME2 @8004
   SAY IDENTIFIED_DESC @8005
 
+  PATCH_IF NOT GAME_IS "iwdee" BEGIN
+    WRITE_LONG 0x34 zst_price_master_li_way
+  END ELSE BEGIN
+    WRITE_LONG 0x34 zst_price_master_li_way_loot
+  END
+
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-  COPY_EXISTING ~stosilen.STO~ ~override~ // silence
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPKTAA" position = "LAST" flags=~identified~ END
+  COPY_EXISTING ~stosilen.sto~ ~override~ // silence
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsipktaa" position = "LAST" flags=~identified~ END
     
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-  COPY_EXISTING ~trmer02.STO~ ~override~ // trademeet merchant that also sells blackblood
-    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "ZSIPKTAA" position = "LAST" flags=~identified~ END
+  COPY_EXISTING ~trmer02.sto~ ~override~ // trademeet merchant that also sells blackblood
+    LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR item_name = "zsipktaa" position = "LAST" flags=~identified~ END
 
 END
+
+ACTION_IF GAME_IS "iwdee" BEGIN
+
+  COPY_EXISTING ~ar7004.are~ ~override~ 
+    LPF ADD_AREA_ITEM INT_VAR container_to_add_to = 14 STR_VAR item_to_add = ~zsipktaa~ END
+
+END
+

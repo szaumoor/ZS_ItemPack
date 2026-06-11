@@ -1,14 +1,8 @@
-ACTION_IF (VARIABLE_IS_SET ~zs_itempack_403~) BEGIN
-  FAIL ~Script already included: zs_itempack_403~
-END ELSE BEGIN
-  OUTER_SET ~zs_itempack_403~ = 1
-END
-
 COPY ~%MOD_FOLDER%/items/04_me/phantoms_blade~ ~override~
-COPY_EXISTING ~ZSIPPHB0.itm~ ~override~
+COPY_EXISTING ~zsipphb0.itm~ ~override~
   SAY NAME2 @10130
   SAY IDENTIFIED_DESC @10131
   WRITE_LONG 0x34 zst_price_phantoms_blade
 
-COPY_EXISTING ~OHRYXTRA.CRE~ ~override~
-  ADD_CRE_ITEM ~ZSIPPHB0~ #0 #0 #0 ~unstealable~ ~inv~
+COPY_EXISTING ~ohryxtra.cre~ ~override~
+  ADD_CRE_ITEM ~zsipphb0~ #0 #0 #0 ~unstealable~ ~inv~

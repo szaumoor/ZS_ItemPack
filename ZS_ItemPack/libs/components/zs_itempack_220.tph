@@ -1,11 +1,5 @@
-ACTION_IF (VARIABLE_IS_SET ~zs_itempack_220~) BEGIN
-  FAIL ~Script already included: zs_itempack_220~
-END ELSE BEGIN
-  OUTER_SET ~zs_itempack_220~ = 1
-END
-
 COPY ~%MOD_FOLDER%/items/02_souls/harp_bow~ ~override~
-COPY_EXISTING ~ZSIPHRW0.ITM~ ~override~
+COPY_EXISTING ~zsiphrw0.itm~ ~override~
     SAY NAME2 @6050
     WRITE_LONG 0x34 zst_price_harp_bow_bgee
 
@@ -13,13 +7,13 @@ COPY_EXISTING ~ZSIPHRW0.ITM~ ~override~
         WRITE_LONG 0x08 6860
         SAY IDENTIFIED_DESC @6052
         WRITE_LONG 0x1e (THIS + 541065216)
-        WRITE_ASCII 0x22 "BW" #2
+        WRITE_ASCII 0x22 "bw" #2
         WRITE_BYTE 0x31 104
     END ELSE BEGIN
         SAY IDENTIFIED_DESC @6051
     END
 
-COPY_EXISTING ~ZSIPHRW4.ITM~ ~override~
+COPY_EXISTING ~zsiphrw4.itm~ ~override~
     SAY NAME2 @6050
     WRITE_LONG 0x34 zst_price_harp_bow_bg2ee
     
@@ -27,7 +21,7 @@ COPY_EXISTING ~ZSIPHRW4.ITM~ ~override~
         WRITE_LONG 0x08 6860
         SAY IDENTIFIED_DESC @6054
         WRITE_LONG 0x1e (THIS + 541065216)
-        WRITE_ASCII 0x22 "BW" #2
+        WRITE_ASCII 0x22 "bw" #2
         WRITE_BYTE 0x31 104
 
     END ELSE BEGIN
@@ -36,15 +30,15 @@ COPY_EXISTING ~ZSIPHRW4.ITM~ ~override~
 
 ACTION_IF GAME_IS "bgee eet" BEGIN
 
-    COPY_EXISTING ~STO4906.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPHRW0" position = "LAST" END
+    COPY_EXISTING ~sto4906.sto~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsiphrw0" position = "LAST" END
 
 END
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
-    COPY_EXISTING ~SHOP03.STO~ ~override~
-        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "ZSIPHRW4" position = "LAST" END
+    COPY_EXISTING ~shop03.sto~ ~override~
+        LPF ADD_STORE_ITEM_EX INT_VAR charge1 = 1 STR_VAR flags=~identified~ item_name = "zsiphrw4" position = "LAST" END
 
 END
 

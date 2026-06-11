@@ -1,0 +1,6 @@
+IF Global("ZSIP_GoblinsplitterCreSpawned","MYAREA",0) THEN
+    RESPONSE #100
+        CreateCreature("zsipaxcr",[3002.2431],12)
+        SetGlobal("ZSIP_GoblinsplitterCreSpawned","MYAREA",1)
+        Continue()
+END
