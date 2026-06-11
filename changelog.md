@@ -13,6 +13,7 @@
 - Fixed many typos and issues in text to improve clarity and text quality generally
 - Fixed some descriptions missing the "STATISTICS:" part of it
 - Fix Light of the Calling not using the custom icon for the charge ability
+- Fixed skeleton and zombie not being evil in Light of the Calling quest
 
 ## Modifications
 
