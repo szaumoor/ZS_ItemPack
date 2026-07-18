@@ -1,4 +1,4 @@
-# RoyalProtector's Item Pack
+# Kaelyn's Item Pack
 
 This mod is a collection of items adapted or inspired from other games or media into the Infinity Engine. Not all items are ported with their original mechanics for several reasons:
 
@@ -54,7 +54,7 @@ Also do know that using a mod skip Irenicus' dungeon will prevent you from getti
 
 ## User feedback and how to contribute
 
-If you have any feedback, suggestions, or bug reports, please feel free to reach out to me on Discord or through the mod's page. You can also reach me at `royalprotector@keemail.me` and I will respond eventually. I appreciate all input and will do my best to address any issues.
+If you have any feedback, suggestions, or bug reports, please feel free to reach out to me on Discord or through the mod's page. You can also reach me at `kaelyn@tuta.io` and I will respond eventually. I appreciate all input and will do my best to address any issues.
 
 I am accepting of user submissions for new items. If it's an item that exists in a setting that I like, or I'm interested in it, I may include it. If you have an idea about what to do with it, let me know. And if you want to design a custom item, I can include it as well, you don't need to design how it works, you can just craft a description and I can do my best to include it if I like it. Otherwise, pull requests are welcome. Feel free to contact me if you need help with the contribution process.
 
